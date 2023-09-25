@@ -2,17 +2,18 @@
 
 
 <img src="softwarePatterns.jpg" alt="alt text" width="700"/>
-
+<hr>
+<p align="center">
+   <img src="https://camo.githubusercontent.com/1fd711ac3affc0de63e45b98a6b81aae3fa549eca224582cc31cf30087561094/68747470733a2f2f692e67697068792e636f6d2f6d656469612f4d47646665694b7445694550532f67697068792e77656270
+" alt="alt text" width="400"/>
+</p>
+<hr>
 
 Attempt to study and implement different software architecture styles and design patterns here.
-
-
-<hr>
 
 # Design Patterns in Java
 
 <img src="summaryCourse.JPG" alt="alt text" width="700"/>
-
 
 All course material from **Design Patterns in Java** by from Dmitri Nesteruk 
 
@@ -31,7 +32,7 @@ Insert certificate here when completed
 
 ## Design Patterns in Java
 
-- [ ] [Section 01](#) - Introduction
+- [x] [Section 01](#) - Introduction
 - [ ] [Section 02](#) - SOLID Design Principles
 - [ ] [Section 03](#) - Builder
 - [ ] [Section 04](#) - Factories
@@ -48,7 +49,7 @@ Insert certificate here when completed
 
 <hr>
 
-## For future me :D add more when time comes
+## Todo for future
 
 In typescript [ts](https://refactoring.guru/design-patterns/typescript)
 
