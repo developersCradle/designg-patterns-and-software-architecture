@@ -98,7 +98,7 @@ public class AmazonWebStore {
 	}
 	
 	// Same with size filtering with size
-	class SizeSpesification implements Specification<Product>
+	static class SizeSpesification implements Specification<Product>
 	{
 		private Size size;
 			
@@ -113,11 +113,10 @@ public class AmazonWebStore {
 			
 	}
 		
-	// Todo jöin tähän 15:00
-	class AndSpesification<T> implements Specification<T>
+	static class AndSpesification<T> implements Specification<T> //Combinator to satisfy both
 	{
 		
-		private Specification<T> first, second;
+		private Specification<T> first, second; //For both needs to be satisfied
 		
 		
 		public AndSpesification(Specification<T> first, Specification<T> second) {
@@ -128,8 +127,11 @@ public class AmazonWebStore {
 
 		@Override
 		public boolean isSatisfied(T item) {
-			return false;
-		}
+			return first.isSatisfied(item) && second.isSatisfied(item);
+		} // Now changed to satisfy both conditions
+		
+
+		
 		
 	}
 	
@@ -159,6 +161,16 @@ public class AmazonWebStore {
 			.forEach(p -> System.out.println(
 					" - " + p.name + " is green"));
 			
+			
+			
+			System.out.println("Large blue items:");
+			bf.filter(products, 
+					new AndSpesification<>(
+							new ColorSpesification(Color.BLUE),
+							new SizeSpesification(Size.LARGE)
+					))
+			.forEach(p -> System.out.println(
+					" - " + p.name + " is large and blue"));
 		}
 	}
 }
