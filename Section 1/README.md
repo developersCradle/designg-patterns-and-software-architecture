@@ -13,3 +13,5 @@ Introduction
 
 
 - We will be covering **Creational** **Structural** and **Behavioral** Patterns
+
+- [GangOfFour](https://en.wikipedia.org/wiki/Design_Patterns)
