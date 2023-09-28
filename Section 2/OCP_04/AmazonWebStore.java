@@ -142,7 +142,7 @@ public class AmazonWebStore {
 			
 			Product apple = new Product("Apple", Color.GREEN, Size.SMALL);
 			Product tree =  new Product("Tree", Color.GREEN, Size.LARGE);
-			Product house = new Product("House", Color.BLUE, Size.LARGE);
+			Product house = new Product("House", Color.BLUE, Size.LARGE); // This will satisfy last filtering
 			
 			List<Product> products = List.of(apple, tree, house);
 			
