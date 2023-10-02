@@ -18,6 +18,7 @@ SOLID Design Principles
 ```
 
 - Class following **Single Responsibility Principle**
+
 ```
 public class Journal // My personal thoughts
 	{
@@ -208,7 +209,7 @@ public class Journal // My personal thoughts
 - We are implementing **OCP** with lens of Specification design pattern
 	- OCP + **Specification**(from Enterprise Engineering, not from **Gang of Four**) this design patterns
 
-- Enterprise Engineering(https://en.wikipedia.org/wiki/Enterprise_engineering)
+- [Enterprise Engineering](https://en.wikipedia.org/wiki/Enterprise_engineering)
 
 - Example of OCP principle
 
@@ -287,6 +288,7 @@ public class AmazonWebStore {
 	}
 }
 ```
+
 - Here we are using old product filter
 
 - This is fine if you want to filter by **color** and **size** only. As soon manager wants more **filtering criteria** it will be harder since it's been tested, and we need to add new functionality to old class, which is violation **OCP**
@@ -637,6 +639,7 @@ public class AmazonWebStore {
 	**Closed for modifications:** We will not modify in any way `BetterFilter` after its done, tested and could be shipped to production.
 	**Open for extension:** We are free to inherit or extends interfaces. If we want to extend functionality we can use our interfaces to do that
 
+
 ```
 	interface Specification<T>
 	{
@@ -651,3 +654,110 @@ public class AmazonWebStore {
 ```
 
 - Todo kertaa OCP
+
+
+### Liskov Substitution Principle(LSP)
+
+- [LSP](https://en.wikipedia.org/wiki/Liskov_substitution_principle)
+
+
+- You can substitute **base class** with **subclass**. You should be able to put subclass whiteout breaking the class
+
+
+```
+package LSP_05;
+
+public class Rectangle {
+	
+	
+	protected int width, height;
+	
+	public int getWidth() {
+		return width;
+	}
+
+	public void setWidth(int width) {
+		this.width = width;
+	}
+
+	public int getHeight() {
+		return height;
+	}
+
+	public void setHeight(int height) {
+		this.height = height;
+	}
+
+	public Rectangle() {
+	}
+	
+	public Rectangle(int width, int height) {
+		this.width = width;
+		this.height = height;
+	}
+	
+	
+	@Override
+	public String toString() {
+		return "Rectangle [width=" + width + ", height=" + height + "]";
+	}
+	
+	public int getArea() {
+		return width  * height;
+	}
+	
+	class Square extends Rectangle
+	{
+		@Override
+		public void setWidth(int width) {
+			super.setWidth(width);
+			super.setHeight(width);
+		}
+
+		@Override
+		public void setHeight(int height) {
+			super.setHeight(height);
+			super.setWidth(height);
+		}
+
+		public Square() {
+		}
+		
+		public Square(int size)
+		{
+			width = height = size;
+					
+		}
+	}
+	
+	class Demo {
+
+		
+		
+	}
+	public static void main(String[] args) {
+		
+	}
+
+}
+
+```
+
+```
+		@Override
+		public void setWidth(int width) {
+			super.setWidth(width);
+			super.setHeight(width);
+		}
+
+		@Override
+		public void setHeight(int height) {
+			super.setHeight(height);
+			super.setWidth(height);
+		}
+
+```
+
+- Making such overrides violates **Liskov Substitution Principle**(**LSP**) principle 
+
+// Jäin 5:00
