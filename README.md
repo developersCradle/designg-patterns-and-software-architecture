@@ -1,12 +1,14 @@
 ## Software Architecture & Design Patterns 
 
 
+<!--
 <img src="softwarePatterns.jpg" alt="alt text" width="700"/>
 <hr>
 <p align="center">
    <img src="https://i.giphy.com/media/MGdfeiKtEiEPS/giphy.webp" alt="alt text" width="400"/>
 </p>
 <hr>
+ -->
 
 Attempt to study and implement different software architecture styles and design patterns here.
 
@@ -37,10 +39,22 @@ Insert certificate here when completed
 - [ ] [Section 04](#) - Factories
 - [ ] [Section 05](#) - Prototype
 - [ ] [Section 06](#) - Singleton
+- [ ] [Section 07](#) - 
+- [ ] [Section 08](#) - 
+- [ ] [Section 09](#) - 
+- [ ] [Section 10](#) - 
+- [ ] [Section 11](#) - Façade
+- [ ] [Section 12](#) - 
+- [ ] [Section 13](#) - 
+- [ ] [Section 14](#) - 
+- [ ] [Section 15](#) - 
+- [ ] [Section 16](#) - 
+- [ ] [Section 17](#) - 
+- [ ] [Section 18](#) - 
 
 
 
-
+- Add more when time comes
 
 
 
