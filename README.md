@@ -35,7 +35,7 @@ Insert certificate here when completed
 
 - [x] [Section 01](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Section%201) - Introduction
 - [ ] [Section 02](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Section%202) - SOLID Design Principles
-- [ ] [Section 03](#) - Builder
+- [ ] [Section 03](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Section%203) - Builder
 - [ ] [Section 04](#) - Factories
 - [ ] [Section 05](#) - Prototype
 - [ ] [Section 06](#) - Singleton

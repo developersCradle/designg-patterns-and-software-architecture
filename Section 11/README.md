@@ -8,7 +8,7 @@ Façade
 
 - Exposing several components' through a single interface. **Making convent for end user** 
 
-<img src="motivation.JPG" alt="alt text" width="700"/>
+<img src="motivation.JPG" alt="alt text" width="600"/>
 
 1. Wiring inside wall is not exposed even if there is some weird cabling or bugs inside.
 2. Same with software!
@@ -274,6 +274,6 @@ public class Facade {
 
 <br>
 
-<img src="summaryFacade.JPG" alt="alt text" width="700"/>
+<img src="summaryFacade.JPG" alt="alt text" width="500"/>
 
 1. Nice API to people to use for more complex class.
