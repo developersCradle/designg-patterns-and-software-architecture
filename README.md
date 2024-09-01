@@ -1,49 +1,45 @@
 ## Software Architecture & Design Patterns 
 
+> Attempt to study and implement different software architecture styles and design patterns here with good design principles, such as clean code and SOLID Design Principles.
 
-<!--
-<img src="softwarePatterns.jpg" alt="alt text" width="700"/>
-<hr>
 <p align="center">
    <img src="https://i.giphy.com/media/MGdfeiKtEiEPS/giphy.webp" alt="alt text" width="400"/>
 </p>
-<hr>
- -->
 
-Attempt to study and implement different software architecture styles and design patterns here.
-
-# Design Patterns in Java
+# Design Patterns in Java.
 
 <img src="summaryCourse.JPG" alt="alt text" width="700"/>
 
-All course material from **Design Patterns in Java** by from Dmitri Nesteruk 
+All course material from **Design Patterns in Java** by from Dmitri Nesteruk.
 
 If the content sparked :fire: your interest, please consider buying the course and start learning :book:
 
+This repository is made with **Eclipse**, therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
+
 [The Course at Udemy](https://www.udemy.com/course/design-patterns-java/)   
 
-
+<!-- 
+Linkedin puts this shit front, when clicking from private mode x(. Need to put this to make jump working every case
+?trk=public_profile_see-credential 
+-->
 
 Insert certificate here when completed
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
-
-
-
 ## Design Patterns in Java
 
-- [x] [Section 01](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Section%201) - Introduction
-- [ ] [Section 02](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Section%202) - SOLID Design Principles
-- [ ] [Section 03](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Section%203) - Builder
-- [ ] [Section 04](#) - Factories
-- [ ] [Section 05](#) - Prototype
-- [ ] [Section 06](#) - Singleton
+- [x] [Section 01](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Section%201) - Introduction.
+- [ ] [Section 02](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Section%202) - SOLID Design Principles.
+- [ ] [Section 03](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Section%203) - Builder.
+- [ ] [Section 04](#) - Factories.
+- [ ] [Section 05](#) - Prototype.
+- [ ] [Section 06](#) - Singleton.
 - [ ] [Section 07](#) - 
 - [ ] [Section 08](#) - 
 - [ ] [Section 09](#) - 
 - [ ] [Section 10](#) - 
-- [x] [Section 11](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Section%2011) - Façade
+- [x] [Section 11](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Section%2011) - Façade.
 - [ ] [Section 12](#) - 
 - [ ] [Section 13](#) - 
 - [ ] [Section 14](#) - 
@@ -57,43 +53,61 @@ Insert certificate here when completed
 - [ ] [Section 22](#) - 
 - [ ] [Section 23](#) - 
 - [ ] [Section 24](#) - 
-- [ ] [Section 25](#) - Visitor
-- [ ] [Section 26](#) - Course Summary
+- [ ] [Section 25](#) - Visitor.
+- [ ] [Section 26](#) - Course Summary.
 
+### Additional stuff
 
+- [ ] In typescript [ts](https://refactoring.guru/design-patterns/typescript).
+- [ ] In c++ [c++](https://www.udemy.com/course/patterns-cplusplus/).
+- [ ] Make a folder.
+# Clean Code
 
+![Clean Code](cleanCode.PNG)
 
-- Add more when time comes
+All course material from Clean Code by **Pragmatic Code School**.
 
+Contains my own notes with some course material to enforce learning experience.
 
+If the content sparked :fire: your interest, please consider buying the course and start learning :book:.
 
+[The course at Udemy](https://www.udemy.com/course/writing-clean-code/). 
+[Website of maker](https://academind.com/).
 
+<!-- 
+Linkedin puts this shit front, when clicking from private mode x(. Need to put this to make jump working every case
+?trk=public_profile_see-credential 
+-->
 
-<hr>
+Insert certificate here when completed
 
-## Todo for future
+**Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
-In typescript [ts](https://refactoring.guru/design-patterns/typescript)
+## Progress/Curriculum
 
-In c++ [c++](https://www.udemy.com/course/patterns-cplusplus/)
+- [x] [Section 01](#) - 
 
+# Java Design Patterns & SOLID Design Principles
 
+![Java Design Patterns & SOLID Design Principles](solidAndJavaDesignPrinciples.PNG)
 
+All course material from Java Design Patterns & SOLID Design Principles by **Coffee Powered Crew**.
 
-- todo or use one generalized style
+Contains my own notes with some course material to enforce learning experience.
 
-## Software Architecture
+If the content sparked :fire: your interest, please consider buying the course and start learning :book:.
 
-- [ ] [Java](#) - Software Architecture in Java
-- [ ] [Js](#) - Software Architecture in Js
-- [ ] [Ts](#) - Software Architecture in Ts
-- [ ] [C++](#) - Software Architecture in C++
+[The course at Udemy](https://www.udemy.com/course/design-patterns-in-java-concepts-hands-on-projects/).
 
+<!-- 
+Linkedin puts this shit front, when clicking from private mode x(. Need to put this to make jump working every case
+?trk=public_profile_see-credential 
+-->
 
+Insert certificate here when completed
 
- ## Design Patterns
+**Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
-- [ ] [Java](#) - Design Patterns in Java
-- [ ] [Js](#) - Design Patterns in Js
-- [ ] [Ts](#) - Design Patterns in Ts
-- [ ] [C++](#) - Design Patterns in C++
+## Progress/Curriculum
+
+- [x] [Section 01](#) - 
