@@ -60,18 +60,20 @@ Insert certificate here when completed
 
 - [ ] In typescript [ts](https://refactoring.guru/design-patterns/typescript).
 - [ ] In c++ [c++](https://www.udemy.com/course/patterns-cplusplus/).
+
 - [ ] Make a folder.
 # Clean Code
 
 ![Clean Code](cleanCode.PNG)
 
-All course material from Clean Code by **Pragmatic Code School**.
+All course material from Clean Code by **Maximilian Schwarzmüller**.
 
 Contains my own notes with some course material to enforce learning experience.
 
 If the content sparked :fire: your interest, please consider buying the course and start learning :book:.
 
 [The course at Udemy](https://www.udemy.com/course/writing-clean-code/). 
+
 [Website of maker](https://academind.com/).
 
 <!-- 
