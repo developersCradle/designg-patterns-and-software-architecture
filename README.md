@@ -59,9 +59,13 @@ Insert certificate here when completed
 ### Additional stuff
 
 - [ ] In typescript [ts](https://refactoring.guru/design-patterns/typescript).
-- [ ] In c++ [c++](https://www.udemy.com/course/patterns-cplusplus/).
+- [ ] In [c++](https://www.udemy.com/course/patterns-cplusplus/).
+- [ ] Read [GangOfFour](https://en.wikipedia.org/wiki/Design_Patterns).
 
-- [ ] Make a folder.
+- When adding add more chapters here.
+
+<img src="AddingChapters.PNG" alt="alt text" width="200"/>
+
 # Clean Code
 
 ![Clean Code](cleanCode.PNG)

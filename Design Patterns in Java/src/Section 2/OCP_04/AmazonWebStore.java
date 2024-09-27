@@ -4,7 +4,12 @@ import java.util.List;
 import java.util.stream.Stream;
 
 public class AmazonWebStore {
-
+	
+	
+	public static void main(String[] args) {
+		System.out.println("This can be launched from ide!");
+	}
+	
 	// Criteria for filtering in our AmazonWebStore
 	
 	enum Color

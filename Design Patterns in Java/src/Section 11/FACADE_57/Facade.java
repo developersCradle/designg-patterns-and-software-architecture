@@ -5,6 +5,10 @@ import java.util.List;
 
 public class Facade {
 	
+	public static void main(String[] args) {
+		System.out.println("Facade launched from ide");
+	}
+	
 	//Logs huge amount of data, example form stock market
 	public static class Buffer
 	{

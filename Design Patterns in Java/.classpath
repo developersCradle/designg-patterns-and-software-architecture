@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="Section 2"/>
-	<classpathentry kind="src" path="Section 11"/>
-	<classpathentry kind="src" path="Section 3"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="SRP_03/" kind="src" path="src/Section 2"/>
+	<classpathentry kind="src" path="src/Section 7"/>
+	<classpathentry excluding="BUILDER_11/|BUILDER_OOP_12/|FLUENT_BUILDER_13/|FLUENT_BUILDER_INHERITANCE_14/" kind="src" path="src/Section 3"/>
+	<classpathentry kind="src" path="src/Section 4"/>
+	<classpathentry kind="src" path="src/Section 5"/>
+	<classpathentry kind="src" path="src/Section 6"/>
+	<classpathentry kind="src" path="src/Section 10"/>
+	<classpathentry kind="src" path="src/Section 11"/>
+	<classpathentry kind="src" path="src/Section 12"/>
+	<classpathentry kind="src" path="src/Section 13"/>
+	<classpathentry kind="src" path="src/Section 14"/>
+	<classpathentry kind="src" path="src/Section 15"/>
+	<classpathentry kind="src" path="src/Section 16"/>
+	<classpathentry kind="src" path="src/Section 8"/>
+	<classpathentry kind="src" path="src/Section 9"/>
+	<classpathentry kind="src" path="src/Section 1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

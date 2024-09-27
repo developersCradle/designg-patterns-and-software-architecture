@@ -2,6 +2,9 @@ package LSP_05;
 
 public class Rectangle {
 	
+	public static void main(String[] args) {
+		System.out.println("sdas");
+	}
 	
 	protected int width, height;
 	
@@ -78,7 +81,7 @@ public class Rectangle {
 		
 		public static void main(String[] args) {
 			Rectangle rc = new Rectangle(2,3);
-			userIt(20);
+//			userIt(20);
 			// Jäin 5:00
 		}
 		
