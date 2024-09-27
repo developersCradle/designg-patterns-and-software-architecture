@@ -1,26 +1,3 @@
-## Section 21: Observer
-
-Observer.
-
-> I am watching you! 👀
-
-# What I Learned
- 
-# 99. Overview.
-
-<img src="overwiev.PNG" alt="alt text" width="500"/>
-
-1. We want listen event when something happens.
-2. Old way in Java was `addXxxListener()`
-3. Nowadays you can use functional interface like `Supplier<T>`, `Consumer<T>`, `Function<T>` just wrap function into these.
-
-<img src="summary.PNG" alt="alt text" width="500"/>
-
-1. Usually the one which we generates the is called `observable`.
-
-# 100. Observer and Observable.
-
-```
 package Observer_and_Observable_100;
 
 import java.util.ArrayList;
@@ -111,11 +88,5 @@ class Demo implements Observer<Person> //This class is watching Person.
 		System.out.println("Person's " + args.propertyName
 				+ " has changed to " + args.newValue);
 	}
+	
 }
-```
-
-- This approach is **valid**, but bit rigid. Its bit **silly**, to implement any kind of interface if you wan't observe interface. We we build this idea around **events**.
-
-# 101. An Event Class.
-
-- You can get away from this idea of thinking **Observer and Observable**.

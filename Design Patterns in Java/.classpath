@@ -16,6 +16,16 @@
 	<classpathentry kind="src" path="src/Section 8"/>
 	<classpathentry kind="src" path="src/Section 9"/>
 	<classpathentry kind="src" path="src/Section 1"/>
+	<classpathentry kind="src" path="src/Section 21"/>
+	<classpathentry kind="src" path="src/Section 03"/>
+	<classpathentry kind="src" path="src/Section 02"/>
+	<classpathentry kind="src" path="src/Section 01"/>
+	<classpathentry kind="src" path="src/Section 04"/>
+	<classpathentry kind="src" path="src/Section 05"/>
+	<classpathentry kind="src" path="src/Section 06"/>
+	<classpathentry kind="src" path="src/Section 07"/>
+	<classpathentry kind="src" path="src/Section 08"/>
+	<classpathentry kind="src" path="src/Section 09"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
 		<attributes>
 			<attribute name="module" value="true"/>

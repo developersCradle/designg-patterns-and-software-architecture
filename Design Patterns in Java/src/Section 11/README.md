@@ -1,12 +1,14 @@
-## Section 11: Façade
+## Section 11: Façade.
 
-Façade
+Façade.
 
 > Exposing several components through a single interface.
 
-# What I Learned
+# What I Learned.
 
-- Exposing several components' through a single interface. **Making convent for end user** 
+# 56. Overview.
+
+- Exposing several components' through a single interface. **Making convent for end user**.
 
 <img src="motivation.JPG" alt="alt text" width="600"/>
 
@@ -14,18 +16,16 @@ Façade
 2. Same with software!
 3. Console log has much different stuff, like buffer, memory allocation etc., but we can just call `System.out.println();` and not to worry about details.
 
-### Façade
+### Façade.
 
 > Provides a simple, easy to understand/user interface over a large
 and sophisticated body of code.
 
+# 57. Façade.
 
-
-
-## Façade in code
+## Façade in code.
 
 ```
-
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -135,9 +135,9 @@ public class Facede {
 
 ```
 
-- User don't want to use following initialization, therefore we are using Façade pattern. **We just want call one subsystem**
+- User don't want to use following initialization, therefore we are using Façade pattern. **We just want call one subsystem**.
 
-- Example below using **Façade**
+- Example below using **Façade**.
 
 ```
 
@@ -248,7 +248,7 @@ public class Facade {
 
 ```
 
-- Main point here, user can just call `Console console2 = Console.newConsole(30, 20)` to create console and **not** worry about subcomponents
+- Main point here, user can just call `Console console2 = Console.newConsole(30, 20)` to create console and **not** worry about subcomponents.
 
 ```
 	
@@ -272,7 +272,7 @@ public class Facade {
 
 ```
 
-<br>
+# 58. Summary.
 
 <img src="summaryFacade.JPG" alt="alt text" width="500"/>
 

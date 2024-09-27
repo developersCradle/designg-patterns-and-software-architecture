@@ -29,7 +29,7 @@ Insert certificate here when completed
 
 ## Design Patterns in Java
 
-- [x] [Section 01](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Section%201) - Introduction.
+- [x] [Section 01](#) - Introduction.
 - [ ] [Section 02](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Section%202) - SOLID Design Principles.
 - [ ] [Section 03](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Section%203) - Builder.
 - [ ] [Section 04](#) - Factories.
@@ -39,7 +39,7 @@ Insert certificate here when completed
 - [ ] [Section 08](#) - 
 - [ ] [Section 09](#) - 
 - [ ] [Section 10](#) - 
-- [x] [Section 11](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Section%2011) - Façade.
+- [x] [Section 11](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Design%20Patterns%20in%20Java/src/Section%2011#section-11-fa%C3%A7ade) - Façade. ✅
 - [ ] [Section 12](#) - 
 - [ ] [Section 13](#) - 
 - [ ] [Section 14](#) - 
@@ -49,7 +49,7 @@ Insert certificate here when completed
 - [ ] [Section 18](#) -
 - [ ] [Section 19](#) - 
 - [ ] [Section 20](#) - 
-- [ ] [Section 21](#) - 
+- [ ] [Section 21](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Design%20Patterns%20in%20Java/src/Section%2021#section-21-observer) - Observer.
 - [ ] [Section 22](#) - 
 - [ ] [Section 23](#) - 
 - [ ] [Section 24](#) - 
@@ -58,8 +58,8 @@ Insert certificate here when completed
 
 ### Additional stuff
 
-- [ ] In typescript [ts](https://refactoring.guru/design-patterns/typescript).
-- [ ] In [c++](https://www.udemy.com/course/patterns-cplusplus/).
+- [ ] In typescript [Ts](https://refactoring.guru/design-patterns/typescript).
+- [ ] In [C++](https://www.udemy.com/course/patterns-cplusplus/).
 - [ ] Read [GangOfFour](https://en.wikipedia.org/wiki/Design_Patterns).
 
 - When adding add more chapters here.
