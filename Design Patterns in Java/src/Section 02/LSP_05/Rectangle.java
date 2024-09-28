@@ -3,7 +3,7 @@ package LSP_05;
 public class Rectangle {
 	
 	public static void main(String[] args) {
-		System.out.println("sdas");
+		System.out.println("sdsdsdas");
 	}
 	
 	protected int width, height;

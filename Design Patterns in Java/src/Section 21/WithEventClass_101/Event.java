@@ -12,8 +12,8 @@ public class Event<TArgs> {
 	private Map<Integer, Consumer<TArgs>>
 	handlers = new HashMap<>();
 	
-	public Subscription addHandler(Consumer<TArgs> handaler)
-	{
-		
-	}
+//	public Subscription addHandler(Consumer<TArgs> handaler)
+//	{
+//		
+//	}
 }

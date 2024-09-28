@@ -62,9 +62,21 @@ Insert certificate here when completed
 - [ ] In [C++](https://www.udemy.com/course/patterns-cplusplus/).
 - [ ] Read [GangOfFour](https://en.wikipedia.org/wiki/Design_Patterns).
 
+<img src="AddingChapters.PNG" alt="alt text" width="200"/>
+
 - When adding add more chapters here.
 
-<img src="AddingChapters.PNG" alt="alt text" width="200"/>
+<br>
+
+<img src="rememberToCleanRunningConfigInEclipseIfErro.PNG" alt="alt text" width="300"/>
+
+1. If you pull and encounter error. Remember to delete running config sometimes!
+
+<br>
+
+<img src="rememberBuildConfigs.PNG" alt="alt text" width="300"/>
+
+1. Following configs are on build paths.
 
 # Clean Code
 

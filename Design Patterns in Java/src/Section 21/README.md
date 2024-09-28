@@ -119,3 +119,7 @@ class Demo implements Observer<Person> //This class is watching Person.
 # 101. An Event Class.
 
 - You can get away from this idea of thinking **Observer and Observable**.
+
+- We are using [Memento Pattern](https://refactoring.guru/design-patterns/memento)
+
+- Jäin 101. An Event Class
