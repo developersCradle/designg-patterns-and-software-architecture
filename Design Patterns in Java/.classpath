@@ -10,7 +10,7 @@
 	<classpathentry kind="src" path="src/Section 21"/>
 	<classpathentry kind="src" path="src/Section 05"/>
 	<classpathentry kind="src" path="src/Section 16"/>
-	<classpathentry kind="src" path="src/Section 15"/>
+	<classpathentry including="coding_exercise_12/|command_75_and_76/" kind="src" path="src/Section 15"/>
 	<classpathentry kind="src" path="src/Section 14"/>
 	<classpathentry kind="src" path="src/Section 13"/>
 	<classpathentry kind="src" path="src/Section 11"/>
@@ -22,5 +22,6 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="src/Section 15/externalLibs/guava-33.3.1-jre.jar" sourcepath="src/Section 15/externalLibs/guava-33.3.1-jre-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

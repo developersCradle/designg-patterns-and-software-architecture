@@ -1,4 +1,4 @@
-## Software Architecture & Design Patterns 
+## Software Architecture & Design Patterns.
 
 > Attempt to study and implement different software architecture styles and design patterns here with good design principles, such as clean code and SOLID Design Principles.
 
@@ -27,7 +27,7 @@ Insert certificate here when completed
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
-## Design Patterns in Java
+## Design Patterns in Java.
 
 - [x] [Section 01](#) - Introduction.
 - [ ] [Section 02](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Section%202) - SOLID Design Principles.
@@ -43,11 +43,11 @@ Insert certificate here when completed
 - [ ] [Section 12](#) - 
 - [ ] [Section 13](#) - 
 - [ ] [Section 14](#) - 
-- [ ] [Section 15](#) - 
+- [x] [Section 15](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Design%20Patterns%20in%20Java/src/Section%2015#section-15-command) - Command. ✅
 - [ ] [Section 16](#) - 
 - [ ] [Section 17](#) - 
 - [ ] [Section 18](#) -
-- [ ] [Section 19](#) - 
+- [ ] [Section 19](#) - Memento.
 - [ ] [Section 20](#) - 
 - [ ] [Section 21](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Design%20Patterns%20in%20Java/src/Section%2021#section-21-observer) - Observer.
 - [ ] [Section 22](#) - 
@@ -60,7 +60,7 @@ Insert certificate here when completed
 
 - [ ] In typescript [Ts](https://refactoring.guru/design-patterns/typescript).
 - [ ] In [C++](https://www.udemy.com/course/patterns-cplusplus/).
-- [ ] Read [GangOfFour](https://en.wikipedia.org/wiki/Design_Patterns).
+- [ ] Read book [Gang Of Four](https://en.wikipedia.org/wiki/Design_Patterns).
 
 <img src="AddingChapters.PNG" alt="alt text" width="200"/>
 
@@ -70,15 +70,15 @@ Insert certificate here when completed
 
 <img src="rememberToCleanRunningConfigInEclipseIfErro.PNG" alt="alt text" width="300"/>
 
-1. If you pull and encounter error. Remember to delete running config sometimes!
+1. If you pull and encounter error. Remember to delete running config sometimes! [Link](https://stackoverflow.com/questions/11235827/eclipse-error-could-not-find-or-load-main-class).
 
 <br>
 
 <img src="rememberBuildConfigs.PNG" alt="alt text" width="300"/>
 
-1. Following configs are on build paths.
+1. Following configs are on build paths. `main()` wont work add the folder in the **Include** folder.
 
-# Clean Code
+# Clean Code.
 
 ![Clean Code](cleanCode.PNG)
 
@@ -105,7 +105,7 @@ Insert certificate here when completed
 
 - [x] [Section 01](#) - 
 
-# Java Design Patterns & SOLID Design Principles
+# Java Design Patterns & SOLID Design Principles.
 
 ![Java Design Patterns & SOLID Design Principles](solidAndJavaDesignPrinciples.PNG)
 
@@ -126,6 +126,6 @@ Insert certificate here when completed
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
-## Progress/Curriculum
+## Progress/Curriculum.
 
 - [x] [Section 01](#) - 
