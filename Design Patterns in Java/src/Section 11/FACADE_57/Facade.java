@@ -6,6 +6,7 @@ import java.util.List;
 public class Facade {
 	
 	public static void main(String[] args) {
+		
 		System.out.println("Facade launched from ide");
 	}
 	

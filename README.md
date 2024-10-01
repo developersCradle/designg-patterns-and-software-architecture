@@ -31,7 +31,7 @@ Insert certificate here when completed
 
 - [x] [Section 01](#) - Introduction.
 - [ ] [Section 02](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Section%202) - SOLID Design Principles.
-- [ ] [Section 03](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Section%203) - Builder.
+- [ ] [Section 03](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Design%20Patterns%20in%20Java/src/Section%2003#section-3-builders) - Builder.
 - [ ] [Section 04](#) - Factories.
 - [ ] [Section 05](#) - Prototype.
 - [ ] [Section 06](#) - Singleton.
@@ -47,7 +47,7 @@ Insert certificate here when completed
 - [ ] [Section 16](#) - 
 - [ ] [Section 17](#) - 
 - [ ] [Section 18](#) -
-- [ ] [Section 19](#) - Memento.
+- [x] [Section 19](#) - Memento. ✅
 - [ ] [Section 20](#) - 
 - [ ] [Section 21](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Design%20Patterns%20in%20Java/src/Section%2021#section-21-observer) - Observer.
 - [ ] [Section 22](#) - 
@@ -61,6 +61,12 @@ Insert certificate here when completed
 - [ ] In typescript [Ts](https://refactoring.guru/design-patterns/typescript).
 - [ ] In [C++](https://www.udemy.com/course/patterns-cplusplus/).
 - [ ] Read book [Gang Of Four](https://en.wikipedia.org/wiki/Design_Patterns).
+
+
+<details>
+
+<summary id="IDE problem" open="false"> <b>IDE as studying tool errors.</b> </summary>
+
 
 <img src="AddingChapters.PNG" alt="alt text" width="200"/>
 
@@ -76,7 +82,9 @@ Insert certificate here when completed
 
 <img src="rememberBuildConfigs.PNG" alt="alt text" width="300"/>
 
-1. Following configs are on build paths. `main()` wont work add the folder in the **Include** folder.
+1. Following configs are on build paths. If any `main()` function wont work, then add the folder in the **Include** folder, this remove `pics` and `.md` from going into `bin` folder.
+
+</details>
 
 # Clean Code.
 

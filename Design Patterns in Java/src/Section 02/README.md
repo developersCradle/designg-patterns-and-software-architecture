@@ -1,8 +1,8 @@
-## Section 2: SOLID Design Principles
+## Section 2: SOLID Design Principles.
 
-SOLID Design Principles
+SOLID Design Principles.
 
-# What I Learned
+# What I Learned.
 
 ### SRP (Single Responsibility Principle)
 

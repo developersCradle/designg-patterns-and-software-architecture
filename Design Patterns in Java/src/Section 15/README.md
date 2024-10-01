@@ -12,7 +12,7 @@ Command pattern.
 
 1. In Java statements are **perishable**. Meaning once assignment or what ever operation is done, you **cannot** go back to original state.
 2. We want **object** represent operation.
-3. There is multiple uses for such **commands** such as GUI commands is sent to command processor. These commands can be stored or played reverse order.
+3. There is multiple uses for such **commands**, such as GUI commands is sent to command processor. These commands can be stored or played reverse order.
 
 <img src="command.PNG" alt="alt text" width="500"/>
 
@@ -342,3 +342,7 @@ class BankAccountCommand extends Command {
 1. Make operation with details into object.
 	- You can store it, play with it. Much easier to play with.
 2. **Command** is not enough, you need processor for it also!
+
+# Additional.
+
+- [ ] [Command](https://refactoring.guru/design-patterns/command).

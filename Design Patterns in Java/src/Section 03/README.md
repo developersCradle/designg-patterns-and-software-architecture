@@ -1,10 +1,8 @@
-## Section 3: Builders
+## Section 3: Builders.
 
-Builder patterns
+Builder patterns.
 
-# What I Learned
-
-
+# What I Learned.
 
 <img src="overview.png" alt="alt text" width="400"/>
 

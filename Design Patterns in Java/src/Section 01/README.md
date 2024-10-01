@@ -1,8 +1,8 @@
-## Section 1: Introduction
+## Section 1: Introduction.
 
-Introduction
+Introduction.
 
-# What I Learned
+# What I Learned.
 
 <img src="introduction.JPG" alt="alt text" width="500"/>
 
