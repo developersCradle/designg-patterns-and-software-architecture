@@ -7,7 +7,7 @@
 	<classpathentry kind="src" path="src/Section 06"/>
 	<classpathentry kind="src" path="src/Section 12"/>
 	<classpathentry kind="src" path="src/Section 10"/>
-	<classpathentry kind="src" path="src/Section 21"/>
+	<classpathentry including="WithEventClass_101/" kind="src" path="src/Section 21"/>
 	<classpathentry kind="src" path="src/Section 05"/>
 	<classpathentry kind="src" path="src/Section 16"/>
 	<classpathentry including="coding_exercise_12/|command_75_and_76/" kind="src" path="src/Section 15"/>

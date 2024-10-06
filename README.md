@@ -47,7 +47,7 @@ Insert certificate here when completed
 - [ ] [Section 16](#) - 
 - [ ] [Section 17](#) - 
 - [ ] [Section 18](#) -
-- [x] [Section 19](#) - Memento. ✅
+- [x] [Section 19](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Design%20Patterns%20in%20Java/src/Section%2019#section-19-memento) - Memento. ✅
 - [ ] [Section 20](#) - 
 - [ ] [Section 21](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Design%20Patterns%20in%20Java/src/Section%2021#section-21-observer) - Observer.
 - [ ] [Section 22](#) - 
