@@ -35,9 +35,9 @@ Insert certificate here when completed
 - [ ] [Section 04](#) - Factories.
 - [ ] [Section 05](#) - Prototype.
 - [ ] [Section 06](#) - Singleton.
-- [ ] [Section 07](#) - 
-- [ ] [Section 08](#) - 
-- [ ] [Section 09](#) - 
+- [ ] [Section 07](#) - Adapter.
+- [ ] [Section 08](#) - Bridge.
+- [ ] [Section 09](#) - Composite.
 - [ ] [Section 10](#) - 
 - [x] [Section 11](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Design%20Patterns%20in%20Java/src/Section%2011#section-11-fa%C3%A7ade) - Façade. ✅
 - [ ] [Section 12](#) - 
@@ -48,11 +48,11 @@ Insert certificate here when completed
 - [ ] [Section 17](#) - 
 - [ ] [Section 18](#) -
 - [x] [Section 19](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Design%20Patterns%20in%20Java/src/Section%2019#section-19-memento) - Memento. ✅
-- [ ] [Section 20](#) - 
-- [ ] [Section 21](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Design%20Patterns%20in%20Java/src/Section%2021#section-21-observer) - Observer.
-- [ ] [Section 22](#) - 
-- [ ] [Section 23](#) - 
-- [ ] [Section 24](#) - 
+- [ ] [Section 20](#) - Null Object.
+- [x] [Section 21](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Design%20Patterns%20in%20Java/src/Section%2021#section-21-observer) - Observer. ✅
+- [ ] [Section 22](#) - State.
+- [ ] [Section 23](#) - Strategy.
+- [ ] [Section 24](#) - Template.
 - [ ] [Section 25](#) - Visitor.
 - [ ] [Section 26](#) - Course Summary.
 

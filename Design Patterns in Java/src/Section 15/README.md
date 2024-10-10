@@ -12,13 +12,13 @@ Command pattern.
 
 1. In Java statements are **perishable**. Meaning once assignment or what ever operation is done, you **cannot** go back to original state.
 2. We want **object** represent operation.
-3. There is multiple uses for such **commands**, such as GUI commands is sent to command processor. These commands can be stored or played reverse order.
+3. There is multiple uses **commands** pattern, such as in GUI commands that are sent to command processor. These commands can be stored or played reverse order.
 
 <img src="command.PNG" alt="alt text" width="500"/>
 
 # 75. Command.
 
- - Command pattern case, in context of **Bank Account**:
+ - **Command pattern** case, in context of **Bank Account**:
 
 ```
 package command_75;
@@ -144,7 +144,7 @@ class Demo
 
 # 76. Undo Operations.
 
-- In this chapter we are using revering function from **IIRC Lists is from the Guava library**. Remember to import it, or use some other way. [Guava](https://mvnrepository.com/artifact/com.google.guava/guava/33.3.1-jre).
+- In this chapter we are using `reverse` function from **IIRC Lists is from the Guava library**. Remember to import it, or use some other way. [Guava](https://mvnrepository.com/artifact/com.google.guava/guava/33.3.1-jre).
 
 - Example with **Undo** operation.
 

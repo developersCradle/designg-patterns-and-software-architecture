@@ -84,7 +84,7 @@ class Event<TArgs> {
 		
 	}
 	
-	// Firing the events
+	// Firing the events.
 	public void fire(TArgs args)
 	{
 		for (Consumer<TArgs> handler : handlers.values()) {
