@@ -26,10 +26,11 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 Insert certificate here when completed
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
-
+0
+- When importing folder, use the parent folder `Design Patterns in Java`, in **Eclipse** use `Existing project into workspace` import function. 
 ## Design Patterns in Java.
 
-- [x] [Section 01](#) - Introduction.
+- [x] [Section 01](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Design%20Patterns%20in%20Java/src/Section%2001#section-1-introduction) - Introduction. ✅
 - [ ] [Section 02](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Section%202) - SOLID Design Principles.
 - [ ] [Section 03](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Design%20Patterns%20in%20Java/src/Section%2003#section-3-builders) - Builder.
 - [ ] [Section 04](#) - Factories.
@@ -65,12 +66,11 @@ Insert certificate here when completed
 
 <details>
 
-<summary id="IDE problem" open="false"> <b>IDE as studying tool errors.</b> </summary>
-
+<summary id="IDE problem" open="false"> <b>As using IDE  studying tool. Here is the common errors.</b> </summary>
 
 <img src="AddingChapters.PNG" alt="alt text" width="200"/>
 
-- When adding add more chapters here.
+- When adding more chapters, do in this perspective/look.
 
 <br>
 
