@@ -16,7 +16,7 @@
 	<classpathentry kind="src" path="src/Section 11"/>
 	<classpathentry kind="src" path="src/Section 04"/>
 	<classpathentry including="builder_11/" kind="src" path="src/Section 03"/>
-	<classpathentry including="LSP_05/|OCP_04/" kind="src" path="src/Section 02"/>
+	<classpathentry kind="src" path="src/Section 02"/>
 	<classpathentry including="coding_exercise_16/|memento_92/" kind="src" path="src/Section 19"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
 		<attributes>

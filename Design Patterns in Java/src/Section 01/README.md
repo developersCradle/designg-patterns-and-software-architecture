@@ -4,6 +4,8 @@ Introduction.
 
 # What I Learned.
 
+# 1. Introduction.
+
 <img src="introduction.JPG" alt="alt text" width="500"/>
 
 - Patterns were generalized by **Design Patters** book.

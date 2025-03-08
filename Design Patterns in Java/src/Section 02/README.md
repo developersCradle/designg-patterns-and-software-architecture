@@ -4,9 +4,16 @@ SOLID Design Principles.
 
 # What I Learned.
 
-### SRP (Single Responsibility Principle)
+# 2. Overview.
 
-- Single class should have **one** responsibility
+- This course will be referring following books.
+	
+<img src="booksWhichWeAreBeUsing.PNG" alt="alt text" width="400"/>
+
+
+# 3. Single Responsibility Principle (SRP)
+
+- Single class should have **one** responsibility.
 
 - When printing object we will connect every entry!
 
@@ -17,11 +24,21 @@ SOLID Design Principles.
 		}
 ```
 
-- Class following **Single Responsibility Principle**
+- Class following **Single Responsibility Principle**.
 
 ```
+package SRP_02;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class Journal // My personal thoughts
 	{
+	
+	public static void main(String[] args) {
+		Demo.main(args); 
+	}
+	
 		private final List<String> entries = new ArrayList<>();
 		private static int count = 0;
 		
@@ -53,11 +70,12 @@ public class Journal // My personal thoughts
 		}
 		
 	}
+
 ```
 
-- Now this same class has **two concerns**
-1. **Adding** and **Removing** entries
-2. **Persisting Journal** and **Loading** 
+- Now this same class has **two concerns**.
+1. **Adding** and **Removing** entries.
+2. **Persisting Journal** and **Loading**. 
 
 ```
 public class Journal // My personal thoughts
@@ -112,18 +130,17 @@ public class Journal // My personal thoughts
 - This breaks the rule for **Single Responsibility Rule!**
     - We call this we have another **concern!**
 
-- If in other hand class has many **concerns!** we call this **GOD OBJECT**
+- If **in other hand** class has many **concerns!** We call this **GOD OBJECT**.
 
 <img src="godObject.jpg" alt="alt text" width="400"/>
+	
+- [God Object](https://en.wikipedia.org/wiki/God_object).
 
-- [God Object](https://en.wikipedia.org/wiki/God_object)
+- [Single-responsibility principle](https://en.wikipedia.org/wiki/Single-responsibility_principle).
 
-- [Single-responsibility principle](https://en.wikipedia.org/wiki/Single-responsibility_principle)
+- God object is VERY hard to **refactor** later on or **manage**.
 
-
-- God object is VERY hard to **refactor** later on or **manage**
-
-Here is working version which would fit **Single Responsibility Principle**
+Here is working version which would fit **Single Responsibility Principle**.
 
 ```
 public class Journal // My personal thoughts
@@ -204,14 +221,14 @@ public class Journal // My personal thoughts
 	}
 ```
 
-### Open-Closed Principle (OCP)
+### Open-Closed Principle (OCP).
 
-- We are implementing **OCP** with lens of Specification design pattern
-	- OCP + **Specification**(from Enterprise Engineering, not from **Gang of Four**) this design patterns
+- We are implementing **OCP** with lens of Specification design pattern.
+	- OCP + **Specification**(from Enterprise Engineering, not from **Gang of Four**) this design patterns.
 
-- [Enterprise Engineering](https://en.wikipedia.org/wiki/Enterprise_engineering)
+- [Enterprise Engineering](https://en.wikipedia.org/wiki/Enterprise_engineering).
 
-- Example of OCP principle
+- Example of OCP principle.
 
 ```
 
@@ -289,11 +306,11 @@ public class AmazonWebStore {
 }
 ```
 
-- Here we are using old product filter
+- Here we are using old product filter.
 
-- This is fine if you want to filter by **color** and **size** only. As soon manager wants more **filtering criteria** it will be harder since it's been tested, and we need to add new functionality to old class, which is violation **OCP**
+- This is fine if you want to filter by **color** and **size** only. As soon manager wants more **filtering criteria** it will be harder since it's been tested, and we need to add new functionality to old class, which is violation **OCP**.
 
-- Open close principle is open for extension and closed for modification
+- Open close principle is open for extension and closed for modification.
 
 ```
 package OCP_04;
@@ -444,13 +461,11 @@ public class AmazonWebStore {
 
 ```
 
-- We are using combination using specification which combines two specification together 
+- We are using combination using specification which combines two specification together.
 
-- [Combination](https://www.freecodecamp.org/news/permutation-and-combination-the-difference-explained-with-formula-examples/)
+- [Combination](https://www.freecodecamp.org/news/permutation-and-combination-the-difference-explained-with-formula-examples/).
 
-
-
-- Last working solution for **OCP**
+- Last working solution for **OCP**.
 
 ```
 package OCP_04;
@@ -632,12 +647,12 @@ public class AmazonWebStore {
 
 ```
 
-- (**OCP**)Open for **extension** and closed for **modification**
-- We will promise **not** modify `BetterFilter` and promise we will only **extend** functionality
+- **OCP** Is Open for **extension** and closed for **modification**.
+- We will promise **not** modify `BetterFilter` and promise we will only **extend** functionality.
 
 - In our context it means:
 	**Closed for modifications:** We will not modify in any way `BetterFilter` after its done, tested and could be shipped to production.
-	**Open for extension:** We are free to inherit or extends interfaces. If we want to extend functionality we can use our interfaces to do that
+	**Open for extension:** We are free to inherit or extends interfaces. If we want to extend functionality we can use our interfaces to do that.
 
 
 ```
@@ -653,15 +668,15 @@ public class AmazonWebStore {
 
 ```
 
-- Todo kertaa OCP
+- Todo kertaa OCP.
 
 
-### Liskov Substitution Principle(LSP)
+### Liskov Substitution Principle(LSP).
 
-- [LSP](https://en.wikipedia.org/wiki/Liskov_substitution_principle)
+- [LSP](https://en.wikipedia.org/wiki/Liskov_substitution_principle).
 
 
-- You can substitute **base class** with **subclass**. You should be able to put subclass whiteout breaking the class
+- You can substitute **base class** with **subclass**. You should be able to put subclass whiteout breaking the class.
 
 
 ```
@@ -758,6 +773,6 @@ public class Rectangle {
 
 ```
 
-- Making such overrides violates **Liskov Substitution Principle**(**LSP**) principle 
+- Making such overrides violates **Liskov Substitution Principle**(**LSP**) principle.
 
 // Jäin 5:00
