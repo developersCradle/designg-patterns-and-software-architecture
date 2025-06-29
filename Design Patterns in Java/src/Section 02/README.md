@@ -4,14 +4,14 @@ SOLID Design Principles.
 
 # What I Learned.
 
-# 2. Overview.
+# Overview.
 
 - This course will be referring following books.
 	
 <img src="booksWhichWeAreBeUsing.PNG" alt="alt text" width="400"/>
 
 
-# 3. Single Responsibility Principle (SRP)
+# Single Responsibility Principle (SRP).
 
 - Single class should have **one** responsibility.
 

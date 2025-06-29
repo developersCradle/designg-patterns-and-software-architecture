@@ -1,3 +1,3 @@
 ## Section 8:
 
-# What I Learned
+# What I Learned.

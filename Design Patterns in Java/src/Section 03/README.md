@@ -207,7 +207,7 @@ public class Builder {
 
 
 
-### Fluent Builder
+### Fluent Builder.
 
 - We call this **Fluent Interface**, where append can append after append. Example **String Builder**
 	- `sb.append("foo").append("bar");`
@@ -310,7 +310,7 @@ public class FluentBuilder {
 
 ```
 
-### Fluent Builder Inheritance with Recursive Generics
+### Fluent Builder Inheritance with Recursive Generics.
 
 - How to keep fluency of builder, when making builder inherit more and more
 

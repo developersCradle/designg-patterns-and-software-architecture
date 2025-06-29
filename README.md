@@ -1,37 +1,46 @@
-## Software Architecture & Design Patterns.
+
+<p align="center">
+    <img id="studying" src="Software Architecture & Design Patterns caption.png" height=80>
+</p>
 
 > Attempt to study and implement different software architecture styles and design patterns here with good design principles, such as clean code and SOLID Design Principles.
 
 <p align="center">
-   <img src="https://i.giphy.com/media/MGdfeiKtEiEPS/giphy.webp" alt="alt text" width="400"/>
+   <img src="https://i.giphy.com/media/MGdfeiKtEiEPS/giphy.webp" alt="alt text" width="350"/>
 </p>
 
-# Design Patterns in Java.
+<p align="center">
+    <img id="studying" src="Design Patterns in Java caption.png" height=70>
+</p>
+
 
 <img src="summaryCourse.JPG" alt="alt text" width="700"/>
 
 All course material from **Design Patterns in Java** by from Dmitri Nesteruk.
 
-If the content sparked :fire: your interest, please consider buying the course and start learning :book:
+If the content sparked :fire: your interest, please consider buying the course and start learning :book:.
 
 This repository is made with **Eclipse**, therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
 
-[The Course at Udemy](https://www.udemy.com/course/design-patterns-java/)   
+[The Course at Udemy](https://www.udemy.com/course/design-patterns-java/).
 
 <!-- 
 Linkedin puts this shit front, when clicking from private mode x(. Need to put this to make jump working every case
 ?trk=public_profile_see-credential 
 -->
 
-Insert certificate here when completed
+<p align="center">
+   Insert certificate here when completed.
+</p>
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 0
-- When importing folder, use the parent folder `Design Patterns in Java`, in **Eclipse** use `Existing project into workspace` import function. 
-## Design Patterns in Java.
+- When importing folder, use the parent folder `Design Patterns in Java`, in **Eclipse** use `Existing project into workspace` import function.
+
+#### Progress/Curriculum.
 
 - [x] [Section 01](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Design%20Patterns%20in%20Java/src/Section%2001#section-1-introduction) - Introduction. ✅
-- [ ] [Section 02](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Section%202) - SOLID Design Principles.
+- [ ] [Section 02](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Design%20Patterns%20in%20Java/src/Section%2002#section-2-solid-design-principles) - SOLID Design Principles.
 - [ ] [Section 03](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Design%20Patterns%20in%20Java/src/Section%2003#section-3-builders) - Builder.
 - [ ] [Section 04](#) - Factories.
 - [ ] [Section 05](#) - Prototype.
@@ -57,8 +66,9 @@ Insert certificate here when completed
 - [ ] [Section 25](#) - Visitor.
 - [ ] [Section 26](#) - Course Summary.
 
-### Additional stuff
+### Additional stuff.
 
+- [ ] Make caption coherent.
 - [ ] In typescript [Ts](https://refactoring.guru/design-patterns/typescript).
 - [ ] In [C++](https://www.udemy.com/course/patterns-cplusplus/).
 - [ ] Read book [Gang Of Four](https://en.wikipedia.org/wiki/Design_Patterns).
@@ -82,11 +92,14 @@ Insert certificate here when completed
 
 <img src="rememberBuildConfigs.PNG" alt="alt text" width="300"/>
 
-1. Following configs are on build paths. If any `main()` function wont work, then add the folder in the **Include** folder, this remove `pics` and `.md` from going into `bin` folder.
+1. Following configs are on build paths. If any `main()` function doesn't work, then add the folder in the **Include** folder, this remove `pics` and `.md` from going into `bin` folder.
 
 </details>
 
-# Clean Code.
+<p align="center">
+    <img id="studying" src="Clean Code Caption.png" height=90>
+</p>
+
 
 ![Clean Code](cleanCode.PNG)
 
@@ -105,15 +118,20 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 ?trk=public_profile_see-credential 
 -->
 
-Insert certificate here when completed
+<p align="center">
+   Insert certificate here when completed
+</p>
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
-## Progress/Curriculum
+#### Progress/Curriculum.
 
 - [x] [Section 01](#) - 
 
-# Java Design Patterns & SOLID Design Principles.
+
+<p align="center">
+    <img id="studying" src="Java Design Patterns & SOLID Design Principles caption.png" height=100>
+</p>
 
 ![Java Design Patterns & SOLID Design Principles](solidAndJavaDesignPrinciples.PNG)
 
@@ -130,7 +148,9 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 ?trk=public_profile_see-credential 
 -->
 
-Insert certificate here when completed
+<p align="center">
+   Insert certificate here when completed
+</p>
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 

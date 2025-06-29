@@ -6,7 +6,7 @@ Memento.
 
 # What I Learned.
 
-# 91. Overview.
+# Overview.
 
 <img src="motivation.PNG" alt="alt text" width="500"/>
 
@@ -17,7 +17,7 @@ Memento.
 
 - It is a **handle** / **token** to represent system state.
 
-# 92. Memento.
+#  Memento.
 
 - My implementation of **Memento** pattern. 
     - **Commander** and **Memento** are related, but still bit different!
@@ -87,7 +87,7 @@ class Demo {
         - **Commander** lists changes rather than **states**, like in **Memento**.
         - Or just compress data and go with **Memento**, up to you!
 
-# 93. Memento for Interop.
+# Memento for Interop.
 
 <img src="Interop.PNG" alt="alt text" width="500">
 
@@ -174,7 +174,7 @@ class TokenMachine {
 
 ```
 
-# 94. Summary.
+# Summary.
 
 <img src="summaryEnd.PNG" alt="alt text" width="600">
 

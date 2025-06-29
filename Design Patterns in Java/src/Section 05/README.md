@@ -1,3 +1,3 @@
 ## Section 5:
 
-# What I Learned
+# What I Learned.

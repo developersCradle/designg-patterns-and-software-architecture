@@ -3,7 +3,7 @@ package SRP_02;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Journal // My personal thoughts
+public class Journal // My personal thoughts.
 	{
 	
 	public static void main(String[] args) {

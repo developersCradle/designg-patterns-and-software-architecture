@@ -1,3 +1,4 @@
 ## Section 16:
 
-# What I Learned
+# What I Learned.
+

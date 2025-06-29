@@ -6,7 +6,7 @@ Façade.
 
 # What I Learned.
 
-# 56. Overview.
+# Overview.
 
 - Exposing several components' through a single interface. **Making convent for end user**.
 
@@ -21,7 +21,7 @@ Façade.
 > Provides a simple, easy to understand/user interface over a large
 and sophisticated body of code.
 
-# 57. Façade.
+# Façade.
 
 ## Façade in code.
 
@@ -272,7 +272,7 @@ public class Facade {
 
 ```
 
-# 58. Summary.
+# Summary.
 
 <img src="summaryFacade.JPG" alt="alt text" width="500"/>
 

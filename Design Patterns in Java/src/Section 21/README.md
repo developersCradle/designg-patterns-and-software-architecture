@@ -6,19 +6,19 @@ Observer.
 
 # What I Learned.
  
-# 99. Overview.
+# Overview.
 
 <img src="overwiev.PNG" alt="alt text" width="500"/>
 
 1. We want listen event when something happens.
 2. Old way in Java was `addXxxListener()`.
-3. Nowadays you can use functional interface like `Supplier<T>`, `Consumer<T>`, `Function<T>` just wrap function into these.
+3. Nowadays, you can use functional interface like `Supplier<T>`, `Consumer<T>`, `Function<T>` just wrap function into these.
 
 <img src="summary.PNG" alt="alt text" width="500"/>
 
-1. Usually the one which we generates the is called `observable`.
+1. Usually the one which we generate is called `observable`.
 
-# 100. Observer and Observable.
+#  Observer and Observable.
 
 ```
 package Observer_and_Observable_100;
@@ -116,7 +116,7 @@ class Demo implements Observer<Person> //This class is watching Person.
 
 - This approach is **valid**, but bit rigid. Its bit **silly**, to implement any kind of interface if you wan't observe interface. We we build this idea around **events**.
 
-# 101. An Event Class.
+# An Event Class.
 
 - You can get away from this idea of thinking **Observer and Observables** with event class.
 
@@ -274,7 +274,7 @@ class Event<TArgs> {
 - We can encapsulate an **Event** rather than forcing to implement **Observer** and **Observable**.
 	- Event is just **container** of **subscriptions**.
 
-# 102. The Problem with Dependent Properties.
+# The Problem with Dependent Properties.
 
 - If there would be more properties changing, this logic would be bigger and hard to scale up. 
 
@@ -385,7 +385,7 @@ class Rat implements Closeable
 
 ```
 
-# 103. Summary.
+# Summary.
 
 <img src="lastSumnmary.PNG" alt="alt text" width="500"/>
 

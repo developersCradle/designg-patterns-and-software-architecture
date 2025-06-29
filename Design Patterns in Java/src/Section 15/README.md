@@ -6,7 +6,7 @@ Command pattern.
 
 # What I Learned.
 
-# 74. Overview.  
+# Overview.  
 
 <img src="motivation.PNG" alt="alt text" width="500"/>
 
@@ -16,7 +16,7 @@ Command pattern.
 
 <img src="command.PNG" alt="alt text" width="500"/>
 
-# 75. Command.
+# Command.
 
  - **Command pattern** case, in context of **Bank Account**:
 
@@ -142,7 +142,7 @@ class Demo
 }
 ```
 
-# 76. Undo Operations.
+# Undo Operations.
 
 - In this chapter we are using `reverse` function from **IIRC Lists is from the Guava library**. Remember to import it, or use some other way. [Guava](https://mvnrepository.com/artifact/com.google.guava/guava/33.3.1-jre).
 
@@ -335,7 +335,7 @@ class BankAccountCommand extends Command {
 }
 ```
 
-# 77. Summary.
+# Summary.
 
 <img src="summary.PNG" alt="alt text" width="500"/>
 

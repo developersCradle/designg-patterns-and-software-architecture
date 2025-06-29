@@ -1,3 +1,3 @@
 ## Section 14:
 
-# What I Learned
+# What I Learned.
