@@ -130,7 +130,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 
 <p align="center">
-    <img id="studying" src="Java Design Patterns & SOLID Design Principles caption.png" height=100>
+    <img id="studying" src="Java Design Patterns & SOLID Design Principles caption.png" height=110>
 </p>
 
 ![Java Design Patterns & SOLID Design Principles](solidAndJavaDesignPrinciples.PNG)
