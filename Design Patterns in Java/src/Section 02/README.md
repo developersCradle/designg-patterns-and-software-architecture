@@ -7,9 +7,8 @@ SOLID Design Principles.
 # Overview.
 
 - This course will be referring following books.
-	
+	- These are **Roberts C. Martin**	
 <img src="booksWhichWeAreBeUsing.PNG" alt="alt text" width="400"/>
-
 
 # Single Responsibility Principle (SRP).
 

@@ -157,3 +157,56 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 ## Progress/Curriculum.
 
 - [x] [Section 01](#) - 
+
+
+
+<p align="center">
+    <img id="microservice architecture" src="Microservices Architecture - The Complete Guide Caption.png" style="height: 90px; width: 900px;">
+</p>
+
+![Microservices Architecture - The Complete Guide](Microservices%20Architecture%20-%20The%20Complete%20Guide%20desc.PNG)
+
+All course material from Microservices Architecture - The Complete Guide by **Memi Lavi** ©.
+
+Contains my own notes with some course material to enforce learning experience.
+
+[The course at Udemy](https://www.udemy.com/course/microservices-architecture-the-complete-guide/).
+
+[Content maker](https://memilavi.com/).
+
+If the content sparked :fire: your interest, please consider buying the course and start learning :book:.
+
+<!-- 
+Linkedin puts this shit front, when clicking from private mode x(. Need to put this to make jump working every case
+?trk=public_profile_see-credential 
+-->
+
+<div align="center">
+    Insert certificate here when completed
+</div>
+
+
+**Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
+
+#### Progress/Curriculum.
+
+- [ ] [Section 01](#) - Welcome.
+- [ ] [Section 02](#) - History of Microservices.
+- [ ] [Section 03](#) - Problems with Monolith & SOA.
+- [ ] [Section 04](#) - Microservices Architecture.
+- [ ] [Section 05](#) - Problems Solved by Microservices.
+- [ ] [Section 06](#) - Designing Microservices Architecture.
+- [ ] [Section 07](#) - Deploying Microservices.
+- [ ] [Section 08](#) - Testing Microservices.
+- [ ] [Section 09](#) - Service Mesh.
+- [ ] [Section 10](#) - Logging and Monitoring.
+- [ ] [Section 11](#) - When Not to Use Microservices.
+- [ ] [Section 12](#) - Microservices and the Organization.
+- [ ] [Section 13](#) - Anti-Patterns and Common Mistakes.
+- [ ] [Section 14](#) - Breaking Monolith to Microservices.
+- [ ] [Section 15](#) - Case study.
+- [ ] [Section 16](#) - Conclusion.
+
+#### Additional stuff.
+
+- ADD STUFF HERE.
