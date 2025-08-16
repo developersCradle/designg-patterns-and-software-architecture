@@ -1,16 +1,16 @@
 
 <p align="center">
-    <img id="studying" src="Software Architecture & Design Patterns caption.png" height=80>
+    <img id="studying" src="Software Architecture & Design Patterns caption.png" style="height: 120px; width: 1000px;">
 </p>
 
-> Attempt to study and implement different software architecture styles and design patterns here with good design principles, such as clean code and SOLID Design Principles.
+> Software Architecture (SOLID) & Design principles, Patterns and Clean Code. Also, the architecture related topics in IT!
 
 <p align="center">
    <img src="https://i.giphy.com/media/MGdfeiKtEiEPS/giphy.webp" alt="alt text" width="350"/>
 </p>
 
 <p align="center">
-    <img id="studying" src="Design Patterns in Java caption.png" height=70>
+    <img id="studying" src="Design Patterns in Java caption.png" height=50>
 </p>
 
 
@@ -130,7 +130,8 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 
 <p align="center">
-    <img id="studying" src="Java Design Patterns & SOLID Design Principles caption.png" height=110>
+    <img id="studying" src="Java Design Patterns & SOLID Design Principles caption.png" 
+    style="height: 110px;">
 </p>
 
 ![Java Design Patterns & SOLID Design Principles](solidAndJavaDesignPrinciples.PNG)
@@ -210,3 +211,44 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 #### Additional stuff.
 
 - ADD STUFF HERE.
+
+# Fundamentals of Backend Engineering.
+
+![Fundamentals of Backend Engineering](Fundamentals%20of%20Backend%20Engineering%20desc.PNG)
+
+All course material from Fundamentals of Backend Engineering by **Hussein Nasser** ©.
+
+Contains my own notes with some course material to enforce learning experience.
+
+[The course at Udemy](https://www.udemy.com/course/fundamentals-of-backend-communications-and-protocols).
+
+[Courses of the maker](https://courses.husseinnasser.com/).
+
+If the content sparked :fire: your interest, please consider buying the course and start learning :book:.
+
+<!-- 
+Linkedin puts this shit front, when clicking from private mode x(. Need to put this to make jump working every case
+?trk=public_profile_see-credential 
+-->
+
+<div align="center">
+    Insert certificate here when completed
+</div>
+
+
+**Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
+
+#### Progress/Curriculum.
+
+- [ ] [Section 01](#) - Introduction.
+- [ ] [Section 02](#) - Backend Communication Design Patterns.
+- [ ] [Section 03](#) - Protocols.
+- [ ] [Section 04](#) - Many ways to HTTPS.
+- [ ] [Section 05](#) - Backend Execution Patterns.
+- [ ] [Section 06](#) - Proxying and Load Balancing.
+- [ ] [Section 07](#) - Extras.
+- [ ] [Section 08](#) - Bonus Content.
+
+#### Additional stuff.
+
+- Add stuff here.
