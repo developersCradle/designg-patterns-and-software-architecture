@@ -46,16 +46,16 @@ Backend Communication Design Patterns.
 4. `SOAP` is fine as long it works! 
     - Once you run into **defiances**, only then try to **optimize** things!
         - Try to **not** to **pre-optimize** things! 
-- In **REST,** we are making the **lot** of requests!!
-    - The `GraphQL` tries, to solve this being less **chatty**.
+- In **REST,** we are making the **lot** of requests!! This is one downside of **REST**.
+    - The `GraphQL` tries, to solve this being **less** **chatty**.
 
 <img id="back end egineer" src="anotomyOfRequestAndResponse.PNG" >
 
 1. We have to **agree** for the **request** and **response** format.
     - This has been already **agreed** by the **libraries**.
 2. Requests have boundaries.
-3. Example of the **message format** where **JSON** is parsed into to the **c++** **class object**!
-4. `HTTP` request looks like such:
+3. Example of the **message format** where **JSON** is parsed into to the **C++** **class object**!
+4. `HTTP` **request** looks like such:
 ```
 Start Line
 Headers
@@ -71,10 +71,35 @@ Body
 <img id="back end egineer" src="buildingUploadImageService.PNG" >
 
 1. **Simplest** would be to use **request and response** pattern! 
+    - Is to send **whole** file and send it to server.
+        - If the image will be ***big**.
 
-16:00
+2. Other way is to make this image into **smaller parts**.
+    - Send **each** request, small chunk of the pic.
+
+- **Remember** this is still the same **request and response** style, but we can dictate this.
+
+<img id="back end egineer" src="doesNotWorkAnywhere.PNG" >
+
+1. This style does not fit everywhere.
+    - Example in **Notification service**. I want to get notification when somebody just **logged in** or **uploaded video**
+        - This is **not**, request and response.
+            - Only backend knows, but not the client.
+    - Example in **Chatting application**.
+        - Spamming the `did i get request`!
+    - Example if the request is **very long**, there are better ways to deal with this.
+
+> [!IMPORTANT]  
+> All these can be solved by using some kind of design patter!
+
+<img id="back end egineer" src="requestAndResponseHandshakes.PNG" >
+
+1. From sending of the **request** to the **response**.
+2. **Timeline**, so we can see how long it took for the **request** and **response**.
+3. There is **cost** for processing the response.
 
 
+- Example of the **curl** `curl -v --trace out.txt http://google.com`.
 # Synchronous vs Asynchronous workloads.  
 
 # Push.  

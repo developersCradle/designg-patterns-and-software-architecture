@@ -240,8 +240,8 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 #### Progress/Curriculum.
 
-- [ ] [Section 01](#) - Introduction.
-- [ ] [Section 02](#) - Backend Communication Design Patterns.
+- [ ] [Section 01](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Fundamentals%20of%20Backend%20Engineering/Section%2001#section-1-introduction) - Introduction.
+- [ ] [Section 02](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Fundamentals%20of%20Backend%20Engineering/Section%2002#section-02-backend-communication-design-patterns) - Backend Communication Design Patterns.
 - [ ] [Section 03](#) - Protocols.
 - [ ] [Section 04](#) - Many ways to HTTPS.
 - [ ] [Section 05](#) - Backend Execution Patterns.
