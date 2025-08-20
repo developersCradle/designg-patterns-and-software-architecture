@@ -126,7 +126,15 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 #### Progress/Curriculum.
 
-- [x] [Section 01](#) - 
+- [ ] [Section 01](#) - Getting Started.
+- [ ] [Section 02](#) - Naming - Assigning Names to Variables, Functions, Classes & More.
+- [ ] [Section 03](#) - Code Structure, Comments & Formatting.
+- [ ] [Section 04](#) - Functions & Methods.
+- [ ] [Section 05](#) - Control Structures & Errors.
+- [ ] [Section 06](#) - Objects, Classes & Data Containers / Structures.
+- [ ] [Section 07](#) - Summary & Checklist.
+- [ ] [Section 08](#) - Course Roundup.
+
 
 
 <p align="center">
@@ -157,9 +165,38 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 ## Progress/Curriculum.
 
-- [x] [Section 01](#) - 
-
-
+- [ ] [Section 01](#) - SOLID Design Principles.
+- [ ] [Section 02](#) - Introduction.
+- [ ] [Section 03](#) - Creational Design Patterns.
+- [ ] [Section 04](#) - Builder.
+- [ ] [Section 05](#) - Simple Factory.
+- [ ] [Section 06](#) - Factory Method.
+- [ ] [Section 07](#) - Prototype.
+- [ ] [Section 08](#) - Abstract Factory.
+- [ ] [Section 09](#) - Singleton.
+- [ ] [Section 10](#) - Object Pool.
+- [ ] [Section 11](#) - Structural Design Patterns.
+- [ ] [Section 12](#) - Adapter.
+- [ ] [Section 13](#) - Bridge.
+- [ ] [Section 14](#) - Decorator.
+- [ ] [Section 15](#) - Composite.
+- [ ] [Section 16](#) - Facade.
+- [ ] [Section 17](#) - Flyweight.
+- [ ] [Section 18](#) - Proxy.
+- [ ] [Section 19](#) - Behavioral Design Patterns.
+- [ ] [Section 20](#) - Chain of Responsibility.
+- [ ] [Section 21](#) - Command.
+- [ ] [Section 22](#) - Interpreter.
+- [ ] [Section 23](#) - Mediator.
+- [ ] [Section 24](#) - Iterator.
+- [ ] [Section 25](#) - Memento.
+- [ ] [Section 26](#) - Observer.
+- [ ] [Section 27](#) - State.
+- [ ] [Section 28](#) - Strategy.
+- [ ] [Section 29](#) - Template Method.
+- [ ] [Section 30](#) - Visitor.
+- [ ] [Section 31](#) - Null Object.
+- [ ] [Section 32](#) - Design Pattern Summary Document.
 
 <p align="center">
     <img id="microservice architecture" src="Microservices Architecture - The Complete Guide Caption.png" style="height: 90px; width: 900px;">
@@ -240,7 +277,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 #### Progress/Curriculum.
 
-- [ ] [Section 01](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Fundamentals%20of%20Backend%20Engineering/Section%2001#section-1-introduction) - Introduction.
+- [x] [Section 01](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Fundamentals%20of%20Backend%20Engineering/Section%2001#section-1-introduction) - Introduction. ✅
 - [ ] [Section 02](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Fundamentals%20of%20Backend%20Engineering/Section%2002#section-02-backend-communication-design-patterns) - Backend Communication Design Patterns.
 - [ ] [Section 03](#) - Protocols.
 - [ ] [Section 04](#) - Many ways to HTTPS.
@@ -251,4 +288,4 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 #### Additional stuff.
 
-- Add stuff here.
+- [ ] Do for now **Polling concept**!

@@ -98,13 +98,70 @@ Body
 2. **Timeline**, so we can see how long it took for the **request** and **response**.
 3. There is **cost** for processing the response.
 
-
 - Example of the **curl** `curl -v --trace out.txt http://google.com`.
+
 # Synchronous vs Asynchronous workloads.  
+
+<img id="back end egineer" src="asynchronousOrsynchronous.PNG" >
+
+- Async is the term is not in same wave length!
+
+<img id="back end egineer" src="SynchronoysIo.PNG" >
+
+1. Once call is made, this gets block.
+
+- Todo continue this when needed.
 
 # Push.  
 
+<img id="back end egineer" src="push.PNG">
+
+1. If you want fast as possible use **PUSH**!
+    - One of the famous ones!
+
+<img id="back end egineer" src="requestAndReponseNotAlwaysBest.PNG">
+
+1. "Do I have event" → "No", "I have event" → "no" ... etc. With, **request** and **response** this is not ideal.
+2. **Pushing** is good when in certain use cases. Example, when server knows to push something to the **client**.
+
+<img id="back end egineer" src="whatIsPush.PNG">
+
+1. **Client** connects to a **server**. Only thing should happen is the **connection**!
+2. **Server** sends data to the **client**!
+3. **Client** does not have to request data!
+4. **RabbitMQ** uses **PUSH**!
+    - In RabbitMQ:
+        - Clients consumes queue!
+            - In **RabbitMQ** pushes messages **automatically** to the consumer as soon as they’re available in **queue**!
+                - So pushed to the clients as soon as there is message!
+
+<img id="back end egineer" src="pushModel.PNG">
+
+1. The connection is **established**!
+2. Backend gets **message**.
+    - This **message** is **PUSHED** to all connected the **clients**!
+
+<img id="back end egineer" src="pushPlussesAndMinuses.PNG">
+
+
 # Polling.  
+
+> **Short polling**, is going to make constant nagging **"is this job done"**, **"is this job done"**.
+
+<img id="back end egineer" src="whereTheRequesAndResponseIsNotIdeal.PNG">
+
+1. The `request` and `response` is not ideal, when the **request** takes **too** much time to process. Example uploading YouTube video!
+2. **Polling** very good for certain use cases!
+
+<img id="back end egineer" src="whatIsShortPolling.PNG">
+
+1. **Client** sends a **request**
+    - The **Server** responds immediately with a **handle**
+        - Backend can choose what to do with this **handle**
+            - Save it to db.
+            - Save it to memory.
+
+- Continue this after 
 
 # Long Polling.  
 
