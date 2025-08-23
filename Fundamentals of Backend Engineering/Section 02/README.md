@@ -116,13 +116,14 @@ Body
 
 <img id="back end egineer" src="push.PNG">
 
-1. If you want fast as possible use **PUSH**!
+1. If you want to be fast as possible use, then you can think of using **PUSH**!
     - One of the famous ones!
 
 <img id="back end egineer" src="requestAndReponseNotAlwaysBest.PNG">
 
 1. "Do I have event" → "No", "I have event" → "no" ... etc. With, **request** and **response** this is not ideal.
 2. **Pushing** is good when in certain use cases. Example, when server knows to push something to the **client**.
+    - Example would be **chatting application**.
 
 <img id="back end egineer" src="whatIsPush.PNG">
 
@@ -130,10 +131,9 @@ Body
 2. **Server** sends data to the **client**!
 3. **Client** does not have to request data!
 4. **RabbitMQ** uses **PUSH**!
-    - In RabbitMQ:
-        - Clients consumes queue!
-            - In **RabbitMQ** pushes messages **automatically** to the consumer as soon as they’re available in **queue**!
-                - So pushed to the clients as soon as there is message!
+    - In **RabbitMQ**:
+        - **Clients** consumes **queue**!
+            - In **RabbitMQ** pushes messages **automatically** to the **clients** that are connected to it as soon as they’re available in **queue**!
 
 <img id="back end egineer" src="pushModel.PNG">
 
@@ -143,10 +143,127 @@ Body
 
 <img id="back end egineer" src="pushPlussesAndMinuses.PNG">
 
+1. **Push** is based on the **real time**. On the moment data come to the input, we are going to **PUSH** it to clients. 
+    - This is the definition of the **PUSH**.
+
+2. **Push** **requires** the **client** needs to be **online**!
+3. We have no idea, what happened to the **pushed** data.
+    - Server does not have knowledge what happened to the data!
+        - We will **PUSH** data to the client, and they might **not** able to handle it.
+        - For this reason **Kafka** changed into to the **long polling**!
+4. **Polling** is preferred for the **light** clients.
+
+- For this example we will test with **WebSocket** server and connecting:
+
+<img id="back end egineer" width="600" src="webSocketTesting.PNG">
+
+- Testing and connecting to the **WebSocket** we can test this by running in the terminal!
+    - Run in cmd `let ws = new WebSocket("ws://localhost:8080");`.
+
+- We write simple **WebSocket** server. This will demonstrate the **PUSH** concept.
+
+<img id="back end egineer" width="600" src="pushPatternExample.jpeg">
+
+````
+
+const http = require("http");
+const WebSocketServer = require("websocket").server
+let connections = [];
+
+//create a raw http server (this will help us create the TCP which will then pass to the websocket to do the job)
+const httpserver = http.createServer()
+
+ //pass the httpserver object to the WebSocketServer library to do all the job, this class will override the req/res 
+const websocket = new WebSocketServer({"httpServer": httpserver })
+//listen on the TCP socket
+httpserver.listen(8080, () => console.log("My server is listening on port 8080"))
+
+
+//when a legit websocket request comes listen to it and get <the connection .. once you get a connection thats it! 
+websocket.on("request", request=> {
+
+    const connection = request.accept(null, request.origin)
+    connection.on("message", message => {
+        //someone just sent a message tell everybody
+        connections.forEach (c=> c.send(`User${connection.socket.remotePort} says: ${message.utf8Data}`))
+    }) 
+    
+    connections.push(connection)
+    //someone just connected, tell everybody
+    connections.forEach (c=> c.send(`User${connection.socket.remotePort} just connected.`))
+  
+})
+ 
+
+//client code 
+//let ws = new WebSocket("ws://localhost:8080");
+//ws.onmessage = message => console.log(`Received: ${message.data}`);
+//ws.send("Hello! I'm client")
+
+````
+
+- Let's brake it down:
+
+````
+const http = require("http");
+const WebSocketServer = require("websocket").server
+let connections = []; // these are our users
+````
+
+- The **Connections** are representing the **users**!
+    - Every time there is new user in the chat room, we will add the into the `connections` array.
+        - When the server **receives** message, we will **PUSH** the message to every user in the `connections`!
+
+````
+//create a raw http server (this will help us create the TCP which will then pass to the websocket to do the job)
+const httpserver = http.createServer()
+
+ //pass the httpserver object to the WebSocketServer library to do all the job, this class will override the req/res 
+const websocket = new WebSocketServer({"httpServer": httpserver })
+//listen on the TCP socket
+httpserver.listen(8080, () => console.log("My server is listening on port 8080"))
+````
+
+> [!NOTE]
+> **Handshake** in general is to **establish a connection**, negotiate rules, and confirm both parties are ready for communication! 
+
+
+- We will be initializing the server and start listening.
+    - We need to pass the **HttpServer** to the **WebSocketServer** so it can enstablish the W
+
+````
+//when a legit websocket request comes listen to it and get <the connection .. once you get a connection thats it! 
+websocket.on("request", request=> {
+
+    const connection = request.accept(null, request.origin)
+    connection.on("message", message => {
+        //someone just sent a message tell everybody
+        connections.forEach (c=> c.send(`User${connection.socket.remotePort} says: ${message.utf8Data}`))
+    }) 
+    
+    connections.push(connection)
+    //someone just connected, tell everybody
+    connections.forEach (c=> c.send(`User${connection.socket.remotePort} just connected.`))
+  
+})
+````
+
+- Furthermore, we start processing only the **WebSocket** connections(**users**). After this we will push messages to the users that are connected. 
+
+````
+connections.push(connection)
+//someone just connected, tell everybody
+connections.forEach (c=> c.send(`User${connection.socket.remotePort} just connected.`))
+````
+
+- Test this one.
 
 # Polling.  
 
 > **Short polling**, is going to make constant nagging **"is this job done"**, **"is this job done"**.
+
+- **Polling** is good for service, where the progress takes much time.
+    - Like uploading **YouTube** video. Upload takes time, but the service return the **handle** for the client. This is good for client to ask is this job done!
 
 <img id="back end egineer" src="whereTheRequesAndResponseIsNotIdeal.PNG">
 

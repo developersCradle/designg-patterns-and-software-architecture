@@ -249,7 +249,9 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 - ADD STUFF HERE.
 
-# Fundamentals of Backend Engineering.
+<p align="center">
+    <img id="Fundamentals of Backend Engineering" src="Fundamentals of Backend Engineering caption.png" style="height: 90px; width: 900px;">
+</p>
 
 ![Fundamentals of Backend Engineering](Fundamentals%20of%20Backend%20Engineering%20desc.PNG)
 
@@ -279,13 +281,13 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 - [x] [Section 01](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Fundamentals%20of%20Backend%20Engineering/Section%2001#section-1-introduction) - Introduction. ✅
 - [ ] [Section 02](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Fundamentals%20of%20Backend%20Engineering/Section%2002#section-02-backend-communication-design-patterns) - Backend Communication Design Patterns.
-- [ ] [Section 03](#) - Protocols.
-- [ ] [Section 04](#) - Many ways to HTTPS.
-- [ ] [Section 05](#) - Backend Execution Patterns.
-- [ ] [Section 06](#) - Proxying and Load Balancing.
-- [ ] [Section 07](#) - Extras.
-- [ ] [Section 08](#) - Bonus Content.
+- [ ] [Section 03](https://github.com/developersCradle/designg-patterns-and-software-architecture/blob/main/Fundamentals%20of%20Backend%20Engineering/Section%2003/README.md#section-03-protocols) - Protocols.
+- [ ] [Section 04](https://github.com/developersCradle/designg-patterns-and-software-architecture/blob/main/Fundamentals%20of%20Backend%20Engineering/Section%2004/README.md#section-04-many-ways-to-https) - Many ways to HTTPS.
+- [ ] [Section 05](https://github.com/developersCradle/designg-patterns-and-software-architecture/blob/main/Fundamentals%20of%20Backend%20Engineering/Section%2005/README.md#section-05-backend-execution-patterns) - Backend Execution Patterns.
+- [ ] [Section 06](https://github.com/developersCradle/designg-patterns-and-software-architecture/blob/main/Fundamentals%20of%20Backend%20Engineering/Section%2006/README.md#section-06-proxying-and-load-balancing) - Proxying and Load Balancing.
+- [ ] [Section 07](https://github.com/developersCradle/designg-patterns-and-software-architecture/blob/main/Fundamentals%20of%20Backend%20Engineering/Section%2007/README.md#section-07-extras) - Extras.
+- [ ] [Section 08](https://github.com/developersCradle/designg-patterns-and-software-architecture/blob/main/Fundamentals%20of%20Backend%20Engineering/Section%2008/README.md#section-08-bonus-content) - Bonus Content.
 
 #### Additional stuff.
 
-- [ ] Do for now **Polling concept**!
+- [x] Do for now **Polling concept**! ✅
