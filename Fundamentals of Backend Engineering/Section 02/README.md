@@ -170,35 +170,35 @@ const http = require("http");
 const WebSocketServer = require("websocket").server
 let connections = [];
 
-//create a raw http server (this will help us create the TCP which will then pass to the websocket to do the job)
+// Create a raw http server (this will help us create the TCP which will then pass to the websocket to do the job).
 const httpserver = http.createServer()
 
- //pass the httpserver object to the WebSocketServer library to do all the job, this class will override the req/res 
+ // Pass the httpserver object to the WebSocketServer library to do all the job, this class will override the req/res.
 const websocket = new WebSocketServer({"httpServer": httpserver })
-//listen on the TCP socket
+// Listen on the TCP socket.
 httpserver.listen(8080, () => console.log("My server is listening on port 8080"))
 
 
-//when a legit websocket request comes listen to it and get <the connection .. once you get a connection thats it! 
+// When a legit websocket request comes listen to it and get <the connection .. once you get a connection thats it! 
 websocket.on("request", request=> {
 
     const connection = request.accept(null, request.origin)
     connection.on("message", message => {
-        //someone just sent a message tell everybody
+        // Someone just sent a message tell everybody.
         connections.forEach (c=> c.send(`User${connection.socket.remotePort} says: ${message.utf8Data}`))
     }) 
     
     connections.push(connection)
-    //someone just connected, tell everybody
+    // Someone just connected, tell everybody!
     connections.forEach (c=> c.send(`User${connection.socket.remotePort} just connected.`))
   
 })
  
 
-//client code 
-//let ws = new WebSocket("ws://localhost:8080");
-//ws.onmessage = message => console.log(`Received: ${message.data}`);
-//ws.send("Hello! I'm client")
+// Client code. 
+// let ws = new WebSocket("ws://localhost:8080");
+// ws.onmessage = message => console.log(`Received: ${message.data}`);
+// ws.send("Hello! I'm client")
 
 ````
 
@@ -207,7 +207,7 @@ websocket.on("request", request=> {
 ````
 const http = require("http");
 const WebSocketServer = require("websocket").server
-let connections = []; // these are our users
+let connections = []; // These are our users.
 ````
 
 - The **Connections** are representing the **users**!
@@ -215,12 +215,12 @@ let connections = []; // these are our users
         - When the server **receives** message, we will **PUSH** the message to every user in the `connections`!
 
 ````
-//create a raw http server (this will help us create the TCP which will then pass to the websocket to do the job)
+// Create a raw http server (this will help us create the TCP which will then pass to the websocket to do the job).
 const httpserver = http.createServer()
 
- //pass the httpserver object to the WebSocketServer library to do all the job, this class will override the req/res 
+ // Pass the httpserver object to the WebSocketServer library to do all the job, this class will override the req/res 
 const websocket = new WebSocketServer({"httpServer": httpserver })
-//listen on the TCP socket
+// Listen on the TCP socket.
 httpserver.listen(8080, () => console.log("My server is listening on port 8080"))
 ````
 
@@ -229,10 +229,10 @@ httpserver.listen(8080, () => console.log("My server is listening on port 8080")
 
 
 - We will be initializing the server and start listening.
-    - We need to pass the **HttpServer** to the **WebSocketServer** so it can enstablish the W
+    - We need to pass the **HttpServer** to the **WebSocketServer** so it can establish the **WebSocket handshake**.
 
 ````
-//when a legit websocket request comes listen to it and get <the connection .. once you get a connection thats it! 
+// When a legit websocket request comes listen to it and get the connection .. once you get a connection thats it! 
 websocket.on("request", request=> {
 
     const connection = request.accept(null, request.origin)
@@ -242,25 +242,55 @@ websocket.on("request", request=> {
     }) 
     
     connections.push(connection)
-    //someone just connected, tell everybody
+    // Someone just connected, tell everybody.
     connections.forEach (c=> c.send(`User${connection.socket.remotePort} just connected.`))
   
 })
 ````
 
-- Furthermore, we start processing only the **WebSocket** connections(**users**). After this we will push messages to the users that are connected. 
+- When a legit **WebSocket request** comes. 
+    - `websocket.on("request", request=> { ... code here`
+        - This will **trigger** only, if there is **WebSocket request** **connect** coming!
 
 ````
-connections.push(connection)
-//someone just connected, tell everybody
+const connection = request.accept(null, request.origin)
+````    
+
+- We will **accept the that connection!**
+
+- We can test this. Send **servers** the **WebSocket** request, we can use following inside **chrome dev tools**:
+
+````
+// Client code. 
+// let ws = new WebSocket("ws://localhost:8080");
+// ws.onmessage = message => console.log(`Received: ${message.data}`);
+// ws.send("Hello! I'm client")
+````
+
+````
+connection.on("message", message => {
+    // Someone just sent a message tell everybody.
+    connections.forEach (c=> c.send(`User${connection.socket.remotePort} says: ${message.utf8Data}`))
+})
+````
+
+- If somebody sent the `message` to **this connection**!
+    - We will send for **each user**, message that **this user** sent a message!
+        - Trick is to use `connection.socket.remotePort`, for user that is connected.
+
+- We will add the **user** to list of users, hence to the `connections` like following: `connections.push(connection)`.
+
+````
 connections.forEach (c=> c.send(`User${connection.socket.remotePort} just connected.`))
 ````
 
-- Test this one.
+- We will tell that somebody has just connected!
+
+- Finnish this one. The testing part.
 
 # Polling.  
 
-> **Short polling**, is going to make constant nagging **"is this job done"**, **"is this job done"**.
+> **Short polling**, is going to make constant nagging **"is this job done"**, **"is this job done"**. This takes very less time to poll!
 
 - **Polling** is good for service, where the progress takes much time.
     - Like uploading **YouTube** video. Upload takes time, but the service return the **handle** for the client. This is good for client to ask is this job done!

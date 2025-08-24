@@ -14,7 +14,7 @@
 </p>
 
 
-<img src="summaryCourse.JPG" alt="alt text" width="700"/>
+![Design Patterns in Java desc](<Design Patterns in Java desc.JPG>)
 
 All course material from **Design Patterns in Java** by from Dmitri Nesteruk.
 
@@ -101,7 +101,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 </p>
 
 
-![Clean Code](cleanCode.PNG)
+![Clean Code](Clean%20Code%20Desc.png)
 
 All course material from Clean Code by **Maximilian Schwarzmüller**.
 
