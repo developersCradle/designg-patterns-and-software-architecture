@@ -165,7 +165,6 @@ Body
 <img id="back end egineer" width="600" src="pushPatternExample.jpeg">
 
 ````
-
 const http = require("http");
 const WebSocketServer = require("websocket").server
 let connections = [];
@@ -290,25 +289,78 @@ connections.forEach (c=> c.send(`User${connection.socket.remotePort} just connec
 
 # Polling.  
 
-> **Short polling**, is going to make constant nagging **"is this job done"**, **"is this job done"**. This takes very less time to poll!
+> **Short polling**, is going to make constant nagging **"is this job done"**, **"is this job done"**. This takes very **less** time to poll!
 
-- **Polling** is good for service, where the progress takes much time.
+- **Polling** is good for service, where the progress takes **much time**.
     - Like uploading **YouTube** video. Upload takes time, but the service return the **handle** for the client. This is good for client to ask is this job done!
 
 <img id="back end egineer" src="whereTheRequesAndResponseIsNotIdeal.PNG">
 
-1. The `request` and `response` is not ideal, when the **request** takes **too** much time to process. Example uploading YouTube video!
-2. **Polling** very good for certain use cases!
+1. The `request` and `response` is **not ideal**, when the **request** takes **too** much time to process. Example **uploading video** to the YouTube video!
+2.  We would want to have event that something did happen in backend. **Push** or **Polling** very good for certain use cases!
 
 <img id="back end egineer" src="whatIsShortPolling.PNG">
 
-1. **Client** sends a **request**
-    - The **Server** responds immediately with a **handle**
-        - Backend can choose what to do with this **handle**
-            - Save it to db.
-            - Save it to memory.
+1. **Client** sends a **request**.
+    - The **Server** responds immediately with a **handle**.
+        - Backend can choose what to do with this **handle**.
+            - Save it to **database**.
+            - Save it to **memory**.
+2. **Client** can use the `handle` for **POLL**:in the **status** from the server!
 
-- Continue this after 
+<img id="back end egineer" src="shortPollingModel.PNG">
+
+1. **Client** makes request, the **Server immediately** answers with the **handle** to be requested.
+
+2. **Client** can ask *is it ready?*, with many of mini requests!
+3. The next **POLL**, will be with the **result/answer**!
+
+> [!CAUTION]
+> If the client disconnects, the response will be responded regardless is the client ready accept it or not!
+
+<img id="back end egineer" src="shortPollingProsAndCons.PNG">
+
+1. It is relatively **simple to implement**.
+2. This is good for **long running requests**.
+3. **Client** can disconnect, if the **handle** is persisted somewhere in server side. 
+    - Be can configure how long to keep the job in database.
+
+4. When scaled up, multiple request are made resources are wasted.
+    - Memory. 
+    - Network bandwith.
+
+<img id="back end egineer" src="shortPollingPatternExample.jpg">
+
+```
+const app = require("express")();
+const jobs = {}
+
+app.post("/submit", (req, res) =>  {
+    const jobId = `job:${Date.now()}`
+    jobs[jobId] = 0;
+    updateJob(jobId,0); 
+    res.end("\n\n" + jobId + "\n\n");
+})
+
+app.get("/checkstatus", (req, res) => {
+    console.log(jobs[req.query.jobId])
+    res.end("\n\nJobStatus: " + jobs[req.query.jobId] + "%\n\n")
+
+} )
+
+app.listen(8080, () => console.log("listening on 8080"));
+
+function updateJob(jobId, prg) {
+    jobs[jobId] = prg;
+    console.log(`updated ${jobId} to ${prg}`)
+    if (prg == 100) return;
+    this.setTimeout(()=> updateJob(jobId, prg + 10), 3000)
+}
+```
+
+- `const jobs = {} // Dictionary of the jobs.` The `jobs` will be **dictionary**: 
+    - **Key** Job ID.
+    - **Value** Progress.
 
 # Long Polling.  
 

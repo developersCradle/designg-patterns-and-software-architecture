@@ -291,3 +291,4 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 #### Additional stuff.
 
 - [x] Do for now **Polling concept**! ✅
+- [ ] If in mood implement these in Java.
