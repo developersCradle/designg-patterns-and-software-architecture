@@ -1,5 +1,5 @@
 const app = require("express")();
-const jobs = {}
+const jobs = {} // Dictionary of the jobs.
 
 app.post("/submit", (req, res) =>  {
     const jobId = `job:${Date.now()}`

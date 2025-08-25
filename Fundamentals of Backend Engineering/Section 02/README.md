@@ -10,12 +10,16 @@ Backend Communication Design Patterns.
 
 # Request Response.  
 
-<img id="back end egineer" src="requestAndReponse.PNG" >
+<div align="center">
+    <img id="back end egineer" src="requestAndReponse.PNG" >
+</div>
 
 1. The most famous and popular.
     - There is **request** and **response**!
 
-<img id="back end egineer" src="requestAndResponseModel.PNG" >
+<div align="center">
+    <img id="back end egineer" src="requestAndResponseModel.PNG" >
+</div>
 
 1. What is request? **Request** needs be **defined** by client.
 2. **Server** needs to parse the **request**.
@@ -49,13 +53,16 @@ Backend Communication Design Patterns.
 - In **REST,** we are making the **lot** of requests!! This is one downside of **REST**.
     - The `GraphQL` tries, to solve this being **less** **chatty**.
 
-<img id="back end egineer" src="anotomyOfRequestAndResponse.PNG" >
+<div align="center">
+    <img id="back end egineer" src="anotomyOfRequestAndResponse.PNG" >
+</div>
 
 1. We have to **agree** for the **request** and **response** format.
     - This has been already **agreed** by the **libraries**.
 2. Requests have boundaries.
 3. Example of the **message format** where **JSON** is parsed into to the **C++** **class object**!
 4. `HTTP` **request** looks like such:
+
 ```
 Start Line
 Headers
@@ -68,7 +75,10 @@ Body
 > [!NOTE]
 > What would be the best **patter** to implement here?
 
-<img id="back end egineer" src="buildingUploadImageService.PNG" >
+<div align="center">
+    <img id="back end egineer" src="buildingUploadImageService.PNG" >
+</div>
+
 
 1. **Simplest** would be to use **request and response** pattern! 
     - Is to send **whole** file and send it to server.
@@ -79,7 +89,9 @@ Body
 
 - **Remember** this is still the same **request and response** style, but we can dictate this.
 
-<img id="back end egineer" src="doesNotWorkAnywhere.PNG" >
+<div align="center">
+    <img id="back end egineer" src="doesNotWorkAnywhere.PNG" >
+</div>
 
 1. This style does not fit everywhere.
     - Example in **Notification service**. I want to get notification when somebody just **logged in** or **uploaded video**
@@ -92,7 +104,10 @@ Body
 > [!IMPORTANT]  
 > All these can be solved by using some kind of design patter!
 
-<img id="back end egineer" src="requestAndResponseHandshakes.PNG" >
+
+<div align="center">
+    <img id="back end egineer" src="requestAndResponseHandshakes.PNG" >
+</div>
 
 1. From sending of the **request** to the **response**.
 2. **Timeline**, so we can see how long it took for the **request** and **response**.
@@ -102,11 +117,15 @@ Body
 
 # Synchronous vs Asynchronous workloads.  
 
-<img id="back end egineer" src="asynchronousOrsynchronous.PNG" >
+<div align="center">
+    <img id="back end egineer" src="asynchronousOrsynchronous.PNG" >
+</div>
 
 - Async is the term is not in same wave length!
 
-<img id="back end egineer" src="SynchronoysIo.PNG" >
+<div align="center">
+    <img id="back end egineer" src="SynchronoysIo.PNG" >
+</div>
 
 1. Once call is made, this gets block.
 
@@ -327,9 +346,11 @@ connections.forEach (c=> c.send(`User${connection.socket.remotePort} just connec
 
 4. When scaled up, multiple request are made resources are wasted.
     - Memory. 
-    - Network bandwith.
+    - Network bandwidth.
 
-<img id="back end egineer" src="shortPollingPatternExample.jpg">
+<div align="center">
+    <img id="back end egineer" src="shortPollingPatternExample.jpg">
+</div>
 
 ```
 const app = require("express")();
