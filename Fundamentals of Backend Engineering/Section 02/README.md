@@ -33,17 +33,21 @@ Backend Communication Design Patterns.
 6. Simple diagram for the **request** and the **response**.
 
 > [!NOTE]
-> Where does the **serialization** and **deserialization** come to place, in example of the **JSON**?
+> Where does the **serialization** and **deserialization** come to place, in example of the **JSON**? <br>
     - In the **step**, `processing the request`. The `3` step!
         - 💲💲**EXPENSIVE**💲💲 of **deserialization**.
             - Example, the **XML** is heavy on processing!
 
-<img id="back end egineer" src="whereAreTheseUsed.PNG" >
+<div align="center">
+    <img id="back end egineer" src="whereAreTheseUsed.PNG" >
+</div>
 
 1. HTTP, DNS ... are **request and response** protocols.    
     - There is **no order**, when coming into communication and in **general** when dealing with **backend engineering**
 
-<img id="back end egineer" src="thereIsNoLineInBeEngineering.jpeg" >
+<div align="center">
+    <img id="back end egineer" src="thereIsNoLineInBeEngineering.jpeg" >
+</div>
 
 2. You run **code** in other place than in own computer.  
 3. **SQL** is also, **request and response**. We send **SQL** and processes it and sends back.
@@ -133,18 +137,24 @@ Body
 
 # Push.  
 
-<img id="back end egineer" src="push.PNG">
+<div align="center">
+    <img id="back end egineer" src="push.PNG">
+</div>
 
 1. If you want to be fast as possible use, then you can think of using **PUSH**!
     - One of the famous ones!
 
-<img id="back end egineer" src="requestAndReponseNotAlwaysBest.PNG">
+<div align="center">
+    <img id="back end egineer" src="requestAndReponseNotAlwaysBest.PNG">
+</div>
 
 1. "Do I have event" → "No", "I have event" → "no" ... etc. With, **request** and **response** this is not ideal.
 2. **Pushing** is good when in certain use cases. Example, when server knows to push something to the **client**.
     - Example would be **chatting application**.
 
-<img id="back end egineer" src="whatIsPush.PNG">
+<div align="center">
+    <img id="back end egineer" src="whatIsPush.PNG">
+</div>
 
 1. **Client** connects to a **server**. Only thing should happen is the **connection**!
 2. **Server** sends data to the **client**!
@@ -154,13 +164,19 @@ Body
         - **Clients** consumes **queue**!
             - In **RabbitMQ** pushes messages **automatically** to the **clients** that are connected to it as soon as they’re available in **queue**!
 
-<img id="back end egineer" src="pushModel.PNG">
+<div align="center">
+    <img id="back end egineer" src="pushModel.PNG">
+</div>
 
 1. The connection is **established**!
 2. Backend gets **message**.
     - This **message** is **PUSHED** to all connected the **clients**!
 
-<img id="back end egineer" src="pushPlussesAndMinuses.PNG">
+<div align="center">
+    <img id="back end egineer" src="pushPlussesAndMinuses.PNG">
+</div>
+
+
 
 1. **Push** is based on the **real time**. On the moment data come to the input, we are going to **PUSH** it to clients. 
     - This is the definition of the **PUSH**.
@@ -174,14 +190,21 @@ Body
 
 - For this example we will test with **WebSocket** server and connecting:
 
-<img id="back end egineer" width="600" src="webSocketTesting.PNG">
+<div align="center">
+    <img id="back end egineer" width="500" src="webSocketTesting.PNG">
+</div>
+
+
 
 - Testing and connecting to the **WebSocket** we can test this by running in the terminal!
     - Run in cmd `let ws = new WebSocket("ws://localhost:8080");`.
 
 - We write simple **WebSocket** server. This will demonstrate the **PUSH** concept.
 
-<img id="back end egineer" width="600" src="pushPatternExample.jpeg">
+<div align="center">
+    <img id="back end egineer" width="400" src="pushPatternExample.jpeg">
+</div>
+
 
 ````
 const http = require("http");
@@ -313,12 +336,16 @@ connections.forEach (c=> c.send(`User${connection.socket.remotePort} just connec
 - **Polling** is good for service, where the progress takes **much time**.
     - Like uploading **YouTube** video. Upload takes time, but the service return the **handle** for the client. This is good for client to ask is this job done!
 
-<img id="back end egineer" src="whereTheRequesAndResponseIsNotIdeal.PNG">
+<div align="center">
+    <img id="back end egineer" src="whereTheRequesAndResponseIsNotIdeal.PNG">
+</div>
 
 1. The `request` and `response` is **not ideal**, when the **request** takes **too** much time to process. Example **uploading video** to the YouTube video!
 2.  We would want to have event that something did happen in backend. **Push** or **Polling** very good for certain use cases!
 
-<img id="back end egineer" src="whatIsShortPolling.PNG">
+<div align="center">
+    <img id="back end egineer" src="whatIsShortPolling.PNG">
+</div>
 
 1. **Client** sends a **request**.
     - The **Server** responds immediately with a **handle**.
@@ -327,7 +354,9 @@ connections.forEach (c=> c.send(`User${connection.socket.remotePort} just connec
             - Save it to **memory**.
 2. **Client** can use the `handle` for **POLL**:in the **status** from the server!
 
-<img id="back end egineer" src="shortPollingModel.PNG">
+<div align="center">
+    <img id="back end egineer" src="shortPollingModel.PNG">
+</div>
 
 1. **Client** makes request, the **Server immediately** answers with the **handle** to be requested.
 
@@ -337,7 +366,9 @@ connections.forEach (c=> c.send(`User${connection.socket.remotePort} just connec
 > [!CAUTION]
 > If the client disconnects, the response will be responded regardless is the client ready accept it or not!
 
-<img id="back end egineer" src="shortPollingProsAndCons.PNG">
+<div align="center">
+    <img id="back end egineer" src="shortPollingProsAndCons.PNG">
+</div>
 
 1. It is relatively **simple to implement**.
 2. This is good for **long running requests**.
@@ -382,6 +413,67 @@ function updateJob(jobId, prg) {
 - `const jobs = {} // Dictionary of the jobs.` The `jobs` will be **dictionary**: 
     - **Key** Job ID.
     - **Value** Progress.
+        - This will not just be, is it ready or not, it will be progress of the job.
+
+
+````
+app.post("/submit", (req, res) =>  {
+    const jobId = `job:${Date.now()}`
+    jobs[jobId] = 0;
+    updateJob(jobId,0); 
+    res.end("\n\n" + jobId + "\n\n");
+})
+````
+
+- Someone submitting the job.
+    - `JobId`, will be `job:${Date.now()}` at the given **time**.
+
+- The `updateJob()`, will be updating the job progress.
+
+```
+function updateJob(jobId, prg) {
+    jobs[jobId] = prg;
+    console.log(`updated ${jobId} to ${prg}`)
+    if (prg == 100) return;
+    this.setTimeout(()=> updateJob(jobId, prg + 10), 3000)
+}
+```
+
+- Just printing the `JobId` with the `progress`.
+
+````
+console.log(`updated ${jobId} to ${prg}`)
+````
+
+- Checking the **status** of the job!
+
+````
+app.get("/checkstatus", (req, res) => {
+    console.log(jobs[req.query.jobId])
+    res.end("\n\nJobStatus: " + jobs[req.query.jobId] + "%\n\n")
+
+} )
+````
+
+- Update the job `progress`.
+
+````
+function updateJob(jobId, prg) {
+    jobs[jobId] = prg;
+    console.log(`updated ${jobId} to ${prg}`)
+    if (prg == 100) return;
+    this.setTimeout(()=> updateJob(jobId, prg + 10), 3000)
+}
+````
+
+<div align="center">
+    <img id="back end egineer" src="weCanPollTheStatusOfTheJob.PNG">
+</div>
+
+1. We can **POLL** the status of the **job**, with the concept of **short polling**!
+
+> [!IMPORTANT]  
+> Only downside to this was the **netowrking** cost!
 
 # Long Polling.  
 
