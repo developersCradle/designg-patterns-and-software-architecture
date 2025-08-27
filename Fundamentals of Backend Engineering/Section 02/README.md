@@ -32,11 +32,13 @@ Backend Communication Design Patterns.
 5. Client **parses** and **consumes** it.
 6. Simple diagram for the **request** and the **response**.
 
+
+
 > [!NOTE]
-> Where does the **serialization** and **deserialization** come to place, in example of the **JSON**? <br>
-    - In the **step**, `processing the request`. The `3` step!
-        - 💲💲**EXPENSIVE**💲💲 of **deserialization**.
-            - Example, the **XML** is heavy on processing!
+> Where does the **serialization** and **deserialization** come to place, in example of the **JSON**?
+>    - In the **step**, `processing the request`. The `3` step!
+>        - 💲💲**EXPENSIVE**💲💲 of **deserialization**.
+>            - Example, the **XML** is heavy on processing!
 
 <div align="center">
     <img id="back end egineer" src="whereAreTheseUsed.PNG" >
@@ -476,6 +478,8 @@ function updateJob(jobId, prg) {
 > Only downside to this was the **netowrking** cost!
 
 # Long Polling.  
+
+
 
 # Server Sent Events.  
 
