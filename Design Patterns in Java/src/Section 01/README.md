@@ -12,8 +12,11 @@ Introduction.
     - [Gang Of Four](https://en.wikipedia.org/wiki/Design_Patterns).
 
 - These are good since we are living **OOP** world.
-
-<img src="courseStructre.PNG" alt="alt text" width="500"/>
+ 
+ <div align="center">
+    <img src="courseStructre.PNG" alt="alt text" width="500"/>
+ </div>
+ 
 
 1. These are the topics;   
     - Then we will go through gamma categorization:
@@ -21,17 +24,29 @@ Introduction.
 
 - The patterns that we will be covering.
 
-<img src="ThePatterns.PNG" alt="alt text" width="500"/>
+<div align="center">
+    <img src="ThePatterns.PNG" alt="alt text" width="500"/>
+</div>
+ 
+<div align="center">
+    <img src="organization.PNG" alt="alt text" width="500"/>
+</div>
+ 
 
-<img src="organization.PNG" alt="alt text" width="500"/>
 
 1. Ones should try to implement the patterns itself.
 
-<img src="preRequisitves.PNG" alt="alt text" width="500"/>
+<div align="center">
+    <img src="preRequisitves.PNG" alt="alt text" width="500"/>
+</div>
+ 
+
 
 1. These are illustrated in context of **Design patters**, how these behave with these.
 
-<img src="makerOfCourse.PNG" alt="alt text" width="500"/>
+<div align="center">
+    <img src="makerOfCourse.PNG" alt="alt text" width="500"/>
+</div>
 
 > [!IMPORTANT]  
 > Lets go!

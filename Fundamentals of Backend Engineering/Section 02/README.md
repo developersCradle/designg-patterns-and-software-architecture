@@ -37,7 +37,7 @@ Backend Communication Design Patterns.
 > [!NOTE]
 > Where does the **serialization** and **deserialization** come to place, in example of the **JSON**?
 >    - In the **step**, `processing the request`. The `3` step!
->        - 💲💲**EXPENSIVE**💲💲 of **deserialization**.
+>        -  The **deserialization** is  💲💲**EXPENSIVE**💲💲!
 >            - Example, the **XML** is heavy on processing!
 
 <div align="center">
@@ -479,9 +479,51 @@ function updateJob(jobId, prg) {
 
 # Long Polling.  
 
+<div align="center">
+    <img id="back end egineer" src="longPollingCaption.PNG">
+</div>
 
+1. This will be the same **polling**, but it would answer when the **things** is ready!
+
+- **Kafka** changed into the **Long Polling**.
+
+<div align="center">
+    <img id="back end egineer" src="whenTheShortPollingAndTheRequestAndResponseIsNotTheIdealSolution.PNG">
+</div>
+
+1. **Short Polling** is too **chatty**.
+2. In **Kafka**:
+    - **Consumer** does the **Long Polling** request and then **Topic** will respond when it is **ready**.
+
+<div align="center">
+    <img id="back end egineer" src="whatIsTheLongPolling.PNG">
+</div>
+
+1. It will be same as in the **Polling**. The first answer for request, will be the **handle**.
+   
+2. **Client** can use the **handle** for checking the status.
+    - **Server** does **not** reply until it has the **response**!
+      - See the difference to the **Short Polling**.
+
+<div align="center">
+    <img id="back end egineer" src="longPollingExample.jpeg">
+</div>
+
+<div align="center">
+    <img id="back end egineer" src="longPollingModel.PNG">
+</div>
+
+1. **Client** makes the request and servers responses, with the **Handle**. Like in **Short Polling**.
+2. **Client** as for the **content**. Servers **responses**, when it is **ready!**
+
+<div align="center">
+    <img id="back end egineer" src="longPollingProsAndCons.PNG">
+</div>
+
+- Jäin 6:30
 
 # Server Sent Events.  
+
 
 # Publish Subscribe (Pub/Sub).  
 
