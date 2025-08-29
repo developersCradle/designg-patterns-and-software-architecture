@@ -339,7 +339,7 @@ connections.forEach (c=> c.send(`User${connection.socket.remotePort} just connec
     - Like uploading **YouTube** video. Upload takes time, but the service return the **handle** for the client. This is good for client to ask is this job done!
 
 <div align="center">
-    <img id="back end egineer" src="whereTheRequesAndResponseIsNotIdeal.PNG">
+    <img id="back end egineer" src="whereTheRequesAndResponseIsNotIdeal.PNG" width=700px>
 </div>
 
 1. The `request` and `response` is **not ideal**, when the **request** takes **too** much time to process. Example **uploading video** to the YouTube video!
@@ -385,7 +385,7 @@ connections.forEach (c=> c.send(`User${connection.socket.remotePort} just connec
     <img id="back end egineer" src="shortPollingPatternExample.jpg">
 </div>
 
-```
+````
 const app = require("express")();
 const jobs = {}
 
@@ -410,7 +410,7 @@ function updateJob(jobId, prg) {
     if (prg == 100) return;
     this.setTimeout(()=> updateJob(jobId, prg + 10), 3000)
 }
-```
+````
 
 - `const jobs = {} // Dictionary of the jobs.` The `jobs` will be **dictionary**: 
     - **Key** Job ID.
@@ -475,7 +475,7 @@ function updateJob(jobId, prg) {
 1. We can **POLL** the status of the **job**, with the concept of **short polling**!
 
 > [!IMPORTANT]  
-> Only downside to this was the **netowrking** cost!
+> Only downside to this was the **networking** cost!
 
 # Long Polling.  
 
@@ -496,34 +496,102 @@ function updateJob(jobId, prg) {
     - **Consumer** does the **Long Polling** request and then **Topic** will respond when it is **ready**.
 
 <div align="center">
-    <img id="back end egineer" src="whatIsTheLongPolling.PNG">
+    <img id="back end egineer" width="600xp" src="whatIsTheLongPolling.PNG">
 </div>
 
-1. It will be same as in the **Polling**. The first answer for request, will be the **handle**.
+1. It will be same as in the **Polling**. The first answer for request will be the **handle**.
    
 2. **Client** can use the **handle** for checking the status.
     - **Server** does **not** reply until it has the **response**!
       - See the difference to the **Short Polling**.
 
 <div align="center">
-    <img id="back end egineer" src="longPollingExample.jpeg">
-</div>
-
-<div align="center">
     <img id="back end egineer" src="longPollingModel.PNG">
 </div>
 
-1. **Client** makes the request and servers responses, with the **Handle**. Like in **Short Polling**.
-2. **Client** as for the **content**. Servers **responses**, when it is **ready!**
+1. **Client** makes the request and servers responses, with the **Handle**. Like in **Short Polling** example.
+2. **Client** asks for the **status**. Servers **responses**, when it is **ready!**
+
 
 <div align="center">
-    <img id="back end egineer" src="longPollingProsAndCons.PNG">
+    <img id="back end egineer" src="longPollingExample.gif">
 </div>
 
-- Jäin 6:30
+- Remember the answer will come when **result** is ready.
+
+<div align="center">
+    <img id="back end egineer" src="longPollingProsAndCons.PNG" width="500px">
+</div>
+
+<div align="center">
+    <img id="back end egineer" src="longPollingIllustration.jpeg">
+</div>
+
+
+````
+const app = require("express")();
+const jobs = {}
+
+app.post("/submit", (req, res) =>  {
+    const jobId = `job:${Date.now()}`
+    jobs[jobId] = 0;
+    updateJob(jobId,0); 
+    res.end("\n\n" + jobId + "\n\n");
+})
+
+app.get("/checkstatus", async (req, res) => {
+    console.log(jobs[req.query.jobId])
+    //long polling, don't respond until done
+    while(await checkJobComplete(req.query.jobId) == false);
+    res.end("\n\nJobStatus: Complete " + jobs[req.query.jobId] + "%\n\n")
+
+} )
+
+app.listen(8080, () => console.log("listening on 8080"));
+
+async function checkJobComplete(jobId) {
+    return new Promise( (resolve, reject) => {
+        if (jobs[jobId] < 100)
+            this.setTimeout(()=> resolve(false),  1000);
+        else
+            resolve(true);
+    })
+   
+}
+
+function updateJob(jobId, prg) {
+    jobs[jobId] = prg;
+    console.log(`updated ${jobId} to ${prg}`)
+    if (prg == 100) return;
+    this.setTimeout(()=> updateJob(jobId, prg + 10), 10000)
+}
+````
+
+- This is the same **example** as the **short polling**, but there is added the `checkJobComplete()`.
+
+````
+async function checkJobComplete(jobId) {
+    return new Promise( (resolve, reject) => {
+        if (jobs[jobId] < 100)
+            this.setTimeout(()=> resolve(false),  1000);
+        else
+            resolve(true);
+    })
+   
+}
+````
+
+- This is `Promise` based. 
+
+<div align="center">
+    <img width="4800px" id="back end egineer" src="LongPollingExample.PNG">
+</div>
+
+1. As soon as the **client** calls for the result. The servers let client **wait** for the **result**.
+
+2. Client will get the result as soon as the **server** is ready.
 
 # Server Sent Events.  
-
 
 # Publish Subscribe (Pub/Sub).  
 
