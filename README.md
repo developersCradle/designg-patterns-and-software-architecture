@@ -1,6 +1,6 @@
 
 <p align="center">
-    <img id="studying" src="Software Architecture & Design Patterns caption.png" style="height: 120px; width: 1000px;">
+    <img id="studying" src="Software Architecture & Design Patterns caption.png" style="height: 130px; width: 700px;">
 </p>
 
 > Software Architecture (SOLID) & Design principles, Patterns and Clean Code. Also, the architecture related topics in IT!
@@ -250,7 +250,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - ADD STUFF HERE.
 
 <p align="center">
-    <img id="Fundamentals of Backend Engineering" src="Fundamentals of Backend Engineering caption.png" style="height: 90px; width: 900px;">
+    <img id="Fundamentals of Backend Engineering" src="Fundamentals of Backend Engineering caption.png" style="height: 100px; width: 900px;">
 </p>
 
 ![Fundamentals of Backend Engineering](Fundamentals%20of%20Backend%20Engineering%20desc.PNG)

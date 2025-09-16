@@ -11,7 +11,7 @@ Backend Communication Design Patterns.
 # Request Response.  
 
 <div align="center">
-    <img id="back end egineer" src="requestAndReponse.PNG" >
+    <img width="500px" id="back end egineer" src="requestAndReponse.PNG" >
 </div>
 
 1. The most famous and popular.
@@ -124,7 +124,7 @@ Body
 # Synchronous vs Asynchronous workloads.  
 
 <div align="center">
-    <img id="back end egineer" src="asynchronousOrsynchronous.PNG" >
+    <img id="back end egineer" src="asynchronousOrsynchronous.PNG" width="500px" >
 </div>
 
 - Async is the term is not in same wave length!
