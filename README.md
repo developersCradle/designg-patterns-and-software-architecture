@@ -135,14 +135,12 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] [Section 07](#) - Summary & Checklist.
 - [ ] [Section 08](#) - Course Roundup.
 
-
-
 <p align="center">
     <img id="studying" src="Java Design Patterns & SOLID Design Principles caption.png" 
     style="height: 110px;">
 </p>
 
-![Java Design Patterns & SOLID Design Principles](solidAndJavaDesignPrinciples.PNG)
+![Java Design Patterns & SOLID Design Principles](<Java Design Patterns & SOLID Design Principles desc.PNG>)
 
 All course material from Java Design Patterns & SOLID Design Principles by **Coffee Powered Crew**.
 
@@ -168,7 +166,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] [Section 01](#) - SOLID Design Principles.
 - [ ] [Section 02](#) - Introduction.
 - [ ] [Section 03](#) - Creational Design Patterns.
-- [ ] [Section 04](#) - Builder.
+- [ ] [Section 04](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Java%20Design%20Patterns%20%26%20SOLID%20Design%20Principles/Section%2004#section-04-builder) - Builder.
 - [ ] [Section 05](#) - Simple Factory.
 - [ ] [Section 06](#) - Factory Method.
 - [ ] [Section 07](#) - Prototype.
