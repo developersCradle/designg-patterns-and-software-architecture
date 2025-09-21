@@ -1,35 +1,30 @@
-package org.java.builder;
+package org.java.builder.builder2;
+
+import org.java.builder.builder.Address;
+import org.java.builder.builder.User;
 
 import java.time.LocalDate;
 
-// This is our client which also works as "director".
+
 public class Client {
 
 	public static void main(String[] args) {
-
-		// This will come from persistence layer, like database!
 		User user = createUser();
-		UserWebDTOBuilder builder = new UserWebDTOBuilder();
-
-		UserDTO dto = directBuild(builder, user);
+		// Client has to provide director with concrete builder
+		UserDTO dto = directBuild(UserDTO.getBuilder(), user);
 		System.out.println(dto);
 	}
 
-
 	/**
-	 * Director.
+	 * This method serves the role of director in builder pattern.
 	 */
-	private  static UserDTO directBuild(UserWebDTOBuilder builder, User user)
-	{
-		return builder.withFirstName(user.getFirstName())
-				.withLastName(user.getLastName())
-				.withAddress(user.getAddress())
-				.withBirthday(user.getBirthday())
-				.build();
+	private static UserDTO directBuild(UserDTO.UserDTOBuilder builder, User user) {
+		return builder.withFirstName(user.getFirstName()).withLastName(user.getLastName())
+				.withBirthday(user.getBirthday()).withAddress(user.getAddress()).build();
 	}
 
 	/**
-	 * Returns a sample user. 
+	 * Returns a sample user.
 	 */
 	public static User createUser() {
 		User user = new User();
@@ -45,4 +40,5 @@ public class Client {
 		user.setAddress(address);
 		return user;
 	}
+
 }

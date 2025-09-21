@@ -41,7 +41,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 - [x] [Section 01](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Design%20Patterns%20in%20Java/src/Section%2001#section-1-introduction) - Introduction. ✅
 - [ ] [Section 02](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Design%20Patterns%20in%20Java/src/Section%2002#section-2-solid-design-principles) - SOLID Design Principles.
-- [ ] [Section 03](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Design%20Patterns%20in%20Java/src/Section%2003#section-3-builders) - Builder.
+- [x] [Section 03](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Design%20Patterns%20in%20Java/src/Section%2003#section-3-builders) - Builder. ✅
 - [ ] [Section 04](#) - Factories.
 - [ ] [Section 05](#) - Prototype.
 - [ ] [Section 06](#) - Singleton.
@@ -166,7 +166,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] [Section 01](#) - SOLID Design Principles.
 - [ ] [Section 02](#) - Introduction.
 - [ ] [Section 03](#) - Creational Design Patterns.
-- [ ] [Section 04](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Java%20Design%20Patterns%20%26%20SOLID%20Design%20Principles/Section%2004#section-04-builder) - Builder.
+- [x] [Section 04](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Java%20Design%20Patterns%20%26%20SOLID%20Design%20Principles/Section%2004#section-04-builder) - Builder. ✅
 - [ ] [Section 05](#) - Simple Factory.
 - [ ] [Section 06](#) - Factory Method.
 - [ ] [Section 07](#) - Prototype.
@@ -195,6 +195,12 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] [Section 30](#) - Visitor.
 - [ ] [Section 31](#) - Null Object.
 - [ ] [Section 32](#) - Design Pattern Summary Document.
+
+
+#### Additional stuff.
+
+- [ ] Finish the **Prototype** pattern first, then finish the **Builder** pattern!
+
 
 <p align="center">
     <img id="microservice architecture" src="Microservices Architecture - The Complete Guide Caption.png" style="height: 90px; width: 900px;">
