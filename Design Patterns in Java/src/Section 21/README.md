@@ -1,4 +1,4 @@
-## Section 21: Observer.
+# Section 21: Observer.
 
 Observer.
 

@@ -1,4 +1,4 @@
-## Section 02: Backend Communication Design Patterns.
+# Section 02: Backend Communication Design Patterns.
 
 Backend Communication Design Patterns.
 

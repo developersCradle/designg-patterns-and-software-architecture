@@ -1,4 +1,4 @@
-## Section 04: Factories.
+# Section 04: Factories.
 
 # What I Learned.
 

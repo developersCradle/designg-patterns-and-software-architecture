@@ -1,4 +1,4 @@
-## Section 04: Many ways to HTTPS.
+# Section 04: Many ways to HTTPS.
 
 Many ways to HTTPS.
 

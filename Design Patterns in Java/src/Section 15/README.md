@@ -1,4 +1,4 @@
-## Section 15: Command.
+# Section 15: Command.
 
 Command pattern.
 

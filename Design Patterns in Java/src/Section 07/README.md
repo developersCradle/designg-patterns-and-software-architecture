@@ -1,3 +1,3 @@
-## Section 7:
+# Section 7:
 
 # What I Learned.

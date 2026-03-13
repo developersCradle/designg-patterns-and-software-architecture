@@ -1,4 +1,4 @@
-## Section 03: Protocols.
+# Section 03: Protocols.
 
 Protocols.
 

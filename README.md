@@ -1,18 +1,20 @@
 
 <p align="center">
-    <img id="studying" src="Software Architecture & Design Patterns caption.png" style="height: 130px; width: 700px;">
+    <img id="studying" src="Software Architecture & Design Patterns caption.png" style="width:900px;height:140px;">
+    <text> Software Architecture (SOLID) & Design principles, Patterns and Clean Code. Also, the architecture related topics in IT!
 </p>
-
-> Software Architecture (SOLID) & Design principles, Patterns and Clean Code. Also, the architecture related topics in IT!
 
 <p align="center">
-   <img src="https://i.giphy.com/media/MGdfeiKtEiEPS/giphy.webp" alt="alt text" width="350"/>
+   <img src="https://i.giphy.com/media/MGdfeiKtEiEPS/giphy.webp" alt="Java Monolith Optimization Repostiory Graphic"  style="width:490px;height:280px;"/>
 </p>
 
+- For these courses one should configure **GIT** for handle projects.
+    - `git config --global http.postBuffer 524288000`.
+    - `git config --global core.longpaths true`.
+ 
 <p align="center">
     <img id="studying" src="Design Patterns in Java caption.png" height=50>
 </p>
-
 
 ![Design Patterns in Java desc](<Design Patterns in Java desc.JPG>)
 
@@ -30,11 +32,12 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 -->
 
 <p align="center">
-   Insert certificate here when completed.
+    Add here the certifcate-
 </p>
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
-0
+
+
 - When importing folder, use the parent folder `Design Patterns in Java`, in **Eclipse** use `Existing project into workspace` import function.
 
 #### Progress/Curriculum.
@@ -71,8 +74,6 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] Make caption coherent.
 - [ ] In typescript [Ts](https://refactoring.guru/design-patterns/typescript).
 - [ ] In [C++](https://www.udemy.com/course/patterns-cplusplus/).
-- [ ] Read book [Gang Of Four](https://en.wikipedia.org/wiki/Design_Patterns).
-
 
 <details>
 
@@ -202,11 +203,19 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] Finish the **Prototype** pattern first, then finish the **Builder** pattern!
 
 
+
 <p align="center">
-    <img id="microservice architecture" src="Microservices Architecture - The Complete Guide Caption.png" style="height: 90px; width: 900px;">
+    <img
+     src="Microservices_Architecture_The_Complete_Guide_Caption.png"
+    alt="Microservices Architecture The Complete Guide Caption"
+    style="width:1600px;height:110px;"/>
 </p>
 
-![Microservices Architecture - The Complete Guide](Microservices%20Architecture%20-%20The%20Complete%20Guide%20desc.PNG)
+<p align="center">
+    <img src="Microservices_Architecture_The_Complete_Guide_Description.PNG"
+    alt="Microservices Architecture The Complete Guide Description"
+    style="width:690px" />
+</p>
 
 All course material from Microservices Architecture - The Complete Guide by **Memi Lavi** ©.
 
@@ -223,31 +232,31 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 ?trk=public_profile_see-credential 
 -->
 
-<div align="center">
-    Insert certificate here when completed
-</div>
+<p align="center">
+    <img id="Microservices_Architecture_The_Complete_Guide_Certificate?trk=public_profile_see-credential" src="Microservices_Architecture_The_Complete_Guide_Certificate.jpg" alt="SOAP Web Services with Java_certificate" width="600"/>
+</p>
 
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
 #### Progress/Curriculum.
 
-- [ ] [Section 01](#) - Welcome.
-- [ ] [Section 02](#) - History of Microservices.
-- [ ] [Section 03](#) - Problems with Monolith & SOA.
-- [ ] [Section 04](#) - Microservices Architecture.
-- [ ] [Section 05](#) - Problems Solved by Microservices.
-- [ ] [Section 06](#) - Designing Microservices Architecture.
-- [ ] [Section 07](#) - Deploying Microservices.
-- [ ] [Section 08](#) - Testing Microservices.
-- [ ] [Section 09](#) - Service Mesh.
-- [ ] [Section 10](#) - Logging and Monitoring.
-- [ ] [Section 11](#) - When Not to Use Microservices.
-- [ ] [Section 12](#) - Microservices and the Organization.
-- [ ] [Section 13](#) - Anti-Patterns and Common Mistakes.
-- [ ] [Section 14](#) - Breaking Monolith to Microservices.
-- [ ] [Section 15](#) - Case study.
-- [ ] [Section 16](#) - Conclusion.
+- [x] [Section 01](#) - Welcome. ✔️
+- [x] [Section 02](#) - History of Microservices. ✔️
+- [x] [Section 03](#) - Problems with Monolith & SOA. ✔️
+- [x] [Section 04](#) - Microservices Architecture. ✔️
+- [x] [Section 05](#) - Problems Solved by Microservices. ✔️
+- [x] [Section 06](#) - Designing Microservices Architecture. ✔️
+- [x] [Section 07](#) - Deploying Microservices. ✔️
+- [x] [Section 08](#) - Testing Microservices. ✔️
+- [x] [Section 09](#) - Service Mesh. ✔️
+- [x] [Section 10](#) - Logging and Monitoring. ✔️
+- [x] [Section 11](#) - When Not to Use Microservices. ✔️
+- [x] [Section 12](#) - Microservices and the Organization. ✔️
+- [x] [Section 13](#) - Anti-Patterns and Common Mistakes. ✔️
+- [x] [Section 14](#) - Breaking Monolith to Microservices. ✔️
+- [x] [Section 15](#) - Case study. ✔️
+- [x] [Section 16](#) - Conclusion. ✔️
 
 #### Additional stuff.
 
@@ -277,7 +286,6 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 <div align="center">
     Insert certificate here when completed
 </div>
-
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 

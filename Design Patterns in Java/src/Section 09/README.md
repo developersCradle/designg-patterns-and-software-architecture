@@ -1,3 +1,3 @@
-## Section 9:
+# Section 9:
 
 # What I Learned.

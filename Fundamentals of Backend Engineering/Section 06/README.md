@@ -1,4 +1,4 @@
-## Section 06: Proxying and Load Balancing.
+# Section 06: Proxying and Load Balancing.
 
 Proxying and Load Balancing.
 

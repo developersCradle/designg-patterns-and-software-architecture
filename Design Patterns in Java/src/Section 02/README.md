@@ -1,4 +1,4 @@
-## Section 2: SOLID Design Principles.
+# Section 2: SOLID Design Principles.
 
 SOLID Design Principles.
 
