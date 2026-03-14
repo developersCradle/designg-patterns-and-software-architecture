@@ -11,12 +11,20 @@
 - For these courses one should configure **GIT** for handle projects.
     - `git config --global http.postBuffer 524288000`.
     - `git config --global core.longpaths true`.
- 
+
+
 <p align="center">
-    <img id="studying" src="Design Patterns in Java caption.png" height=50>
+    <img
+     src="Design_Patterns_In_Java_Caption.png"
+    alt="Design Patterns In Java Caption"
+    style="width:1600px;height:80px;"/>
 </p>
 
-![Design Patterns in Java desc](<Design Patterns in Java desc.JPG>)
+<p align="center">
+    <img src="Design_Patterns_In_Java_Description.JPG"
+    alt="Design Patterns In Java Description"
+    style="width:690px" />
+</p>
 
 All course material from **Design Patterns in Java** by from Dmitri Nesteruk.
 
@@ -137,11 +145,17 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] [Section 08](#) - Course Roundup.
 
 <p align="center">
-    <img id="studying" src="Java Design Patterns & SOLID Design Principles caption.png" 
-    style="height: 110px;">
+    <img
+     src="Java_Design_Patterns_And_SOLID_Design_Principles_Caption.png"
+    alt="Java Design Patterns & SOLID Design Principles Caption"
+    style="width:1600px;height:110px;"/>
 </p>
 
-![Java Design Patterns & SOLID Design Principles](<Java Design Patterns & SOLID Design Principles desc.PNG>)
+<p align="center">
+    <img src="Java_Design_Patterns_And_SOLID_Design_Principles_Description.PNG"
+    alt="Java Design Patterns & SOLID Design Principles desc Description"
+    style="width:690px" />
+</p>
 
 All course material from Java Design Patterns & SOLID Design Principles by **Coffee Powered Crew**.
 
@@ -162,7 +176,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
-## Progress/Curriculum.
+#### Progress/Curriculum.
 
 - [ ] [Section 01](#) - SOLID Design Principles.
 - [ ] [Section 02](#) - Introduction.
@@ -202,8 +216,6 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 - [ ] Finish the **Prototype** pattern first, then finish the **Builder** pattern!
 
-
-
 <p align="center">
     <img
      src="Microservices_Architecture_The_Complete_Guide_Caption.png"
@@ -217,9 +229,17 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
     style="width:690px" />
 </p>
 
-All course material from Microservices Architecture - The Complete Guide by **Memi Lavi** ©.
+All course material from *Microservices Architecture - The Complete Guide* by **Memi Lavi** ©.
 
-Contains my own notes with some course material to enforce learning experience.
+> When I was creating microservices at 🏛️**Nordea**🏛️, we were tackling today’s challenges using the most up-to-date techniques and architectural approaches. This meant rethinking how services communicate, how systems scale, and how teams can work independently without constantly stepping on each other’s toes. 🐟 
+>
+> By moving toward a microservices architecture, we could split large systems into smaller, well-defined services. Each service had its own responsibility and could evolve independently, making deployments safer and development faster. 🐟
+>
+> While exploring microservices architecture further, the course `Microservices Architecture – The Complete Guide` allowed me to see the designed implementations behind many of the patterns that are often suggested in theory. Seeing practical implementations of service boundaries, communication strategies, and deployment patterns helped connect architectural ideas with real-world systems. 🐟 <br><br>
+~ *DevelopersCradle*
+
+
+Contains my own with my own visual notes ✍️ with some course material to enforce learning experience.
 
 [The course at Udemy](https://www.udemy.com/course/microservices-architecture-the-complete-guide/).
 
@@ -250,7 +270,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [x] [Section 07](#) - Deploying Microservices. ✔️
 - [x] [Section 08](#) - Testing Microservices. ✔️
 - [x] [Section 09](#) - Service Mesh. ✔️
-- [x] [Section 10](#) - Logging and Monitoring. ✔️
+- [x] [Section 10](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2010#section-10-logging-and-monitoring) - Logging and Monitoring. ✔️
 - [x] [Section 11](#) - When Not to Use Microservices. ✔️
 - [x] [Section 12](#) - Microservices and the Organization. ✔️
 - [x] [Section 13](#) - Anti-Patterns and Common Mistakes. ✔️
@@ -263,12 +283,19 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - ADD STUFF HERE.
 
 <p align="center">
-    <img id="Fundamentals of Backend Engineering" src="Fundamentals of Backend Engineering caption.png" style="height: 100px; width: 900px;">
+    <img
+     src="Fundamentals_Of_Backend_Engineering_Caption.png"
+    alt="Fundamentals Of Backend Engineering Caption"
+    style="width:1600px;height:110px;"/>
 </p>
 
-![Fundamentals of Backend Engineering](Fundamentals%20of%20Backend%20Engineering%20desc.PNG)
+<p align="center">
+    <img src="Fundamentals_Of_Backend_Engineering_Description.PNG"
+    alt="Fundamentals Of Backen Engineering Description"
+    style="width:690px" />
+</p>
 
-All course material from Fundamentals of Backend Engineering by **Hussein Nasser** ©.
+All course material from *Fundamentals of Backend Engineering* by **Hussein Nasser** ©.
 
 Contains my own notes with some course material to enforce learning experience.
 
