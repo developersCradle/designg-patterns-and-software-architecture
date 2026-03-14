@@ -1,11 +1,12 @@
 
 <p align="center">
     <img id="studying" src="Software Architecture & Design Patterns caption.png" style="width:900px;height:140px;">
-    <text> Software Architecture (SOLID) & Design principles, Patterns and Clean Code. Also, the architecture related topics in IT!
+    <text> <b>Software Architecture</b> & <b>Design principles</b>. Other things, which are related to the <b>architecture</b>!
 </p>
 
+
 <p align="center">
-   <img src="https://i.giphy.com/media/MGdfeiKtEiEPS/giphy.webp" alt="Java Monolith Optimization Repostiory Graphic"  style="width:490px;height:280px;"/>
+   <img src="Software_Architecture_And_ Design_Patterns_Repository_Graphics.gif" alt="Java Monolith Optimization Repostiory Graphic" width="500" height="350"/>
 </p>
 
 - For these courses one should configure **GIT** for handle projects.
@@ -280,8 +281,11 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 #### Additional stuff.
 
-- ADD STUFF HERE.
-
+- Go thought the `MDC`!
+    - [Link 01](https://medium.com/@pradeepisuru31/understanding-mdc-in-spring-boot-concepts-pitfalls-and-best-practices-f61594ed1efd).
+    - [Link 02](https://www.youtube.com/watch?v=Ip7BIptWMg4).
+    - [Link 03](https://www.youtube.com/watch?v=DsFsd--vhas).
+    
 <p align="center">
     <img
      src="Fundamentals_Of_Backend_Engineering_Caption.png"
