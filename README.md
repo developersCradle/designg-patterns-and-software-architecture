@@ -4,7 +4,6 @@
     <text> <b>Software Architecture</b> & <b>Design principles</b>. Other things, which are related to the <b>architecture</b>!
 </p>
 
-
 <p align="center">
    <img src="Software_Architecture_And_ Design_Patterns_Repository_Graphics.gif" alt="Java Monolith Optimization Repostiory Graphic" width="500" height="350"/>
 </p>
@@ -212,7 +211,6 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] [Section 31](#) - Null Object.
 - [ ] [Section 32](#) - Design Pattern Summary Document.
 
-
 #### Additional stuff.
 
 - [ ] Finish the **Prototype** pattern first, then finish the **Builder** pattern!
@@ -335,3 +333,49 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 - [x] Do for now **Polling concept**! ✅
 - [ ] If in mood implement these in Java.
+
+<p align="center">
+    <img
+     src="The_Complete_Regular_Expressions_Regex_Course_For_Beginners_Caption.png"
+    alt="The Complete Regular Expressions Regex Course For Beginners Caption"
+    style="width:1600px;height:110px;"/>
+</p>
+
+<p align="center">
+    <img src="The_Complete_Regular_Expressions_Regex_Course_For_Beginners_Description.PNG"
+    alt="The Complete Regular Expressions Regex Course For Beginners Description"
+    style="width:690px" />
+</p>
+
+All course material from *The Complete Regular Expressions(Regex) Course For Beginners* by **George Sonora** ©.
+
+> . 🐟 <br><br>
+~ *DevelopersCradle*
+
+Contains my own with my own visual notes ✍️ with some course material to enforce learning experience.
+
+[The course at Udemy](https://www.udemy.com/course/microservices-architecture-the-complete-guide/).
+
+[Content maker](https://memilavi.com/).
+
+If the content sparked :fire: your interest, please consider buying the course and start learning :book:.
+
+<!-- 
+Linkedin puts this shit front, when clicking from private mode x(. Need to put this to make jump working every case
+?trk=public_profile_see-credential 
+-->
+
+<p align="center">
+    <!-- <img id="Microservices_Architecture_The_Complete_Guide_Certificate?trk=public_profile_see-credential" src="Microservices_Architecture_The_Complete_Guide_Certificate.jpg" alt="SOAP Web Services with Java_certificate" width="600"/> -->
+</p>
+
+
+**Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
+
+#### Progress/Curriculum.
+
+- [x] [Section 01](#) - Welcome. ✔️
+
+#### Additional stuff.
+
+- TOdo
