@@ -1,4 +1,4 @@
-# Section 04: Microservices and the Organization.
+# Section 04: Microservices Architecture.
 
 # What I Learned.
 

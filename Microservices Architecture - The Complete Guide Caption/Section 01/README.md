@@ -53,6 +53,17 @@ Welcome.
 
 # Join The Software Architects Community.
 
+````
+Join The Software and Cloud Architects Community
+
+So here is the link:
+https://www.facebook.com/groups/127639125043271/
+
+
+Cheers,
+Memi
+````
+
 # Who Is This Course For?
 
 <div align="center">

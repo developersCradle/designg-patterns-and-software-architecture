@@ -12,7 +12,6 @@
     - `git config --global http.postBuffer 524288000`.
     - `git config --global core.longpaths true`.
 
-
 <p align="center">
     <img
      src="Design_Patterns_In_Java_Caption.png"
@@ -26,7 +25,7 @@
     style="width:690px" />
 </p>
 
-All course material from **Design Patterns in Java** by from Dmitri Nesteruk.
+All course material from *Design Patterns in Java* by from **Dmitri Nesteruk**.
 
 If the content sparked :fire: your interest, please consider buying the course and start learning :book:.
 
@@ -234,15 +233,14 @@ All course material from *Microservices Architecture - The Complete Guide* by **
 >
 > By moving toward a microservices architecture, we could split large systems into smaller, well-defined services. Each service had its own responsibility and could evolve independently, making deployments safer and development faster. 🐟
 >
-> While exploring microservices architecture further, the course `Microservices Architecture – The Complete Guide` allowed me to see the designed implementations behind many of the patterns that are often suggested in theory. Seeing practical implementations of service boundaries, communication strategies, and deployment patterns helped connect architectural ideas with real-world systems. 🐟 <br><br>
+> While exploring microservices architecture further, the course `Microservices Architecture – The Complete Guide` allowed me to see the designed implementations behind many of the patterns that are often suggested in theory. Seeing practical implementations of service boundaries, communication strategies, and deployment patterns helped connect architectural ideas with real-world systems. 🐟🐟🐟 <br><br>
 ~ *DevelopersCradle*
-
 
 Contains my own with my own visual notes ✍️ with some course material to enforce learning experience.
 
 [The course at Udemy](https://www.udemy.com/course/microservices-architecture-the-complete-guide/).
 
-[Content maker](https://memilavi.com/).
+[Content maker](https://thevar.memilavi.com/).
 
 If the content sparked :fire: your interest, please consider buying the course and start learning :book:.
 
@@ -260,8 +258,8 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 #### Progress/Curriculum.
 
-- [x] [Section 01](#) - Welcome. ✔️
-- [x] [Section 02](#) - History of Microservices. ✔️
+- [x] [Section 01](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2001#section-01-welcome) - Welcome. ✔️
+- [x] [Section 02](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2002#section-02-history-of-the-microservices) - History of Microservices. ✔️
 - [x] [Section 03](#) - Problems with Monolith & SOA. ✔️
 - [x] [Section 04](#) - Microservices Architecture. ✔️
 - [x] [Section 05](#) - Problems Solved by Microservices. ✔️
@@ -379,3 +377,4 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 #### Additional stuff.
 
 - TOdo
+

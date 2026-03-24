@@ -1,4 +1,4 @@
-# Section 1:
+# Section 15: Case study.
 
 # What I Learned.
 
