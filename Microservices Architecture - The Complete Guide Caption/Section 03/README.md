@@ -77,10 +77,42 @@
 
 - The **fourth** problem:
 
+<div align="center">
+    <img alt="Microservices Architecture - The Complete Guide Course" src="Large_And_Complex.PNG" width="600"/>
+</div>
+
+1. The monolith have large and complex code place!
+2. This makes the developers being careful and not to change anything extra! 
+
+<div align="center">
+    <img alt="Microservices Architecture - The Complete Guide Course" src="Fixing_With_All_Small_Change.PNG" width="600"/>
+</div>
+
+- The testing and fixing the bug will nightmare! 
+    - We need to do this for every small change!
+
 # Complicated and Expensive ESB.
 
 - The **fifth** problem:
 
+<div align="center">
+    <img alt="Microservices Architecture - The Complete Guide Course" src="Complicated_And_Expensive_Esb.PNG" width="600"/>
+</div>
+
+1. This was expensive, only big companies were using mostly them!
+
+<div align="center">
+    <img alt="Microservices Architecture - The Complete Guide Course" src="Complicated_And_Expensive_Esb_Illustration.PNG" width="600"/>
+</div>
+
+1. ESB made this solution like elephant!
+
 # Lack of Tooling.
 
 - The **sixth** problem:
+
+<div align="center">
+    <img alt="Microservices Architecture - The Complete Guide Course" src="Lack_Of_Tooling.PNG" width="600"/>
+</div>
+
+1. **SOA** there were **not tooling** for **quick testing** and **deployment**!
