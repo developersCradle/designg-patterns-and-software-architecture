@@ -95,9 +95,43 @@
 1. The same team develops **all** the areas! Team has **holistic view** field of the service!
     - We don't see inner politics to block the best solution!
 
-//3:14
+<div align="center">
+    <img alt="Microservices Architecture - The Complete Guide Course" src="Organized_Around_Bussiness_Capbilities_Microservice_Defination.JPG" width="600"/>
+</div>
+
+1. How to define the boundaries of the **service**.
+    - This is defined by business!
+
+- What is the motivation around business capabilities! 
+
+<div align="center">
+    <img alt="Microservices Architecture - The Complete Guide Course" src="Organized_Around_Bussiness_Capbilities_Microservice_Motivation.JPG" width="600"/>
+</div>
+
+1. It helps quick development of the service!
+    - When there **one team** making one service!
+2. It will be keep definitions laser focused!
 
 # Products not Projects.
+
+<div align="center">
+    <img alt="Microservices Architecture - The Complete Guide Course" src="Products_Not_Projects.JPG" width="600"/>
+</div>
+
+1. **Traditional way**, team usually does not interact in any level with the customer!
+
+<div align="center">
+    <img alt="Microservices Architecture - The Complete Guide Course" src="Products_Not_Projects_In_Microservices.JPG" width="600"/>
+</div>
+
+1. With **microservices**, teams own the products! 
+    - Customer's is involved it this process! 
+
+<div align="center">
+    <img alt="Microservices Architecture - The Complete Guide Course" src="Products_Not_Projects_Motivation.JPG" width="600"/>
+</div>
+
+1. Team thinks like customer, this makes customer more satisfied!
 
 # Smart Endpoints and Dumb Pipes.
 

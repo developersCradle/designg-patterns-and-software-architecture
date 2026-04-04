@@ -1,11 +1,11 @@
 
 <p align="center">
-    <img id="studying" src="Software Architecture & Design Patterns caption.png" style="width:900px;height:140px;">
-    <text> <b>Software Architecture</b> & <b>Design principles</b>. Other things, which are related to the <b>architecture</b>!
+    <img id="studying" src="Software_Architecture_And_Design_Patterns_Caption.png" style="width:900px;height:140px;">
 </p>
 
 <p align="center">
    <img src="Software_Architecture_And_ Design_Patterns_Repository_Graphics.gif" alt="Java Monolith Optimization Repostiory Graphic" width="500" height="350"/>
+   <text> <b>Software Architecture</b> & <b>Design principles</b>. Other things, which are related to the <b>architecture</b>!</text>
 </p>
 
 - For these courses one should configure **GIT** for handle projects.
@@ -27,11 +27,14 @@
 
 All course material from *Design Patterns in Java* by from **Dmitri Nesteruk**.
 
-If the content sparked :fire: your interest, please consider buying the course and start learning :book:.
+Contains my own with my own visual notes ✍️ with some course material to enforce learning experience.
+
 
 This repository is made with **Eclipse**, therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
 
 [The Course at Udemy](https://www.udemy.com/course/design-patterns-java/).
+
+If the content sparked :fire: your interest, please consider buying the course and start learning :book:.
 
 <!-- 
 Linkedin puts this shit front, when clicking from private mode x(. Need to put this to make jump working every case
@@ -111,15 +114,16 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 ![Clean Code](Clean%20Code%20Desc.png)
 
-All course material from Clean Code by **Maximilian Schwarzmüller**.
+All course material from *Clean Code* by **Maximilian Schwarzmüller**.
 
-Contains my own notes with some course material to enforce learning experience.
-
-If the content sparked :fire: your interest, please consider buying the course and start learning :book:.
+Contains my own with my own visual notes ✍️ with some course material to enforce learning experience.
 
 [The course at Udemy](https://www.udemy.com/course/writing-clean-code/). 
 
 [Website of maker](https://academind.com/).
+
+
+If the content sparked :fire: your interest, please consider buying the course and start learning :book:.
 
 <!-- 
 Linkedin puts this shit front, when clicking from private mode x(. Need to put this to make jump working every case
@@ -143,6 +147,11 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] [Section 07](#) - Summary & Checklist.
 - [ ] [Section 08](#) - Course Roundup.
 
+#### Additional stuff.
+
+- [ ] some.
+
+
 <p align="center">
     <img
      src="Java_Design_Patterns_And_SOLID_Design_Principles_Caption.png"
@@ -156,13 +165,14 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
     style="width:690px" />
 </p>
 
-All course material from Java Design Patterns & SOLID Design Principles by **Coffee Powered Crew**.
+All course material from *Java Design Patterns & SOLID Design Principles* by **Coffee Powered Crew**.
 
-Contains my own notes with some course material to enforce learning experience.
+Contains my own with my own visual notes ✍️ with some course material to enforce learning experience.
+
+[The course at Udemy](https://www.udemy.com/course/design-patterns-in-java-concepts-hands-on-projects/).
 
 If the content sparked :fire: your interest, please consider buying the course and start learning :book:.
 
-[The course at Udemy](https://www.udemy.com/course/design-patterns-in-java-concepts-hands-on-projects/).
 
 <!-- 
 Linkedin puts this shit front, when clicking from private mode x(. Need to put this to make jump working every case
@@ -260,20 +270,20 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 - [x] [Section 01](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2001#section-01-welcome) - Welcome. ✔️
 - [x] [Section 02](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2002#section-02-history-of-the-microservices) - History of Microservices. ✔️
-- [x] [Section 03](#) - Problems with Monolith & SOA. ✔️
-- [x] [Section 04](#) - Microservices Architecture. ✔️
-- [x] [Section 05](#) - Problems Solved by Microservices. ✔️
-- [x] [Section 06](#) - Designing Microservices Architecture. ✔️
-- [x] [Section 07](#) - Deploying Microservices. ✔️
-- [x] [Section 08](#) - Testing Microservices. ✔️
-- [x] [Section 09](#) - Service Mesh. ✔️
+- [x] [Section 03](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2003#section-03-problems-with-monolith--soa) - Problems with Monolith & SOA. ✔️
+- [x] [Section 04](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2004#section-04-microservices-architecture) - Microservices Architecture. ✔️
+- [x] [Section 05](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2005#section-05-problems-solved-by-microservices) - Problems Solved by Microservices. ✔️
+- [x] [Section 06](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2006#section-06-designing-microservices-architecture) - Designing Microservices Architecture. ✔️
+- [x] [Section 07](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2007#section-07-deploying-microservices) - Deploying Microservices. ✔️
+- [x] [Section 08](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2008#section-08-testing-microservices) - Testing Microservices. ✔️
+- [x] [Section 09](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2009#section-09-service-meshhttps://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2009#section-09-service-mesh) - Service Mesh. ✔️
 - [x] [Section 10](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2010#section-10-logging-and-monitoring) - Logging and Monitoring. ✔️
-- [x] [Section 11](#) - When Not to Use Microservices. ✔️
-- [x] [Section 12](#) - Microservices and the Organization. ✔️
-- [x] [Section 13](#) - Anti-Patterns and Common Mistakes. ✔️
-- [x] [Section 14](#) - Breaking Monolith to Microservices. ✔️
-- [x] [Section 15](#) - Case study. ✔️
-- [x] [Section 16](#) - Conclusion. ✔️
+- [x] [Section 11](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2011#section-11-when-not-to-use-microservices) - When Not to Use Microservices. ✔️
+- [x] [Section 12](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2012#section-12-microservices-and-the-organization) - Microservices and the Organization. ✔️
+- [x] [Section 13](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2013#section-13-anti-patterns-and-common-mistakes) - Anti-Patterns and Common Mistakes. ✔️
+- [x] [Section 14](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2014#section-14-breaking-monolith-to-microservices) - Breaking Monolith to Microservices. ✔️
+- [x] [Section 15](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2015#section-15-case-study) - Case study. ✔️
+- [x] [Section 16](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2016#section-16-conclusion) - Conclusion. ✔️
 
 #### Additional stuff.
 
@@ -297,7 +307,12 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 All course material from *Fundamentals of Backend Engineering* by **Hussein Nasser** ©.
 
-Contains my own notes with some course material to enforce learning experience.
+
+>  🐟🐟🐟 <br><br>
+~ *DevelopersCradle*
+
+
+Contains my own with my own visual notes ✍️ with some course material to enforce learning experience.
 
 [The course at Udemy](https://www.udemy.com/course/fundamentals-of-backend-communications-and-protocols).
 
