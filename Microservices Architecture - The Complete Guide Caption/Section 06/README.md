@@ -62,8 +62,6 @@
     - ❌ **Example not working:** ❌ Get all the orders made by users aged 34–45 [Red X]!
 2. The **trick** is to include overlapping functionality or data as **much** possible!
 
-
-
 # Defining Communication Patterns.
 
 # Selecting Technology Stack.

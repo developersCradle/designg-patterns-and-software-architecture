@@ -11,14 +11,14 @@ Backend Communication Design Patterns.
 # Request Response.  
 
 <div align="center">
-    <img width="500px" id="back end egineer" src="requestAndReponse.PNG" >
+    <img width="500px" alt="Backend course!" src="requestAndReponse.PNG" >
 </div>
 
 1. The most famous and popular.
     - There is **request** and **response**!
 
 <div align="center">
-    <img id="back end egineer" src="requestAndResponseModel.PNG" >
+    <img alt="Backend course!" src="requestAndResponseModel.PNG" >
 </div>
 
 1. What is request? **Request** needs be **defined** by client.
@@ -41,14 +41,14 @@ Backend Communication Design Patterns.
 >            - Example, the **XML** is heavy on processing!
 
 <div align="center">
-    <img id="back end egineer" src="whereAreTheseUsed.PNG" >
+    <img alt="Backend course!" src="whereAreTheseUsed.PNG" >
 </div>
 
 1. HTTP, DNS ... are **request and response** protocols.    
     - There is **no order**, when coming into communication and in **general** when dealing with **backend engineering**
 
 <div align="center">
-    <img id="back end egineer" src="thereIsNoLineInBeEngineering.jpeg" >
+    <img alt="Backend course!" src="thereIsNoLineInBeEngineering.jpeg" >
 </div>
 
 2. You run **code** in other place than in own computer.  
@@ -60,7 +60,7 @@ Backend Communication Design Patterns.
     - The `GraphQL` tries, to solve this being **less** **chatty**.
 
 <div align="center">
-    <img id="back end egineer" src="anotomyOfRequestAndResponse.PNG" >
+    <img alt="Backend course!" src="anotomyOfRequestAndResponse.PNG" >
 </div>
 
 1. We have to **agree** for the **request** and **response** format.
@@ -82,7 +82,7 @@ Body
 > What would be the best **patter** to implement here?
 
 <div align="center">
-    <img id="back end egineer" src="buildingUploadImageService.PNG" >
+    <img alt="Backend course!" src="buildingUploadImageService.PNG" >
 </div>
 
 
@@ -96,7 +96,7 @@ Body
 - **Remember** this is still the same **request and response** style, but we can dictate this.
 
 <div align="center">
-    <img id="back end egineer" src="doesNotWorkAnywhere.PNG" >
+    <img alt="Backend course!" src="doesNotWorkAnywhere.PNG" >
 </div>
 
 1. This style does not fit everywhere.
@@ -112,7 +112,7 @@ Body
 
 
 <div align="center">
-    <img id="back end egineer" src="requestAndResponseHandshakes.PNG" >
+    <img alt="Backend course!" src="requestAndResponseHandshakes.PNG" >
 </div>
 
 1. From sending of the **request** to the **response**.
@@ -124,13 +124,13 @@ Body
 # Synchronous vs Asynchronous workloads.  
 
 <div align="center">
-    <img id="back end egineer" src="asynchronousOrsynchronous.PNG" width="500px" >
+    <img alt="Backend course!" src="asynchronousOrsynchronous.PNG" width="500px" >
 </div>
 
 - Async is the term is not in same wave length!
 
 <div align="center">
-    <img id="back end egineer" src="SynchronoysIo.PNG" >
+    <img alt="Backend course!" src="SynchronoysIo.PNG" >
 </div>
 
 1. Once call is made, this gets block.
@@ -140,14 +140,14 @@ Body
 # Push.  
 
 <div align="center">
-    <img id="back end egineer" src="push.PNG">
+    <img alt="Backend course!" src="push.PNG">
 </div>
 
 1. If you want to be fast as possible use, then you can think of using **PUSH**!
     - One of the famous ones!
 
 <div align="center">
-    <img id="back end egineer" src="requestAndReponseNotAlwaysBest.PNG">
+    <img alt="Backend course!" src="requestAndReponseNotAlwaysBest.PNG">
 </div>
 
 1. "Do I have event" → "No", "I have event" → "no" ... etc. With, **request** and **response** this is not ideal.
@@ -155,7 +155,7 @@ Body
     - Example would be **chatting application**.
 
 <div align="center">
-    <img id="back end egineer" src="whatIsPush.PNG">
+    <img alt="Backend course!" src="whatIsPush.PNG">
 </div>
 
 1. **Client** connects to a **server**. Only thing should happen is the **connection**!
@@ -167,7 +167,7 @@ Body
             - In **RabbitMQ** pushes messages **automatically** to the **clients** that are connected to it as soon as they’re available in **queue**!
 
 <div align="center">
-    <img id="back end egineer" src="pushModel.PNG">
+    <img alt="Backend course!" src="pushModel.PNG">
 </div>
 
 1. The connection is **established**!
@@ -175,7 +175,7 @@ Body
     - This **message** is **PUSHED** to all connected the **clients**!
 
 <div align="center">
-    <img id="back end egineer" src="pushPlussesAndMinuses.PNG">
+    <img alt="Backend course!" src="pushPlussesAndMinuses.PNG">
 </div>
 
 
@@ -193,7 +193,7 @@ Body
 - For this example we will test with **WebSocket** server and connecting:
 
 <div align="center">
-    <img id="back end egineer" width="500" src="webSocketTesting.PNG">
+    <img alt="Backend course!" width="500" src="webSocketTesting.PNG">
 </div>
 
 
@@ -204,7 +204,7 @@ Body
 - We write simple **WebSocket** server. This will demonstrate the **PUSH** concept.
 
 <div align="center">
-    <img id="back end egineer" width="400" src="pushPatternExample.jpeg">
+    <img alt="Backend course!" width="400" src="pushPatternExample.jpeg">
 </div>
 
 
@@ -339,14 +339,14 @@ connections.forEach (c=> c.send(`User${connection.socket.remotePort} just connec
     - Like uploading **YouTube** video. Upload takes time, but the service return the **handle** for the client. This is good for client to ask is this job done!
 
 <div align="center">
-    <img id="back end egineer" src="whereTheRequesAndResponseIsNotIdeal.PNG" width=700px>
+    <img alt="Backend course!" src="whereTheRequesAndResponseIsNotIdeal.PNG" width=700px>
 </div>
 
 1. The `request` and `response` is **not ideal**, when the **request** takes **too** much time to process. Example **uploading video** to the YouTube video!
 2.  We would want to have event that something did happen in backend. **Push** or **Polling** very good for certain use cases!
 
 <div align="center">
-    <img id="back end egineer" src="whatIsShortPolling.PNG">
+    <img alt="Backend course!" src="whatIsShortPolling.PNG">
 </div>
 
 1. **Client** sends a **request**.
@@ -357,7 +357,7 @@ connections.forEach (c=> c.send(`User${connection.socket.remotePort} just connec
 2. **Client** can use the `handle` for **POLL**:in the **status** from the server!
 
 <div align="center">
-    <img id="back end egineer" src="shortPollingModel.PNG">
+    <img alt="Backend course!" src="shortPollingModel.PNG">
 </div>
 
 1. **Client** makes request, the **Server immediately** answers with the **handle** to be requested.
@@ -369,7 +369,7 @@ connections.forEach (c=> c.send(`User${connection.socket.remotePort} just connec
 > If the client disconnects, the response will be responded regardless is the client ready accept it or not!
 
 <div align="center">
-    <img id="back end egineer" src="shortPollingProsAndCons.PNG">
+    <img alt="Backend course!" src="shortPollingProsAndCons.PNG">
 </div>
 
 1. It is relatively **simple to implement**.
@@ -382,7 +382,7 @@ connections.forEach (c=> c.send(`User${connection.socket.remotePort} just connec
     - Network bandwidth.
 
 <div align="center">
-    <img id="back end egineer" src="shortPollingPatternExample.jpg">
+    <img alt="Backend course!" src="shortPollingPatternExample.jpg">
 </div>
 
 ````
@@ -469,7 +469,7 @@ function updateJob(jobId, prg) {
 ````
 
 <div align="center">
-    <img id="back end egineer" src="weCanPollTheStatusOfTheJob.PNG">
+    <img alt="Backend course!" src="weCanPollTheStatusOfTheJob.PNG">
 </div>
 
 1. We can **POLL** the status of the **job**, with the concept of **short polling**!
@@ -480,7 +480,7 @@ function updateJob(jobId, prg) {
 # Long Polling.  
 
 <div align="center">
-    <img id="back end egineer" src="longPollingCaption.PNG">
+    <img alt="Backend course!" src="longPollingCaption.PNG">
 </div>
 
 1. This will be the same **polling**, but it would answer when the **things** is ready!
@@ -488,7 +488,7 @@ function updateJob(jobId, prg) {
 - **Kafka** changed into the **Long Polling**.
 
 <div align="center">
-    <img id="back end egineer" src="whenTheShortPollingAndTheRequestAndResponseIsNotTheIdealSolution.PNG">
+    <img alt="Backend course!" src="whenTheShortPollingAndTheRequestAndResponseIsNotTheIdealSolution.PNG">
 </div>
 
 1. **Short Polling** is too **chatty**.
@@ -496,7 +496,7 @@ function updateJob(jobId, prg) {
     - **Consumer** does the **Long Polling** request and then **Topic** will respond when it is **ready**.
 
 <div align="center">
-    <img id="back end egineer" width="600xp" src="whatIsTheLongPolling.PNG">
+    <img alt="Backend course!" width="600xp" src="whatIsTheLongPolling.PNG">
 </div>
 
 1. It will be same as in the **Polling**. The first answer for request will be the **handle**.
@@ -506,7 +506,7 @@ function updateJob(jobId, prg) {
       - See the difference to the **Short Polling**.
 
 <div align="center">
-    <img id="back end egineer" src="longPollingModel.PNG">
+    <img alt="Backend course!" src="longPollingModel.PNG">
 </div>
 
 1. **Client** makes the request and servers responses, with the **Handle**. Like in **Short Polling** example.
@@ -514,17 +514,17 @@ function updateJob(jobId, prg) {
 
 
 <div align="center">
-    <img id="back end egineer" src="longPollingExample.gif">
+    <img alt="Backend course!" src="longPollingExample.gif">
 </div>
 
 - Remember the answer will come when **result** is ready.
 
 <div align="center">
-    <img id="back end egineer" src="longPollingProsAndCons.PNG" width="500px">
+    <img alt="Backend course!" src="longPollingProsAndCons.PNG" width="500px">
 </div>
 
 <div align="center">
-    <img id="back end egineer" src="longPollingIllustration.jpeg">
+    <img alt="Backend course!" src="longPollingIllustration.jpeg">
 </div>
 
 
@@ -584,7 +584,7 @@ async function checkJobComplete(jobId) {
 - This is `Promise` based. 
 
 <div align="center">
-    <img width="4800px" id="back end egineer" src="LongPollingExample.PNG">
+    <img width="4800px" alt="Backend course!" src="LongPollingExample.PNG">
 </div>
 
 1. As soon as the **client** calls for the result. The servers let client **wait** for the **result**.
