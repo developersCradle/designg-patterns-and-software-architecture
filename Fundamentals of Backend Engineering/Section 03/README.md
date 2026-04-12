@@ -6,9 +6,107 @@ Protocols.
 
 # Protocols Intro.
 
+<div align="center">
+    <img width="500px" alt="Backend course!" src="Protocol_Introduction.JPG">
+</div>
+
+1. We will answer many questions like: 
+    - What is protocol?
+    - When design protocol, what you take into account?
+    - **Popular protocols** are covered here: 
+
 # Protocol Properties.
 
+<div align="center">
+    <img width="500px" alt="Backend course!" src="Protocol_Properties_Intro.JPG">
+</div>
+
+1. What needs to is needed to think, when designing the **protocol**!
+    - Take these with grain of salt!
+
+<div align="center">
+    <img width="500px" alt="Backend course!" src="What_Is_Protocol.JPG">
+</div>
+
+1. Protocol is set of **rules** for two parties to **communicate**!
+2. Every protocol is to **solve problem**!
+    - `TCP`, was designed to solve problem in 60's!
+        - Its getting old check: [TCP needs to be replaced](https://www.youtube.com/watch?v=nEFOni_87Yw)!
+            - `TCP` was designed for low-bandwidth.
+    - `UDP`.
+    - `HTTP`.
+    - `gRPC`.
+    - `FTP`.
+
+<div align="center">
+    <img width="500px" alt="Backend course!" src="Protocol_Properties.JPG">
+</div>
+
+1. What is the **data format** of the protocol?
+    - **Text Based**:
+        - *Plain Text*.
+        - *JSON*.
+        - *XML*.
+    - **Binary** (Compact, machine-readable):
+        - This was designed to be read by machine, so it could be read **efficiently**!
+            - *Protobuf*.
+            - *RESP* (Redis protocol).
+            - *h2* (HTTP/2).
+            - *H3* (HTTP/3).
+2. What is the **transfer mode** of the protocol?
+    - **Message based**:
+        - There is **start** and the **end**!
+             - *UDP*.
+             - *HTTP*.
+    - **Stream**:
+        - There is **continuous sequence** of bytes!
+            - *TCP*.
+            - *WebRTC*.
+3. What is the **addressing system** of the protocol?
+    - *DNS*.
+    - *IP*.
+    - *MAC*.
+4. What is the **directionality** of the protocol?
+    - *Bidirectional* (TCP).
+    - *Unidirectional* (HTTP).
+    - *Full/Half duplex*.
+        - Wi-Fi is **half-duplex**.
+            - In half duplex communication, both devices can:
+                - Send data.
+                - Receive data.
+                    - …but not at the same time!
+
+<div align="center">
+    <img width="500px" alt="Backend course!" src="Protocol_Properties_Second.JPG">
+</div>
+
+1. What is the **state** of the protocol?
+    - **Stateful**:
+        - *TCP*.
+        - *gRPC*.
+        - *Apache thrift*.
+    - **Stateless**:
+        - *UDP*.
+        - *HTTP*.
+
+2. How you protocol deals with **routing**!
+    - There is **start** and the **end**!
+        - *Proxies*, *Gateways*.
+3. How you protocol deals with **flow control** and the **congestion control** ! 
+    - **Flow control** how a fast sender doesn’t overwhelm a slow **receiver** and **Congestion control** prevent network overload.
+            - *TCP* (flow and congestion control)
+            - *UDP* Does not control!
+4. How you protocol deals with **error management**!
+
 # OSI Model.
+
+<div align="center">
+    <img width="500px" alt="Backend course!" src="OSI_Model.JPG">
+</div>
+
+1. One engineer should understand the **OSI** model, when creating apps, which are touching **networking**! No need to master fully!
+
+- Todo jatka tästä!
 
 # Internet Protocol.
 
@@ -44,7 +142,7 @@ Protocols.
         - There can be different processes to receive different packages!
     - **TODO** Check this again after UDP!
 3. UDP **Control's** the transmission!
-    - Unlike the **UDP** packages are being shooted out! For this reason the **firewall** sometimes block the **UDP** packages!
+    - Unlike the **UDP** packages are being shot out! For this reason the **firewall** sometimes block the **UDP** packages!
 4. **TCP** is having connection, meaning both side **client** and the **server** are holding **information** about each other!
 5. For having this **connection**, we need the **handshake**!
 6. It's **stateful**!
@@ -179,6 +277,11 @@ Protocols.
 3. Then **connection** its **closed**!
 
 - Get back here after finishing the **TSL** and **TCP** chapter!
+
+<div align="center">
+    <img width="500px" alt="Backend course!" src="TCP_Connection.JPG">
+</div>
+
 
 # HTTPS, TLS, Keys and Certificates.
 

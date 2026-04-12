@@ -27,6 +27,9 @@
 
 All course material from *Design Patterns in Java* by from **Dmitri Nesteruk**.
 
+> . 🐟🐟🐟 <br><br>
+~ *DevelopersCradle*
+
 Contains my own with my own visual notes ✍️ with some course material to enforce learning experience.
 
 
@@ -79,23 +82,23 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] [Section 25](#) - Visitor.
 - [ ] [Section 26](#) - Course Summary.
 
-### Additional stuff.
+#### Additional stuff.
 
 - [ ] Make caption coherent.
-- [ ] In typescript [Ts](https://refactoring.guru/design-patterns/typescript).
+- [ ] In Typescript [Ts](https://refactoring.guru/design-patterns/typescript).
 - [ ] In [C++](https://www.udemy.com/course/patterns-cplusplus/).
 
 <details>
 
 <summary id="IDE problem" open="false"> <b>As using IDE  studying tool. Here is the common errors.</b> </summary>
 
-<img src="AddingChapters.PNG" alt="alt text" width="200"/>
+<img src="AddingChapters.PNG" alt="Course chapters." width="200"/>
 
 - When adding more chapters, do in this perspective/look.
 
 <br>
 
-<img src="rememberToCleanRunningConfigInEclipseIfErro.PNG" alt="alt text" width="300"/>
+<img src="Remember_To_Clean_Running_Configs_In_Eclipse_If_There_Is_Error.PNG" alt="Remember to check the settigs!" width="300"/>
 
 1. If you pull and encounter error. Remember to delete running config sometimes! [Link](https://stackoverflow.com/questions/11235827/eclipse-error-could-not-find-or-load-main-class).
 
@@ -108,13 +111,22 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 </details>
 
 <p align="center">
-    <img id="studying" src="Clean Code Caption.png" height=90>
+    <img
+     src="Clean_Code_Caption.png"
+    alt="Clean Code Caption!"
+    style="width:1600px;height:110px;"/>
 </p>
 
-
-![Clean Code](Clean%20Code%20Desc.png)
+<p align="center">
+    <img src="Clean_Code_Description.png"
+    alt="Clean Code Description!"
+    style="width:690px" />
+</p>
 
 All course material from *Clean Code* by **Maximilian Schwarzmüller**.
+
+> . 🐟🐟🐟 <br><br>
+~ *DevelopersCradle*
 
 Contains my own with my own visual notes ✍️ with some course material to enforce learning experience.
 
@@ -166,6 +178,10 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 </p>
 
 All course material from *Java Design Patterns & SOLID Design Principles* by **Coffee Powered Crew**.
+
+> . 🐟🐟🐟 <br><br>
+~ *DevelopersCradle*
+
 
 Contains my own with my own visual notes ✍️ with some course material to enforce learning experience.
 
@@ -307,10 +323,8 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 All course material from *Fundamentals of Backend Engineering* by **Hussein Nasser** ©.
 
-
 >  🐟🐟🐟 <br><br>
 ~ *DevelopersCradle*
-
 
 Contains my own with my own visual notes ✍️ with some course material to enforce learning experience.
 
@@ -381,7 +395,6 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 <p align="center">
     <!-- <img id="Microservices_Architecture_The_Complete_Guide_Certificate?trk=public_profile_see-credential" src="Microservices_Architecture_The_Complete_Guide_Certificate.jpg" alt="SOAP Web Services with Java_certificate" width="600"/> -->
 </p>
-
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
