@@ -30,7 +30,7 @@ Protocols.
 
 1. Protocol is set of **rules** for two parties to **communicate**!
 2. Every protocol is to **solve problem**!
-    - `TCP`, was designed to solve problem in 60's!
+    - `TCP`, was designed to solve problem in **60's**!
         - Its getting old check: [TCP needs to be replaced](https://www.youtube.com/watch?v=nEFOni_87Yw)!
             - `TCP` was designed for low-bandwidth.
     - `UDP`.
@@ -160,7 +160,11 @@ Protocols.
     - Web Communications:
 3. `A` can talk `B` and `B` can talk `A`!
 
+- Todo jatka tästä.
+
 # TLS.
+
+
 
 # HTTP/1.1.
 

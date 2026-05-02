@@ -11,17 +11,17 @@ Backend Communication Design Patterns.
 # Request Response.  
 
 <div align="center">
-    <img width="500px" alt="Backend course!" src="requestAndReponse.PNG" >
+    <img width="500px" alt="Backend course!" src="Request_And_Reponse_Intro.PNG" style="width:890px" >
 </div>
 
-1. The most famous and popular.
+1. The most **famous** and **popular** patter.
     - There is **request** and **response**!
 
 <div align="center">
-    <img alt="Backend course!" src="requestAndResponseModel.PNG" >
+    <img alt="Backend course!" src="Request_And_Response_Model.PNG" style="width:690px">
 </div>
 
-1. What is request? **Request** needs be **defined** by client.
+1. What is request? **Request** needs be **defined** by client! There can be multiple request in same time!
 2. **Server** needs to parse the **request**.
     - 💲**Cost**💲 of the parsing the **request** is no fun!
     - We are **understanding** the request here.
@@ -32,49 +32,47 @@ Backend Communication Design Patterns.
 5. Client **parses** and **consumes** it.
 6. Simple diagram for the **request** and the **response**.
 
-
-
 > [!NOTE]
 > Where does the **serialization** and **deserialization** come to place, in example of the **JSON**?
->    - In the **step**, `processing the request`. The `3` step!
->        -  The **deserialization** is  💲💲**EXPENSIVE**💲💲!
+>    - In the step, **processing the request**. The `3` step!
+>        -  The **deserialization** is 💲💲**EXPENSIVE**💲💲!
 >            - Example, the **XML** is heavy on processing!
 
 <div align="center">
-    <img alt="Backend course!" src="whereAreTheseUsed.PNG" >
+    <img alt="Backend course!" src="Where_Are_Request_And_Response_Pattern_Used.PNG" >
 </div>
 
-1. HTTP, DNS ... are **request and response** protocols.    
-    - There is **no order**, when coming into communication and in **general** when dealing with **backend engineering**
+1. **HTTP**, **DNS** ... are **request and response** protocols.    
+    - There is **no order**, when coming into communication and in **general** when dealing with **backend engineering**. *Which request came first?*
 
 <div align="center">
-    <img alt="Backend course!" src="thereIsNoLineInBeEngineering.jpeg" >
+    <img alt="Backend course!" src="There_Is_No_Lines_In_Backend_Engineering_Meme.jpeg" style="width:490px">
 </div>
 
 2. You run **code** in other place than in own computer.  
 3. **SQL** is also, **request and response**. We send **SQL** and processes it and sends back.
-4. `SOAP` is fine as long it works! 
+4. **SOAP** is fine as long it works! 
     - Once you run into **defiances**, only then try to **optimize** things!
         - Try to **not** to **pre-optimize** things! 
 - In **REST,** we are making the **lot** of requests!! This is one downside of **REST**.
-    - The `GraphQL` tries, to solve this being **less** **chatty**.
+    - The **GraphQL** tries, to solve this being **less** **chatty**.
+        - It tries to **package request into one**!
 
 <div align="center">
-    <img alt="Backend course!" src="anotomyOfRequestAndResponse.PNG" >
+    <img alt="Backend course!" src="Anotomy_Of_Request_And_Response.PNG" >
 </div>
 
 1. We have to **agree** for the **request** and **response** format.
     - This has been already **agreed** by the **libraries**.
 2. Requests have boundaries.
 3. Example of the **message format** where **JSON** is parsed into to the **C++** **class object**!
-4. `HTTP` **request** looks like such:
-
-```
-Start Line
-Headers
-Blank Line
-Body
-```
+4. **HTTP** request looks like such:
+    ```XML
+    Start Line
+    Headers
+    Blank Line
+    Body
+    ```
 
 - We have task to **build** upload image service!
     

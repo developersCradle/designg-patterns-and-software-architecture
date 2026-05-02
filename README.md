@@ -307,7 +307,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
     - [Link 01](https://medium.com/@pradeepisuru31/understanding-mdc-in-spring-boot-concepts-pitfalls-and-best-practices-f61594ed1efd).
     - [Link 02](https://www.youtube.com/watch?v=Ip7BIptWMg4).
     - [Link 03](https://www.youtube.com/watch?v=DsFsd--vhas).
-    
+
 <p align="center">
     <img
      src="Fundamentals_Of_Backend_Engineering_Caption.png"
@@ -347,7 +347,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 #### Progress/Curriculum.
 
-- [x] [Section 01](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Fundamentals%20of%20Backend%20Engineering/Section%2001#section-1-introduction) - Introduction. ✅
+- [x] [Section 01](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Fundamentals%20of%20Backend%20Engineering/Section%2001#section-01-introduction) - Introduction. ✅
 - [ ] [Section 02](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Fundamentals%20of%20Backend%20Engineering/Section%2002#section-02-backend-communication-design-patterns) - Backend Communication Design Patterns.
 - [ ] [Section 03](https://github.com/developersCradle/designg-patterns-and-software-architecture/blob/main/Fundamentals%20of%20Backend%20Engineering/Section%2003/README.md#section-03-protocols) - Protocols.
 - [ ] [Section 04](https://github.com/developersCradle/designg-patterns-and-software-architecture/blob/main/Fundamentals%20of%20Backend%20Engineering/Section%2004/README.md#section-04-many-ways-to-https) - Many ways to HTTPS.
@@ -360,6 +360,8 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 - [x] Do for now **Polling concept**! ✅
 - [ ] If in mood implement these in Java.
+- [ ] Check this one, if [time](https://www.youtube.com/watch?v=nEFOni_87Yw).
+- [ ] Remove for the `Archive` folder if not needed.
 
 <p align="center">
     <img
