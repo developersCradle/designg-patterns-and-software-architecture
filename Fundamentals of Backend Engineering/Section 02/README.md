@@ -65,7 +65,7 @@ Backend Communication Design Patterns.
 1. We have to **agree** for the **request** and **response** format.
     - This has been already **agreed** by the **libraries**.
 2. Requests have boundaries.
-3. Example of the **message format** where **JSON** is parsed into to the **C++** **class object**!
+3. Example of the **message format** where **JSON** will be parsed into to the **C++** **class object**!
 4. **HTTP** request looks like such:
     ```XML
     Start Line
@@ -74,71 +74,104 @@ Backend Communication Design Patterns.
     Body
     ```
 
-- We have task to **build** upload image service!
+- Example we have task to **build** upload image service:
     
 > [!NOTE]
 > What would be the best **patter** to implement here?
 
 <div align="center">
-    <img alt="Backend course!" src="buildingUploadImageService.PNG" >
+    <img alt="Backend course!" src="Building_Upload_Image_Service.PNG" >
 </div>
-
 
 1. **Simplest** would be to use **request and response** pattern! 
     - Is to send **whole** file and send it to server.
-        - If the image will be ***big**.
+        - What if the image will be **big**.
 
 2. Other way is to make this image into **smaller parts**.
-    - Send **each** request, small chunk of the pic.
+    - Send **each** request, **small chunk** of the pic.
 
 - **Remember** this is still the same **request and response** style, but we can dictate this.
 
 <div align="center">
-    <img alt="Backend course!" src="doesNotWorkAnywhere.PNG" >
+    <img alt="Backend course!" src="Notification_It_Does_Not_Work_Anywhere.PNG" >
 </div>
 
-1. This style does not fit everywhere.
+1. This style does **not fit** everywhere!
     - Example in **Notification service**. I want to get notification when somebody just **logged in** or **uploaded video**
         - This is **not**, request and response.
             - Only backend knows, but not the client.
     - Example in **Chatting application**.
-        - Spamming the `did i get request`!
+        - Spamming the *did i get request?*
     - Example if the request is **very long**, there are better ways to deal with this.
 
 > [!IMPORTANT]  
-> All these can be solved by using some kind of design patter!
-
+> All kind of can be solved by using some kind of design patter!
 
 <div align="center">
-    <img alt="Backend course!" src="requestAndResponseHandshakes.PNG" >
+    <img alt="Backend course!" src="Request_And_Response_Handshakes.PNG" >
 </div>
 
 1. From sending of the **request** to the **response**.
+    - There is cost of processing!
 2. **Timeline**, so we can see how long it took for the **request** and **response**.
 3. There is **cost** for processing the response.
 
-- Example of the **curl** `curl -v --trace out.txt http://google.com`.
+> [!NOTE]  
+> **FLUSH**
+> To clear, empty, or force pending data/changes to be written or applied immediately!
+
+- Example of the **curl** `curl -v --trace out.txt http://google.com`. Example below:
+
+<div align="center">
+    <img alt="Backend course!" src="Curl_Processing.gif" >
+</div>
 
 # Synchronous vs Asynchronous workloads.  
 
 <div align="center">
-    <img alt="Backend course!" src="asynchronousOrsynchronous.PNG" width="500px" >
+    <img alt="Backend course!" src="Asynchronous_And_Arsynchronous_Intro.PNG" style="width:890px" >
 </div>
 
-- Async is the term is not in same wave length!
+- **Async** is the term is **not** in same wave length!
 
 <div align="center">
-    <img alt="Backend course!" src="SynchronoysIo.PNG" >
+    <img alt="Backend course!" src="Synchronous_IO.PNG" >
 </div>
 
-1. Once call is made, this gets block.
+1. The **traditional** way! Once call is made, the called is **blocked** this gets blocked, until its finished.
 
-- Todo continue this when needed.
+<div align="center">
+    <img alt="Backend course!" src="Example_Of_An_OS_Synchronous_IO.PNG" >
+</div>
+
+1. Program asks **OS** to read from disk.
+2. Program `main` thread is taken out of **CPU** until this is finished!
+3. Read **completes**, the program resumes!
+
+<div align="center">
+    <img alt="Backend course!" src="Asynchronous_IO.PNG" >
+</div>
+
+1. Asynchronous I/O flow:
+    - Caller **sends** a request.
+    - Caller **can work** until it gets a response.
+    - Caller **either** (*How can caller know if it got response or not?*):
+        - Checks if the response is ready (`epoll`).
+            - Caller can check if **result** is ready!
+                -  In **Linux** it's done with the `epoll`.
+        - Receiver calls back when it's done (`io_uring`).
+            - In **Linux** It's done with the `io_uring`.
+        - Spins up a new thread that blocks
+            - `Node.js` will spins up **new thread** to do the process.
+    - Caller and receiver are not necessary in **sync**.
+
+
+
 
 # Push.  
 
 <div align="center">
-    <img alt="Backend course!" src="push.PNG">
+    <img alt="Backend course!" src="Push_Model_Intro.PNG">
 </div>
 
 1. If you want to be fast as possible use, then you can think of using **PUSH**!
@@ -173,9 +206,8 @@ Backend Communication Design Patterns.
     - This **message** is **PUSHED** to all connected the **clients**!
 
 <div align="center">
-    <img alt="Backend course!" src="pushPlussesAndMinuses.PNG">
+    <img alt="Backend course!" src="Push_Model_Plusses_And_Minuses.PNG">
 </div>
-
 
 
 1. **Push** is based on the **real time**. On the moment data come to the input, we are going to **PUSH** it to clients. 
@@ -478,7 +510,7 @@ function updateJob(jobId, prg) {
 # Long Polling.  
 
 <div align="center">
-    <img alt="Backend course!" src="longPollingCaption.PNG">
+    <img alt="Backend course!" src="longPollingCaption.PNG" style="width:690px">
 </div>
 
 1. This will be the same **polling**, but it would answer when the **things** is ready!

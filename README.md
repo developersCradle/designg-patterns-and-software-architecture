@@ -48,8 +48,9 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
     Add here the certifcate-
 </p>
 
-**Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
+<br>
 
+**Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
 - When importing folder, use the parent folder `Design Patterns in Java`, in **Eclipse** use `Existing project into workspace` import function.
 
@@ -58,7 +59,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [x] [Section 01](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Design%20Patterns%20in%20Java/src/Section%2001#section-1-introduction) - Introduction. ✅
 - [ ] [Section 02](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Design%20Patterns%20in%20Java/src/Section%2002#section-2-solid-design-principles) - SOLID Design Principles.
 - [x] [Section 03](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Design%20Patterns%20in%20Java/src/Section%2003#section-3-builders) - Builder. ✅
-- [ ] [Section 04](#) - Factories.
+- [ ] [Section 04](#) - Factories. ⚠️ In progress! ⚠️
 - [ ] [Section 05](#) - Prototype.
 - [ ] [Section 06](#) - Singleton.
 - [ ] [Section 07](#) - Adapter.
@@ -146,11 +147,13 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
    Insert certificate here when completed
 </p>
 
+<br>
+
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
 #### Progress/Curriculum.
 
-- [ ] [Section 01](#) - Getting Started.
+- [ ] [Section 01](#) - Getting Started. ⚠️ In progress! ⚠️
 - [ ] [Section 02](#) - Naming - Assigning Names to Variables, Functions, Classes & More.
 - [ ] [Section 03](#) - Code Structure, Comments & Formatting.
 - [ ] [Section 04](#) - Functions & Methods.
@@ -199,11 +202,13 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
    Insert certificate here when completed
 </p>
 
+<br>
+
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
 #### Progress/Curriculum.
 
-- [ ] [Section 01](#) - SOLID Design Principles.
+- [ ] [Section 01](#) - SOLID Design Principles. ⚠️ In progress! ⚠️
 - [ ] [Section 02](#) - Introduction.
 - [ ] [Section 03](#) - Creational Design Patterns.
 - [x] [Section 04](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Java%20Design%20Patterns%20%26%20SOLID%20Design%20Principles/Section%2004#section-04-builder) - Builder. ✅
@@ -279,6 +284,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
     <img id="Microservices_Architecture_The_Complete_Guide_Certificate?trk=public_profile_see-credential" src="Microservices_Architecture_The_Complete_Guide_Certificate.jpg" alt="SOAP Web Services with Java_certificate" width="600"/>
 </p>
 
+<br>
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
@@ -343,14 +349,16 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
     Insert certificate here when completed
 </div>
 
+<br>
+
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
 #### Progress/Curriculum.
 
 - [x] [Section 01](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Fundamentals%20of%20Backend%20Engineering/Section%2001#section-01-introduction) - Introduction. ✅
-- [ ] [Section 02](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Fundamentals%20of%20Backend%20Engineering/Section%2002#section-02-backend-communication-design-patterns) - Backend Communication Design Patterns.
-- [ ] [Section 03](https://github.com/developersCradle/designg-patterns-and-software-architecture/blob/main/Fundamentals%20of%20Backend%20Engineering/Section%2003/README.md#section-03-protocols) - Protocols.
-- [ ] [Section 04](https://github.com/developersCradle/designg-patterns-and-software-architecture/blob/main/Fundamentals%20of%20Backend%20Engineering/Section%2004/README.md#section-04-many-ways-to-https) - Many ways to HTTPS.
+- [ ] [Section 02](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Fundamentals%20of%20Backend%20Engineering/Section%2002#section-02-backend-communication-design-patterns) - Backend Communication Design Patterns. ⚠️ In progress! ⚠️
+- [ ] [Section 03](https://github.com/developersCradle/designg-patterns-and-software-architecture/blob/main/Fundamentals%20of%20Backend%20Engineering/Section%2003/README.md#section-03-protocols) - Protocols. ⚠️ In progress! ⚠️
+- [ ] [Section 04](https://github.com/developersCradle/designg-patterns-and-software-architecture/blob/main/Fundamentals%20of%20Backend%20Engineering/Section%2004/README.md#section-04-many-ways-to-https) - Many ways to HTTPS. ⚠️ In progress! ⚠️
 - [ ] [Section 05](https://github.com/developersCradle/designg-patterns-and-software-architecture/blob/main/Fundamentals%20of%20Backend%20Engineering/Section%2005/README.md#section-05-backend-execution-patterns) - Backend Execution Patterns.
 - [ ] [Section 06](https://github.com/developersCradle/designg-patterns-and-software-architecture/blob/main/Fundamentals%20of%20Backend%20Engineering/Section%2006/README.md#section-06-proxying-and-load-balancing) - Proxying and Load Balancing.
 - [ ] [Section 07](https://github.com/developersCradle/designg-patterns-and-software-architecture/blob/main/Fundamentals%20of%20Backend%20Engineering/Section%2007/README.md#section-07-extras) - Extras.
@@ -360,6 +368,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 - [x] Do for now **Polling concept**! ✅
 - [ ] If in mood implement these in Java.
+    - https://medium.com/@varunpandey94.vp/long-polling-using-spring-boot-97fa4f8fb085
 - [ ] Check this one, if [time](https://www.youtube.com/watch?v=nEFOni_87Yw).
 - [ ] Remove for the `Archive` folder if not needed.
 
@@ -398,11 +407,13 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
     <!-- <img id="Microservices_Architecture_The_Complete_Guide_Certificate?trk=public_profile_see-credential" src="Microservices_Architecture_The_Complete_Guide_Certificate.jpg" alt="SOAP Web Services with Java_certificate" width="600"/> -->
 </p>
 
+<br>
+
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
 #### Progress/Curriculum.
 
-- [x] [Section 01](#) - Welcome. ✔️
+- [x] [Section 01](#) - Welcome. ⚠️ In progress! ⚠️
 
 #### Additional stuff.
 
