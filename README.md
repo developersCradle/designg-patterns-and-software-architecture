@@ -1,4 +1,3 @@
-
 <p align="center">
     <img id="studying" src="Software_Architecture_And_Design_Patterns_Caption.png" style="width:900px;height:140px;">
 </p>
@@ -332,7 +331,7 @@ All course material from *Fundamentals of Backend Engineering* by **Hussein Nass
 >  🐟🐟🐟 <br><br>
 ~ *DevelopersCradle*
 
-Contains my own with my own visual notes ✍️ with some course material to enforce learning experience.
+Contains my own with my own visual notes ✍️ with some course material to enforce learning experience. This course is for intermediation level, one can be expected to have built some projects!
 
 [The course at Udemy](https://www.udemy.com/course/fundamentals-of-backend-communications-and-protocols).
 
@@ -366,11 +365,13 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 #### Additional stuff.
 
-- [x] Do for now **Polling concept**! ✅
 - [ ] If in mood implement these in Java.
     - https://medium.com/@varunpandey94.vp/long-polling-using-spring-boot-97fa4f8fb085
 - [ ] Check this one, if [time](https://www.youtube.com/watch?v=nEFOni_87Yw).
 - [ ] Remove for the `Archive` folder if not needed.
+- [ ] Remove for the `Archive` folder if not needed.
+- [ ] [db](https://www.udemy.com/course/fundamentals-of-networking-for-effective-backend-design/?couponCode=KEEPLEARNING).
+
 
 <p align="center">
     <img

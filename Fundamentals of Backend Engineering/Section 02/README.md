@@ -93,15 +93,15 @@ Backend Communication Design Patterns.
 - **Remember** this is still the same **request and response** style, but we can dictate this.
 
 <div align="center">
-    <img alt="Backend course!" src="Notification_It_Does_Not_Work_Anywhere.PNG" >
+    <img alt="Backend course!" src="Notification_It_Does_Not_Work_Everywhere.PNG" >
 </div>
 
 1. This style does **not fit** everywhere!
-    - Example in **Notification service**. I want to get notification when somebody just **logged in** or **uploaded video**
+    - Example **Notification service**. I want to get notification when somebody just **logged in** or **uploaded video**
         - This is **not**, request and response.
             - Only backend knows, but not the client.
     - Example in **Chatting application**.
-        - Spamming the *did i get request?*
+        - Spamming the questions like, *did I get request?*
     - Example if the request is **very long**, there are better ways to deal with this.
 
 > [!IMPORTANT]  
@@ -165,10 +165,54 @@ Backend Communication Design Patterns.
             - `Node.js` will spins up **new thread** to do the process.
     - Caller and receiver are not necessary in **sync**.
 
+- Next we will be checking **NodeJS**.
 
+<div align="center">
+    <img alt="Backend course!" src="Example_Of_Asynchronous_IO.PNG" >
+</div>
 
+1. This is old `sNode.js`.
+    - Newer way is using `Promises`!
 
-# Push.  
+<div align="center">
+    <img alt="Backend course!" src="Asynchronous_Vs_Synchronous_In_Request_Response.PNG" >
+</div>
+
+1. Usually the **synchronous** is a **client property**! Rather than the server property.
+2. Most of the client libraries is having **asynchronous**, when doing network call!
+
+<div align="center">
+    <img alt="Backend course!" src="Synchronous_Asynchronous_In_Request_Real_Life.PNG" >
+</div>
+
+1. Synchronous communication the **caller waits** for a response from receiver.
+2. Asynchronous communication the response can come whenever. **Caller** and **receiver** can do **anything meanwhile**.
+
+- **Asynchronous** is everywhere:
+
+<div align="center">
+    <img alt="Backend course!" src="Asynchronous_Is_Everywhere.PNG" >
+</div>
+
+1. Promises are **asynchronous**!
+2. The backend processing is technically **asynchronous**!
+    - We can use **Queue** of request.
+        - We just check the state `jobId` or using with the **promise**!
+3. **PostgreSQL** does support **asynchronous** commits.
+    - When you write data (INSERT, UPDATE, etc.), PostgreSQL:
+    - Writes to the **WAL** (**W**rite-**A**head **L**og)
+    - Waits until that data is safely flushed to disk
+    - Only then does it confirm the transaction → this is synchronous commit
+
+- Todo palaa tähän kun valmis db course!
+- todo the postgres 
+
+ 4. If we want to execute the **Socket Read** *Is there something to read?*
+    - We can ask the **socket** *"Is this socket ready to be read from?”*!
+5. todo.
+6. todo.
+
+# Push.
 
 <div align="center">
     <img alt="Backend course!" src="Push_Model_Intro.PNG">
