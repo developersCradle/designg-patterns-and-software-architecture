@@ -1,3 +1,22 @@
+<!-- 
+
+We are using following structure:
+
+<p align="center">
+    <img
+     src="Jackson_Quick_Start_JSON_Serialization_With_Java_Made_Easy_Caption.png"
+    alt="Jackson quick start json serialization with java made easy caption!"
+    style="width:1600px;height:120px;"/>
+</p> 
+<p align="center">
+    <img
+    id="Jackson_Quick_Start_JSON_Serialization_With_Java_Made_Easy_Description?trk=public_profile_see-credential" src="Jackson_Quick_Start_JSON_Serialization_With_Java_Made_Easy_Description.png"
+    alt="Jackson quick start json serialization with java made easy description!"
+    style="width:590px; height:160px;" />
+</p>
+
+-->
+
 <p align="center">
     <img id="studying" src="Software_Architecture_And_Design_Patterns_Caption.png" style="width:900px;height:140px;">
 </p>
@@ -56,31 +75,31 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 #### Progress/Curriculum.
 
 - [x] [Section 01](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Design%20Patterns%20in%20Java/src/Section%2001#section-1-introduction) - Introduction. ✅
-- [ ] [Section 02](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Design%20Patterns%20in%20Java/src/Section%2002#section-2-solid-design-principles) - SOLID Design Principles.
+- [ ] [Section 02](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Design%20Patterns%20in%20Java/src/Section%2002#section-2-solid-design-principles) - SOLID Design Principles. ⚠️ In progress! ⚠️
 - [x] [Section 03](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Design%20Patterns%20in%20Java/src/Section%2003#section-3-builders) - Builder. ✅
 - [ ] [Section 04](#) - Factories. ⚠️ In progress! ⚠️
-- [ ] [Section 05](#) - Prototype.
-- [ ] [Section 06](#) - Singleton.
-- [ ] [Section 07](#) - Adapter.
-- [ ] [Section 08](#) - Bridge.
-- [ ] [Section 09](#) - Composite.
+- [ ] [Section 05](#) - Prototype. ⚠️ In progress! ⚠️
+- [ ] [Section 06](#) - Singleton. ⚠️ In progress! ⚠️
+- [ ] [Section 07](#) - Adapter. ⚠️ In progress! ⚠️
+- [ ] [Section 08](#) - Bridge. ⚠️ In progress! ⚠️
+- [ ] [Section 09](#) - Composite. ⚠️ In progress! ⚠️
 - [ ] [Section 10](#) - 
 - [x] [Section 11](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Design%20Patterns%20in%20Java/src/Section%2011#section-11-fa%C3%A7ade) - Façade. ✅
-- [ ] [Section 12](#) - 
-- [ ] [Section 13](#) - 
-- [ ] [Section 14](#) - 
+- [ ] [Section 12](#) - ⚠️ In progress! ⚠️
+- [ ] [Section 13](#) - ⚠️ In progress! ⚠️
+- [ ] [Section 14](#) - ⚠️ In progress! ⚠️
 - [x] [Section 15](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Design%20Patterns%20in%20Java/src/Section%2015#section-15-command) - Command. ✅
-- [ ] [Section 16](#) - 
-- [ ] [Section 17](#) - 
-- [ ] [Section 18](#) -
+- [ ] [Section 16](#) - ⚠️ In progress! ⚠️
+- [ ] [Section 17](#) - ⚠️ In progress! ⚠️
+- [ ] [Section 18](#) - ⚠️ In progress! ⚠️
 - [x] [Section 19](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Design%20Patterns%20in%20Java/src/Section%2019#section-19-memento) - Memento. ✅
-- [ ] [Section 20](#) - Null Object.
+- [ ] [Section 20](#) - Null Object. ⚠️ In progress! ⚠️
 - [x] [Section 21](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Design%20Patterns%20in%20Java/src/Section%2021#section-21-observer) - Observer. ✅
-- [ ] [Section 22](#) - State.
-- [ ] [Section 23](#) - Strategy.
-- [ ] [Section 24](#) - Template.
-- [ ] [Section 25](#) - Visitor.
-- [ ] [Section 26](#) - Course Summary.
+- [ ] [Section 22](#) - State. ⚠️ In progress! ⚠️
+- [ ] [Section 23](#) - Strategy. ⚠️ In progress! ⚠️
+- [ ] [Section 24](#) - Template. ⚠️ In progress! ⚠️
+- [ ] [Section 25](#) - Visitor. ⚠️ In progress! ⚠️
+- [ ] [Section 26](#) - Course Summary. ⚠️ In progress! ⚠️
 
 #### Additional stuff.
 
@@ -153,13 +172,13 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 #### Progress/Curriculum.
 
 - [ ] [Section 01](#) - Getting Started. ⚠️ In progress! ⚠️
-- [ ] [Section 02](#) - Naming - Assigning Names to Variables, Functions, Classes & More.
-- [ ] [Section 03](#) - Code Structure, Comments & Formatting.
-- [ ] [Section 04](#) - Functions & Methods.
-- [ ] [Section 05](#) - Control Structures & Errors.
-- [ ] [Section 06](#) - Objects, Classes & Data Containers / Structures.
-- [ ] [Section 07](#) - Summary & Checklist.
-- [ ] [Section 08](#) - Course Roundup.
+- [ ] [Section 02](#) - Naming - Assigning Names to Variables, Functions, Classes & More. ⚠️ In progress! ⚠️
+- [ ] [Section 03](#) - Code Structure, Comments & Formatting. ⚠️ In progress! ⚠️
+- [ ] [Section 04](#) - Functions & Methods. ⚠️ In progress! ⚠️
+- [ ] [Section 05](#) - Control Structures & Errors. ⚠️ In progress! ⚠️
+- [ ] [Section 06](#) - Objects, Classes & Data Containers / Structures. ⚠️ In progress! ⚠️
+- [ ] [Section 07](#) - Summary & Checklist. ⚠️ In progress! ⚠️
+- [ ] [Section 08](#) - Course Roundup. ⚠️ In progress! ⚠️
 
 #### Additional stuff.
 
@@ -208,37 +227,37 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 #### Progress/Curriculum.
 
 - [ ] [Section 01](#) - SOLID Design Principles. ⚠️ In progress! ⚠️
-- [ ] [Section 02](#) - Introduction.
-- [ ] [Section 03](#) - Creational Design Patterns.
+- [ ] [Section 02](#) - Introduction. ⚠️ In progress! ⚠️
+- [ ] [Section 03](#) - Creational Design Patterns. ⚠️ In progress! ⚠️
 - [x] [Section 04](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Java%20Design%20Patterns%20%26%20SOLID%20Design%20Principles/Section%2004#section-04-builder) - Builder. ✅
-- [ ] [Section 05](#) - Simple Factory.
-- [ ] [Section 06](#) - Factory Method.
-- [ ] [Section 07](#) - Prototype.
-- [ ] [Section 08](#) - Abstract Factory.
-- [ ] [Section 09](#) - Singleton.
-- [ ] [Section 10](#) - Object Pool.
-- [ ] [Section 11](#) - Structural Design Patterns.
-- [ ] [Section 12](#) - Adapter.
-- [ ] [Section 13](#) - Bridge.
-- [ ] [Section 14](#) - Decorator.
-- [ ] [Section 15](#) - Composite.
-- [ ] [Section 16](#) - Facade.
-- [ ] [Section 17](#) - Flyweight.
-- [ ] [Section 18](#) - Proxy.
-- [ ] [Section 19](#) - Behavioral Design Patterns.
-- [ ] [Section 20](#) - Chain of Responsibility.
-- [ ] [Section 21](#) - Command.
-- [ ] [Section 22](#) - Interpreter.
-- [ ] [Section 23](#) - Mediator.
-- [ ] [Section 24](#) - Iterator.
-- [ ] [Section 25](#) - Memento.
-- [ ] [Section 26](#) - Observer.
-- [ ] [Section 27](#) - State.
-- [ ] [Section 28](#) - Strategy.
-- [ ] [Section 29](#) - Template Method.
-- [ ] [Section 30](#) - Visitor.
-- [ ] [Section 31](#) - Null Object.
-- [ ] [Section 32](#) - Design Pattern Summary Document.
+- [ ] [Section 05](#) - Simple Factory. ⚠️ In progress! ⚠️
+- [ ] [Section 06](#) - Factory Method. ⚠️ In progress! ⚠️
+- [ ] [Section 07](#) - Prototype. ⚠️ In progress! ⚠️
+- [ ] [Section 08](#) - Abstract Factory. ⚠️ In progress! ⚠️
+- [ ] [Section 09](#) - Singleton. ⚠️ In progress! ⚠️
+- [ ] [Section 10](#) - Object Pool. ⚠️ In progress! ⚠️
+- [ ] [Section 11](#) - Structural Design Patterns. ⚠️ In progress! ⚠️
+- [ ] [Section 12](#) - Adapter. ⚠️ In progress! ⚠️
+- [ ] [Section 13](#) - Bridge. ⚠️ In progress! ⚠️
+- [ ] [Section 14](#) - Decorator. ⚠️ In progress! ⚠️
+- [ ] [Section 15](#) - Composite. ⚠️ In progress! ⚠️
+- [ ] [Section 16](#) - Facade. ⚠️ In progress! ⚠️
+- [ ] [Section 17](#) - Flyweight. ⚠️ In progress! ⚠️
+- [ ] [Section 18](#) - Proxy. ⚠️ In progress! ⚠️
+- [ ] [Section 19](#) - Behavioral Design Patterns. ⚠️ In progress! ⚠️
+- [ ] [Section 20](#) - Chain of Responsibility. ⚠️ In progress! ⚠️
+- [ ] [Section 21](#) - Command. ⚠️ In progress! ⚠️
+- [ ] [Section 22](#) - Interpreter. ⚠️ In progress! ⚠️
+- [ ] [Section 23](#) - Mediator. ⚠️ In progress! ⚠️
+- [ ] [Section 24](#) - Iterator. ⚠️ In progress! ⚠️
+- [ ] [Section 25](#) - Memento. ⚠️ In progress! ⚠️
+- [ ] [Section 26](#) - Observer. ⚠️ In progress! ⚠️
+- [ ] [Section 27](#) - State. ⚠️ In progress! ⚠️
+- [ ] [Section 28](#) - Strategy. ⚠️ In progress! ⚠️
+- [ ] [Section 29](#) - Template Method. ⚠️ In progress! ⚠️
+- [ ] [Section 30](#) - Visitor. ⚠️ In progress! ⚠️
+- [ ] [Section 31](#) - Null Object. ⚠️ In progress! ⚠️
+- [ ] [Section 32](#) - Design Pattern Summary Document. ⚠️ In progress! ⚠️
 
 #### Additional stuff.
 
@@ -313,6 +332,11 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
     - [Link 02](https://www.youtube.com/watch?v=Ip7BIptWMg4).
     - [Link 03](https://www.youtube.com/watch?v=DsFsd--vhas).
 
+
+# The Complete Microservices & Event-Driven Architecture.
+
+- todo here
+
 <p align="center">
     <img
      src="Fundamentals_Of_Backend_Engineering_Caption.png"
@@ -358,10 +382,10 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] [Section 02](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Fundamentals%20of%20Backend%20Engineering/Section%2002#section-02-backend-communication-design-patterns) - Backend Communication Design Patterns. ⚠️ In progress! ⚠️
 - [ ] [Section 03](https://github.com/developersCradle/designg-patterns-and-software-architecture/blob/main/Fundamentals%20of%20Backend%20Engineering/Section%2003/README.md#section-03-protocols) - Protocols. ⚠️ In progress! ⚠️
 - [ ] [Section 04](https://github.com/developersCradle/designg-patterns-and-software-architecture/blob/main/Fundamentals%20of%20Backend%20Engineering/Section%2004/README.md#section-04-many-ways-to-https) - Many ways to HTTPS. ⚠️ In progress! ⚠️
-- [ ] [Section 05](https://github.com/developersCradle/designg-patterns-and-software-architecture/blob/main/Fundamentals%20of%20Backend%20Engineering/Section%2005/README.md#section-05-backend-execution-patterns) - Backend Execution Patterns.
-- [ ] [Section 06](https://github.com/developersCradle/designg-patterns-and-software-architecture/blob/main/Fundamentals%20of%20Backend%20Engineering/Section%2006/README.md#section-06-proxying-and-load-balancing) - Proxying and Load Balancing.
-- [ ] [Section 07](https://github.com/developersCradle/designg-patterns-and-software-architecture/blob/main/Fundamentals%20of%20Backend%20Engineering/Section%2007/README.md#section-07-extras) - Extras.
-- [ ] [Section 08](https://github.com/developersCradle/designg-patterns-and-software-architecture/blob/main/Fundamentals%20of%20Backend%20Engineering/Section%2008/README.md#section-08-bonus-content) - Bonus Content.
+- [ ] [Section 05](https://github.com/developersCradle/designg-patterns-and-software-architecture/blob/main/Fundamentals%20of%20Backend%20Engineering/Section%2005/README.md#section-05-backend-execution-patterns) - Backend Execution Patterns. ⚠️ In progress! ⚠️
+- [ ] [Section 06](https://github.com/developersCradle/designg-patterns-and-software-architecture/blob/main/Fundamentals%20of%20Backend%20Engineering/Section%2006/README.md#section-06-proxying-and-load-balancing) - Proxying and Load Balancing. ⚠️ In progress! ⚠️
+- [ ] [Section 07](https://github.com/developersCradle/designg-patterns-and-software-architecture/blob/main/Fundamentals%20of%20Backend%20Engineering/Section%2007/README.md#section-07-extras) - Extras. ⚠️ In progress! ⚠️
+- [ ] [Section 08](https://github.com/developersCradle/designg-patterns-and-software-architecture/blob/main/Fundamentals%20of%20Backend%20Engineering/Section%2008/README.md#section-08-bonus-content) - Bonus Content. ⚠️ In progress! ⚠️
 
 #### Additional stuff.
 
@@ -371,6 +395,127 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] Remove for the `Archive` folder if not needed.
 - [ ] Remove for the `Archive` folder if not needed.
 - [ ] [db](https://www.udemy.com/course/fundamentals-of-networking-for-effective-backend-design/?couponCode=KEEPLEARNING).
+
+<!-- 
+<p align="center">
+    <img
+     src="The_Complete_Regular_Expressions_Regex_Course_For_Beginners_Caption.png"
+    alt="The Complete Regular Expressions Regex Course For Beginners Caption"
+    style="width:1600px;height:110px;"/>
+</p> -->
+
+# Troubleshooting Backend Systems Description.
+
+<p align="center">
+    <img src="Troubleshooting_Backend_Systems_Description.PNG"
+    alt="The Complete Regular Expressions Regex Course For Beginners Description"
+    style="width:690px" />
+</p>
+
+All course material from *Troubleshooting Backend Systems* by **Hussein Nasser** ©.
+
+> . 🐟 <br><br>
+~ *DevelopersCradle*
+
+Contains my own with my own visual notes ✍️ with some course material to enforce learning experience.
+
+[The course at Udemy](https://www.udemy.com/course/discovering-backend-bottlenecks-unlocking-peak-performance/).
+
+[Content maker](https://courses.husseinnasser.com/).
+
+If the content sparked :fire: your interest, please consider buying the course and start learning :book:.
+
+<!-- 
+Linkedin puts this shit front, when clicking from private mode x(. Need to put this to make jump working every case
+?trk=public_profile_see-credential 
+-->
+
+<p align="center">
+    <!-- <img id="Microservices_Architecture_The_Complete_Guide_Certificate?trk=public_profile_see-credential" src="Microservices_Architecture_The_Complete_Guide_Certificate.jpg" alt="SOAP Web Services with Java_certificate" width="600"/> -->
+</p>
+
+<br>
+
+**Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
+
+#### Progress/Curriculum.
+
+- [ ] [Section 01](#) - Introduction. ⚠️ In progress! ⚠️
+- [ ] [Section 02](#) - Supplementary Lectures (Fundamentals). ⚠️ In progress! ⚠️
+- [ ] [Section 03](#) - Tier 1 Analysis - DevTools. ⚠️ In progress! ⚠️
+- [ ] [Section 04](#) - Tier 2 Analysis - MITM Proxy. ⚠️ In progress! ⚠️
+- [ ] [Section 05](#) - Tier 3 Analysis - Wireshark. ⚠️ In progress! ⚠️
+- [ ] [Section 06](#) - Real-world Performance Analysis of Backend Applications. ⚠️ In progress! ⚠️
+- [ ] [Section 07](#) - Course Summary. ⚠️ In progress! ⚠️
+- [ ] [Section 08](#) - Answering Your questions. ⚠️ In progress! ⚠️
+- [ ] [Section 09](#) - Extras. ⚠️ In progress! ⚠️
+
+#### Additional stuff.
+
+- TOdo
+
+
+<!-- 
+<p align="center">
+    <img
+     src="The_Complete_Regular_Expressions_Regex_Course_For_Beginners_Caption.png"
+    alt="The Complete Regular Expressions Regex Course For Beginners Caption"
+    style="width:1600px;height:110px;"/>
+</p> -->
+
+# Fundamentals of Network Engineering.
+
+<p align="center">
+    <img src="Fundamentals_Of_Network_Engineering_Description.PNG"
+    alt="Fundamentals of Network Engineering Description"
+    style="width:690px" />
+</p>
+
+All course material from *Fundamentals of Network Engineering* by **Hussein Nasser** ©.
+
+> . 🐟 <br><br>
+~ *DevelopersCradle*
+
+Contains my own with my own visual notes ✍️ with some course material to enforce learning experience.
+
+[The course at Udemy](https://www.udemy.com/course/fundamentals-of-networking-for-effective-backend-design/).
+
+[Content maker](https://courses.husseinnasser.com/).
+
+If the content sparked :fire: your interest, please consider buying the course and start learning :book:.
+
+<!-- 
+Linkedin puts this shit front, when clicking from private mode x(. Need to put this to make jump working every case
+?trk=public_profile_see-credential 
+-->
+
+<p align="center">
+    <!-- <img id="Microservices_Architecture_The_Complete_Guide_Certificate?trk=public_profile_see-credential" src="Microservices_Architecture_The_Complete_Guide_Certificate.jpg" alt="SOAP Web Services with Java_certificate" width="600"/> -->
+</p>
+
+<br>
+
+**Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
+
+#### Progress/Curriculum.
+
+- [ ] [Section 01](#) - Introduction. ⚠️ In progress! ⚠️
+- [ ] [Section 03](#) - Internet Protocol (IP). ⚠️ In progress! ⚠️
+- [ ] [Section 04](#) - User Datagram Protocol (UDP). ⚠️ In progress! ⚠️
+- [ ] [Section 05](#) - Transmission Control Protocol (TCP). ⚠️ In progress! ⚠️
+- [ ] [Section 06](#) - Overview of Popular Networking Protocols. ⚠️ In progress! ⚠️
+- [ ] [Section 07](#) - Network Performance. ⚠️ In progress! ⚠️
+- [ ] [Section 08](#) - Network Routing. ⚠️ In progress! ⚠️
+- [ ] [Section 09](#) - Analyzing Protocols with Wireshark. ⚠️ In progress! ⚠️
+- [ ] [Section 10](#) - Answering your Questions. ⚠️ In progress! ⚠️
+- [ ] [Section 11](#) - Course Summary. ⚠️ In progress! ⚠️
+- [ ] [Section 12](#) - Extras. ⚠️ In progress! ⚠️
+
+
+#### Additional stuff.
+
+- TOdo
+
 
 
 <p align="center">
@@ -419,4 +564,16 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 #### Additional stuff.
 
 - TOdo
+
+
+
+Section 01: Introduction.
+Section 02: Migration to Microservices Architecture.
+Section 03: Microservices - Principles and Best Practices.
+Section 04: Event-Driven Architecture.
+Section 05: Event-Driven Microservices - Design Patterns.
+Section 06: Testing Microservices and Event-Driven Architecture.
+Section 07: Observability in Microservices Architecture.
+Section 08: Deployment of Microservices and Event-Driven Architecture in Production.
+Section 09: Bonus Section.
 
