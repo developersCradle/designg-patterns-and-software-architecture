@@ -335,7 +335,16 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 # The Complete Microservices & Event-Driven Architecture.
 
-- todo here
+Section 01: Introduction.
+Section 02: Migration to Microservices Architecture.
+Section 03: Microservices - Principles and Best Practices.
+Section 04: Event-Driven Architecture.
+Section 05: Event-Driven Microservices - Design Patterns.
+Section 06: Testing Microservices and Event-Driven Architecture.
+Section 07: Observability in Microservices Architecture.
+Section 08: Deployment of Microservices and Event-Driven Architecture in Production.
+Section 09: Bonus Section.
+
 
 <p align="center">
     <img
@@ -396,15 +405,12 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] Remove for the `Archive` folder if not needed.
 - [ ] [db](https://www.udemy.com/course/fundamentals-of-networking-for-effective-backend-design/?couponCode=KEEPLEARNING).
 
-<!-- 
 <p align="center">
     <img
-     src="The_Complete_Regular_Expressions_Regex_Course_For_Beginners_Caption.png"
+     src="Troubleshooting_Backend_Systems_Caption.png"
     alt="The Complete Regular Expressions Regex Course For Beginners Caption"
     style="width:1600px;height:110px;"/>
-</p> -->
-
-# Troubleshooting Backend Systems Description.
+</p> 
 
 <p align="center">
     <img src="Troubleshooting_Backend_Systems_Description.PNG"
@@ -440,11 +446,11 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 #### Progress/Curriculum.
 
-- [ ] [Section 01](#) - Introduction. ⚠️ In progress! ⚠️
+- [ ] [Section 01](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Troubleshooting%20Backend%20Systems/Section%2001#section-01-introduction) - Introduction. ⚠️ In progress! ⚠️
 - [ ] [Section 02](#) - Supplementary Lectures (Fundamentals). ⚠️ In progress! ⚠️
-- [ ] [Section 03](#) - Tier 1 Analysis - DevTools. ⚠️ In progress! ⚠️
-- [ ] [Section 04](#) - Tier 2 Analysis - MITM Proxy. ⚠️ In progress! ⚠️
-- [ ] [Section 05](#) - Tier 3 Analysis - Wireshark. ⚠️ In progress! ⚠️
+- [ ] [Section 03](#) - Tier 01 Analysis - DevTools. ⚠️ In progress! ⚠️
+- [ ] [Section 04](#) - Tier 02 Analysis - MITM Proxy. ⚠️ In progress! ⚠️
+- [ ] [Section 05](#) - Tier 03 Analysis - Wireshark. ⚠️ In progress! ⚠️
 - [ ] [Section 06](#) - Real-world Performance Analysis of Backend Applications. ⚠️ In progress! ⚠️
 - [ ] [Section 07](#) - Course Summary. ⚠️ In progress! ⚠️
 - [ ] [Section 08](#) - Answering Your questions. ⚠️ In progress! ⚠️
@@ -454,20 +460,16 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 - TOdo
 
-
-<!-- 
 <p align="center">
     <img
-     src="The_Complete_Regular_Expressions_Regex_Course_For_Beginners_Caption.png"
-    alt="The Complete Regular Expressions Regex Course For Beginners Caption"
+     src="Fundamentals_Of_Network_Engineering_Caption.png"
+    alt="Fundamentals of Network Engineering Caption!"
     style="width:1600px;height:110px;"/>
-</p> -->
-
-# Fundamentals of Network Engineering.
+</p> 
 
 <p align="center">
     <img src="Fundamentals_Of_Network_Engineering_Description.PNG"
-    alt="Fundamentals of Network Engineering Description"
+    alt="Fundamentals of Network Engineering Description!"
     style="width:690px" />
 </p>
 
@@ -566,14 +568,4 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - TOdo
 
 
-
-Section 01: Introduction.
-Section 02: Migration to Microservices Architecture.
-Section 03: Microservices - Principles and Best Practices.
-Section 04: Event-Driven Architecture.
-Section 05: Event-Driven Microservices - Design Patterns.
-Section 06: Testing Microservices and Event-Driven Architecture.
-Section 07: Observability in Microservices Architecture.
-Section 08: Deployment of Microservices and Event-Driven Architecture in Production.
-Section 09: Bonus Section.
 
