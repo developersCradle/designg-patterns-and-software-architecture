@@ -8,12 +8,12 @@ Memento.
 
 # Overview.
 
-<img src="motivation.PNG" alt="alt text" width="500"/>
+<img src="motivation.PNG" alt="Design Patterns in Java Course!" width="500"/>
 
 1. You can save **snapshots** of state in **Memento** pattern.
 2. In **Command** pattern set of changes were in form of **Commands**. 
 
-<img src="summary.PNG" alt="alt text" width="500"/>
+<img src="summary.PNG" alt="Design Patterns in Java Course!" width="500"/>
 
 - It is a **handle** / **token** to represent system state.
 
@@ -89,7 +89,7 @@ class Demo {
 
 # Memento for Interop.
 
-<img src="Interop.PNG" alt="alt text" width="500">
+<img src="Interop.PNG" alt="Design Patterns in Java Course!" width="500">
 
 1. Calling **function** form other language is relative easy, just setup **native interface** connection!
 2. **Problem** comes if there is function is **inside class** in c/c++ program. One does not simply instantiate `Foo` class inside `Java/C#` application!   
@@ -97,7 +97,7 @@ class Demo {
 - [Language_interoperability](https://en.wikipedia.org/wiki/Language_interoperability).
 - [JsInterop](https://www.gwtproject.org/doc/latest/DevGuideCodingBasicsJsInterop.html). I personally used this one!
 
-<img src="interlop2.PNG" alt="alt text" width="500">
+<img src="interlop2.PNG" alt="Design Patterns in Java Course!" width="500">
 
 1. There is memory space inside **c/c++** world where we would use **Memento** which would take care of communication.
 2. There is exposed some **top level functions** to communicate this object inside **c/c++**. You really cannot get **c/c++** object to Java world. We would get **Memento** which in turn would communicate to object inside **c/c++** and other way around. You would need to send **Memento** to **c/c++** Object which in regards would communicate to function inside an Object.
@@ -176,7 +176,7 @@ class TokenMachine {
 
 # Summary.
 
-<img src="summaryEnd.PNG" alt="alt text" width="600">
+<img src="summaryEnd.PNG" alt="Design Patterns in Java Course!" width="600">
 
 1. **Memento** is snapshot in point in time.
 

@@ -4,7 +4,7 @@ Builder patterns.
 
 # What I Learned.
 
-<img src="overview.png" alt="alt text" width="400"/>
+<img src="overview.png" alt="Design Patterns in Java Course!" width="400"/>
 
 - We are splitting **Design patterns** into three categories
     - This called **Gamma Categorization**
@@ -21,7 +21,7 @@ Builder patterns.
 3. **Behavioral Patterns**
     - Solves problem in their unique way
 
-<img src="motivation.png" alt="alt text" width="500"/>
+<img src="motivation.png" alt="Design Patterns in Java Course!" width="500"/>
 
 1. For simple object you should call single constructor call
 2. In other way, like making **"string"** this way can be tedious 
@@ -33,7 +33,7 @@ Builder patterns.
 
 <br>
 
-<img src="builder.png" alt="alt text" width="400"/>
+<img src="builder.png" alt="Design Patterns in Java Course!" width="400"/>
 
 - When piecewise object construction is complicated, you provide an API for doing it more efficiently 
 
@@ -203,7 +203,7 @@ public class Builder {
 
 - We could make any **builder** for any domain object if wanted, but for this example HMTL was used
 
-<img src="htmlBuilderInAction.PNG" alt="alt text" width="600"/>
+<img src="htmlBuilderInAction.PNG" alt="Design Patterns in Java Course!" width="600"/>
 
 
 

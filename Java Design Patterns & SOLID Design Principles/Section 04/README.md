@@ -46,7 +46,7 @@
 1. **First** point is the **Product**. This is the **object** what we are trying **build**.
 
 <div align="center">
-    <img width="500px" id="Design Patterns" src="umlSecondPoint.PNG" >
+    <img width="600px" id="Design Patterns" src="umlSecondPoint.PNG" >
 </div>
 
 1. **Second** point is the **Builder**. Will contains **methods** for building **parts** of our **Product**.
@@ -205,7 +205,7 @@ public class Address {
 
 
 <div align="center">
-    <img width="500px" id="Design Patterns" src="product.gif">
+    <img width="600px" id="Design Patterns" src="product.gif">
 </div>
 
 - Below the **Product** implemented: 
@@ -250,7 +250,7 @@ public class UserWebDTO implements UserDTO {
 ````
 
 <div align="center">
-    <img width="500px" id="Design Patterns" src="abstract builder.jpeg">
+    <img width="600px" id="Design Patterns" src="abstract builder.jpeg">
 </div>
 
 - Below the **Abstract builder** implemented: 
@@ -278,7 +278,7 @@ public interface UserDTOBuilder {
 ````
 
 <div align="center">
-    <img width="500px" id="Design Patterns" src="Concrete Builder.jpeg">
+    <img width="600px" id="Design Patterns" src="Concrete Builder.jpeg">
 </div>
 
 - Below the **Concrete Builder** as implemented: 
@@ -430,7 +430,7 @@ public class UserWebDTOBuilder implements UserDTOBuilder {
 ````
 
 <div align="center">
-    <img width="500px" id="Design Patterns" src="director.jpeg" >
+    <img width="600px" id="Design Patterns" src="director.jpeg" >
 </div>
 
 
@@ -517,7 +517,7 @@ Indiana 47998
 # Builder - Implementation Part 2.
 
 <div align="center">
-    <img width="500px" id="Design Patterns" src="anotheWayToImplementTheBuilder.jpeg">
+    <img width="600px" id="Design Patterns" src="anotheWayToImplementTheBuilder.jpeg">
 </div>
 
 - You can see the **Builder** embedded inside the **Prduct** class:

@@ -7,7 +7,7 @@ Protocols.
 # Protocols Intro.
 
 <div align="center">
-    <img width="500px" alt="Backend course!" src="Protocol_Introduction.JPG">
+    <img width="600px" alt="Backend course!" src="Protocol_Introduction.JPG">
 </div>
 
 1. We will answer many questions like: 
@@ -18,14 +18,14 @@ Protocols.
 # Protocol Properties.
 
 <div align="center">
-    <img width="500px" alt="Backend course!" src="Protocol_Properties_Intro.JPG">
+    <img width="600px" alt="Backend course!" src="Protocol_Properties_Intro.JPG">
 </div>
 
 1. What needs to is needed to think, when designing the **protocol**!
     - Take these with grain of salt!
 
 <div align="center">
-    <img width="500px" alt="Backend course!" src="What_Is_Protocol.JPG">
+    <img width="600px" alt="Backend course!" src="What_Is_Protocol.JPG">
 </div>
 
 1. Protocol is set of **rules** for two parties to **communicate**!
@@ -39,7 +39,7 @@ Protocols.
     - `FTP`.
 
 <div align="center">
-    <img width="500px" alt="Backend course!" src="Protocol_Properties.JPG">
+    <img width="600px" alt="Backend course!" src="Protocol_Properties.JPG">
 </div>
 
 1. What is the **data format** of the protocol?
@@ -77,7 +77,7 @@ Protocols.
                     - …but not at the same time!
 
 <div align="center">
-    <img width="500px" alt="Backend course!" src="Protocol_Properties_Second.JPG">
+    <img width="600px" alt="Backend course!" src="Protocol_Properties_Second.JPG">
 </div>
 
 1. What is the **state** of the protocol?
@@ -101,12 +101,35 @@ Protocols.
 # OSI Model.
 
 <div align="center">
-    <img width="500px" alt="Backend course!" src="OSI_Model.JPG">
+    <img width="600px" alt="Backend course!" src="OSI_Model_Intro.JPG">
 </div>
 
-1. One engineer should understand the **OSI** model, when creating apps, which are touching **networking**! No need to master fully!
+1. **One engineer** should understand the **OSI** model, when creating apps, which are touching **networking**! No need to master fully!
 
-- Todo jatka tästä!
+- There is **OSI layer**, where all these **protocols** are living in!
+
+<div align="center">
+    <img width="600px" alt="Backend course!" src="OSI_Model.PNG">
+</div>
+
+1. The **OSI** model (**O**pen **S**ystems **I**nterconnection model)! This needs to be **OPEN**!
+
+<div align="center">
+    <img width="600px" alt="Backend course!" src="Why_Do_We_Need_Osi_Model.PNG">
+</div>
+
+1. We need **OSI**, because that we can have the **agnostic** way of making applications!
+    - Think of if we need the **different application** for every different of the medium for:
+        - **Wi-Fi**!
+        - **Ethernet**!
+        - **Fiber**!
+    - When we build `node.js` **app**, it can run in every **CPU**, or we can use many different way to send with the mediums!
+        - There is **standard**!
+
+2. Without standard communication model, **hardware manufacturers** (like **Cisco**, **Juniper**, or **Netgear**) would have to build their devices from **top** to **bottom** using their own proprietary rules.
+    - We need to agree for example how **router** behave!
+3. In this **OSI** model the **innovation** is decoupled!
+    - If a better **transmission medium** than **fiber optics** were developed, it could replace fiber at the Physical Layer without requiring changes to higher-layer protocols, as long as it provides the same service to the layer above.
 
 # Internet Protocol.
 
@@ -115,14 +138,14 @@ Protocols.
 # TCP.
 
 <div align="center">
-    <img width="500px" alt="Backend course!" src="TCP_Intro.JPG">
+    <img width="600px" alt="Backend course!" src="TCP_Intro.JPG">
 </div>
 
 1. **T**ransport **C**ontrol **P**rotocol!
     - **TCP** = is about **reliable transport** of data between applications!
 
 <div align="center">
-    <img width="500px" alt="Backend course!" src="UDP_Characteristics.JPG">
+    <img width="600px" alt="Backend course!" src="UDP_Characteristics.JPG">
 </div>
 
 0. **TCP** stands for **T**ransmission **C**ontrol **P**rotocol!
@@ -148,7 +171,7 @@ Protocols.
 6. It's **stateful**!
 
 <div align="center">
-    <img width="500px" alt="Backend course!" src="TCP_Use_Cases.JPG">
+    <img width="600px" alt="Backend course!" src="TCP_Use_Cases.JPG">
 </div>
 
 1. **Reliable communication**.
@@ -169,20 +192,20 @@ Protocols.
 # HTTP/1.1.
 
 <div align="center">
-    <img width="500px" alt="Backend course!" src="HTTP_1_1_Intro.JPG">
+    <img width="600px" alt="Backend course!" src="HTTP_1_1_Intro.JPG">
 </div>
 
 1. `HTTP/2` is still is having own **limitations**. People still using `HTTP/1.1`.
 
 <div align="center">
-    <img width="500px" alt="Backend course!" src="HTTP_Clients.JPG">
+    <img width="600px" alt="Backend course!" src="HTTP_Clients.JPG">
 </div>
 
 1. We can make **client** in many ways!
 2. There is many many **server** implementations!
 
 <div align="center">
-    <img width="500px" alt="Backend course!" src="HTTP_Request.JPG">
+    <img width="600px" alt="Backend course!" src="HTTP_Request.JPG">
 </div>
 
 0. **HTTP request** looks like!
@@ -210,7 +233,7 @@ Protocols.
 - Below is the structure of the **HTTP request**:
 
 <div align="center">
-    <img width="500px" alt="Backend course!" src="HTTP_Request_Example.JPG">
+    <img width="600px" alt="Backend course!" src="HTTP_Request_Example.JPG">
 </div>
 
 1. **IP-adress** can could be here, but **one** address can host one site. We can host multiple **site** when using **URL**.
@@ -220,7 +243,7 @@ Protocols.
 
 
 <div align="center">
-    <img width="500px" alt="Backend course!" src="HTTP_Response.JPG">
+    <img width="600px" alt="Backend course!" src="HTTP_Response.JPG">
 </div>
 
 0. **Protocol** → Usually `HTTP/1.1` or `HTTP/2`.
@@ -237,7 +260,7 @@ Protocols.
 - Below is the structure of the **HTTP Response** in the **HTTP/1.1**:
 
 <div align="center">
-    <img width="500px" alt="Backend course!" src="Example_Of_The_HTTP_1_Dot_1_Response.JPG">
+    <img width="600px" alt="Backend course!" src="Example_Of_The_HTTP_1_Dot_1_Response.JPG">
 </div>
 
 1. Example **response** of the **HTTP/1.1** response!
@@ -247,7 +270,7 @@ Protocols.
 - Below is the structure of the **HTTP Response** in the **HTTP/2.0**:
 
 <div align="center">
-    <img width="500px" alt="Backend course!" src="Example_Of_The_HTTP_2_Response.JPG">
+    <img width="600px" alt="Backend course!" src="Example_Of_The_HTTP_2_Response.JPG">
 </div>
 
 1. Example **response** of the **HTTP/2** response!
@@ -269,7 +292,7 @@ Protocols.
 ```
 
 <div align="center">
-    <img width="500px" alt="Backend course!" src="HTTP_1_Dot_1_Communication.JPG">
+    <img width="600px" alt="Backend course!" src="HTTP_1_Dot_1_Communication.JPG">
 </div>
 
 0. First happens **opening** the `TCP` **3-was handshake**!
@@ -283,7 +306,7 @@ Protocols.
 - Get back here after finishing the **TSL** and **TCP** chapter!
 
 <div align="center">
-    <img width="500px" alt="Backend course!" src="TCP_Connection.JPG">
+    <img width="600px" alt="Backend course!" src="TCP_Connection.JPG">
 </div>
 
 

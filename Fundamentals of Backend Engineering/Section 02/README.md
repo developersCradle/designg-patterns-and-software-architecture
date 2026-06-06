@@ -11,7 +11,7 @@ Backend Communication Design Patterns.
 # Request Response.  
 
 <div align="center">
-    <img width="500px" alt="Backend course!" src="Request_And_Reponse_Intro.PNG" style="width:890px" >
+    <img width="600px" alt="Backend course!" src="Request_And_Reponse_Intro.PNG" style="width:890px" >
 </div>
 
 1. The most **famous** and **popular** patter.
@@ -594,7 +594,7 @@ function updateJob(jobId, prg) {
 - Remember the answer will come when **result** is ready.
 
 <div align="center">
-    <img alt="Backend course!" src="longPollingProsAndCons.PNG" width="500px">
+    <img alt="Backend course!" src="longPollingProsAndCons.PNG" width="600px">
 </div>
 
 <div align="center">

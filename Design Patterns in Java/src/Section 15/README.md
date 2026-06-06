@@ -2,25 +2,27 @@
 
 Command pattern.
 
-<img src="gandalf.jpg" alt="alt text" width="500"/>
+<div align="center">
+	<img src="Gandalf_Meme.jpg" alt="Design Patterns in Java Course!" width="700"/>
+</div>
 
 # What I Learned.
 
 # Overview.  
 
-<img src="motivation.PNG" alt="alt text" width="500"/>
+<img src="Motivation.PNG" alt="Design Patterns in Java Course!" width="500"/>
 
 1. In Java statements are **perishable**. Meaning once assignment or what ever operation is done, you **cannot** go back to original state.
 2. We want **object** represent operation.
 3. There is multiple uses **commands** pattern, such as in GUI commands that are sent to command processor. These commands can be stored or played reverse order.
 
-<img src="command.PNG" alt="alt text" width="500"/>
+<img src="Command_Summary.PNG" alt="Design Patterns in Java Course!" width="500"/>
 
 # Command.
 
  - **Command pattern** case, in context of **Bank Account**:
 
-```
+```Java
 package command_75;
 
 class BankAccount {
@@ -48,14 +50,15 @@ class BankAccount {
 }
 
 ```
+
 - We want to put some kind  of audit for this system.
     - We don't want to inject any kind of logging system here.
         - We want to process thing differently, we will use **Command** design pattern.  
 
 
-- **Command Pattern in use**.
+- **Command Pattern in use**:
 
-```
+```Java
 package command_75;
 
 import java.util.List;
@@ -148,7 +151,7 @@ class Demo
 
 - Example with **Undo** operation.
 
-```
+```Java
 package command_75;
 
 import java.util.ArrayList;
@@ -240,7 +243,6 @@ class BankAccountCommand implements Command {
 			account.deposit(amount);
 		}
 	}
-
 }
 
 class Demo {
@@ -268,12 +270,13 @@ class Demo {
 }
 ```
 
+<!-- Todo finish this one to final form! -->
 
 # Coding Exercise 12: Command Coding Exercise.
 
 - My answer for exercise:
 
-```
+```Java
 package coding_exercise_12;
 // When returning test remember to remove package.
 
@@ -285,7 +288,6 @@ package coding_exercise_12;
  * 	- You can only withdraw money if you have enough in your account.
  * 
  */
-
 
 class Command {
 	enum Action {
@@ -337,12 +339,8 @@ class BankAccountCommand extends Command {
 
 # Summary.
 
-<img src="summary.PNG" alt="alt text" width="500"/>
+<img src="Command_Summary.PNG" alt="Design Patterns in Java Course!" width="500"/>
 
 1. Make operation with details into object.
 	- You can store it, play with it. Much easier to play with.
 2. **Command** is not enough, you need processor for it also!
-
-# Additional.
-
-- [ ] [Command](https://refactoring.guru/design-patterns/command).

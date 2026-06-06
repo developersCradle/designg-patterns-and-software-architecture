@@ -8,7 +8,7 @@ SOLID Design Principles.
 
 - This course will be referring following books.
 	- These are **Roberts C. Martin**	
-<img src="booksWhichWeAreBeUsing.PNG" alt="alt text" width="400"/>
+<img src="booksWhichWeAreBeUsing.PNG" alt="Design Patterns in Java Course!" width="400"/>
 
 # Single Responsibility Principle (SRP).
 
@@ -16,12 +16,12 @@ SOLID Design Principles.
 
 - When printing object we will connect every entry!
 
-```
+```Java
 		@Override
 		public String toString() {
 			return String.join(System.lineSeparator(), entries);
 		}
-```
+```Java
 
 - Class following **Single Responsibility Principle**.
 
@@ -131,7 +131,7 @@ public class Journal // My personal thoughts
 
 - If **in other hand** class has many **concerns!** We call this **GOD OBJECT**.
 
-<img src="godObject.jpg" alt="alt text" width="400"/>
+<img src="godObject.jpg" alt="Design Patterns in Java Course!" width="400"/>
 	
 - [God Object](https://en.wikipedia.org/wiki/God_object).
 

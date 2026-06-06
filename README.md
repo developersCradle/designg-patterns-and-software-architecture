@@ -103,9 +103,26 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 #### Additional stuff.
 
+- [ ] Check the additional [command](https://refactoring.guru/design-patterns/command) pattern!
 - [ ] Make caption coherent.
-- [ ] In Typescript [Ts](https://refactoring.guru/design-patterns/typescript).
+- [ ] In Typescript [TS](https://refactoring.guru/design-patterns/typescript).
 - [ ] In [C++](https://www.udemy.com/course/patterns-cplusplus/).
+- [ ] Add all the others for the Quizzes and the labs!
+
+#### The Quizzes and Labs.
+
+* **Section 12**:
+     * *Coding Exercise*:
+        * [Add here](#).
+* **Section 13**:
+     * *Coding Exercise*:
+        * [Add here](#).
+* **Section 14**:
+     * *Coding Exercise*:
+        * [Add here](#).
+* **Section 15**:
+     * *Coding Exercise*:
+        * [Coding Exercise 12: Command Coding Exercise](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Design%20Patterns%20in%20Java/src/Section%2015#coding-exercise-12-command-coding-exercise).
 
 <details>
 
