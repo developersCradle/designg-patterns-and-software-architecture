@@ -22,7 +22,7 @@ We are using following structure:
 </p>
 
 <p align="center">
-   <img src="Software_Architecture_And_ Design_Patterns_Repository_Graphics.gif" alt="Java Monolith Optimization Repostiory Graphic" width="500" height="350"><br>
+   <img src="Software_Architecture_And_ Design_Patterns_Repository_Graphics.gif" alt="Java Monolith Optimization Repostiory Graphic" width="600" height="350"><br>
    <text> <b>Software Architecture</b> & <b>Design principles</b>. Other things, which are related to the <b>architecture</b>!</text>
 </p>
 

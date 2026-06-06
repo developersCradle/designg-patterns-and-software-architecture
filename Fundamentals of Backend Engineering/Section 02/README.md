@@ -267,7 +267,7 @@ Backend Communication Design Patterns.
 - For this example we will test with **WebSocket** server and connecting:
 
 <div align="center">
-    <img alt="Backend course!" width="500" src="webSocketTesting.PNG">
+    <img alt="Backend course!" width="600" src="webSocketTesting.PNG">
 </div>
 
 

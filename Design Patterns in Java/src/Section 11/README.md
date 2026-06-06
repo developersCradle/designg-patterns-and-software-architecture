@@ -274,6 +274,6 @@ public class Facade {
 
 # Summary.
 
-<img src="summaryFacade.JPG" alt="Design Patterns in Java Course!" width="500"/>
+<img src="summaryFacade.JPG" alt="Design Patterns in Java Course!" width="600"/>
 
 1. Nice API to people to use for more complex class.

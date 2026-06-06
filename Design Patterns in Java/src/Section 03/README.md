@@ -21,7 +21,7 @@ Builder patterns.
 3. **Behavioral Patterns**
     - Solves problem in their unique way
 
-<img src="motivation.png" alt="Design Patterns in Java Course!" width="500"/>
+<img src="motivation.png" alt="Design Patterns in Java Course!" width="600"/>
 
 1. For simple object you should call single constructor call
 2. In other way, like making **"string"** this way can be tedious 

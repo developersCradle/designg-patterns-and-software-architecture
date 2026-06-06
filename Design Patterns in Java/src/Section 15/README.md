@@ -10,13 +10,13 @@
 
 # Overview.  
 
-<img src="Motivation.PNG" alt="Design Patterns in Java Course!" width="500"/>
+<img src="Motivation.PNG" alt="Design Patterns in Java Course!" width="600"/>
 
 1. In Java statements are **perishable**. Meaning once assignment or what ever operation is done, you **cannot** go back to original state.
 2. We want **object** represent operation.
 3. There is multiple uses **commands** pattern, such as in GUI commands that are sent to command processor. These commands can be stored or played reverse order.
 
-<img src="Command_Summary.PNG" alt="Design Patterns in Java Course!" width="500"/>
+<img src="Command_Summary.PNG" alt="Design Patterns in Java Course!" width="600"/>
 
 # Command.
 
@@ -339,7 +339,7 @@ class BankAccountCommand extends Command {
 
 # Summary.
 
-<img src="Command_Summary.PNG" alt="Design Patterns in Java Course!" width="500"/>
+<img src="Command_Summary.PNG" alt="Design Patterns in Java Course!" width="600"/>
 
 1. Make operation with details into object.
 	- You can store it, play with it. Much easier to play with.

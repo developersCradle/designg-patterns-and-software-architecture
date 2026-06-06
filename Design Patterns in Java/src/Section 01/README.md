@@ -6,7 +6,7 @@ Introduction.
 
 # Introduction.
 
-<img src="introduction.JPG" alt="Design Patterns in Java Course!" width="500"/>
+<img src="introduction.JPG" alt="Design Patterns in Java Course!" width="600"/>
 
 - Patterns were generalized by **Design Patters** book.
     - [Gang Of Four](https://en.wikipedia.org/wiki/Design_Patterns).
@@ -14,7 +14,7 @@ Introduction.
 - These are good since we are living **OOP** world.
  
  <div align="center">
-    <img src="courseStructre.PNG" alt="Design Patterns in Java Course!" width="500"/>
+    <img src="courseStructre.PNG" alt="Design Patterns in Java Course!" width="600"/>
  </div>
  
 
@@ -25,11 +25,11 @@ Introduction.
 - The patterns that we will be covering.
 
 <div align="center">
-    <img src="ThePatterns.PNG" alt="Design Patterns in Java Course!" width="500"/>
+    <img src="ThePatterns.PNG" alt="Design Patterns in Java Course!" width="600"/>
 </div>
  
 <div align="center">
-    <img src="organization.PNG" alt="Design Patterns in Java Course!" width="500"/>
+    <img src="organization.PNG" alt="Design Patterns in Java Course!" width="600"/>
 </div>
  
 
@@ -37,7 +37,7 @@ Introduction.
 1. Ones should try to implement the patterns itself.
 
 <div align="center">
-    <img src="preRequisitves.PNG" alt="Design Patterns in Java Course!" width="500"/>
+    <img src="preRequisitves.PNG" alt="Design Patterns in Java Course!" width="600"/>
 </div>
  
 
@@ -45,7 +45,7 @@ Introduction.
 1. These are illustrated in context of **Design patters**, how these behave with these.
 
 <div align="center">
-    <img src="makerOfCourse.PNG" alt="Design Patterns in Java Course!" width="500"/>
+    <img src="makerOfCourse.PNG" alt="Design Patterns in Java Course!" width="600"/>
 </div>
 
 > [!IMPORTANT]  
