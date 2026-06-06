@@ -1,6 +1,6 @@
 # Section 15: Command.
 
-Command pattern.
+- We are going thought the **Command pattern**.
 
 <div align="center">
 	<img src="Gandalf_Meme.jpg" alt="Design Patterns in Java Course!" width="700"/>
