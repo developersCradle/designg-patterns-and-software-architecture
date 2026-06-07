@@ -101,7 +101,7 @@
         - Don't log info messages with the debug messages!
 
 > [!TIP]
-> In logging, **severity** refers to the importance or seriousness level of a log message.
+> 💡 In logging, **severity** refers to the importance or seriousness level of a log message. 💡
 
 <div align="center">
     <img alt="Microservices Architecture - The Complete Guide Course" src="What_Should_Be_Logged.PNG" width="700"/>

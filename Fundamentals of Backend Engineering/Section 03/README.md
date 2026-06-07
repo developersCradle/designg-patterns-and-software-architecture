@@ -131,6 +131,122 @@ Protocols.
 3. In this **OSI** model the **innovation** is decoupled!
     - If a better **transmission medium** than **fiber optics** were developed, it could replace fiber at the Physical Layer without requiring changes to higher-layer protocols, as long as it provides the same service to the layer above.
 
+> [!NOTE]
+> As **backend engineer** the **layer 4** and the **layer 7** is the only layers, which we are mostly working with!
+
+<div align="center">
+    <img width="600px" alt="Backend course!" src="What_Is_The_OSI_Model.PNG">
+</div>
+
+0. There is **Seven 07** different network layers!
+1. **1 - 7** layers:
+    - **Layer 7**: Application *(HTTP/FTP/gRPC)*.
+        - **Backend engineer**, you write code that exposes "endpoints" using **Layer 7** protocols so clients (web apps, mobile apps, or other microservices) can interact with your server.
+        - Example, when we write the code we are working in **Layer 7**:
+        ```Js
+        // This entire block of code is operating at Layer 7
+        app.get('/api/users', (req, res) => {
+            // 1. Layer 7 provides the HTTP Method (GET) and Path (/api/users)
+            // 2. Layer 7 gives you access to Headers (e.g., Authorization tokens)
+            const users = database.getUsers();
+            // 3. You send back a Layer 7 response (Status 200 and a JSON payload)
+            res.status(200).json(users); 
+        });        
+        ```
+    - **Layer 6**: Presentation *(Encoding, Serialization)*.
+        - When one sends **JSON** then **serialization** and **deserializes** it happens in this layer!
+            - When **Application** level send the whole **object**, this layer will be responsible for the **serialization** and **deserializes** process! Let's look example `JSON.parse()`:
+                - The **Task Being Done**: You are turning a flat string into a structured object. That specific job belongs to **Layer 6**.
+                - The **Software Executing It**: The place where this job is happening is inside your **Layer 7**.
+
+    - **Layer 5**: Session (Connection establishment, TLS).
+        - The handshakes are happing in this layer.
+            - **Starts a session** between two communicating applications.
+                - Example: Establishing a **login** session between a **client** and a **server**.
+                    - **HideMyAss** is the Anonymous Proxy (also known as a **Level 1 proxy**)! 
+    - **Layer 4**: Transport (UDP/TCP).
+        - Layer 4 is responsible for end-to-end communication between devices (process-to-process delivery).
+            - HTTP is build of on the **layer 4**.
+            - This layer knows the **port number**!
+    - **Layer 3**: Network (IP).
+        - This layer is not known the **ports**, it only knows the **address**, example **IP addresses**!
+            - This brings the concept of routing!
+    - **Layer 2**: Data Link (Frames, Mac address, Ethernet).
+        - This layer is known for the **node-to-node delivery**, this is dealing with the mac addresses, example `00:1A:2B:3C:4D:5E`!
+    - **Layer 1**: Physical (Electric signals, fiber or radio waves).
+        - Is responsible for transmitting **raw bits** over a **physical medium**, example of the fiber optic **transforming into** the **light**!
+
+- Let's send **POST request** in the **HTTPS** from perspective of the **sender**, and we will see how it goes thought **OSI model**!
+
+<div align="center">
+    <img width="600px" alt="Backend course!" src="OSI_Layer_With_The_Example_Sender.PNG">
+</div>
+
+1. The **Layer 7**, **Application Layer** the primary job is to act as the window for applications to access network services!
+   - When one sends **BLOB** of **JSON**, with **Axios** or something similar!
+        - This task will send it!
+2. The **Layer 6**, **Presentation Layer** the primary job
+    - Takes the **JSON object** and **serializes** it to **flat byte strings** so it can be transmitted!
+        - We need to **convert** into **bytes**!
+3. The **Layer 5**, **Session Layer** the primary job
+    - We need to establish **TCP** connection and **TLS** handshake! In our case we need to store state! 
+4. The **Layer 4**, **Transport Layer** the primary job
+    - We will be doing **SYN** 3-Way Handshake! Transport layer is using **ports**, for this reason we can use the `334`!
+        - Here, we don't send data yet! 
+5. The **Layer 3**, **Network Layer** the primary job
+    - When we are sending the **SYN** 3-Way Handshake!
+        - It will come to this layer, this will be adding the **IP-address** for **SYN** 3-Way Handshake!
+            - For this layer we need **DNS** for IP!
+6. The **Layer 2**, **Data Link Layer** the primary job
+    - When we in this layer. We will be adding the **frames** and the **MAC** address!
+        - For this layer we need **ARP** for MAC!
+7. **Layer 1**, **Physical Layer** the primary job
+    - This will make transformation to the light example!
+
+> [!TIP]
+> 💡 We can now receive this in here, regardless of the medium! 💡
+>   - Seeded it to the **fiber optics**!
+>   - Received from thought **Wi-Fi**!  
+
+<div align="center">
+    <img width="600px" alt="Backend course!" src="OSI_Layer_With_The_Example_Receiver.PNG">
+</div>
+
+1. **Layer 1 - Physical**: Radio, electric or light is received and converted into digital bits.
+    - This, translates those physical waves back into **raw binary**.
+2. **Layer 2 - Data link**: The bits from Layer 1 is assembled into frames!
+    - It also checks the hardware (**MAC**) **addresses** to ensure the data was actually meant for this specific device.
+3. **Layer 3 - Network**: The frames from layer 2 are assembled into IP packet.
+    - Every router will ask is the packet for me?
+4. **Layer 4 - Transport**: The **IP** packets from layer 3 are assembled into TCP segments.
+    - Deals with Congestion control/flow control/retransmission in case of TCP.
+        - If Segment is **SYN** we don't need to go further into more layers as we are still processing the connection request.
+            - > *When a server receives a pure **SYN** packet (the very first step of the **TCP three-way handshake**), it does not travel up to the Session, Presentation, or Application layers (Layers 5, 6, and 7)*!
+5. **Layer 5 - Session**: The connection session is established or identified
+    - Manages the **active connection session**. It keeps track of the ongoing dialogue between the client and the server!
+    - We only arrive at this layer when necessary (**TCP three-way handshake** is done)!
+6. **Layer 6 - Presentation**: Deserialize **flat byte strings** back to **JSON** for the app to consume!
+7. **Layer 7 - Application**: Application understands the **JSON POST request** and your express `json` or `apache request` receive event is triggered.
+
+<div align="center">
+    <img width="600px" alt="Backend course!" src="Client_Sends_The_And_HTTPS_Post_Request_In_The_OSI_Model.PNG">
+</div>
+
+1. Up to down!
+2. We chose the **waves** to transport as **physical** form. The **Physical layer** is responsible to transferring this!
+3. Down to up!
+4. There is **SYN** 3-Way Handshake, that will go from **Session** of the **client** to **Session** of the **server**!
+    - Once the **Client** get the `ACK` message from the server, it will allow the transition to the next level, `Transport`!
+
+<div align="center">
+    <img width="600px" alt="Backend course!" src="Client_And_Server_Flow.PNG">
+</div>
+
+1. `sport` and `dport`. **Destination port** and the **Start port**.
+2. `sip` and `dip`. **Source Internet Package** and the **Destination Internet Package**. This is then packed into the **IP package**.
+3. This is **IP package** will be packed into the **Frame**.
+4. This will be same flow, but other way around!
+
 # Internet Protocol.
 
 # UDP.
@@ -236,7 +352,7 @@ Protocols.
     <img width="600px" alt="Backend course!" src="HTTP_Request_Example.JPG">
 </div>
 
-1. **IP-adress** can could be here, but **one** address can host one site. We can host multiple **site** when using **URL**.
+1. **IP-address** can could be here, but **one** address can host one site. We can host multiple **site** when using **URL**.
 2. `User-Agent` is the client!
 
 - Below is the structure of the **HTTP Response**:

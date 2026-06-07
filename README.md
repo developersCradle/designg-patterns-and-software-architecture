@@ -50,8 +50,7 @@ All course material from *Design Patterns in Java* by from **Dmitri Nesteruk**.
 
 Contains my own with my own visual notes ✍️ with some course material to enforce learning experience.
 
-
-This repository is made with **Eclipse**, therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
+This repository is made with [![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?logo=Eclipse&logoColor=white)](#), therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
 
 [The Course at Udemy](https://www.udemy.com/course/design-patterns-java/).
 
@@ -220,8 +219,9 @@ All course material from *Java Design Patterns & SOLID Design Principles* by **C
 > . 🐟🐟🐟 <br><br>
 ~ *DevelopersCradle*
 
-
 Contains my own with my own visual notes ✍️ with some course material to enforce learning experience.
+
+This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white)](#) with [![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?logo=Eclipse&logoColor=white)](#) hotkeys, therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
 
 [The course at Udemy](https://www.udemy.com/course/design-patterns-in-java-concepts-hands-on-projects/).
 
@@ -304,6 +304,8 @@ All course material from *Microservices Architecture - The Complete Guide* by **
 
 Contains my own with my own visual notes ✍️ with some course material to enforce learning experience.
 
+This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white)](#) with [![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?logo=Eclipse&logoColor=white)](#) hotkeys, therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
+
 [The course at Udemy](https://www.udemy.com/course/microservices-architecture-the-complete-guide/).
 
 [Content maker](https://thevar.memilavi.com/).
@@ -378,10 +380,36 @@ Section 09: Bonus Section.
 
 All course material from *Fundamentals of Backend Engineering* by **Hussein Nasser** ©.
 
->  🐟🐟🐟 <br><br>
-~ *DevelopersCradle*
 
-Contains my own with my own visual notes ✍️ with some course material to enforce learning experience. This course is for intermediation level, one can be expected to have built some projects!
+> As the day ended, I stood above the glowing flow of requests moving through the backend. 🐟
+>
+> I didn’t see chaos anymore. 🐟
+>
+> I saw systems. 🐟
+> 
+> Protocols shaped communication. 🐟
+> Design patterns guided the flow. 🐟
+> Execution brought ideas to life. 🐟
+> Proxies kept everything stable under pressure. 🐟
+>
+> What once looked like countless moving parts now felt connected. 🐟
+> 
+> Every request had a purpose. 🐟
+> Every service had a responsibility. 🐟
+> Every interaction followed a design. 🐟
+>
+> And for the first time, it all clicked.
+>
+> No confusion. No noise. No mystery. 🐟
+>
+> Just structure. 🐟
+> Just design. 🐟
+> Just engineering. 🐟 <br><br>
+> ~ *DevelopersCradle*
+
+Contains my own with my own visual notes ✍️ with some course material to enforce learning experience. This course is for **intermediation level**, one can be **expected to have built some projects**!
+
+This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white)](#) with [![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?logo=Eclipse&logoColor=white)](#) hotkeys, therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
 
 [The course at Udemy](https://www.udemy.com/course/fundamentals-of-backend-communications-and-protocols).
 
@@ -442,6 +470,8 @@ All course material from *Troubleshooting Backend Systems* by **Hussein Nasser**
 
 Contains my own with my own visual notes ✍️ with some course material to enforce learning experience.
 
+This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white)](#) with [![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?logo=Eclipse&logoColor=white)](#) hotkeys, therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
+
 [The course at Udemy](https://www.udemy.com/course/discovering-backend-bottlenecks-unlocking-peak-performance/).
 
 [Content maker](https://courses.husseinnasser.com/).
@@ -491,6 +521,8 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 </p>
 
 All course material from *Fundamentals of Network Engineering* by **Hussein Nasser** ©.
+
+This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white)](#) with [![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?logo=Eclipse&logoColor=white)](#) hotkeys, therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
 
 > . 🐟 <br><br>
 ~ *DevelopersCradle*
@@ -556,6 +588,9 @@ All course material from *The Complete Regular Expressions(Regex) Course For Beg
 ~ *DevelopersCradle*
 
 Contains my own with my own visual notes ✍️ with some course material to enforce learning experience.
+
+This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white)](#) with [![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?logo=Eclipse&logoColor=white)](#) hotkeys, therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
+
 
 [The course at Udemy](https://www.udemy.com/course/microservices-architecture-the-complete-guide/).
 
