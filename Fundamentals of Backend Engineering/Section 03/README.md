@@ -247,9 +247,129 @@ Protocols.
 3. This is **IP package** will be packed into the **Frame**.
 4. This will be same flow, but other way around!
 
+<div align="center">
+    <img width="600px" alt="Backend course!" src="Client_And_Server_Flow_When_There_Is_Intermediate_Devices_Between.PNG">
+</div>
+
+1. `Switch` and `Router` are also peeking into the packages, but in different levels!
+    - This processing between the **server** and the **client** takes time! Processing takes also some time!
+        - **Switch** it needs to open the **MAC address** to make the routing decision!
+            - This is **level two** device! It needs to go to `Physical` and `Data Link` level!
+        - **Router** it needs to open the **MAC address** to make the routing decision!
+            - The **Router** needs to go to `Netork` level, to look at the IP-adress!
+            - This is **level three** device! It needs to go to `Physical` and `Data Link` and `Netowrk` level!
+2. The package goes from left to right!
+
+> [!NOTE]  
+> **Transparent** in general, is a device or service performs a function without requiring the communicating endpoints to be aware of it.
+
+- Let's explore the **Firewall** and the **Load Balancer**! These are transparent proxy and firewall!
+
+<div align="center">
+    <img width="600px" alt="Backend course!" src="Client_And_Server_Flow_When_There_Is_Intermediate_Devices_Between_Second.PNG">
+</div>
+
+1. Here is the **Firewall**!
+    - Role of the firewall → Blocks certain packets from coming to your networks. IT needs to go check the **ports** and **ip-adress**!
+        - Some **firewall's** goes into **application** level!
+2. Here is the **Load Balancer**!
+    - **Layer 7 load balancer** are way slower than **firewall**!
+        - Load balancer needs to get into **Application** level and **decrypt** and **cache it**.
+3. **Transport** layer can be used for the forwarding based on port!
+4. **VPN Tunnel** is **Layer 3** (sometimes **Layer 2**) IP packets!
+    - Once the **ip-packet** comes to the **VPN server**, it is encapsulated at the VPN server!
+5. One **session** here!  
+    - From client perspective this is **end** destination!
+6. One **session** here!
+
+<div align="center">
+    <img width="600px" alt="Backend course!" src="Shortcomings_Of_The_OSI_Model.PNG">
+</div>
+
+1. **Too complex**, too many layers! One needs practical understanding to have understanding!  Which layer should decrypt??? People still arguing about this!
+2. OSI model is just model to talk about!
+3. This is simpler to deal with, **layers 5-6-7** in one layer. **TCP/IP** model tries to do just this! 
+
+<div align="center">
+    <img width="600px" alt="Backend course!" src="TCP_IP_Model.PNG">
+</div>
+
+1. This is the hierarchy for OSI layers!
+    - In this layer, avoid numbering! This is the **layer 5**!
+
+- Order came:
+    - So **TCP/IP** existed because the internet needed something that worked in practice. This is in **1970s** for ARPANET!
+    - So **OSI** was created later (to explain networking clearly)! This was done in **1980s**!
+
+<div align="center">
+    <img width="600px" alt="Backend course!" src="Linkerd.PNG">
+</div>
+
+1. Example of the **Layer 5**, discussion!
+
+<div align="center">
+    <img width="600px" alt="Backend course!" src="OSI_Mode_Vs_TCP_IP_Address.png">
+</div>
+
 # Internet Protocol.
 
+<div align="center">
+    <img width="600px" alt="Backend course!" src="IP_Building_Block.PNG">
+</div>
+
+1. What operations the **IP** will be using!
+
+<div align="center">
+    <img width="600px" alt="Backend course!" src="IP_Address.PNG">
+</div>
+
+1. **IP address** is **layer 3** property!
+
+<div align="center">
+    <img width="600px" alt="Backend course!" src="Network_Vs_Host.PNG">
+</div>
+
+1. **/24** means:
+    - 24 bits = network part!
+    - 8 bits = host part!
+2. This is **responsibility** of the **network engineer**! **Backend engineer** are thinking how **packets flows**!
+
+<div align="center">
+    <img width="600px" alt="Backend course!" src="Subnet_Mask.PNG">
+</div>
+
+1. **Subnet mask** can be used to figure out if the **receiver** is in the **same network**!
+    - If it is, then we can use **MAC address** to send it to receiver!
+    - If it is not, we need to send IP-packet to other network!
+
+<div align="center">
+    <img width="600px" alt="Backend course!" src="Default_Gateway.PNG">
+</div>
+
+1. Most of the networks have **default gateway**! 
+2. Gateway can be used for to talk with other networks!
+
+<div align="center">
+    <img width="600px" alt="Backend course!" src="Example_Of_Gateway.PNG">
+</div>
+
+- todo finish this
+
 # UDP.
+
+- TCP is good for reliability!
+- UDP is simplicity!
+    - This can be handled in the **TCP** level!
+
+<div align="center">
+    <img width="600px" alt="Backend course!" src="UDP_Intro.PNG">
+</div>
+
+1. **U**ser **D**atagram **P**rotocol!
+
+<div align="center">
+    <img width="600px" alt="Backend course!" src="UDP_One.PNG">
+</div>
 
 # TCP.
 
@@ -302,7 +422,6 @@ Protocols.
 - Todo jatka tästä.
 
 # TLS.
-
 
 
 # HTTP/1.1.

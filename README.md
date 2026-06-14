@@ -352,18 +352,66 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
     - [Link 03](https://www.youtube.com/watch?v=DsFsd--vhas).
 
 
+
 # The Complete Microservices & Event-Driven Architecture.
+<!-- 
+<p align="center">
+    <img
+     src="Fundamentals_Of_Backend_Engineering_Caption.png"
+    alt="Fundamentals Of Backend Engineering Caption"
+    style="width:1600px;height:110px;"/>
+</p> -->
 
-Section 01: Introduction.
-Section 02: Migration to Microservices Architecture.
-Section 03: Microservices - Principles and Best Practices.
-Section 04: Event-Driven Architecture.
-Section 05: Event-Driven Microservices - Design Patterns.
-Section 06: Testing Microservices and Event-Driven Architecture.
-Section 07: Observability in Microservices Architecture.
-Section 08: Deployment of Microservices and Event-Driven Architecture in Production.
-Section 09: Bonus Section.
+<p align="center">
+    <img src="The_Complete_Microservices_And_Event-Driven_Architecture_Description.PNG"
+    alt="The complete microservices and event-driven architecture description!"
+    style="width:690px" />
+</p>
 
+All course material from *The Complete Microservices & Event-Driven Architecture* by **Michael Pogrebinsky** ©.
+
+> 🐟 <br><br>
+> ~ *DevelopersCradle*
+
+<!-- 
+Contains my own with my own visual notes ✍️ with some course material to enforce learning experience. This course is for **intermediation level**, one can be **expected to have built some projects**! This is for the backend engineers, also this can be for network engineer!
+
+This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white)](#) with [![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?logo=Eclipse&logoColor=white)](#) hotkeys, therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
+
+[The course at Udemy](https://www.udemy.com/course/fundamentals-of-backend-communications-and-protocols).
+
+[Courses of the maker](https://courses.husseinnasser.com/).
+
+If the content sparked :fire: your interest, please consider buying the course and start learning :book:.
+
+<!-- 
+Linkedin puts this shit front, when clicking from private mode x(. Need to put this to make jump working every case
+?trk=public_profile_see-credential 
+-->
+
+<div align="center">
+    Insert certificate here when completed
+</div>
+
+<br>
+
+**Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
+
+#### Progress/Curriculum.
+
+- [x] [Section 01](#) - Introduction.
+- [ ] [Section 02](#) - Migration to Microservices Architecture.
+- [ ] [Section 03](#) - Microservices - Principles and Best Practices.
+- [ ] [Section 04](#) - Event-Driven Architecture.
+- [ ] [Section 05](#) - Event-Driven Microservices - Design Patterns.
+- [ ] [Section 06](#) - Testing Microservices and Event-Driven Architecture.
+- [ ] [Section 07](#) - Observability in Microservices Architecture.
+- [ ] [Section 08](#) - Deployment of Microservices and Event-Driven Architecture in Production.
+- [ ] [Section 09](#) - Bonus Section.
+
+#### Additional stuff.
+
+- [ ]  todo.
 
 <p align="center">
     <img
@@ -407,7 +455,7 @@ All course material from *Fundamentals of Backend Engineering* by **Hussein Nass
 > Just engineering. 🐟 <br><br>
 > ~ *DevelopersCradle*
 
-Contains my own with my own visual notes ✍️ with some course material to enforce learning experience. This course is for **intermediation level**, one can be **expected to have built some projects**!
+Contains my own with my own visual notes ✍️ with some course material to enforce learning experience. This course is for **intermediation level**, one can be **expected to have built some projects**! This is for the backend engineers, also this can be for network engineer!
 
 This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white)](#) with [![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?logo=Eclipse&logoColor=white)](#) hotkeys, therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
 
