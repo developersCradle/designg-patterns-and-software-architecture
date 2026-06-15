@@ -360,6 +360,7 @@ Protocols.
 - TCP is good for reliability!
 - UDP is simplicity!
     - This can be handled in the **TCP** level!
+    - The **reliability** is handled in the **application level**!
 
 <div align="center">
     <img width="600px" alt="Backend course!" src="UDP_Intro.PNG">
@@ -370,6 +371,18 @@ Protocols.
 <div align="center">
     <img width="600px" alt="Backend course!" src="UDP_One.PNG">
 </div>
+
+0. **UDP** is top of **IP** layer!
+    <div align="center">
+        <img width="300px" alt="Backend course!" src="UDP_Is_Top_Of_IP.PNG">
+    </div>
+    1. One can see that the **UDP** is to of the **IP**!
+1. sdasd
+2. sdasdas
+3.dasdsa
+4. dasdasd
+
+
 
 # TCP.
 
