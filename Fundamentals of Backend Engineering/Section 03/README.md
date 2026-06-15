@@ -376,7 +376,7 @@ Protocols.
     <div align="center">
         <img width="300px" alt="Backend course!" src="UDP_Is_Top_Of_IP.PNG">
     </div>
-    1. One can see that the **UDP** is to of the **IP**!
+    1. One can see that the <b>UDP</b> is to of the **IP**!
 1. sdasd
 2. sdasdas
 3.dasdsa
