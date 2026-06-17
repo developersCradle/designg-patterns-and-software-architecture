@@ -204,9 +204,9 @@ Protocols.
     - This will make transformation to the light example!
 
 > [!TIP]
-> 💡 We can now receive this in here, regardless of the medium! 💡
->   - Seeded it to the **fiber optics**!
->   - Received from thought **Wi-Fi**!  
+> 💡 We can now receive and send these data/signals regardless of the medium! 💡
+>   - Sending was done with the **fiber optics**!
+>   - Receiving was done thought **Wi-Fi**!  
 
 <div align="center">
     <img width="600px" alt="Backend course!" src="OSI_Layer_With_The_Example_Receiver.PNG">
@@ -353,20 +353,214 @@ Protocols.
     <img width="600px" alt="Backend course!" src="Example_Of_Gateway.PNG">
 </div>
 
-- todo finish this
+1.  Two host want to talk each other: `Host 192.168.1.3 wants to talk to 192.168.1.2`!
+2. `255.255.255.0` as a stencil. The 255s lock the first three numbers in place, and the 0 ignores the last number.
+    - **No need route**, they are in **same subnet**!
+
+<div align="center">
+    <img width="500px" alt="Backend course!" src="Wifi_Information.PNG">
+</div>
+
+1. You need this information to figure out the addresses!
+
+<div align="center">
+    <img width="500px" alt="Backend course!" src="Example_Of_Gateway_Second.PNG">
+</div>
+
+1.  Two host want to talk each other: `Host 192.168.1.3 wants to talk to 192.168.2.2`!
+2. And operation for both:
+    - `255.255.255.0 & 192.168.1.3` = `192.168.1.0`!
+    - `255.255.255.0 & 192.168.2.2` = `192.168.2.0`!
+        - Since they are not the **same the subnet**! The packet is sent to the **Default Gateway** `192.168.1.100`!
+3. **Router** knows about **both networks** because it has one foot in each neighborhood.
+
+<div align="center">
+    <img width="600px" alt="Backend course!" src="Summary.PNG">
+</div>
+
+<div align="center">
+    <img width="600px" alt="Backend course!" src="Anatomy_Of_An_IP_Packet.PNG">
+</div>
+
+1. Anatomy of an **IP Packet**!
+
+<div align="center">
+    <img width="600px" alt="Backend course!" src="IP_Packet.PNG">
+</div>
+
+1. IP Packets can have more **header** information just for **making business**!
+
+<div align="center">
+    <img width="600px" alt="Backend course!" src="IP_Packet_For_The_Backend_Engineer.PNG">
+</div>
+
+1. IP Packet from the perspective of the **backend engineer**!
+2. There is **Source IP Address**, **Data** and **Destination IP Address**!
+
+- Let's look the action IP packet in more detail!
+
+<div align="center">
+    <img width="600px" alt="Backend course!" src="Actual_IP_Packet.PNG">
+</div>
+
+1. Links:
+    - https://datatracker.ietf.org/doc/html/rfc7191
+    - https://en.wikipedia.org/wiki/IPv4
+2. Goes up to **64 kilobytes**!
+
+<div align="center">
+    <img width="600px" alt="Backend course!" src="Version.PNG">
+</div>
+
+1. **Versions** - *The Version field identifies which version of the Internet Protocol is being used.*
+    -  **4** bits for versions! A bit too much, no? Example below:
+        ````Json
+        0100 0101
+        ^^^^
+        Version = 4
+        ````
+
+<div align="center">
+    <img width="600px" alt="Backend course!" src="IHL.PNG">
+</div>
+
+1. **Internet Header Length** - *The **IHL** field tells the receiver where the **IP header ends** and where the **data begins***.
+2. This size will be known form the field!
+3. We can also, deduce where the **Data** begins!
+
+<div align="center">
+    <img width="600px" alt="Backend course!" src="Total_Lenght_Of_Whole_IP_Packet.PNG">
+</div>
+
+1. **Total Length** - *Measures header + payload together*. The total size described in `2.`.
+
+- add here the fragement example
+
+<div align="center">
+    <img width="600px" alt="Backend course!" src="Fragmentation.PNG">
+</div>
+
+1. **Fragmentation** - *Is the **process of breaking** a large IP packet into smaller pieces (fragments) so it can pass through a network whose **MTU** (**M**aximum **T**ransmission **U**nit) is smaller than the packet size.*
+
+- Why we need **TTL**?
+    - Packet can go thought different routes, hence there is possibility go to **infinite loop**!
+
+<div align="center">
+    <img width="600px" alt="Backend course!" src="TTL.PNG">
+</div>
+
+1. **TTL** - (**T**ime **T**o **L**ive) field limits how long an IP packet can stay in the network. It prevents packets from **looping forever** due to routing errors.
+    - **Each router** that forwards the packet **decreases** **TTL** by **1**.
+        - When **TTL** becomes **0**, the router drops the packet and usually sends an **ICMP** *"Time Exceeded"* message back to the sender.
+
+> [!NOTE]  
+> `tracert` will work as following: Sends packets with gradually **increasing TTL values**:
+>- **TTL** = 1 → first router replies!
+>- **TTL** = 2 → second router replies!
+>- **TTL** = 3 → third router replies!
+>   - Continues until the destination is reached
+>   - Each router where the **TTL** expires sends back an **ICMP** Time Exceeded message, allowing `tracert` to identify that hop.
+
+<div align="center">
+    <img width="600px" alt="Backend course!" src="Protocol.PNG">
+</div>
+
+1. **Protocol** - *Identifies the next-layer protocol (TCP, UDP, ICMP, etc.)*
+    - We could figure out the protocol from this one, rather than wasting time with the data parsing!
+
+<div align="center">
+    <img width="600px" alt="Backend course!" src="Source_And_Destination_IP.PNG">
+</div>
+
+1. **Source and Destination IP** - *The Source Address and Destination Address fields identify the sender and receiver of an IP packet.*
+    - One could hypnotically spoof the IP-address, but usually ISP will block this!
+
+<div align="center">
+    <img width="600px" alt="Backend course!" src="ECN.PNG">
+</div>
+
+1. **ECN** - is a mechanism used in IP networks to indicate network congestion without immediately dropping packets.
+    - This is set by the **router**.
+        - If the **router buffer** is full, we need to drop packets!
+            - Normally, when routers become **congested**, they **drop packets**, if this happened the client can assume that it's been dropped if!
+        - There is prevention mechanism, when router **starts experiencing congestion** (queue buildup or overflow risk)!
+            - A congested router changes the ECN bits to CE (11).
+            - Receiver detects the CE mark.
+            - Receiver notifies the sender (e.g., using TCP ECN).
+             Sender slows down transmission.
+
+> [!NOTE]  
+> **ESN** is such beautiful engineering being! Elegant and small construction of a design! Nowadays, there huge amount of memory, no need such limits!
+
+<div align="center">
+    <img width="600px" alt="Backend course!" src="ICMP.PNG">
+</div>
+
+1. **ICMP** - **I**nternet **C**ontrol **M**essage **P**rotocol!
+
+<div align="center">
+    <img width="600px" alt="Backend course!" src="What_Is_ICMP.PNG">
+</div>
+
+1. Stands for **I**nternet **C**ontrol **M**essage **P**rotocol! It means communication between **hosts**, there are **no concepts** of the **ports**, since it in the **layer 3**!
+    <div align="center">
+        <img width="400px" alt="Backend course!" src="Where_Does_The_ICMP_Protocol_Lives.PNG">
+    </div>
+
+    - `1.` <b>ICMP</b> protocol lives in the <b>network layer</b>, <b>layer 3</b>!  
+2. This was designed for the **error messages** and **operational information**!
+    - If the destination **port is unreachable**, the host sends an ICMP *“Port Unreachable” message.
+3. There is no need for ports. The **ICMP** is only required to be enabled!
+
+- The ICMP header:
+
+<div align="center">
+    <img width="600px" alt="Backend course!" src="ICMP_Header.PNG"> 
+</div>
+
+<br>
+
+<div align="center">
+    <img width="600px" alt="Backend course!" src="ICMP_Information.PNG"> 
+</div>
+
+1. Some firewalls will block/timeouts the **ICMP**
+    - For this reason the **PING** case not to work!
+
+
+- We will have **PING** demo. The **PING** will use following **ICMP** messages! **Ping** sends *ICMP Echo Requests* and waits for *ICMP Echo Replies*.
+    | ICMP Type | Name         | Purpose                                 |
+    | --------- | ------------ | --------------------------------------- |
+    | **8**     | Echo Request | Sent by the sender ("Are you there?")   |
+    | **0**     | Echo Reply   | Sent by the receiver ("Yes, I'm here.") |
+
+
+<div align="center">
+    <img width="600px" alt="Backend course!" src="PING_In_Action.gif"> 
+</div>
+
+1. We can see the `icmp=seq`, if there is some missing! Example below:
+    ````Bash
+    64 bytes from 8.8.8.8: icmp_seq=1 time=12 ms
+    64 bytes from 8.8.8.8: icmp_seq=2 time=11 ms
+    64 bytes from 8.8.8.8: icmp_seq=4 time=13 ms
+    ````
+
+
+- continue ping
 
 # UDP.
+
+<div align="center">
+    <img width="600px" alt="Backend course!" src="UDP_Intro.PNG"> 
+</div>
+
+1. **U**ser **D**atagram **P**rotocol!
 
 - TCP is good for reliability!
 - UDP is simplicity!
     - This can be handled in the **TCP** level!
     - The **reliability** is handled in the **application level**!
-
-<div align="center">
-    <img width="600px" alt="Backend course!" src="UDP_Intro.PNG">
-</div>
-
-1. **U**ser **D**atagram **P**rotocol!
 
 <div align="center">
     <img width="600px" alt="Backend course!" src="UDP_One.PNG">
@@ -376,13 +570,25 @@ Protocols.
     <div align="center">
         <img width="300px" alt="Backend course!" src="UDP_Is_Top_Of_IP.PNG">
     </div>
-    1. One can see that the <b>UDP</b> is to of the **IP**!
-1. sdasd
-2. sdasdas
-3.dasdsa
-4. dasdasd
+    1. One can see that the <b>UDP</b> is to of the <b>IP</b>!
+1. **Transport layer** adds the concepts of the ports. One can connect to multiple processes in one host!
+2. **UDP** is simple!
+3. Since **UDP** is **stateless** this can be troublesome!
+    - **UDP** does **not maintain** connection state. Example UDP:
+        - **TCP maintains state** for each connection!
+            - **TCP** is **stateful**, it saves many things about the session!
 
+<div align="center">
+    <img width="600px" alt="Backend course!" src="UDP_Use_Cases.PNG">
+</div>
 
+1. UDP usages:
+    - VPN.
+    - DNS.
+        - **Resolves hostnames** for the **IP** address!
+    - WebRTC
+
+continue this
 
 # TCP.
 
@@ -450,7 +656,7 @@ Protocols.
 </div>
 
 1. We can make **client** in many ways!
-2. There is many many **server** implementations!
+2. There are a lot of **server** implementations!
 
 <div align="center">
     <img width="600px" alt="Backend course!" src="HTTP_Request.JPG">
