@@ -354,6 +354,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 
 # The Complete Microservices & Event-Driven Architecture.
+
 <!-- 
 <p align="center">
     <img
@@ -399,19 +400,19 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 #### Progress/Curriculum.
 
-- [x] [Section 01](#) - Introduction.
-- [ ] [Section 02](#) - Migration to Microservices Architecture.
-- [ ] [Section 03](#) - Microservices - Principles and Best Practices.
-- [ ] [Section 04](#) - Event-Driven Architecture.
-- [ ] [Section 05](#) - Event-Driven Microservices - Design Patterns.
-- [ ] [Section 06](#) - Testing Microservices and Event-Driven Architecture.
-- [ ] [Section 07](#) - Observability in Microservices Architecture.
-- [ ] [Section 08](#) - Deployment of Microservices and Event-Driven Architecture in Production.
-- [ ] [Section 09](#) - Bonus Section.
+- [x] [Section 01](#) - Introduction. ⚠️ In progress! ⚠️
+- [ ] [Section 02](#) - Migration to Microservices Architecture. ⚠️ In progress! ⚠️
+- [ ] [Section 03](#) - Microservices - Principles and Best Practices. ⚠️ In progress! ⚠️
+- [ ] [Section 04](#) - Event-Driven Architecture. ⚠️ In progress! ⚠️
+- [ ] [Section 05](#) - Event-Driven Microservices - Design Patterns. ⚠️ In progress! ⚠️
+- [ ] [Section 06](#) - Testing Microservices and Event-Driven Architecture. ⚠️ In progress! ⚠️
+- [ ] [Section 07](#) - Observability in Microservices Architecture. ⚠️ In progress! ⚠️
+- [ ] [Section 08](#) - Deployment of Microservices and Event-Driven Architecture in Production. ⚠️ In progress! ⚠️
+- [ ] [Section 09](#) - Bonus Section. ⚠️ In progress! ⚠️
 
 #### Additional stuff.
 
-- [ ]  todo.
+- [ ] todo.
 
 <p align="center">
     <img

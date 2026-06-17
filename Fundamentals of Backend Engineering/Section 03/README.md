@@ -527,7 +527,6 @@ Protocols.
 1. Some firewalls will block/timeouts the **ICMP**
     - For this reason the **PING** case not to work!
 
-
 - We will have **PING** demo. The **PING** will use following **ICMP** messages! **Ping** sends *ICMP Echo Requests* and waits for *ICMP Echo Replies*.
     | ICMP Type | Name         | Purpose                                 |
     | --------- | ------------ | --------------------------------------- |
@@ -545,7 +544,6 @@ Protocols.
     64 bytes from 8.8.8.8: icmp_seq=2 time=11 ms
     64 bytes from 8.8.8.8: icmp_seq=4 time=13 ms
     ````
-
 
 - continue ping
 
@@ -583,12 +581,48 @@ Protocols.
 </div>
 
 1. UDP usages:
-    - VPN.
+    - Videos. Frames of the videos can be dropped!
+    - VPN. TCP melt down can happen, if TCP is used for VPN!
     - DNS.
-        - **Resolves hostnames** for the **IP** address!
-    - WebRTC
+        - DNS **resolves hostnames** for the **IP** address!
+    - WebRTC.
+    - Games usually use UDP, they don't want to the overhead!
 
-continue this
+<div align="center">
+    <img width="600px" alt="Backend course!" src="Multiplexing_And_Demultiplexing.PNG">
+</div>
+
+1. **Multiplexing** is combining data from multiple applications/sockets into a **single** transport/network connection for transmission.
+2. **Demultiplexing** is separating received data and delivering it to the correct application based on information such as port numbers.
+3. Ports identify the app, to which the data is designed to!
+
+<div align="center">
+    <img width="600px" alt="Backend course!" src="Example_Of_UDP.PNG">
+</div>
+
+1. 🟩 Green = **Layer 4** (TCP or UDP / Transport Layer).
+2. 🟧 Orange = **Layer 3** (IP / Network Layer).
+
+<div align="center">
+    <img width="600px" alt="Backend course!" src="Summary_Of_UDP.PNG">
+</div>
+
+1. Very simple layer **4 protocol**!
+
+<div align="center">
+    <img width="600px" alt="Backend course!" src="UDP_Datagram.PNG">
+</div>
+
+1. Picture of UDP Datagram!
+
+
+<div align="center">
+    <img width="600px" alt="Backend course!" src="UDP_Datagram_Anatomy.PNG">
+</div>
+
+1. Picture of UDP Datagram!
+2. The **datagram** is boxed inside IP headers! In the IP-packet there is `protocol` header that will be changed to **UDP**!
+3. This many applications can be addressed!
 
 # TCP.
 
@@ -642,6 +676,24 @@ continue this
 
 # TLS.
 
+<div align="center">
+    <img width="600px" alt="Backend course!" src="TLS_Intro.PNG">
+</div>
+
+1.  **TLS** (**T**ransport **L**ayer **S**ecurity), we need standard for encryption!
+    - **TLS** is a standardized protocol.
+
+<div align="center">
+    <img width="600px" alt="Backend course!" src="TLS_Properties.PNG">
+</div>
+
+1. We can use **TLS** for many protocols, not all! This course will discuss **TLS HTTPS**! 
+    - In OSI model where the TLS is on?
+        - **Layer 6** (Presentation layer) → most common textbook answer.
+        - **Layer 5** (Session layer).
+2. **Diffie-Hellman** is exchange algorithm!
+
+- TLS handshake, 
 
 # HTTP/1.1.
 
