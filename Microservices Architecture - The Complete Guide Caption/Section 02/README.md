@@ -5,13 +5,13 @@
 # Introduction.
 
 <div align="center">
-    <img alt="Microservices Architecture - The Complete Guide Course" src="History_Of_Microservices_Intoduction.PNG" width="700"/>
+    <img alt="Microservices Architecture - The Complete Guide Course!" src="History_Of_Microservices_Intoduction.PNG" width="700"/>
 </div>
 
 1. History of Microservices! We will be going, why before this did not work!
 
 <div align="center">
-    <img alt="Microservices Architecture - The Complete Guide Course" src="Microservices_Before_Two_Paradigm.PNG" width="700"/>
+    <img alt="Microservices Architecture - The Complete Guide Course!" src="Microservices_Before_Two_Paradigm.PNG" width="700"/>
 </div>
 
 1. Microservices are result of:
@@ -21,13 +21,13 @@
 # Monolith.
 
 <div align="center">
-    <img alt="Microservices Architecture - The Complete Guide Course" src="We_Start_With_Monolith.PNG" width="700"/>
+    <img alt="Microservices Architecture - The Complete Guide Course!" src="We_Start_With_Monolith.PNG" width="700"/>
 </div>
 
 1. We are starting with the **Monolith**!
 
 <div align="center">
-    <img alt="Microservices Architecture - The Complete Guide Course" src="Monolith_Architecture.PNG" width="700"/>
+    <img alt="Microservices Architecture - The Complete Guide Course!" src="Monolith_Architecture.PNG" width="700"/>
 </div>
 
 1. Monolith is the father of all architecture. 
@@ -37,7 +37,7 @@
 - Let's take one example **HR App**!
 
 <div align="center">
-    <img alt="Microservices Architecture - The Complete Guide Course" src="Monolith_Architecture_Example.PNG" width="700"/>
+    <img alt="Microservices Architecture - The Complete Guide Course!" src="Monolith_Architecture_Example.PNG" width="700"/>
 </div>
 
 1. Process has **all** the components inside!
@@ -48,7 +48,7 @@
     - Even thought there were **front-end** and **databases** running **separately**!
 
 <div align="center">
-    <img alt="Microservices Architecture - The Complete Guide Course" src="Monolith_Architecture_Example_Second.PNG" width="700"/>
+    <img alt="Microservices Architecture - The Complete Guide Course!" src="Monolith_Architecture_Example_Second.PNG" width="700"/>
 </div>
 
 1. If we have **two** monolith **apps**.
@@ -57,7 +57,7 @@
         - It **can be done**, but it's **not easy**!
 
 <div align="center">
-    <img alt="Microservices Architecture - The Complete Guide Course" src="Pros_Of_Monolith.PNG" width="600"/>
+    <img alt="Microservices Architecture - The Complete Guide Course!" src="Pros_Of_Monolith.PNG" width="600"/>
 </div>
 
 1. It's much **simpler** to design!
@@ -66,13 +66,13 @@
 # Service Oriented Architecture.
 
 <div align="center">
-    <img alt="Microservices Architecture - The Complete Guide Course" src="SOA_Intro.PNG" width="600"/>
+    <img alt="Microservices Architecture - The Complete Guide Course!" src="SOA_Intro.PNG" width="600"/>
 </div>
 
 1. We will be looking at **SOA**.
 
 <div align="center">
-    <img alt="Microservices Architecture - The Complete Guide Course" src="SOA_Architecture.PNG" width="600"/>
+    <img alt="Microservices Architecture - The Complete Guide Course!" src="SOA_Architecture.PNG" width="600"/>
 </div>
 
 1. The **SOA** is sharing services to outside!
@@ -81,7 +81,7 @@
 3. Good on paper!
 
 <div align="center">
-    <img alt="Microservices Architecture - The Complete Guide Course" src="SOA_Architecture_Example.PNG" width="600"/>
+    <img alt="Microservices Architecture - The Complete Guide Course!" src="SOA_Architecture_Example.PNG" width="600"/>
 </div>
 
 1. Apps exposes **SOAP** endpoints to provide the **services** to outside!
@@ -89,7 +89,7 @@
 3. **ESB**(**E**nterprise **S**ervice **B**us) routes the communication to right **service**!
 
 <div align="center">
-    <img alt="Microservices Architecture - The Complete Guide Course" src="SOA_Pros.PNG" width="600"/>
+    <img alt="Microservices Architecture - The Complete Guide Course!" src="SOA_Pros.PNG" width="600"/>
 </div>
 
 1. Allowed **data sharing** between system, **first at the time** easy!

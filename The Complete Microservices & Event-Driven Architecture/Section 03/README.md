@@ -1,4 +1,6 @@
-# Section 03: Microservices - Principles and Best Practices
+# Section 03: Microservices - Principles and Best Practices.
+
+Microservices - Principles and Best Practices.
 
 # What I Learned.
 

@@ -5,26 +5,26 @@
 # Introduction.
 
 <div align="center">
-    <img alt="Microservices Architecture - The Complete Guide Course" src="Intro_To_Microservice_Architecture.PNG" width="600"/>
+    <img alt="Microservices Architecture - The Complete Guide Course!" src="Intro_To_Microservice_Architecture.PNG" width="600"/>
 </div>
 
 1. Real thing, microservice architecture!
 
 <div align="center">
-    <img alt="Microservices Architecture - The Complete Guide Course" src="History.PNG" width="600"/>
+    <img alt="Microservices Architecture - The Complete Guide Course!" src="History.PNG" width="600"/>
 </div>
 
 1. **SOA** and **Monolith** showed, we need something new!
 2. This came **de-factoto** for Microservices!
 
 <div align="center">
-    <img alt="Microservices Architecture - The Complete Guide Course" src="The_Article.PNG" width="600"/>
+    <img alt="Microservices Architecture - The Complete Guide Course!" src="The_Article.PNG" width="600"/>
 </div>
 
 1. These are explaining what microservice architecture should have: `https://martinfowler.com/articles/microservices.html`!
 
 <div align="center">
-    <img alt="Microservices Architecture - The Complete Guide Course" src="Charasteristics_Of_Microservice.PNG" width="600"/>
+    <img alt="Microservices Architecture - The Complete Guide Course!" src="Charasteristics_Of_Microservice.PNG" width="600"/>
 </div>
 
 1. **Martin Fowler** definition of good microservice!
@@ -32,7 +32,7 @@
 # Componentization.
 
 <div align="center">
-    <img alt="Microservices Architecture - The Complete Guide Course" src="Componenization_Of_The_Services.PNG" width="600"/>
+    <img alt="Microservices Architecture - The Complete Guide Course!" src="Componenization_Of_The_Services.PNG" width="600"/>
 </div>
 
 1. The microservice should be **components**.
@@ -42,32 +42,32 @@
     - **Services**, for achieving componentization, when calling to the external service, such as **REST**, **Web API**, **RPC** for example!
 
 <div align="center">
-    <img alt="Microservices Architecture - The Complete Guide Course" src="Componentization_Via_Services.JPG" width="600"/>
+    <img alt="Microservices Architecture - The Complete Guide Course!" src="Componentization_Via_Services.JPG" width="600"/>
 </div>
 
 1. Instead of splitting your system into **reusable libraries** (like in a monolith), you split it into **independent services**.
 
 <div align="center">
-    <img alt="Microservices Architecture - The Complete Guide Course" src="Monolith_Diagram.JPG" width="600"/>
+    <img alt="Microservices Architecture - The Complete Guide Course!" src="Monolith_Diagram.JPG" width="600"/>
 </div>
 
 1. **Monolith diagram**!
 2. In Monolith, the componentization is happening with the **libraries/modules**.
 
 <div align="center">
-    <img alt="Microservices Architecture - The Complete Guide Course" src="Componentization_Via_Services_In_Microservices.JPG" width="600"/>
+    <img alt="Microservices Architecture - The Complete Guide Course!" src="Componentization_Via_Services_In_Microservices.JPG" width="600"/>
 </div>
 
 1. In microservices the **caponization** is made with the services!
 
 <div align="center">
-    <img alt="Microservices Architecture - The Complete Guide Course" src="Componentization_Via_Services_In_Microservices_Spesific_Service.JPG" width="600"/>
+    <img alt="Microservices Architecture - The Complete Guide Course!" src="Componentization_Via_Services_In_Microservices_Spesific_Service.JPG" width="600"/>
 </div>
 
 1. Libraries are used in **inner walkings** of the service. Services are used in making modularity!
 
 <div align="center">
-    <img alt="Microservices Architecture - The Complete Guide Course" src="Why_Want_To_Use_Services_As_Modularity.JPG" width="600"/>
+    <img alt="Microservices Architecture - The Complete Guide Course!" src="Why_Want_To_Use_Services_As_Modularity.JPG" width="600"/>
 </div>
 
 1. **Services** can be deployed separately!
@@ -77,7 +77,7 @@
 # Organized Around Business Capabilities.
 
 <div align="center">
-    <img alt="Microservices Architecture - The Complete Guide Course" src="Organized_Around_Bussiness_Capbilities.JPG" width="600"/>
+    <img alt="Microservices Architecture - The Complete Guide Course!" src="Organized_Around_Bussiness_Capbilities.JPG" width="600"/>
 </div>
 
 1. **Traditional** teams talk mostly to each other.
@@ -89,14 +89,14 @@
 - These can affect product's **quality**!
 
 <div align="center">
-    <img alt="Microservices Architecture - The Complete Guide Course" src="Organized_Around_Bussiness_Capbilities_Microservice.JPG" width="600"/>
+    <img alt="Microservices Architecture - The Complete Guide Course!" src="Organized_Around_Bussiness_Capbilities_Microservice.JPG" width="600"/>
 </div>
 
 1. The same team develops **all** the areas! Team has **holistic view** field of the service!
     - We don't see inner politics to block the best solution!
 
 <div align="center">
-    <img alt="Microservices Architecture - The Complete Guide Course" src="Organized_Around_Bussiness_Capbilities_Microservice_Defination.JPG" width="600"/>
+    <img alt="Microservices Architecture - The Complete Guide Course!" src="Organized_Around_Bussiness_Capbilities_Microservice_Defination.JPG" width="600"/>
 </div>
 
 1. How to define the boundaries of the **service**.
@@ -105,7 +105,7 @@
 - What is the motivation around business capabilities! 
 
 <div align="center">
-    <img alt="Microservices Architecture - The Complete Guide Course" src="Organized_Around_Bussiness_Capbilities_Microservice_Motivation.JPG" width="600"/>
+    <img alt="Microservices Architecture - The Complete Guide Course!" src="Organized_Around_Bussiness_Capbilities_Microservice_Motivation.JPG" width="600"/>
 </div>
 
 1. It helps quick development of the service!
@@ -115,20 +115,20 @@
 # Products not Projects.
 
 <div align="center">
-    <img alt="Microservices Architecture - The Complete Guide Course" src="Products_Not_Projects.JPG" width="600"/>
+    <img alt="Microservices Architecture - The Complete Guide Course!" src="Products_Not_Projects.JPG" width="600"/>
 </div>
 
 1. **Traditional way**, team usually does not interact in any level with the customer!
 
 <div align="center">
-    <img alt="Microservices Architecture - The Complete Guide Course" src="Products_Not_Projects_In_Microservices.JPG" width="600"/>
+    <img alt="Microservices Architecture - The Complete Guide Course!" src="Products_Not_Projects_In_Microservices.JPG" width="600"/>
 </div>
 
 1. With **microservices**, teams own the products! 
     - Customer's is involved it this process! 
 
 <div align="center">
-    <img alt="Microservices Architecture - The Complete Guide Course" src="Products_Not_Projects_Motivation.JPG" width="600"/>
+    <img alt="Microservices Architecture - The Complete Guide Course!" src="Products_Not_Projects_Motivation.JPG" width="600"/>
 </div>
 
 1. Team thinks like customer, this makes customer more satisfied!

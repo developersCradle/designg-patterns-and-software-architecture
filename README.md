@@ -1,5 +1,4 @@
 <!-- 
-
 We are using following structure:
 
 <p align="center">
@@ -14,7 +13,6 @@ We are using following structure:
     alt="Jackson quick start json serialization with java made easy description!"
     style="width:590px; height:160px;" />
 </p>
-
 -->
 
 <p align="center">
@@ -22,7 +20,7 @@ We are using following structure:
 </p>
 
 <p align="center">
-   <img src="Software_Architecture_And_ Design_Patterns_Repository_Graphics.gif" alt="Java Monolith Optimization Repostiory Graphic" width="600" height="350"><br>
+   <img src="Software_Architecture_And_ Design_Patterns_Repository_Graphics.gif" alt="Java Monolith Optimization Repostiory Graphic!" width="600" height="350"><br>
    <text> <b>Software Architecture</b> & <b>Design principles</b>. Other things, which are related to the <b>architecture</b>!</text>
 </p>
 
@@ -33,19 +31,19 @@ We are using following structure:
 <p align="center">
     <img
      src="Design_Patterns_In_Java_Caption.png"
-    alt="Design Patterns In Java Caption"
+    alt="Design Patterns In Java Caption!"
     style="width:1600px;height:80px;"/>
 </p>
 
 <p align="center">
     <img src="Design_Patterns_In_Java_Description.JPG"
-    alt="Design Patterns In Java Description"
+    alt="Design Patterns In Java Description!"
     style="width:690px" />
 </p>
 
 All course material from *Design Patterns in Java* by from **Dmitri Nesteruk**.
 
-> . 🐟🐟🐟 <br><br>
+> . 🐟 <br><br>
 ~ *DevelopersCradle*
 
 Contains my own with my own visual notes ✍️ with some course material to enforce learning experience.
@@ -160,7 +158,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 All course material from *Clean Code* by **Maximilian Schwarzmüller**.
 
-> . 🐟🐟🐟 <br><br>
+> . 🐟 <br><br>
 ~ *DevelopersCradle*
 
 Contains my own with my own visual notes ✍️ with some course material to enforce learning experience.
@@ -204,19 +202,19 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 <p align="center">
     <img
      src="Java_Design_Patterns_And_SOLID_Design_Principles_Caption.png"
-    alt="Java Design Patterns & SOLID Design Principles Caption"
+    alt="Java Design Patterns And SOLID Design Principles Caption!"
     style="width:1600px;height:110px;"/>
 </p>
 
 <p align="center">
     <img src="Java_Design_Patterns_And_SOLID_Design_Principles_Description.PNG"
-    alt="Java Design Patterns & SOLID Design Principles desc Description"
+    alt="Java Design Patterns & SOLID Design Principles Description!"
     style="width:690px" />
 </p>
 
 All course material from *Java Design Patterns & SOLID Design Principles* by **Coffee Powered Crew**.
 
-> . 🐟🐟🐟 <br><br>
+> . 🐟<br><br>
 ~ *DevelopersCradle*
 
 Contains my own with my own visual notes ✍️ with some course material to enforce learning experience.
@@ -283,13 +281,13 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 <p align="center">
     <img
      src="Microservices_Architecture_The_Complete_Guide_Caption.png"
-    alt="Microservices Architecture The Complete Guide Caption"
+    alt="Microservices Architecture The Complete Guide Caption!"
     style="width:1600px;height:110px;"/>
 </p>
 
 <p align="center">
     <img src="Microservices_Architecture_The_Complete_Guide_Description.PNG"
-    alt="Microservices Architecture The Complete Guide Description"
+    alt="Microservices Architecture The Complete Guide Description!"
     style="width:690px" />
 </p>
 
@@ -299,7 +297,7 @@ All course material from *Microservices Architecture - The Complete Guide* by **
 >
 > By moving toward a microservices architecture, we could split large systems into smaller, well-defined services. Each service had its own responsibility and could evolve independently, making deployments safer and development faster. 🐟
 >
-> While exploring microservices architecture further, the course `Microservices Architecture – The Complete Guide` allowed me to see the designed implementations behind many of the patterns that are often suggested in theory. Seeing practical implementations of service boundaries, communication strategies, and deployment patterns helped connect architectural ideas with real-world systems. 🐟🐟🐟 <br><br>
+> While exploring microservices architecture further, the course `Microservices Architecture – The Complete Guide` allowed me to see the designed implementations behind many of the patterns that are often suggested in theory. Seeing practical implementations of service boundaries, communication strategies, and deployment patterns helped connect architectural ideas with real-world systems. 🐟 <br><br>
 ~ *DevelopersCradle*
 
 Contains my own with my own visual notes ✍️ with some course material to enforce learning experience.
@@ -352,16 +350,12 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
     - [Link 03](https://www.youtube.com/watch?v=DsFsd--vhas).
 
 
-
-# The Complete Microservices & Event-Driven Architecture.
-
-<!-- 
 <p align="center">
     <img
-     src="Fundamentals_Of_Backend_Engineering_Caption.png"
-    alt="Fundamentals Of Backend Engineering Caption"
+     src="The_Complete_Microservices_And_Event_Architecture_Caption.png"
+    alt="The Complete Microservices And Event Architecture Caption!"
     style="width:1600px;height:110px;"/>
-</p> -->
+</p> 
 
 <p align="center">
     <img src="The_Complete_Microservices_And_Event-Driven_Architecture_Description.PNG"
@@ -369,19 +363,18 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
     style="width:690px" />
 </p>
 
-All course material from *The Complete Microservices & Event-Driven Architecture* by **Michael Pogrebinsky** ©.
+All course material from *The Complete Microservices & Event-Driven Architecture* by **Michael Pogrebinsky** and **Top Developer Academy LLC** ©.
 
 > 🐟 <br><br>
 > ~ *DevelopersCradle*
 
-<!-- 
-Contains my own with my own visual notes ✍️ with some course material to enforce learning experience. This course is for **intermediation level**, one can be **expected to have built some projects**! This is for the backend engineers, also this can be for network engineer!
+Contains my own with my own visual notes ✍️ with some course material to enforce learning experience.
 
 This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white)](#) with [![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?logo=Eclipse&logoColor=white)](#) hotkeys, therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
 
-[The course at Udemy](https://www.udemy.com/course/fundamentals-of-backend-communications-and-protocols).
+[The course at Udemy](https://www.udemy.com/course/the-complete-microservices-event-driven-architecture/).
 
-[Courses of the maker](https://courses.husseinnasser.com/).
+[Courses of the maker](https://topdeveloperacademy.com/).
 
 If the content sparked :fire: your interest, please consider buying the course and start learning :book:.
 
@@ -428,7 +421,6 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 </p>
 
 All course material from *Fundamentals of Backend Engineering* by **Hussein Nasser** ©.
-
 
 > As the day ended, I stood above the glowing flow of requests moving through the backend. 🐟
 >
@@ -495,7 +487,6 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] If in mood implement these in Java.
     - https://medium.com/@varunpandey94.vp/long-polling-using-spring-boot-97fa4f8fb085
 - [ ] Check this one, if [time](https://www.youtube.com/watch?v=nEFOni_87Yw).
-- [ ] Remove for the `Archive` folder if not needed.
 - [ ] Remove for the `Archive` folder if not needed.
 - [ ] [db](https://www.udemy.com/course/fundamentals-of-networking-for-effective-backend-design/?couponCode=KEEPLEARNING).
 
@@ -571,10 +562,10 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 All course material from *Fundamentals of Network Engineering* by **Hussein Nasser** ©.
 
-This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white)](#) with [![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?logo=Eclipse&logoColor=white)](#) hotkeys, therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
-
 > . 🐟 <br><br>
 ~ *DevelopersCradle*
+
+This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white)](#) with [![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?logo=Eclipse&logoColor=white)](#) hotkeys, therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
 
 Contains my own with my own visual notes ✍️ with some course material to enforce learning experience.
 
