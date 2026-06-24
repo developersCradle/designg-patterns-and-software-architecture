@@ -179,7 +179,7 @@ Protocols.
 - Let's send **POST request** in the **HTTPS** from perspective of the **sender**, and we will see how it goes thought **OSI model**!
 
 <div align="center">
-    <img width="11000px" alt="Backend course!" src="OSI_Layer_With_The_Example_Sender.PNG">
+    <img width="900px" alt="Backend course!" src="OSI_Layer_With_The_Example_Sender.PNG">
 </div>
 
 1. The **Layer 7**, **Application Layer** the primary job is to act as the window for applications to access network services!
@@ -209,7 +209,7 @@ Protocols.
 >   - Receiving was done thought **Wi-Fi**!  
 
 <div align="center">
-    <img width="700px" alt="Backend course!" src="OSI_Layer_With_The_Example_Receiver.PNG">
+    <img width="900px" alt="Backend course!" src="OSI_Layer_With_The_Example_Receiver.PNG">
 </div>
 
 1. **Layer 1 - Physical**: Radio, electric or light is received and converted into digital bits.
@@ -677,53 +677,22 @@ Protocols.
 6. Anyone can send UDP **datagrams**!
     - TCP is needed to have handshake first. TCP does not have this!
 
-- Check the [UDP client and server](https://github.com/nikhilroxtomar/UDP-Client-Server-implementation-in-C).
+- We will be using the [UDP client and server](https://github.com/nikhilroxtomar/UDP-Client-Server-implementation-in-C) as experiment.
 
+- Next lest look what is **UDP client** is doing:
+    - First we will be creating the **UPD socket**:
+    ````C
+    sockfd = socket(AF_INET, SOCK_DGRAM, 0);
+    ````
+    - `AF_INET` → `IPv4`!
+    - `SOCK_DGRAM` → `UDP`!
+    - `buffer` is used to receive data from **Datagram**! It is not the UDP receive buffer maintained by the operating system.
+    ````C
+    char buffer[1024];
+    ````
+    - `sockfd` stands for **socket file descriptor**.
 
-````C
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <sys/socket.h>
-#include <sys/types.h>
-#include <netinet/in.h>
-#include <arpa/inet.h>
-
-int main(int argc, char **argv){
-
-  if (argc != 2) {
-    printf("Usage: %s <port>\n", argv[0]);
-    exit(0);
-  }
-
-  char *ip = "127.0.0.1";
-  int port = atoi(argv[1]);
-
-  int sockfd;
-  struct sockaddr_in addr;
-  char buffer[1024];
-  socklen_t addr_size;
-
-  sockfd = socket(AF_INET, SOCK_DGRAM, 0);
-  memset(&addr, '\0', sizeof(addr));
-  addr.sin_family = AF_INET;
-  addr.sin_port = htons(port);
-  addr.sin_addr.s_addr = inet_addr(ip);
-
-  bzero(buffer, 1024);
-  strcpy(buffer, "Hello, World!");
-  sendto(sockfd, buffer, 1024, 0, (struct sockaddr*)&addr, sizeof(addr));
-  printf("[+]Data send: %s\n", buffer);
-
-  bzero(buffer, 1024);
-  addr_size = sizeof(addr);
-  recvfrom(sockfd, buffer, 1024, 0, (struct sockaddr*)&addr, &addr_size);
-  printf("[+]Data recv: %s\n", buffer);
-
-  return 0;
-}
-````
-
+    - Todo continue this one
 
 
 <details>
