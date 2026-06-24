@@ -179,7 +179,7 @@ Protocols.
 - Let's send **POST request** in the **HTTPS** from perspective of the **sender**, and we will see how it goes thought **OSI model**!
 
 <div align="center">
-    <img width="900px" alt="Backend course!" src="OSI_Layer_With_The_Example_Sender.PNG">
+    <img width="11000px" alt="Backend course!" src="OSI_Layer_With_The_Example_Sender.PNG">
 </div>
 
 1. The **Layer 7**, **Application Layer** the primary job is to act as the window for applications to access network services!
