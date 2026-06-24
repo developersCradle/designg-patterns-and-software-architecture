@@ -15,6 +15,35 @@ We are using following structure:
 </p>
 -->
 
+
+
+<!-- Template for the task -->
+
+<details>
+<summary id="coding_exercise_02_multithreaded_calculation" open="true"> <b>Coding Exercise 02: Multithreaded Calculation! My Answer!</b> </summary>
+
+<div align="center">
+    <img src="Multithreaded_Exercise_Coding_Exercise_02.PNG"  alt="Java threads." width="600"/>
+</div>
+ 
+```
+
+
+```
+
+- **Question 1:** Please implement the `ComplexCalculation`.
+    - **Answer:** Below:
+
+````
+
+Add code here.
+
+````
+
+</details>
+
+
+
 <p align="center">
     <img id="studying" src="Software_Architecture_And_Design_Patterns_Caption.png" style="width:900px;height:140px;">
 </p>
@@ -405,7 +434,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 #### Additional stuff.
 
-- [ ] todo.
+- [ ] Do for now chapter `04 Event-Driven Architecture`.
 
 <p align="center">
     <img
@@ -448,7 +477,7 @@ All course material from *Fundamentals of Backend Engineering* by **Hussein Nass
 > Just engineering. 🐟 <br><br>
 > ~ *DevelopersCradle*
 
-Contains my own with my own visual notes ✍️ with some course material to enforce learning experience. This course is for **intermediation level**, one can be **expected to have built some projects**! This is for the backend engineers, also this can be for network engineer!
+Contains my own with my own visual notes ✍️ with some course material to enforce learning experience. This course is for **intermediation level**, one can be **expected to have built some projects**! This is for the backend engineers, also this can be for network engineers!
 
 This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white)](#) with [![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?logo=Eclipse&logoColor=white)](#) hotkeys, therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
 
@@ -485,10 +514,12 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 #### Additional stuff.
 
 - [ ] If in mood implement these in Java.
-    - https://medium.com/@varunpandey94.vp/long-polling-using-spring-boot-97fa4f8fb085
+    - [ ] [Long polling in Java](https://medium.com/@varunpandey94.vp/long-polling-using-spring-boot-97fa4f8fb085).
 - [ ] Check this one, if [time](https://www.youtube.com/watch?v=nEFOni_87Yw).
 - [ ] Remove for the `Archive` folder if not needed.
-- [ ] [db](https://www.udemy.com/course/fundamentals-of-networking-for-effective-backend-design/?couponCode=KEEPLEARNING).
+- [ ] Make [UDP client Java](https://www.youtube.com/watch?v=yxIUYQDtWpc).  
+    - [ ] [UDP tutorial](https://www.baeldung.com/udp-in-java).
+
 
 <p align="center">
     <img
@@ -632,9 +663,8 @@ Contains my own with my own visual notes ✍️ with some course material to enf
 This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white)](#) with [![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?logo=Eclipse&logoColor=white)](#) hotkeys, therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
 
 
-[The course at Udemy](https://www.udemy.com/course/microservices-architecture-the-complete-guide/).
+[The course at Udemy](https://www.udemy.com/course/regular-expressions-mastery).
 
-[Content maker](https://memilavi.com/).
 
 If the content sparked :fire: your interest, please consider buying the course and start learning :book:.
 
@@ -644,7 +674,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 -->
 
 <p align="center">
-    <!-- <img id="Microservices_Architecture_The_Complete_Guide_Certificate?trk=public_profile_see-credential" src="Microservices_Architecture_The_Complete_Guide_Certificate.jpg" alt="SOAP Web Services with Java_certificate" width="600"/> -->
+    add cert here!
 </p>
 
 <br>
@@ -653,7 +683,13 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 #### Progress/Curriculum.
 
-- [x] [Section 01](#) - Welcome. ⚠️ In progress! ⚠️
+- [ ] [Section 01](#) - Building a Foundation. ⚠️ In progress! ⚠️
+- [ ] [Section 02](#) - Regex: The Basic Set. ⚠️ In progress! ⚠️
+- [ ] [Section 03](#) - Regex: The Extended Set. ⚠️ In progress! ⚠️
+- [ ] [Section 04](#) - Regex: Find and Replace with Capture Groups. ⚠️ In progress! ⚠️
+- [ ] [Section 05](#) - Regex: Challenges. ⚠️ In progress! ⚠️
+- [ ] [Section 06](#) - Wrap up. ⚠️ In progress! ⚠️
+
 
 #### Additional stuff.
 

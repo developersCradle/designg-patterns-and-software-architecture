@@ -130,8 +130,53 @@
 
 1. There is following requirement, where we would need two columns `Customer Name` and `No of order`. These would be needed to come from the **two** different service!
     - `1.1` Comes from **Customer Service** and `1.2` comes from the **Orders Service**!
+        - This is **extremely common**!
 
-- Todo 13:00
+<div align="center">
+    <img alt="Microservices Architecture - The Complete Guide Course!" src="Mapping_The_Components_Three_Scenarios.PNG" width="600"/>
+</div>
+
+1. We have **three approaches**!
+    - **Data duplication**!
+        - The # of orders is stored in **Orders** database and **Customer** database!
+            - When order is **added** or **removed**, the data will go out of synch!
+    - **Service Query**!
+        - These **two services** are called, when customers **data is retrieved**!
+            - This approach **loads network** and **the service**, example if there are **200 customers**, we will be accessing **200 order calls**!
+    - **Aggregation Service**!
+        - There is one **Aggregation Service** in additional to the two ones!
+            - This will have one aggregation service!
+            - The data is not mixed in this approach!
+                - The **Orders** and the **Customer**.
+2. Its instructor personal approach!.
+    - It's simple for this case!
+        - There is no need for synchronization for data, since there is read only operations!
+    - There is very little data!
+
+<div align="center">
+    <img alt="Microservices Architecture - The Complete Guide Course!" src="Mapping_Components_Edge_Case_Second.PNG" width="600"/>
+</div>
+
+1. Simple case no, just ask Orders service?
+    - Problems comes from **Volume**!
+
+<div align="center">
+    <img alt="Microservices Architecture - The Complete Guide Course!" src="Mapping_Components_Edge_Case_Second_Next.PNG" width="600"/>
+</div>
+
+1. **Services** are **not designed** to **retrieve gigs** of information!
+2. What is the business need for query!
+    - If in this scenario It's used for reporting! If its showing trends, and it used for showing past data!
+3. In this case we should do **report engine**, this approach way we pass the API and query straight to the Db!
+
+<div align="center">
+    <img alt="Microservices Architecture - The Complete Guide Course!" src="Cross_Cutting_Services.PNG" width="600"/>
+</div>
+
+- These provide common services for services, common examples:
+    - Logging.
+    - Coaching.
+    - User management.
 
 # Defining Communication Patterns.
 

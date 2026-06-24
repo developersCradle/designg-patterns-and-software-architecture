@@ -7,7 +7,7 @@ Protocols.
 # Protocols Intro.
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="Protocol_Introduction.JPG">
+    <img width="700px" alt="Backend course!" src="Protocol_Introduction.JPG">
 </div>
 
 1. We will answer many questions like: 
@@ -18,14 +18,14 @@ Protocols.
 # Protocol Properties.
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="Protocol_Properties_Intro.JPG">
+    <img width="700px" alt="Backend course!" src="Protocol_Properties_Intro.JPG">
 </div>
 
 1. What needs to is needed to think, when designing the **protocol**!
     - Take these with grain of salt!
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="What_Is_Protocol.JPG">
+    <img width="700px" alt="Backend course!" src="What_Is_Protocol.JPG">
 </div>
 
 1. Protocol is set of **rules** for two parties to **communicate**!
@@ -39,7 +39,7 @@ Protocols.
     - `FTP`.
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="Protocol_Properties.JPG">
+    <img width="700px" alt="Backend course!" src="Protocol_Properties.JPG">
 </div>
 
 1. What is the **data format** of the protocol?
@@ -77,7 +77,7 @@ Protocols.
                     - …but not at the same time!
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="Protocol_Properties_Second.JPG">
+    <img width="700px" alt="Backend course!" src="Protocol_Properties_Second.JPG">
 </div>
 
 1. What is the **state** of the protocol?
@@ -101,7 +101,7 @@ Protocols.
 # OSI Model.
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="OSI_Model_Intro.JPG">
+    <img width="700px" alt="Backend course!" src="OSI_Model_Intro.JPG">
 </div>
 
 1. **One engineer** should understand the **OSI** model, when creating apps, which are touching **networking**! No need to master fully!
@@ -109,13 +109,13 @@ Protocols.
 - There is **OSI layer**, where all these **protocols** are living in!
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="OSI_Model.PNG">
+    <img width="700px" alt="Backend course!" src="OSI_Model.PNG">
 </div>
 
 1. The **OSI** model (**O**pen **S**ystems **I**nterconnection model)! This needs to be **OPEN**!
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="Why_Do_We_Need_Osi_Model.PNG">
+    <img width="700px" alt="Backend course!" src="Why_Do_We_Need_Osi_Model.PNG">
 </div>
 
 1. We need **OSI**, because that we can have the **agnostic** way of making applications!
@@ -135,7 +135,7 @@ Protocols.
 > As **backend engineer** the **layer 4** and the **layer 7** is the only layers, which we are mostly working with!
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="What_Is_The_OSI_Model.PNG">
+    <img width="700px" alt="Backend course!" src="What_Is_The_OSI_Model.PNG">
 </div>
 
 0. There is **Seven 07** different network layers!
@@ -179,7 +179,7 @@ Protocols.
 - Let's send **POST request** in the **HTTPS** from perspective of the **sender**, and we will see how it goes thought **OSI model**!
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="OSI_Layer_With_The_Example_Sender.PNG">
+    <img width="700px" alt="Backend course!" src="OSI_Layer_With_The_Example_Sender.PNG">
 </div>
 
 1. The **Layer 7**, **Application Layer** the primary job is to act as the window for applications to access network services!
@@ -209,7 +209,7 @@ Protocols.
 >   - Receiving was done thought **Wi-Fi**!  
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="OSI_Layer_With_The_Example_Receiver.PNG">
+    <img width="700px" alt="Backend course!" src="OSI_Layer_With_The_Example_Receiver.PNG">
 </div>
 
 1. **Layer 1 - Physical**: Radio, electric or light is received and converted into digital bits.
@@ -229,7 +229,7 @@ Protocols.
 7. **Layer 7 - Application**: Application understands the **JSON POST request** and your express `json` or `apache request` receive event is triggered.
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="Client_Sends_The_And_HTTPS_Post_Request_In_The_OSI_Model.PNG">
+    <img width="700px" alt="Backend course!" src="Client_Sends_The_And_HTTPS_Post_Request_In_The_OSI_Model.PNG">
 </div>
 
 1. Up to down!
@@ -239,7 +239,7 @@ Protocols.
     - Once the **Client** get the `ACK` message from the server, it will allow the transition to the next level, `Transport`!
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="Client_And_Server_Flow.PNG">
+    <img width="700px" alt="Backend course!" src="Client_And_Server_Flow.PNG">
 </div>
 
 1. `sport` and `dport`. **Destination port** and the **Start port**.
@@ -248,7 +248,7 @@ Protocols.
 4. This will be same flow, but other way around!
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="Client_And_Server_Flow_When_There_Is_Intermediate_Devices_Between.PNG">
+    <img width="700px" alt="Backend course!" src="Client_And_Server_Flow_When_There_Is_Intermediate_Devices_Between.PNG">
 </div>
 
 1. `Switch` and `Router` are also peeking into the packages, but in different levels!
@@ -266,7 +266,7 @@ Protocols.
 - Let's explore the **Firewall** and the **Load Balancer**! These are transparent proxy and firewall!
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="Client_And_Server_Flow_When_There_Is_Intermediate_Devices_Between_Second.PNG">
+    <img width="700px" alt="Backend course!" src="Client_And_Server_Flow_When_There_Is_Intermediate_Devices_Between_Second.PNG">
 </div>
 
 1. Here is the **Firewall**!
@@ -283,7 +283,7 @@ Protocols.
 6. One **session** here!
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="Shortcomings_Of_The_OSI_Model.PNG">
+    <img width="700px" alt="Backend course!" src="Shortcomings_Of_The_OSI_Model.PNG">
 </div>
 
 1. **Too complex**, too many layers! One needs practical understanding to have understanding!  Which layer should decrypt??? People still arguing about this!
@@ -291,7 +291,7 @@ Protocols.
 3. This is simpler to deal with, **layers 5-6-7** in one layer. **TCP/IP** model tries to do just this! 
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="TCP_IP_Model.PNG">
+    <img width="700px" alt="Backend course!" src="TCP_IP_Model.PNG">
 </div>
 
 1. This is the hierarchy for OSI layers!
@@ -302,31 +302,31 @@ Protocols.
     - So **OSI** was created later (to explain networking clearly)! This was done in **1980s**!
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="Linkerd.PNG">
+    <img width="700px" alt="Backend course!" src="Linkerd.PNG">
 </div>
 
 1. Example of the **Layer 5**, discussion!
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="OSI_Mode_Vs_TCP_IP_Address.png">
+    <img width="700px" alt="Backend course!" src="OSI_Mode_Vs_TCP_IP_Address.png">
 </div>
 
 # Internet Protocol.
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="IP_Building_Block.PNG">
+    <img width="700px" alt="Backend course!" src="IP_Building_Block.PNG">
 </div>
 
 1. What operations the **IP** will be using!
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="IP_Address.PNG">
+    <img width="700px" alt="Backend course!" src="IP_Address.PNG">
 </div>
 
 1. **IP address** is **layer 3** property!
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="Network_Vs_Host.PNG">
+    <img width="700px" alt="Backend course!" src="Network_Vs_Host.PNG">
 </div>
 
 1. **/24** means:
@@ -335,7 +335,7 @@ Protocols.
 2. This is **responsibility** of the **network engineer**! **Backend engineer** are thinking how **packets flows**!
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="Subnet_Mask.PNG">
+    <img width="700px" alt="Backend course!" src="Subnet_Mask.PNG">
 </div>
 
 1. **Subnet mask** can be used to figure out if the **receiver** is in the **same network**!
@@ -343,14 +343,14 @@ Protocols.
     - If it is not, we need to send IP-packet to other network!
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="Default_Gateway.PNG">
+    <img width="700px" alt="Backend course!" src="Default_Gateway.PNG">
 </div>
 
 1. Most of the networks have **default gateway**! 
 2. Gateway can be used for to talk with other networks!
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="Example_Of_Gateway.PNG">
+    <img width="700px" alt="Backend course!" src="Example_Of_Gateway.PNG">
 </div>
 
 1.  Two host want to talk each other: `Host 192.168.1.3 wants to talk to 192.168.1.2`!
@@ -375,23 +375,23 @@ Protocols.
 3. **Router** knows about **both networks** because it has one foot in each neighborhood.
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="Summary.PNG">
+    <img width="700px" alt="Backend course!" src="Summary.PNG">
 </div>
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="Anatomy_Of_An_IP_Packet.PNG">
+    <img width="700px" alt="Backend course!" src="Anatomy_Of_An_IP_Packet.PNG">
 </div>
 
 1. Anatomy of an **IP Packet**!
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="IP_Packet.PNG">
+    <img width="700px" alt="Backend course!" src="IP_Packet.PNG">
 </div>
 
 1. IP Packets can have more **header** information just for **making business**!
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="IP_Packet_For_The_Backend_Engineer.PNG">
+    <img width="700px" alt="Backend course!" src="IP_Packet_For_The_Backend_Engineer.PNG">
 </div>
 
 1. IP Packet from the perspective of the **backend engineer**!
@@ -400,7 +400,7 @@ Protocols.
 - Let's look the action IP packet in more detail!
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="Actual_IP_Packet.PNG">
+    <img width="700px" alt="Backend course!" src="Actual_IP_Packet.PNG">
 </div>
 
 1. Links:
@@ -409,7 +409,7 @@ Protocols.
 2. Goes up to **64 kilobytes**!
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="Version.PNG">
+    <img width="700px" alt="Backend course!" src="Version.PNG">
 </div>
 
 1. **Versions** - *The Version field identifies which version of the Internet Protocol is being used.*
@@ -421,7 +421,7 @@ Protocols.
         ````
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="IHL.PNG">
+    <img width="700px" alt="Backend course!" src="IHL.PNG">
 </div>
 
 1. **Internet Header Length** - *The **IHL** field tells the receiver where the **IP header ends** and where the **data begins***.
@@ -429,7 +429,7 @@ Protocols.
 3. We can also, deduce where the **Data** begins!
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="Total_Lenght_Of_Whole_IP_Packet.PNG">
+    <img width="700px" alt="Backend course!" src="Total_Lenght_Of_Whole_IP_Packet.PNG">
 </div>
 
 1. **Total Length** - *Measures header + payload together*. The total size described in `2.`.
@@ -437,7 +437,7 @@ Protocols.
 - add here the fragement example
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="Fragmentation.PNG">
+    <img width="700px" alt="Backend course!" src="Fragmentation.PNG">
 </div>
 
 1. **Fragmentation** - *Is the **process of breaking** a large IP packet into smaller pieces (fragments) so it can pass through a network whose **MTU** (**M**aximum **T**ransmission **U**nit) is smaller than the packet size.*
@@ -446,7 +446,7 @@ Protocols.
     - Packet can go thought different routes, hence there is possibility go to **infinite loop**!
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="TTL.PNG">
+    <img width="700px" alt="Backend course!" src="TTL.PNG">
 </div>
 
 1. **TTL** - (**T**ime **T**o **L**ive) field limits how long an IP packet can stay in the network. It prevents packets from **looping forever** due to routing errors.
@@ -462,21 +462,21 @@ Protocols.
 >   - Each router where the **TTL** expires sends back an **ICMP** Time Exceeded message, allowing `tracert` to identify that hop.
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="Protocol.PNG">
+    <img width="700px" alt="Backend course!" src="Protocol.PNG">
 </div>
 
 1. **Protocol** - *Identifies the next-layer protocol (TCP, UDP, ICMP, etc.)*
     - We could figure out the protocol from this one, rather than wasting time with the data parsing!
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="Source_And_Destination_IP.PNG">
+    <img width="700px" alt="Backend course!" src="Source_And_Destination_IP.PNG">
 </div>
 
 1. **Source and Destination IP** - *The Source Address and Destination Address fields identify the sender and receiver of an IP packet.*
     - One could hypnotically spoof the IP-address, but usually ISP will block this!
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="ECN.PNG">
+    <img width="700px" alt="Backend course!" src="ECN.PNG">
 </div>
 
 1. **ECN** - is a mechanism used in IP networks to indicate network congestion without immediately dropping packets.
@@ -493,13 +493,13 @@ Protocols.
 > **ESN** is such beautiful engineering being! Elegant and small construction of a design! Nowadays, there huge amount of memory, no need such limits!
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="ICMP.PNG">
+    <img width="700px" alt="Backend course!" src="ICMP.PNG">
 </div>
 
 1. **ICMP** - **I**nternet **C**ontrol **M**essage **P**rotocol!
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="What_Is_ICMP.PNG">
+    <img width="700px" alt="Backend course!" src="What_Is_ICMP.PNG">
 </div>
 
 1. Stands for **I**nternet **C**ontrol **M**essage **P**rotocol! It means communication between **hosts**, there are **no concepts** of the **ports**, since it in the **layer 3**!
@@ -515,13 +515,13 @@ Protocols.
 - The ICMP header:
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="ICMP_Header.PNG"> 
+    <img width="700px" alt="Backend course!" src="ICMP_Header.PNG"> 
 </div>
 
 <br>
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="ICMP_Information.PNG"> 
+    <img width="700px" alt="Backend course!" src="ICMP_Information.PNG"> 
 </div>
 
 1. Some firewalls will block/timeouts the **ICMP**
@@ -535,7 +535,7 @@ Protocols.
 
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="PING_In_Action.gif"> 
+    <img width="700px" alt="Backend course!" src="PING_In_Action.gif"> 
 </div>
 
 1. We can see the `icmp=seq`, if there is some missing! Example below:
@@ -550,7 +550,7 @@ Protocols.
 # UDP.
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="UDP_Intro.PNG"> 
+    <img width="700px" alt="Backend course!" src="UDP_Intro.PNG"> 
 </div>
 
 1. **U**ser **D**atagram **P**rotocol!
@@ -561,7 +561,7 @@ Protocols.
     - The **reliability** is handled in the **application level**!
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="UDP_One.PNG">
+    <img width="700px" alt="Backend course!" src="UDP_One.PNG">
 </div>
 
 0. **UDP** is top of **IP** layer!
@@ -577,7 +577,7 @@ Protocols.
             - **TCP** is **stateful**, it saves many things about the session!
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="UDP_Use_Cases.PNG">
+    <img width="700px" alt="Backend course!" src="UDP_Use_Cases.PNG">
 </div>
 
 1. UDP usages:
@@ -589,7 +589,7 @@ Protocols.
     - Games usually use UDP, they don't want to the overhead!
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="Multiplexing_And_Demultiplexing.PNG">
+    <img width="700px" alt="Backend course!" src="Multiplexing_And_Demultiplexing.PNG">
 </div>
 
 1. **Multiplexing** is combining data from multiple applications/sockets into a **single** transport/network connection for transmission.
@@ -597,44 +597,258 @@ Protocols.
 3. Ports identify the app, to which the data is designed to!
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="Example_Of_UDP.PNG">
+    <img width="700px" alt="Backend course!" src="Example_Of_UDP.PNG">
 </div>
 
 1. 🟩 Green = **Layer 4** (TCP or UDP / Transport Layer).
 2. 🟧 Orange = **Layer 3** (IP / Network Layer).
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="Summary_Of_UDP.PNG">
+    <img width="700px" alt="Backend course!" src="Summary_Of_UDP.PNG">
 </div>
 
 1. Very simple layer **4 protocol**!
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="UDP_Datagram.PNG">
+    <img width="700px" alt="Backend course!" src="UDP_Datagram.PNG">
 </div>
 
 1. Picture of UDP Datagram!
 
-
 <div align="center">
-    <img width="600px" alt="Backend course!" src="UDP_Datagram_Anatomy.PNG">
+    <img width="700px" alt="Backend course!" src="UDP_Datagram_Anatomy.PNG">
 </div>
 
 1. Picture of UDP Datagram!
 2. The **datagram** is boxed inside IP headers! In the IP-packet there is `protocol` header that will be changed to **UDP**!
 3. This many applications can be addressed!
 
+<div align="center">
+    <img width="700px" alt="Backend course!" src="UDP_Datagram_Header.PNG">
+</div>
+
+0. Mostly **8 bytes header**!
+1. Links:
+    - https://www.ietf.org/rfc/rfc768.txt
+    - https://en.wikipedia.org/wiki/User_Datagram_Protocol
+
+- Each process has **own** port!
+
+<div align="center">
+    <img width="700px" alt="Backend course!" src="Source_Port_And_Destination_Port_UDP.PNG">
+</div>
+
+1. **Source Port**
+2. **Destination Port**
+
+<div align="center">
+    <img width="700px" alt="Backend course!" src="Source_Port_And_Destination_Port_UDP.PNG">
+</div>
+
+1. Length!
+2. Checksum!
+
+<div align="center">
+    <img width="700px" alt="Backend course!" src="Pros_And_Cons_Of_UDP.PNG">
+</div>
+
+1. **-** and **+**!
+
+<div align="center">
+    <img width="700px" alt="Backend course!" src="UDP_Pros.PNG">
+</div>
+
+1. Its **simple protocol**, this is useful in gaming!
+    - We can deal with the **small level** of corruption!
+2. UDP is stateless, it scales easily!
+3. There is no handshake etc..., you just send **datagrams**!
+
+<div align="center">
+    <img width="700px" alt="Backend course!" src="UDP_Cons.PNG">
+</div>
+
+1. You don't know did your data gram arrive or not?
+2. Parties are not required to authenticate!
+    - There is UDP attacks! UDP flooding attack!
+        - Since UDP does **not** know who is sender. All the **datagrams** gets processed! 
+3. No flow control, one does not know what is the **receivers buffer** size! This is the receiver **server property**!
+4. Congestion control, a network from being overloaded when too many packets are sent at once.
+5. There is no order!
+6. Anyone can send UDP **datagrams**!
+    - TCP is needed to have handshake first. TCP does not have this!
+
+- Check the [UDP client and server](https://github.com/nikhilroxtomar/UDP-Client-Server-implementation-in-C).
+
+
+````C
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/socket.h>
+#include <sys/types.h>
+#include <netinet/in.h>
+#include <arpa/inet.h>
+
+int main(int argc, char **argv){
+
+  if (argc != 2) {
+    printf("Usage: %s <port>\n", argv[0]);
+    exit(0);
+  }
+
+  char *ip = "127.0.0.1";
+  int port = atoi(argv[1]);
+
+  int sockfd;
+  struct sockaddr_in addr;
+  char buffer[1024];
+  socklen_t addr_size;
+
+  sockfd = socket(AF_INET, SOCK_DGRAM, 0);
+  memset(&addr, '\0', sizeof(addr));
+  addr.sin_family = AF_INET;
+  addr.sin_port = htons(port);
+  addr.sin_addr.s_addr = inet_addr(ip);
+
+  bzero(buffer, 1024);
+  strcpy(buffer, "Hello, World!");
+  sendto(sockfd, buffer, 1024, 0, (struct sockaddr*)&addr, sizeof(addr));
+  printf("[+]Data send: %s\n", buffer);
+
+  bzero(buffer, 1024);
+  addr_size = sizeof(addr);
+  recvfrom(sockfd, buffer, 1024, 0, (struct sockaddr*)&addr, &addr_size);
+  printf("[+]Data recv: %s\n", buffer);
+
+  return 0;
+}
+````
+
+
+
+<details>
+
+<summary id="C_" open="true"> <b>C Client and Server!</b> </summary>
+
+#### client.c
+
+````C
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/socket.h>
+#include <sys/types.h>
+#include <netinet/in.h>
+#include <arpa/inet.h>
+
+int main(int argc, char **argv){
+
+  if (argc != 2) {
+    printf("Usage: %s <port>\n", argv[0]);
+    exit(0);
+  }
+
+  char *ip = "127.0.0.1";
+  int port = atoi(argv[1]);
+
+  int sockfd;
+  struct sockaddr_in addr;
+  char buffer[1024];
+  socklen_t addr_size;
+
+  sockfd = socket(AF_INET, SOCK_DGRAM, 0);
+  memset(&addr, '\0', sizeof(addr));
+  addr.sin_family = AF_INET;
+  addr.sin_port = htons(port);
+  addr.sin_addr.s_addr = inet_addr(ip);
+
+  bzero(buffer, 1024);
+  strcpy(buffer, "Hello, World!");
+  sendto(sockfd, buffer, 1024, 0, (struct sockaddr*)&addr, sizeof(addr));
+  printf("[+]Data send: %s\n", buffer);
+
+  bzero(buffer, 1024);
+  addr_size = sizeof(addr);
+  recvfrom(sockfd, buffer, 1024, 0, (struct sockaddr*)&addr, &addr_size);
+  printf("[+]Data recv: %s\n", buffer);
+
+  return 0;
+}
+````
+
+#### server.c
+
+````C
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/socket.h>
+#include <sys/types.h>
+#include <netinet/in.h>
+#include <arpa/inet.h>
+
+int main(int argc, char **argv){
+
+  if (argc != 2){
+    printf("Usage: %s <port>\n", argv[0]);
+    exit(0);
+  }
+
+  char *ip = "127.0.0.1";
+  int port = atoi(argv[1]);
+
+  int sockfd;
+  struct sockaddr_in server_addr, client_addr;
+  char buffer[1024];
+  socklen_t addr_size;
+  int n;
+
+  sockfd = socket(AF_INET, SOCK_DGRAM, 0);
+  if (sockfd < 0){
+    perror("[-]socket error");
+    exit(1);
+  }
+
+  memset(&server_addr, '\0', sizeof(server_addr));
+  server_addr.sin_family = AF_INET;
+  server_addr.sin_port = htons(port);
+  server_addr.sin_addr.s_addr = inet_addr(ip);
+
+  n = bind(sockfd, (struct sockaddr*)&server_addr, sizeof(server_addr));
+  if (n < 0) {
+    perror("[-]bind error");
+    exit(1);
+  }
+
+  bzero(buffer, 1024);
+  addr_size = sizeof(client_addr);
+  recvfrom(sockfd, buffer, 1024, 0, (struct sockaddr*)&client_addr, &addr_size);
+  printf("[+]Data recv: %s\n", buffer);
+
+  bzero(buffer, 1024);
+  strcpy(buffer, "Welcome to the UDP Server.");
+  sendto(sockfd, buffer, 1024, 0, (struct sockaddr*)&client_addr, sizeof(client_addr));
+  printf("[+]Data send: %s\n", buffer);
+
+  return 0;
+}
+````
+
+</details>
+
+
+
 # TCP.
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="TCP_Intro.JPG">
+    <img width="700px" alt="Backend course!" src="TCP_Intro.JPG">
 </div>
 
 1. **T**ransport **C**ontrol **P**rotocol!
     - **TCP** = is about **reliable transport** of data between applications!
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="UDP_Characteristics.JPG">
+    <img width="700px" alt="Backend course!" src="UDP_Characteristics.JPG">
 </div>
 
 0. **TCP** stands for **T**ransmission **C**ontrol **P**rotocol!
@@ -660,7 +874,7 @@ Protocols.
 6. It's **stateful**!
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="TCP_Use_Cases.JPG">
+    <img width="700px" alt="Backend course!" src="TCP_Use_Cases.JPG">
 </div>
 
 1. **Reliable communication**.
@@ -677,14 +891,14 @@ Protocols.
 # TLS.
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="TLS_Intro.PNG">
+    <img width="700px" alt="Backend course!" src="TLS_Intro.PNG">
 </div>
 
 1.  **TLS** (**T**ransport **L**ayer **S**ecurity), we need standard for encryption!
     - **TLS** is a standardized protocol.
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="TLS_Properties.PNG">
+    <img width="700px" alt="Backend course!" src="TLS_Properties.PNG">
 </div>
 
 1. We can use **TLS** for many protocols, not all! This course will discuss **TLS HTTPS**! 
@@ -698,20 +912,20 @@ Protocols.
 # HTTP/1.1.
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="HTTP_1_1_Intro.JPG">
+    <img width="700px" alt="Backend course!" src="HTTP_1_1_Intro.JPG">
 </div>
 
 1. `HTTP/2` is still is having own **limitations**. People still using `HTTP/1.1`.
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="HTTP_Clients.JPG">
+    <img width="700px" alt="Backend course!" src="HTTP_Clients.JPG">
 </div>
 
 1. We can make **client** in many ways!
 2. There are a lot of **server** implementations!
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="HTTP_Request.JPG">
+    <img width="700px" alt="Backend course!" src="HTTP_Request.JPG">
 </div>
 
 0. **HTTP request** looks like!
@@ -739,7 +953,7 @@ Protocols.
 - Below is the structure of the **HTTP request**:
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="HTTP_Request_Example.JPG">
+    <img width="700px" alt="Backend course!" src="HTTP_Request_Example.JPG">
 </div>
 
 1. **IP-address** can could be here, but **one** address can host one site. We can host multiple **site** when using **URL**.
@@ -749,7 +963,7 @@ Protocols.
 
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="HTTP_Response.JPG">
+    <img width="700px" alt="Backend course!" src="HTTP_Response.JPG">
 </div>
 
 0. **Protocol** → Usually `HTTP/1.1` or `HTTP/2`.
@@ -766,7 +980,7 @@ Protocols.
 - Below is the structure of the **HTTP Response** in the **HTTP/1.1**:
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="Example_Of_The_HTTP_1_Dot_1_Response.JPG">
+    <img width="700px" alt="Backend course!" src="Example_Of_The_HTTP_1_Dot_1_Response.JPG">
 </div>
 
 1. Example **response** of the **HTTP/1.1** response!
@@ -776,7 +990,7 @@ Protocols.
 - Below is the structure of the **HTTP Response** in the **HTTP/2.0**:
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="Example_Of_The_HTTP_2_Response.JPG">
+    <img width="700px" alt="Backend course!" src="Example_Of_The_HTTP_2_Response.JPG">
 </div>
 
 1. Example **response** of the **HTTP/2** response!
@@ -798,7 +1012,7 @@ Protocols.
 ```
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="HTTP_1_Dot_1_Communication.JPG">
+    <img width="700px" alt="Backend course!" src="HTTP_1_Dot_1_Communication.JPG">
 </div>
 
 0. First happens **opening** the `TCP` **3-was handshake**!
@@ -812,7 +1026,7 @@ Protocols.
 - Get back here after finishing the **TSL** and **TCP** chapter!
 
 <div align="center">
-    <img width="600px" alt="Backend course!" src="TCP_Connection.JPG">
+    <img width="700px" alt="Backend course!" src="TCP_Connection.JPG">
 </div>
 
 
