@@ -20,7 +20,7 @@
     - It's much **easier** to understand what is happening inside **one** service at the time!
 
 > [!NOTE]
-> This is solved by, with **well-designed** logging and monitoring!
+> 📖 This is solved by, with **well-designed** logging and monitoring! 📖
 
 # Logging vs Monitoring.
 
@@ -183,7 +183,7 @@
     - Data source: **Application's logs**, **event log**.
 
 > [!NOTE]  
-> Usually the **Application** monitoring more important!
+> 📖 Usually the **Application** monitoring more important! 📖
 
 <div align="center">
     <img alt="Microservices Architecture - The Complete Guide Course!" src="Different_Monitoring_Tools.PNG" width="700"/>

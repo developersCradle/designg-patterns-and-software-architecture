@@ -33,7 +33,7 @@ Backend Communication Design Patterns.
 6. Simple diagram for the **request** and the **response**.
 
 > [!NOTE]
-> Where does the **serialization** and **deserialization** come to place, in example of the **JSON**?
+> 📖 Where does the **serialization** and **deserialization** come to place, in example of the **JSON**? 📖
 >    - In the step, **processing the request**. The `3` step!
 >        -  The **deserialization** is 💲💲**EXPENSIVE**💲💲!
 >            - Example, the **XML** is heavy on processing!
@@ -77,7 +77,7 @@ Backend Communication Design Patterns.
 - Example we have task to **build** upload image service:
     
 > [!NOTE]
-> What would be the best **patter** to implement here?
+> 📖 What would be the best **patter** to implement here? 📖
 
 <div align="center">
     <img alt="Backend course!" src="Building_Upload_Image_Service.PNG" >
@@ -117,7 +117,7 @@ Backend Communication Design Patterns.
 3. There is **cost** for processing the response.
 
 > [!NOTE]  
-> **FLUSH**
+> 📖 **FLUSH** 📖
 > To clear, empty, or force pending data/changes to be written or applied immediately!
 
 - Example of the **curl** `curl -v --trace out.txt http://google.com`. Example below:
@@ -342,7 +342,7 @@ httpserver.listen(8080, () => console.log("My server is listening on port 8080")
 ````
 
 > [!NOTE]
-> **Handshake** in general is to **establish a connection**, negotiate rules, and confirm both parties are ready for communication! 
+> 📖 **Handshake** in general is to **establish a connection**, negotiate rules, and confirm both parties are ready for communication! 📖
 
 
 - We will be initializing the server and start listening.

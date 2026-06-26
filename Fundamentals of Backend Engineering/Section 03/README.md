@@ -132,7 +132,7 @@ Protocols.
     - If a better **transmission medium** than **fiber optics** were developed, it could replace fiber at the Physical Layer without requiring changes to higher-layer protocols, as long as it provides the same service to the layer above.
 
 > [!NOTE]
-> As **backend engineer** the **layer 4** and the **layer 7** is the only layers, which we are mostly working with!
+> 📖 As **backend engineer** the **layer 4** and the **layer 7** is the only layers, which we are mostly working with! 📖
 
 <div align="center">
     <img width="700px" alt="Backend course!" src="What_Is_The_OSI_Model.PNG">
@@ -261,7 +261,7 @@ Protocols.
 2. The package goes from left to right!
 
 > [!NOTE]  
-> **Transparent** in general, is a device or service performs a function without requiring the communicating endpoints to be aware of it.
+> 📖 **Transparent** in general, is a device or service performs a function without requiring the communicating endpoints to be aware of it. 📖
 
 - Let's explore the **Firewall** and the **Load Balancer**! These are transparent proxy and firewall!
 
@@ -454,7 +454,7 @@ Protocols.
         - When **TTL** becomes **0**, the router drops the packet and usually sends an **ICMP** *"Time Exceeded"* message back to the sender.
 
 > [!NOTE]  
-> `tracert` will work as following: Sends packets with gradually **increasing TTL values**:
+> 📖 `tracert` will work as following: Sends packets with gradually **increasing TTL values** 📖:
 >- **TTL** = 1 → first router replies!
 >- **TTL** = 2 → second router replies!
 >- **TTL** = 3 → third router replies!
@@ -490,7 +490,7 @@ Protocols.
              Sender slows down transmission.
 
 > [!NOTE]  
-> **ESN** is such beautiful engineering being! Elegant and small construction of a design! Nowadays, there huge amount of memory, no need such limits!
+> 📖 **ESN** is such beautiful engineering being! Elegant and small construction of a design! Nowadays, there huge amount of memory, no need such limits! 📖
 
 <div align="center">
     <img width="700px" alt="Backend course!" src="ICMP.PNG">
@@ -555,8 +555,8 @@ Protocols.
 
 1. **U**ser **D**atagram **P**rotocol!
 
-- TCP is good for reliability!
-- UDP is simplicity!
+- **TCP** is good for reliability!
+- **UDP** is simplicity!
     - This can be handled in the **TCP** level!
     - The **reliability** is handled in the **application level**!
 
@@ -613,7 +613,7 @@ Protocols.
     <img width="700px" alt="Backend course!" src="UDP_Datagram.PNG">
 </div>
 
-1. Picture of UDP Datagram!
+1. Picture of **UDP Datagram**!
 
 <div align="center">
     <img width="700px" alt="Backend course!" src="UDP_Datagram_Anatomy.PNG">
@@ -632,27 +632,27 @@ Protocols.
     - https://www.ietf.org/rfc/rfc768.txt
     - https://en.wikipedia.org/wiki/User_Datagram_Protocol
 
-- Each process has **own** port!
+- Each **process** has **own** port!
 
 <div align="center">
     <img width="700px" alt="Backend course!" src="Source_Port_And_Destination_Port_UDP.PNG">
 </div>
 
-1. **Source Port**
-2. **Destination Port**
+1. **Source Port**!
+2. **Destination Port**!
 
 <div align="center">
-    <img width="700px" alt="Backend course!" src="Source_Port_And_Destination_Port_UDP.PNG">
+    <img width="700px" alt="Backend course!" src="Lenght_And_Checksum_UDP.PNG">
 </div>
 
-1. Length!
-2. Checksum!
+1. **Length**!
+2. **Checksum**!
 
 <div align="center">
     <img width="700px" alt="Backend course!" src="Pros_And_Cons_Of_UDP.PNG">
 </div>
 
-1. **-** and **+**!
+1. **-** and **+** of the **UPD**!
 
 <div align="center">
     <img width="700px" alt="Backend course!" src="UDP_Pros.PNG">
@@ -677,22 +677,67 @@ Protocols.
 6. Anyone can send UDP **datagrams**!
     - TCP is needed to have handshake first. TCP does not have this!
 
+<br>
+
 - We will be using the [UDP client and server](https://github.com/nikhilroxtomar/UDP-Client-Server-implementation-in-C) as experiment.
 
-- Next lest look what is **UDP client** is doing:
+- Next will look what is **UDP client** is doing:
     - First we will be creating the **UPD socket**:
-    ````C
-    sockfd = socket(AF_INET, SOCK_DGRAM, 0);
-    ````
-    - `AF_INET` → `IPv4`!
-    - `SOCK_DGRAM` → `UDP`!
-    - `buffer` is used to receive data from **Datagram**! It is not the UDP receive buffer maintained by the operating system.
-    ````C
-    char buffer[1024];
-    ````
-    - `sockfd` stands for **socket file descriptor**.
+        > [!TIP]
+        > 💡 What is a **file descriptor**? 💡
+        > In Unix/Linux, the operating system represents **open resources** (files, sockets, pipes, terminals, etc.) with small integer IDs called file descriptors.
+        - We will declare **socket file descriptor**:
+            ````C
+            int sockfd;
+            ````
+        -  Structure that stores an **IPv4 address** and **port**.
+            ````C
+            struct sockaddr_in {
+                sa_family_t    sin_family;   // Address family (IPv4).
+                in_port_t      sin_port;     // Port number.
+                struct in_addr sin_addr;     // IPv4 address.
+            };
+            ````
+        - We allocate the buffer, this will be the **UDP payload** content!
+            ````C
+            char buffer[1024];
+            ````
+            <div align="center">
+                <img width="700px" alt="Backend course!" src="UDP_Buffer.PNG">
+            </div>
+            1. This will be the <b>UDP payload: 1024 bytes!</b>
 
-    - Todo continue this one
+        > [!TIP]
+        > 💡 What is **socklen_t**? 💡
+        > `socklen_t` is an integer type defined by the socket API. It is used to store the **size** (in bytes) of a socket address structure.
+        -  We assign variable that holds size of the <b>UDP header 8 bytes!</b>
+            ````C
+            socklen_t addr_size;
+            ````
+            <div align="center">
+                    <img width="700px" alt="Backend course!" src="UDP_Header.PNG">
+            </div>
+            1. This will be the <b>UDP header 8 bytes</b>
+            
+        - We will be **creating the socket** in the operating system and returns a handle (the file descriptor) to it:
+            ````C
+            sockfd = socket(AF_INET, SOCK_DGRAM, 0);
+            ````
+            - `AF_INET` → `IPv4`!
+            - `SOCK_DGRAM` → `UDP`!
+            - `buffer` is used to receive data from **datagram**! It is not the UDP receive buffer maintained by the operating system.
+        -  We will assign the addresses next:
+            ````C
+            memset(&addr, '\0', sizeof(addr));
+            addr.sin_family = AF_INET;
+            addr.sin_port = htons(port);
+            addr.sin_addr.s_addr = inet_addr(ip);
+            ````
+        - We will waits for a **UDP packet** to arrive on `sockfd`, stores the data in `buffer`, and fills `addr` with the sender’s address.
+            ````C
+            recvfrom(sockfd, buffer, 1024, 0, (struct sockaddr*)&addr, &addr_size);
+            printf("[+]Data recv: %s\n", buffer);
+            ````
 
 
 <details>
@@ -966,7 +1011,7 @@ int main(int argc, char **argv){
 2. **Note** there is no **Reason Phrase**. 
 
 > [!NOTE]  
-> Remember: **HTTP** is build top of **TCP**.
+> 📖 Remember: **HTTP** is build top of **TCP**. 📖
 
 ```Xml
 +----------------------+
