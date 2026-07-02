@@ -51,10 +51,12 @@ Template for the task/exercies:
  -->
 
 
+<!-- todo check alt=" are first upper case rest lower case! -->
+
 
 
 <p align="center">
-    <img id="studying" src="Software_Architecture_And_Design_Patterns_Caption.png" style="width:900px;height:140px;">
+    <img id="Studying" src="Software_Architecture_And_Design_Patterns_Caption.png" style="width:900px;height:140px;">
 </p>
 
 <p align="center">
@@ -161,7 +163,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 <details>
 
-<summary id="IDE problem" open="false"> <b>As using IDE  studying tool. Here is the common errors.</b> </summary>
+<summary id="IDE_Problem" open="false"> <b>As using IDE  studying tool. Here is the common errors.</b> </summary>
 
 <img src="AddingChapters.PNG" alt="Course chapters." width="200"/>
 
@@ -354,7 +356,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 -->
 
 <p align="center">
-    <img id="Microservices_Architecture_The_Complete_Guide_Certificate?trk=public_profile_see-credential" src="Microservices_Architecture_The_Complete_Guide_Certificate.jpg" alt="SOAP Web Services with Java_certificate" width="600"/>
+    <img id="Microservices_Architecture_The_Complete_Guide_Certificate?trk=public_profile_see-credential" src="Microservices_Architecture_The_Complete_Guide_Certificate.jpg" alt="SOAP web services with java certificate!" width="600"/>
 </p>
 
 <br>
@@ -391,7 +393,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 <p align="center">
     <img
      src="The_Complete_Microservices_And_Event_Architecture_Caption.png"
-    alt="The Complete Microservices And Event Architecture Caption!"
+    alt="The complete microservices and event architecture caption!"
     style="width:1600px;height:110px;"/>
 </p> 
 
@@ -448,13 +450,13 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 <p align="center">
     <img
      src="Fundamentals_Of_Backend_Engineering_Caption.png"
-    alt="Fundamentals Of Backend Engineering Caption!"
+    alt="Fundamentals of backend engineering caption!"
     style="width:1600px;height:110px;"/>
 </p>
 
 <p align="center">
     <img src="Fundamentals_Of_Backend_Engineering_Description.PNG"
-    alt="Fundamentals Of Backen Engineering Description!"
+    alt="Fundamentals of backend engineering description!"
     style="width:690px" />
 </p>
 
@@ -531,19 +533,19 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 * **Section 03**:
      * *Coding Examples*:
-        * [UDP socket program in C](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Design%20Patterns%20in%20Java/src/Section%2015#coding-exercise-12-command-coding-exercise).
+        * [UDP socket program in C](https://github.com/developersCradle/designg-patterns-and-software-architecture/blob/main/Fundamentals%20of%20Backend%20Engineering/Section%2003/README.md#UDP_Socket_Program_In_C).
 
 <!-- todo fix the id -->
 <p align="center">
     <img
      src="Troubleshooting_Backend_Systems_Caption.png"
-    alt="The Complete Regular Expressions Regex Course For Beginners Caption!"
+    alt="The complete regular expressions regex course for beginners caption!"
     style="width:1600px;height:110px;"/>
 </p> 
 
 <p align="center">
     <img src="Troubleshooting_Backend_Systems_Description.PNG"
-    alt="The Complete Regular Expressions Regex Course For Beginners Description!"
+    alt="The Complete regular expressions regex course for beginners description!"
     style="width:690px" />
 </p>
 
@@ -594,13 +596,13 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 <p align="center">
     <img
      src="Fundamentals_Of_Network_Engineering_Caption.png"
-    alt="Fundamentals of Network Engineering Caption!"
+    alt="Fundamentals of network engineering caption!"
     style="width:1600px;height:110px;"/>
 </p> 
 
 <p align="center">
     <img src="Fundamentals_Of_Network_Engineering_Description.PNG"
-    alt="Fundamentals of Network Engineering Description!"
+    alt="Fundamentals of network engineering description!"
     style="width:690px" />
 </p>
 
@@ -625,7 +627,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 -->
 
 <p align="center">
-    <!-- <img id="Microservices_Architecture_The_Complete_Guide_Certificate?trk=public_profile_see-credential" src="Microservices_Architecture_The_Complete_Guide_Certificate.jpg" alt="SOAP Web Services with Java_certificate" width="600"/> -->
+    <!-- <img id="Microservices_Architecture_The_Complete_Guide_Certificate?trk=public_profile_see-credential" src="Microservices_Architecture_The_Complete_Guide_Certificate.jpg" alt="SOAP web services with Java_certificate" width="600"/> -->
 </p>
 
 <br>
@@ -654,13 +656,13 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 <p align="center">
     <img
      src="Realtime_Backend_System_Design_With_WebSockets_Caption.png"
-    alt="The Realtime Backend System Design With WebSockets Caption"
+    alt="The realtime backend system design with webSockets caption!"
     style="width:1600px;height:110px;"/>
 </p>
 
 <p align="center">
     <img src="Realtime_Backend_System_Design_With_WebSockets_Description.PNG"
-    alt="Realtime Backend System Design With WebSockets Description"
+    alt="Realtime backend system design with webSockets description!"
     style="width:690px" />
 </p>
 
@@ -714,13 +716,13 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 <p align="center">
     <img
      src="The_Complete_Regular_Expressions_Regex_Course_For_Beginners_Caption.png"
-    alt="The Complete Regular Expressions Regex Course For Beginners Caption"
+    alt="The complete regular expressions regex course for beginners caption!"
     style="width:1600px;height:110px;"/>
 </p>
 
 <p align="center">
     <img src="The_Complete_Regular_Expressions_Regex_Course_For_Beginners_Description.PNG"
-    alt="The Complete Regular Expressions Regex Course For Beginners Description"
+    alt="The complete regular expressions regex course for beginners description!"
     style="width:690px" />
 </p>
 

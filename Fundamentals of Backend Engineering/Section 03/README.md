@@ -743,7 +743,7 @@ Protocols.
             ````
 
 <details>
-<summary id="C_Client" open="false"> <b>C Client!</b> </summary>
+<summary id="UDP_Socket_Program_In_C" open="true"> <b>UDP socket program in C!</b> </summary>
 
 #### client.c
 
