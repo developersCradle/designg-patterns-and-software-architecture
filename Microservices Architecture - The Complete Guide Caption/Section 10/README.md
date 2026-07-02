@@ -193,7 +193,7 @@
 2. Cloud based tools!
 
 > [!WARNING]  
-> Do not make your **own** monitoring tool!
+> ⚠️ Do not make your **own** monitoring tool! ⚠️
 
 
 # Implementing Monitoring.

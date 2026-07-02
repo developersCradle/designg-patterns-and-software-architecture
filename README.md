@@ -15,32 +15,41 @@ We are using following structure:
 </p>
 -->
 
+<!--
+Template for the questions:
 
-
-<!-- Template for the task -->
+# Quiz 07: Atomic Operations, Volatile & Metrics Practical Example.
 
 <details>
-<summary id="coding_exercise_02_multithreaded_calculation" open="true"> <b>Coding Exercise 02: Multithreaded Calculation! My Answer!</b> </summary>
+<summary id="Question_01" open="true"> <b>Question 01.</b> </summary>
+````yaml
+Question 01:
+The question comes here!
+
+- My answer:
 
 <div align="center">
-    <img src="Multithreaded_Exercise_Coding_Exercise_02.PNG"  alt="Java threads." width="600"/>
+    <img src="Quiz 07/Q1.PNG" width="600"/>
 </div>
- 
-```
 
-
-```
-
-- **Question 1:** Please implement the `ComplexCalculation`.
-    - **Answer:** Below:
-
-````
-
-Add code here.
-
-````
+1. Add here the answer!
 
 </details>
+-->
+
+<!-- 
+Template for the task/exercies:
+ 
+# Lab Exercise - Mapping Collections of Value Types.
+
+<div align="center">
+    <img src="add here the exercise!" alt="hibernate course" width=" 500"/>
+</div>
+
+1. **Question 1:** add here the question from the test!
+	- **Answer:** **D**. here can be the examplaniton!
+ -->
+
 
 
 
@@ -439,13 +448,13 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 <p align="center">
     <img
      src="Fundamentals_Of_Backend_Engineering_Caption.png"
-    alt="Fundamentals Of Backend Engineering Caption"
+    alt="Fundamentals Of Backend Engineering Caption!"
     style="width:1600px;height:110px;"/>
 </p>
 
 <p align="center">
     <img src="Fundamentals_Of_Backend_Engineering_Description.PNG"
-    alt="Fundamentals Of Backen Engineering Description"
+    alt="Fundamentals Of Backen Engineering Description!"
     style="width:690px" />
 </p>
 
@@ -520,17 +529,21 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] Make [UDP client Java](https://www.youtube.com/watch?v=yxIUYQDtWpc).  
     - [ ] [UDP tutorial](https://www.baeldung.com/udp-in-java).
 
+* **Section 03**:
+     * *Coding Examples*:
+        * [UDP socket program in C](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Design%20Patterns%20in%20Java/src/Section%2015#coding-exercise-12-command-coding-exercise).
 
+<!-- todo fix the id -->
 <p align="center">
     <img
      src="Troubleshooting_Backend_Systems_Caption.png"
-    alt="The Complete Regular Expressions Regex Course For Beginners Caption"
+    alt="The Complete Regular Expressions Regex Course For Beginners Caption!"
     style="width:1600px;height:110px;"/>
 </p> 
 
 <p align="center">
     <img src="Troubleshooting_Backend_Systems_Description.PNG"
-    alt="The Complete Regular Expressions Regex Course For Beginners Description"
+    alt="The Complete Regular Expressions Regex Course For Beginners Description!"
     style="width:690px" />
 </p>
 
@@ -638,6 +651,64 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 - TOdo
 
+<p align="center">
+    <img
+     src="Realtime_Backend_System_Design_With_WebSockets_Caption.png"
+    alt="The Realtime Backend System Design With WebSockets Caption"
+    style="width:1600px;height:110px;"/>
+</p>
+
+<p align="center">
+    <img src="Realtime_Backend_System_Design_With_WebSockets_Description.PNG"
+    alt="Realtime Backend System Design With WebSockets Description"
+    style="width:690px" />
+</p>
+
+All course material from *Realtime Backend System Design with WebSockets* by **Hussein Nasser** ©.
+
+> . 🐟 <br><br>
+~ *DevelopersCradle*
+
+Contains my own with my own visual notes ✍️ with some course material to enforce learning experience.
+
+This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white)](#) with [![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?logo=Eclipse&logoColor=white)](#) hotkeys, therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
+
+
+[The course at Udemy](https://www.udemy.com/course/scalable-real-time-backends-with-websockets/).
+
+[Content maker](https://courses.husseinnasser.com/).
+
+If the content sparked :fire: your interest, please consider buying the course and start learning :book:.
+
+<!-- 
+Linkedin puts this shit front, when clicking from private mode x(. Need to put this to make jump working every case
+?trk=public_profile_see-credential 
+-->
+
+<p align="center">
+    add cert here!
+</p>
+
+<br>
+
+**Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
+
+#### Progress/Curriculum.
+
+- [ ] [Section 01](#) - Introduction.
+- [ ] [Section 02](#) - Foundations of Web Communications.
+- [ ] [Section 03](#) - WebSockets Internals.
+- [ ] [Section 04](#) - Scaling WebSockets Backends.
+- [ ] [Section 05](#) - Real-Time Systems - Building Scalable IO Intensive Chatting Backend.
+- [ ] [Section 06](#) - Real-World System - Scalable CPU Intensive Gaming Backend.
+- [ ] [Section 07](#) - Conclusion.
+
+#### Additional stuff.
+
+- TOdo
+
+
+
 
 
 <p align="center">
@@ -689,7 +760,6 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] [Section 04](#) - Regex: Find and Replace with Capture Groups. ⚠️ In progress! ⚠️
 - [ ] [Section 05](#) - Regex: Challenges. ⚠️ In progress! ⚠️
 - [ ] [Section 06](#) - Wrap up. ⚠️ In progress! ⚠️
-
 
 #### Additional stuff.
 

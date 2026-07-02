@@ -77,7 +77,7 @@ Backend Communication Design Patterns.
 - Example we have task to **build** upload image service:
     
 > [!NOTE]
-> 📖 What would be the best **patter** to implement here? 📖
+> 📖 What would be the best **pattern** to implement here? 📖
 
 <div align="center">
     <img alt="Backend course!" src="Building_Upload_Image_Service.PNG" >
@@ -105,7 +105,7 @@ Backend Communication Design Patterns.
     - Example if the request is **very long**, there are better ways to deal with this.
 
 > [!IMPORTANT]  
-> All kind of can be solved by using some kind of design patter!
+> ❗ All kind of can be solved by using some kind of design patter! ❗
 
 <div align="center">
     <img alt="Backend course!" src="Request_And_Response_Handshakes.PNG" >
@@ -440,7 +440,7 @@ connections.forEach (c=> c.send(`User${connection.socket.remotePort} just connec
 3. The next **POLL**, will be with the **result/answer**!
 
 > [!CAUTION]
-> If the client disconnects, the response will be responded regardless is the client ready accept it or not!
+> ⚠️ If the client disconnects, the response will be responded regardless is the client ready accept it or not! ⚠️
 
 <div align="center">
     <img alt="Backend course!" src="shortPollingProsAndCons.PNG">
@@ -549,7 +549,7 @@ function updateJob(jobId, prg) {
 1. We can **POLL** the status of the **job**, with the concept of **short polling**!
 
 > [!IMPORTANT]  
-> Only downside to this was the **networking** cost!
+> ❗ Only downside to this was the **networking** cost! ❗
 
 # Long Polling.  
 

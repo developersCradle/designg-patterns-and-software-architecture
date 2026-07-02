@@ -677,9 +677,8 @@ Protocols.
 6. Anyone can send UDP **datagrams**!
     - TCP is needed to have handshake first. TCP does not have this!
 
-<br>
 
-- We will be using the [UDP client and server](https://github.com/nikhilroxtomar/UDP-Client-Server-implementation-in-C) as experiment.
+- We will be using the [UDP client and server](https://github.com/nikhilroxtomar/UDP-Client-Server-implementation-in-C) as experiment:
 
 - Next will look what is **UDP client** is doing:
     - First we will be creating the **UPD socket**:
@@ -713,6 +712,7 @@ Protocols.
         -  We assign variable that holds size of the <b>UDP header 8 bytes!</b>
             ````C
             socklen_t addr_size;
+            addr_size = sizeof(addr);
             ````
             <div align="center">
                     <img width="700px" alt="Backend course!" src="UDP_Header.PNG">
@@ -733,16 +733,17 @@ Protocols.
             addr.sin_port = htons(port);
             addr.sin_addr.s_addr = inet_addr(ip);
             ````
-        - We will waits for a **UDP packet** to arrive on `sockfd`, stores the data in `buffer`, and fills `addr` with the sender’s address.
+        -  Next we will `bind` the socket. Associates the socket `sockfd` with the local address stored in `addr`.
+            - We will waits for a **UDP packet** to arrive on `sockfd`, stores the data in `buffer`, and fills `addr` with the sender’s address.
             ````C
+            bind(sockfd, (struct sockaddr *)&addr, sizeof(addr));
+            addr_size = sizeof(addr);
             recvfrom(sockfd, buffer, 1024, 0, (struct sockaddr*)&addr, &addr_size);
             printf("[+]Data recv: %s\n", buffer);
             ````
 
-
 <details>
-
-<summary id="C_" open="true"> <b>C Client and Server!</b> </summary>
+<summary id="C_Client" open="false"> <b>C Client!</b> </summary>
 
 #### client.c
 
@@ -775,13 +776,14 @@ int main(int argc, char **argv){
   addr.sin_family = AF_INET;
   addr.sin_port = htons(port);
   addr.sin_addr.s_addr = inet_addr(ip);
-
-  bzero(buffer, 1024);
-  strcpy(buffer, "Hello, World!");
-  sendto(sockfd, buffer, 1024, 0, (struct sockaddr*)&addr, sizeof(addr));
-  printf("[+]Data send: %s\n", buffer);
-
-  bzero(buffer, 1024);
+  
+  // For sending a data!
+  // bzero(buffer, 1024);
+  // strcpy(buffer, "Hello, World!");
+  // sendto(sockfd, buffer, 1024, 0, (struct sockaddr*)&addr, sizeof(addr));
+  // printf("[+]Data send: %s\n", buffer);
+  
+  bind(sockfd, (struct sockaddr *)&addr, sizeof(addr));
   addr_size = sizeof(addr);
   recvfrom(sockfd, buffer, 1024, 0, (struct sockaddr*)&addr, &addr_size);
   printf("[+]Data recv: %s\n", buffer);
@@ -789,67 +791,31 @@ int main(int argc, char **argv){
   return 0;
 }
 ````
-
-#### server.c
-
-````C
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <sys/socket.h>
-#include <sys/types.h>
-#include <netinet/in.h>
-#include <arpa/inet.h>
-
-int main(int argc, char **argv){
-
-  if (argc != 2){
-    printf("Usage: %s <port>\n", argv[0]);
-    exit(0);
-  }
-
-  char *ip = "127.0.0.1";
-  int port = atoi(argv[1]);
-
-  int sockfd;
-  struct sockaddr_in server_addr, client_addr;
-  char buffer[1024];
-  socklen_t addr_size;
-  int n;
-
-  sockfd = socket(AF_INET, SOCK_DGRAM, 0);
-  if (sockfd < 0){
-    perror("[-]socket error");
-    exit(1);
-  }
-
-  memset(&server_addr, '\0', sizeof(server_addr));
-  server_addr.sin_family = AF_INET;
-  server_addr.sin_port = htons(port);
-  server_addr.sin_addr.s_addr = inet_addr(ip);
-
-  n = bind(sockfd, (struct sockaddr*)&server_addr, sizeof(server_addr));
-  if (n < 0) {
-    perror("[-]bind error");
-    exit(1);
-  }
-
-  bzero(buffer, 1024);
-  addr_size = sizeof(client_addr);
-  recvfrom(sockfd, buffer, 1024, 0, (struct sockaddr*)&client_addr, &addr_size);
-  printf("[+]Data recv: %s\n", buffer);
-
-  bzero(buffer, 1024);
-  strcpy(buffer, "Welcome to the UDP Server.");
-  sendto(sockfd, buffer, 1024, 0, (struct sockaddr*)&client_addr, sizeof(client_addr));
-  printf("[+]Data send: %s\n", buffer);
-
-  return 0;
-}
-````
-
 </details>
 
+<br>
+
+- Let's compile the client `gcc client.c -o client` and make the UDP client listen the port `5501`, with the `./client 5501`!
+    - Then we will send **UPD** datagram using **Net Cat** `nc -u 127.0.0.1 5501`, after this we will write message `"hello UDP!"`.
+
+<div align="center">
+    <img width="700px" alt="Backend course!" src="UDP_Client.gif">
+</div>
+
+- We can see that UDP servers is receiving the message `Hello UDP!`.
+
+- todo add here the UDP SERVER!
+
+
+<details>
+<summary id="NodeJS_Client" open="false"> <b>NodeJS Client or Server!</b> </summary>
+
+#### add here node.js
+
+````C
+- add here the node.js code
+````
+</details>
 
 
 # TCP.
@@ -901,6 +867,25 @@ int main(int argc, char **argv){
 3. `A` can talk `B` and `B` can talk `A`!
 
 - Todo jatka tästä.
+
+> [!TIP]
+> 💡 A **sequence number** in **TCP** is a core part of how the protocol ensures reliable and ordered data delivery. 💡
+
+<div align="center">
+    <img width="700px" alt="Backend course!" src="TCP_Connection_Is_Being_Established.PNG">
+</div>
+
+1. We need synchronize, we will first need `SYN` request where we need each other **sequence numbers** for reliable data transfer.
+2. We will send from `5555` port to the `22`!
+
+<div align="center">
+    <img width="700px" alt="Backend course!" src="TCP_Connection_Is_Being_Established_Second.PNG">
+</div>
+
+1. We send the `SYN/ACK` back!
+2. We give file descriptor
+
+todo hash
 
 # TLS.
 

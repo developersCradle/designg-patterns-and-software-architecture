@@ -53,8 +53,8 @@
 - Let's start from the **business requirements**!
 
 > [!TIP]
-> **Business capabilities** are used as frame for component!
-> **Requirements** are the actions that component can take! `Add`, `Remove`, `Update` and `Calculate ammount`!
+> 💡 **Business capabilities** are used as frame for component!
+> **Requirements** are the actions that component can take! `Add`, `Remove`, `Update` and `Calculate ammount`! 💡
 
 <div align="center">
     <img alt="Microservices Architecture - The Complete Guide Course!" src="Mapping_The_Components_Step_Second_Bussiness_Requirements.JPG" width="600"/>
