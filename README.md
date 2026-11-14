@@ -1,17 +1,22 @@
 <!-- 
+
 We are using following structure:
 
-<p align="center">
+<p 
+align="center">
     <img
      src="Jackson_Quick_Start_JSON_Serialization_With_Java_Made_Easy_Caption.png"
     alt="Jackson quick start json serialization with java made easy caption!"
-    style="width:1600px;height:120px;"/>
+    style="width:1600px;height:120px;"
+    />
 </p> 
-<p align="center">
+<p 
+align="center">
     <img
     id="Jackson_Quick_Start_JSON_Serialization_With_Java_Made_Easy_Description?trk=public_profile_see-credential" src="Jackson_Quick_Start_JSON_Serialization_With_Java_Made_Easy_Description.png"
     alt="Jackson quick start json serialization with java made easy description!"
-    style="width:590px; height:160px;" />
+    style="width:590px; height:160px;"
+    />
 </p>
 -->
 
@@ -21,15 +26,21 @@ Template for the questions:
 # Quiz 07: Atomic Operations, Volatile & Metrics Practical Example.
 
 <details>
-<summary id="Question_01" open="true"> <b>Question 01.</b> </summary>
-````yaml
+<summary 
+id="Quiz_01_Question_01"
+open="true"> <b>Question 01.</b> </summary>
+````Yaml
 Question 01:
 The question comes here!
 
 - My answer:
 
-<div align="center">
-    <img src="Quiz 07/Q1.PNG" width="600"/>
+<div
+align="center">
+    <img
+    src="Quiz 07/Q1.PNG" 
+    width="600"
+    />
 </div>
 
 1. Add here the answer!
@@ -42,31 +53,124 @@ Template for the task/exercies:
  
 # Lab Exercise - Mapping Collections of Value Types.
 
-<div align="center">
-    <img src="add here the exercise!" alt="hibernate course" width=" 500"/>
+<div 
+align="center">
+    <img 
+    src="add here the exercise!" 
+    alt="Hibernate Java Persistence!" 
+    width=" 500"
+    />
 </div>
 
 1. **Question 1:** add here the question from the test!
 	- **Answer:** **D**. here can be the examplaniton!
  -->
 
-
-<!-- todo check alt=" are first upper case rest lower case! -->
-
-
-
-<p align="center">
-    <img id="Studying" src="Software_Architecture_And_Design_Patterns_Caption.png" style="width:900px;height:140px;">
+<p 
+align="center">
+    <img 
+    id="Studying" 
+    src="Software_Architecture_And_Design_Patterns_Caption.png" style="width:900px;height:140px;"
+    /> <br>
+   <text> <b>Software Architecture</b> & <b>Design principles</b>. Other things, which are related to the <b>architecture</b>!</text>
 </p>
 
-<p align="center">
-   <img src="Software_Architecture_And_ Design_Patterns_Repository_Graphics.gif" alt="Java Monolith Optimization Repostiory Graphic!" width="600" height="350"><br>
-   <text> <b>Software Architecture</b> & <b>Design principles</b>. Other things, which are related to the <b>architecture</b>!</text>
+<p 
+align="center">
+   <img 
+   src="Software_Architecture_And_ Design_Patterns_Repository_Graphics.gif" 
+   alt="Java Monolith Optimization Repostiory Graphic!" 
+   width="600" height="350"
+   />
 </p>
 
 - For these courses one should configure **GIT** for handle projects.
     - `git config --global http.postBuffer 524288000`.
     - `git config --global core.longpaths true`.
+
+# Java Design Patterns and Architecture.
+
+<!-- 
+<p align="center">
+    <img
+     src="Design_Patterns_In_Java_Caption.png"
+    alt="Design Patterns In Java Caption!"
+    style="width:1600px;height:80px;"/>
+</p> 
+-->
+
+<p 
+align="center">
+    <img 
+    src="Java_Design_Patterns_And_Architecture_Description.PNG"
+    alt="Java design patterns and architecture!"
+    style="width:690px" 
+    />
+</p>
+
+All course material from *Java Design Patterns and Architecture* by from **John Purcell**.
+
+> During my time working on **SCIM v2 integration**, I encountered an interesting challenge that made me think more deeply about object-oriented design, extensibility, and how external standards should be represented in application code.
+>
+> We had model classes extending the existing **SCIM v2 model classes** to introduce additional functionality and represent our application's specific requirements. Initially, this seemed like a natural approach: extend the existing classes, reuse their properties, and add the custom attributes we needed.
+>
+> However, we soon ran into an unexpected problem.
+>
+> The way our object-oriented class hierarchy was structured started influencing how the SCIM schemas were defined and represented. Instead of keeping the schema definitions flexible and independent, our inheritance-based approach introduced limitations. Some of the schemas could no longer be extended as intended, and the relationship between the underlying SCIM models and our custom implementations became increasingly difficult to manage.
+>
+> We needed a better way to construct and extend our models without tightly coupling schema definitions to the inheritance hierarchy.
+>
+> That is where the **Builder Pattern** became particularly valuable. 🐟 <br><br> ~ *DevelopersCradle*
+
+Contains my own with my own visual notes ✍️ with some course material to enforce learning experience.
+
+This repository is made with [![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?logo=Eclipse&logoColor=white)](#), therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
+
+[Course at Udemy](https://www.udemy.com/course/java-design-patterns-tutorial/).
+
+If the content sparked :fire: your interest, please consider buying the course and start learning :book:.
+
+<!-- 
+Linkedin puts this shit front, when clicking from private mode x(. Need to put this to make jump working every case
+?trk=public_profile_see-credential 
+-->
+
+<p 
+id="Logo_Combination" 
+align="center">
+    <img
+    src="Architecture_Is_Always_Important.jpeg" 
+    alt="Architecture is always important picture!" 
+    style="width:650px;height:490px;"
+    />
+    <img 
+    src="Java_Design_Patterns_And_Architecture_Certificate.PNG" 
+    alt="dummy!" 
+    id="dumm?trk=public_profile_see-credential"
+    style="width:590px;height:440px;"
+    />
+</p>
+
+**Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
+
+#### Progress/Curriculum.
+
+- [x] [Section 01](#) - Methodology. ✅
+- [x] [Section 02](#) - Structural Patterns. ✅
+- [x] [Section 03](#) - Smaller Scale Patterns. ✅
+
+#### Additional stuff.
+
+- [ ] xxx!
+
+#### The Quizzes and Labs.
+
+<!-- todo check this one. -->
+
+* **Section zz**:
+     * *Coding Exercise*:
+        * [Add here](#).
+
 
 <p align="center">
     <img
@@ -90,7 +194,7 @@ Contains my own with my own visual notes ✍️ with some course material to enf
 
 This repository is made with [![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?logo=Eclipse&logoColor=white)](#), therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
 
-[The Course at Udemy](https://www.udemy.com/course/design-patterns-java/).
+[Course at Udemy](https://www.udemy.com/course/design-patterns-java/).
 
 If the content sparked :fire: your interest, please consider buying the course and start learning :book:.
 
@@ -99,11 +203,21 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 ?trk=public_profile_see-credential 
 -->
 
-<p align="center">
-    Add here the certifcate-
+<p 
+id="Logo_Combination" 
+align="center">
+    <img
+    src="#" 
+    alt="dummy!" 
+    style="width:650px;height:490px;"
+    />
+    <img 
+    src="Dummy_Cert.png" 
+    alt="dummy!" 
+    id="dumm?trk=public_profile_see-credential"
+    style="width:590px;height:440px;"
+    />
 </p>
-
-<br>
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
@@ -203,7 +317,7 @@ All course material from *Clean Code* by **Maximilian Schwarzmüller**.
 
 Contains my own with my own visual notes ✍️ with some course material to enforce learning experience.
 
-[The course at Udemy](https://www.udemy.com/course/writing-clean-code/). 
+[Course at Udemy](https://www.udemy.com/course/writing-clean-code/). 
 
 [Website of maker](https://academind.com/).
 
@@ -215,11 +329,21 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 ?trk=public_profile_see-credential 
 -->
 
-<p align="center">
-   Insert certificate here when completed
+<p 
+id="Logo_Combination" 
+align="center">
+    <img
+    src="#" 
+    alt="dummy!" 
+    style="width:650px;height:490px;"
+    />
+    <img 
+    src="Dummy_Cert.png" 
+    alt="dummy!" 
+    id="dumm?trk=public_profile_see-credential"
+    style="width:590px;height:440px;"
+    />
 </p>
-
-<br>
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
@@ -261,7 +385,7 @@ Contains my own with my own visual notes ✍️ with some course material to enf
 
 This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white)](#) with [![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?logo=Eclipse&logoColor=white)](#) hotkeys, therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
 
-[The course at Udemy](https://www.udemy.com/course/design-patterns-in-java-concepts-hands-on-projects/).
+[Course at Udemy](https://www.udemy.com/course/design-patterns-in-java-concepts-hands-on-projects/).
 
 If the content sparked :fire: your interest, please consider buying the course and start learning :book:.
 
@@ -271,11 +395,21 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 ?trk=public_profile_see-credential 
 -->
 
-<p align="center">
-   Insert certificate here when completed
+<p 
+id="Logo_Combination" 
+align="center">
+    <img
+    src="#" 
+    alt="dummy!" 
+    style="width:650px;height:490px;"
+    />
+    <img 
+    src="Dummy_Cert.png" 
+    alt="dummy!" 
+    id="dumm?trk=public_profile_see-credential"
+    style="width:590px;height:440px;"
+    />
 </p>
-
-<br>
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
@@ -344,7 +478,7 @@ Contains my own with my own visual notes ✍️ with some course material to enf
 
 This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white)](#) with [![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?logo=Eclipse&logoColor=white)](#) hotkeys, therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
 
-[The course at Udemy](https://www.udemy.com/course/microservices-architecture-the-complete-guide/).
+[Course at Udemy](https://www.udemy.com/course/microservices-architecture-the-complete-guide/).
 
 [Content maker](https://thevar.memilavi.com/).
 
@@ -355,32 +489,38 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 ?trk=public_profile_see-credential 
 -->
 
-<p align="center">
+
+<p 
+id="Logo_Combination" 
+align="center">
+    <img
+    src="#" 
+    alt="dummy!" 
+    style="width:650px;height:490px;"
+    />
     <img id="Microservices_Architecture_The_Complete_Guide_Certificate?trk=public_profile_see-credential" src="Microservices_Architecture_The_Complete_Guide_Certificate.jpg" alt="SOAP web services with java certificate!" width="600"/>
 </p>
-
-<br>
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
 #### Progress/Curriculum.
 
-- [x] [Section 01](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2001#section-01-welcome) - Welcome. ✔️
-- [x] [Section 02](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2002#section-02-history-of-the-microservices) - History of Microservices. ✔️
-- [x] [Section 03](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2003#section-03-problems-with-monolith--soa) - Problems with Monolith & SOA. ✔️
-- [x] [Section 04](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2004#section-04-microservices-architecture) - Microservices Architecture. ✔️
-- [x] [Section 05](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2005#section-05-problems-solved-by-microservices) - Problems Solved by Microservices. ✔️
-- [x] [Section 06](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2006#section-06-designing-microservices-architecture) - Designing Microservices Architecture. ✔️
-- [x] [Section 07](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2007#section-07-deploying-microservices) - Deploying Microservices. ✔️
-- [x] [Section 08](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2008#section-08-testing-microservices) - Testing Microservices. ✔️
-- [x] [Section 09](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2009#section-09-service-meshhttps://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2009#section-09-service-mesh) - Service Mesh. ✔️
-- [x] [Section 10](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2010#section-10-logging-and-monitoring) - Logging and Monitoring. ✔️
-- [x] [Section 11](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2011#section-11-when-not-to-use-microservices) - When Not to Use Microservices. ✔️
-- [x] [Section 12](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2012#section-12-microservices-and-the-organization) - Microservices and the Organization. ✔️
-- [x] [Section 13](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2013#section-13-anti-patterns-and-common-mistakes) - Anti-Patterns and Common Mistakes. ✔️
-- [x] [Section 14](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2014#section-14-breaking-monolith-to-microservices) - Breaking Monolith to Microservices. ✔️
-- [x] [Section 15](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2015#section-15-case-study) - Case study. ✔️
-- [x] [Section 16](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2016#section-16-conclusion) - Conclusion. ✔️
+- [x] [Section 01](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2001#section-01-welcome) - Welcome. ✅
+- [x] [Section 02](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2002#section-02-history-of-the-microservices) - History of Microservices. ✅
+- [x] [Section 03](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2003#section-03-problems-with-monolith--soa) - Problems with Monolith & SOA. ✅
+- [x] [Section 04](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2004#section-04-microservices-architecture) - Microservices Architecture. ✅
+- [x] [Section 05](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2005#section-05-problems-solved-by-microservices) - Problems Solved by Microservices. ✅
+- [x] [Section 06](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2006#section-06-designing-microservices-architecture) - Designing Microservices Architecture. ✅
+- [x] [Section 07](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2007#section-07-deploying-microservices) - Deploying Microservices. ✅
+- [x] [Section 08](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2008#section-08-testing-microservices) - Testing Microservices. ✅
+- [x] [Section 09](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2009#section-09-service-meshhttps://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2009#section-09-service-mesh) - Service Mesh. ✅
+- [x] [Section 10](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2010#section-10-logging-and-monitoring) - Logging and Monitoring. ✅
+- [x] [Section 11](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2011#section-11-when-not-to-use-microservices) - When Not to Use Microservices. ✅
+- [x] [Section 12](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2012#section-12-microservices-and-the-organization) - Microservices and the Organization. ✅
+- [x] [Section 13](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2013#section-13-anti-patterns-and-common-mistakes) - Anti-Patterns and Common Mistakes. ✅
+- [x] [Section 14](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2014#section-14-breaking-monolith-to-microservices) - Breaking Monolith to Microservices. ✅
+- [x] [Section 15](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2015#section-15-case-study) - Case study. ✅
+- [x] [Section 16](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Microservices%20Architecture%20-%20The%20Complete%20Guide%20Caption/Section%2016#section-16-conclusion) - Conclusion. ✅
 
 #### Additional stuff.
 
@@ -412,7 +552,7 @@ Contains my own with my own visual notes ✍️ with some course material to enf
 
 This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white)](#) with [![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?logo=Eclipse&logoColor=white)](#) hotkeys, therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
 
-[The course at Udemy](https://www.udemy.com/course/the-complete-microservices-event-driven-architecture/).
+[Course at Udemy](https://www.udemy.com/course/the-complete-microservices-event-driven-architecture/).
 
 [Courses of the maker](https://topdeveloperacademy.com/).
 
@@ -423,11 +563,21 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 ?trk=public_profile_see-credential 
 -->
 
-<div align="center">
-    Insert certificate here when completed
-</div>
-
-<br>
+<p 
+id="Logo_Combination" 
+align="center">
+    <img
+    src="#" 
+    alt="dummy!" 
+    style="width:650px;height:490px;"
+    />
+    <img 
+    src="Dummy_Cert.png" 
+    alt="dummy!" 
+    id="dumm?trk=public_profile_see-credential"
+    style="width:590px;height:440px;"
+    />
+</p>
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
@@ -492,7 +642,7 @@ Contains my own with my own visual notes ✍️ with some course material to enf
 
 This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white)](#) with [![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?logo=Eclipse&logoColor=white)](#) hotkeys, therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
 
-[The course at Udemy](https://www.udemy.com/course/fundamentals-of-backend-communications-and-protocols).
+[Course at Udemy](https://www.udemy.com/course/fundamentals-of-backend-communications-and-protocols).
 
 [Courses of the maker](https://courses.husseinnasser.com/).
 
@@ -503,11 +653,21 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 ?trk=public_profile_see-credential 
 -->
 
-<div align="center">
-    Insert certificate here when completed
-</div>
-
-<br>
+<p 
+id="Logo_Combination" 
+align="center">
+    <img
+    src="#" 
+    alt="dummy!" 
+    style="width:650px;height:490px;"
+    />
+    <img 
+    src="Dummy_Cert.png" 
+    alt="dummy!" 
+    id="dumm?trk=public_profile_see-credential"
+    style="width:590px;height:440px;"
+    />
+</p>
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
@@ -558,7 +718,7 @@ Contains my own with my own visual notes ✍️ with some course material to enf
 
 This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white)](#) with [![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?logo=Eclipse&logoColor=white)](#) hotkeys, therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
 
-[The course at Udemy](https://www.udemy.com/course/discovering-backend-bottlenecks-unlocking-peak-performance/).
+[Course at Udemy](https://www.udemy.com/course/discovering-backend-bottlenecks-unlocking-peak-performance/).
 
 [Content maker](https://courses.husseinnasser.com/).
 
@@ -569,11 +729,23 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 ?trk=public_profile_see-credential 
 -->
 
-<p align="center">
-    <!-- <img id="Microservices_Architecture_The_Complete_Guide_Certificate?trk=public_profile_see-credential" src="Microservices_Architecture_The_Complete_Guide_Certificate.jpg" alt="SOAP Web Services with Java_certificate" width="600"/> -->
+
+<p 
+id="Logo_Combination" 
+align="center">
+    <img
+    src="#" 
+    alt="dummy!" 
+    style="width:650px;height:490px;"
+    />
+    <img 
+    src="Dummy_Cert.png" 
+    alt="dummy!" 
+    id="dumm?trk=public_profile_see-credential"
+    style="width:590px;height:440px;"
+    />
 </p>
 
-<br>
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
@@ -615,7 +787,7 @@ This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/Inte
 
 Contains my own with my own visual notes ✍️ with some course material to enforce learning experience.
 
-[The course at Udemy](https://www.udemy.com/course/fundamentals-of-networking-for-effective-backend-design/).
+[Course at Udemy](https://www.udemy.com/course/fundamentals-of-networking-for-effective-backend-design/).
 
 [Content maker](https://courses.husseinnasser.com/).
 
@@ -626,11 +798,21 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 ?trk=public_profile_see-credential 
 -->
 
-<p align="center">
-    <!-- <img id="Microservices_Architecture_The_Complete_Guide_Certificate?trk=public_profile_see-credential" src="Microservices_Architecture_The_Complete_Guide_Certificate.jpg" alt="SOAP web services with Java_certificate" width="600"/> -->
+<p 
+id="Logo_Combination" 
+align="center">
+    <img
+    src="#" 
+    alt="dummy!" 
+    style="width:650px;height:490px;"
+    />
+    <img 
+    src="Dummy_Cert.png" 
+    alt="dummy!" 
+    id="dumm?trk=public_profile_see-credential"
+    style="width:590px;height:440px;"
+    />
 </p>
-
-<br>
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
@@ -676,7 +858,7 @@ Contains my own with my own visual notes ✍️ with some course material to enf
 This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white)](#) with [![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?logo=Eclipse&logoColor=white)](#) hotkeys, therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
 
 
-[The course at Udemy](https://www.udemy.com/course/scalable-real-time-backends-with-websockets/).
+[Course at Udemy](https://www.udemy.com/course/scalable-real-time-backends-with-websockets/).
 
 [Content maker](https://courses.husseinnasser.com/).
 
@@ -687,11 +869,21 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 ?trk=public_profile_see-credential 
 -->
 
-<p align="center">
-    add cert here!
+<p 
+id="Logo_Combination" 
+align="center">
+    <img
+    src="#" 
+    alt="dummy!" 
+    style="width:650px;height:490px;"
+    />
+    <img 
+    src="Dummy_Cert.png" 
+    alt="dummy!" 
+    id="dumm?trk=public_profile_see-credential"
+    style="width:590px;height:440px;"
+    />
 </p>
-
-<br>
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
@@ -708,10 +900,6 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 #### Additional stuff.
 
 - TOdo
-
-
-
-
 
 <p align="center">
     <img
@@ -735,8 +923,7 @@ Contains my own with my own visual notes ✍️ with some course material to enf
 
 This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white)](#) with [![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?logo=Eclipse&logoColor=white)](#) hotkeys, therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
 
-
-[The course at Udemy](https://www.udemy.com/course/regular-expressions-mastery).
+[Course at Udemy](https://www.udemy.com/course/regular-expressions-mastery).
 
 
 If the content sparked :fire: your interest, please consider buying the course and start learning :book:.
@@ -746,11 +933,21 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 ?trk=public_profile_see-credential 
 -->
 
-<p align="center">
-    add cert here!
+<p 
+id="Logo_Combination" 
+align="center">
+    <img
+    src="#" 
+    alt="dummy!" 
+    style="width:650px;height:490px;"
+    />
+    <img 
+    src="Dummy_Cert.png" 
+    alt="dummy!" 
+    id="dumm?trk=public_profile_see-credential"
+    style="width:590px;height:440px;"
+    />
 </p>
-
-<br>
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 

@@ -69,7 +69,7 @@
 </div>
 
 1. This means **not** to **include functionality** that is **not** involved to the **business requirements**!
-    - ✔️ **Example working:** ✔️ *Retrieve the orders made in the last week*! ✔️
+    - ✅ **Example working:** ✅ *Retrieve the orders made in the last week*! ✅
     - ❌ **Example not working:** ❌ Get all the orders made by users aged 34–45! ❌
         - This has some **hidden logic**, that has **not connected to orders**!
 2. The **trick** is to include overlapping functionality as **little as much** possible!

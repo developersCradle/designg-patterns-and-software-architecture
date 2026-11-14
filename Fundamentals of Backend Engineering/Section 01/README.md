@@ -29,4 +29,4 @@ Introduction.
 
 # Course Notes.
 
-- Checked.  ✔️
+- Checked.  ✅
