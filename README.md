@@ -145,8 +145,8 @@ align="center">
     />
     <img 
     src="Java_Design_Patterns_And_Architecture_Certificate.PNG" 
-    alt="dummy!" 
-    id="dumm?trk=public_profile_see-credential"
+    alt="Java design patterns and architecture certificate!" 
+    id="Java_Design_Patterns_And_Architecture_Certificate?trk=public_profile_see-credential"
     style="width:590px;height:440px;"
     />
 </p>
