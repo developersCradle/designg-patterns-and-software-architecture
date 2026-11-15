@@ -88,37 +88,34 @@ align="center">
     - `git config --global http.postBuffer 524288000`.
     - `git config --global core.longpaths true`.
 
-# Java Design Patterns and Architecture.
-
-<!-- 
 <p align="center">
     <img
-     src="Design_Patterns_In_Java_Caption.png"
-    alt="Design Patterns In Java Caption!"
-    style="width:1600px;height:80px;"/>
+    src="Java_Design_Patterns_And_Architecture_Caption.png"
+    alt="Java design patterns and architecture caption!"
+    style="width:1600px;height:80px;"
+    />
 </p> 
--->
 
 <p 
 align="center">
     <img 
     src="Java_Design_Patterns_And_Architecture_Description.PNG"
     alt="Java design patterns and architecture!"
-    style="width:690px" 
+    style="width:690px"
     />
 </p>
 
 All course material from *Java Design Patterns and Architecture* by from **John Purcell**.
 
-> During my time working on **SCIM v2 integration**, I encountered an interesting challenge that made me think more deeply about object-oriented design, extensibility, and how external standards should be represented in application code.
+> During my time working on **SCIM v2 integration**, I encountered an interesting challenge that made me think more deeply about object-oriented design, extensibility, and how external standards should be represented in application code. 🐟
 >
-> We had model classes extending the existing **SCIM v2 model classes** to introduce additional functionality and represent our application's specific requirements. Initially, this seemed like a natural approach: extend the existing classes, reuse their properties, and add the custom attributes we needed.
+> We had model classes extending the existing **SCIM v2 model classes** to introduce additional functionality and represent our application's specific requirements. Initially, this seemed like a natural approach: extend the existing classes, reuse their properties, and add the custom attributes we needed. 🐟
 >
-> However, we soon ran into an unexpected problem.
+> However, we soon ran into an unexpected problem. 🐟
 >
-> The way our object-oriented class hierarchy was structured started influencing how the SCIM schemas were defined and represented. Instead of keeping the schema definitions flexible and independent, our inheritance-based approach introduced limitations. Some of the schemas could no longer be extended as intended, and the relationship between the underlying SCIM models and our custom implementations became increasingly difficult to manage.
+> The way our object-oriented class hierarchy was structured started influencing how the SCIM schemas were defined and represented. Instead of keeping the schema definitions flexible and independent, our inheritance-based approach introduced limitations. Some of the schemas could no longer be extended as intended, and the relationship between the underlying SCIM models and our custom implementations became increasingly difficult to manage. 🐟
 >
-> We needed a better way to construct and extend our models without tightly coupling schema definitions to the inheritance hierarchy.
+> We needed a better way to construct and extend our models without tightly coupling schema definitions to the inheritance hierarchy. 🐟
 >
 > That is where the **Builder Pattern** became particularly valuable. 🐟 <br><br> ~ *DevelopersCradle*
 
@@ -128,11 +125,22 @@ This repository is made with [![Eclipse](https://img.shields.io/badge/Eclipse-FE
 
 [Course at Udemy](https://www.udemy.com/course/java-design-patterns-tutorial/).
 
+
+[Content maker](https://www.caveofprogramming.com/).
+
+
+
 If the content sparked :fire: your interest, please consider buying the course and start learning :book:.
 
 <!-- 
 Linkedin puts this shit front, when clicking from private mode x(. Need to put this to make jump working every case
 ?trk=public_profile_see-credential 
+-->
+
+
+<!-- 
+The source for the program!
+https://github.com/shubho0908/Certificate-Generator 
 -->
 
 <p 
@@ -141,7 +149,7 @@ align="center">
     <img
     src="Architecture_Is_Always_Important.jpeg" 
     alt="Architecture is always important picture!" 
-    style="width:650px;height:490px;"
+    style="width:650px;height:540px;"
     />
     <img 
     src="Java_Design_Patterns_And_Architecture_Certificate.PNG" 
@@ -176,13 +184,15 @@ align="center">
     <img
      src="Design_Patterns_In_Java_Caption.png"
     alt="Design Patterns In Java Caption!"
-    style="width:1600px;height:80px;"/>
+    style="width:1600px;height:80px;"
+    />
 </p>
 
 <p align="center">
     <img src="Design_Patterns_In_Java_Description.JPG"
     alt="Design Patterns In Java Description!"
-    style="width:690px" />
+    style="width:690px" 
+    />
 </p>
 
 All course material from *Design Patterns in Java* by from **Dmitri Nesteruk**.
@@ -362,18 +372,19 @@ align="center">
 
 - [ ] some.
 
-
 <p align="center">
     <img
      src="Java_Design_Patterns_And_SOLID_Design_Principles_Caption.png"
-    alt="Java Design Patterns And SOLID Design Principles Caption!"
-    style="width:1600px;height:110px;"/>
+    alt="Java design patterns and SOLID design principles caption!"
+    style="width:1600px;height:110px;"
+    />
 </p>
 
 <p align="center">
     <img src="Java_Design_Patterns_And_SOLID_Design_Principles_Description.PNG"
     alt="Java Design Patterns & SOLID Design Principles Description!"
-    style="width:690px" />
+    style="width:690px" 
+    />
 </p>
 
 All course material from *Java Design Patterns & SOLID Design Principles* by **Coffee Powered Crew**.
@@ -456,13 +467,15 @@ align="center">
     <img
      src="Microservices_Architecture_The_Complete_Guide_Caption.png"
     alt="Microservices Architecture The Complete Guide Caption!"
-    style="width:1600px;height:110px;"/>
+    style="width:1600px;height:110px;"
+    />
 </p>
 
 <p align="center">
     <img src="Microservices_Architecture_The_Complete_Guide_Description.PNG"
     alt="Microservices Architecture The Complete Guide Description!"
-    style="width:690px" />
+    style="width:690px" 
+    />
 </p>
 
 All course material from *Microservices Architecture - The Complete Guide* by **Memi Lavi** ©.
@@ -471,8 +484,7 @@ All course material from *Microservices Architecture - The Complete Guide* by **
 >
 > By moving toward a microservices architecture, we could split large systems into smaller, well-defined services. Each service had its own responsibility and could evolve independently, making deployments safer and development faster. 🐟
 >
-> While exploring microservices architecture further, the course `Microservices Architecture – The Complete Guide` allowed me to see the designed implementations behind many of the patterns that are often suggested in theory. Seeing practical implementations of service boundaries, communication strategies, and deployment patterns helped connect architectural ideas with real-world systems. 🐟 <br><br>
-~ *DevelopersCradle*
+> While exploring microservices architecture further, the course `Microservices Architecture – The Complete Guide` allowed me to see the designed implementations behind many of the patterns that are often suggested in theory. Seeing practical implementations of service boundaries, communication strategies, and deployment patterns helped connect architectural ideas with real-world systems. 🐟 <br><br> ~ *DevelopersCradle*
 
 Contains my own with my own visual notes ✍️ with some course material to enforce learning experience.
 
@@ -494,11 +506,15 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 id="Logo_Combination" 
 align="center">
     <img
-    src="#" 
-    alt="dummy!" 
+    src="Building_The_KYC_Services_In_Microservice_Approach.jpeg" 
+    alt="Building the KYC services in microservice approach!" 
     style="width:650px;height:490px;"
     />
-    <img id="Microservices_Architecture_The_Complete_Guide_Certificate?trk=public_profile_see-credential" src="Microservices_Architecture_The_Complete_Guide_Certificate.jpg" alt="SOAP web services with java certificate!" width="600"/>
+    <img 
+    id="Microservices_Architecture_The_Complete_Guide_Certificate?trk=public_profile_see-credential" src="Microservices_Architecture_The_Complete_Guide_Certificate.jpg" 
+    alt="Microservices architecture the complete guide certificate!"
+    width="600"
+    />
 </p>
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
@@ -769,13 +785,15 @@ align="center">
     <img
      src="Fundamentals_Of_Network_Engineering_Caption.png"
     alt="Fundamentals of network engineering caption!"
-    style="width:1600px;height:110px;"/>
+    style="width:1600px;height:110px;"
+    />
 </p> 
 
 <p align="center">
     <img src="Fundamentals_Of_Network_Engineering_Description.PNG"
     alt="Fundamentals of network engineering description!"
-    style="width:690px" />
+    style="width:690px"
+    />
 </p>
 
 All course material from *Fundamentals of Network Engineering* by **Hussein Nasser** ©.
@@ -839,13 +857,15 @@ align="center">
     <img
      src="Realtime_Backend_System_Design_With_WebSockets_Caption.png"
     alt="The realtime backend system design with webSockets caption!"
-    style="width:1600px;height:110px;"/>
+    style="width:1600px;height:110px;"
+    />
 </p>
 
 <p align="center">
     <img src="Realtime_Backend_System_Design_With_WebSockets_Description.PNG"
     alt="Realtime backend system design with webSockets description!"
-    style="width:690px" />
+    style="width:690px" 
+    />
 </p>
 
 All course material from *Realtime Backend System Design with WebSockets* by **Hussein Nasser** ©.
@@ -911,7 +931,8 @@ align="center">
 <p align="center">
     <img src="The_Complete_Regular_Expressions_Regex_Course_For_Beginners_Description.PNG"
     alt="The complete regular expressions regex course for beginners description!"
-    style="width:690px" />
+    style="width:690px" 
+    />
 </p>
 
 All course material from *The Complete Regular Expressions(Regex) Course For Beginners* by **George Sonora** ©.
