@@ -70,7 +70,8 @@ align="center">
 align="center">
     <img 
     id="Studying" 
-    src="Software_Architecture_And_Design_Patterns_Caption.png" style="width:900px;height:140px;"
+    src="Software_Architecture_And_Design_Patterns_Caption.png" 
+    style="width:900px;height:140px;"
     /> <br>
    <text> <b>Software Architecture</b> & <b>Design principles</b>. Other things, which are related to the <b>architecture</b>!</text>
 </p>
@@ -78,8 +79,8 @@ align="center">
 <p 
 align="center">
    <img 
-   src="Software_Architecture_And_ Design_Patterns_Repository_Graphics.gif" 
-   alt="Java Monolith Optimization Repostiory Graphic!" 
+   src="Software_Architecture_And_Design_Patterns_Repository_Graphics.gif" 
+   alt="Software architecture and design patterns repository graphics!" 
    width="600" height="350"
    />
 </p>
@@ -183,14 +184,14 @@ align="center">
 <p align="center">
     <img
      src="Design_Patterns_In_Java_Caption.png"
-    alt="Design Patterns In Java Caption!"
+    alt="Design patterns in java caption!"
     style="width:1600px;height:80px;"
     />
 </p>
 
 <p align="center">
     <img src="Design_Patterns_In_Java_Description.JPG"
-    alt="Design Patterns In Java Description!"
+    alt="Design patterns in java description!"
     style="width:690px" 
     />
 </p>
@@ -295,13 +296,21 @@ align="center">
 
 <br>
 
-<img src="Remember_To_Clean_Running_Configs_In_Eclipse_If_There_Is_Error.PNG" alt="Remember to check the settigs!" width="300"/>
+<img 
+src="Remember_To_Clean_Running_Configs_In_Eclipse_If_There_Is_Error.PNG"
+alt="Remember to check the settigs!" 
+width="300"
+/>
 
 1. If you pull and encounter error. Remember to delete running config sometimes! [Link](https://stackoverflow.com/questions/11235827/eclipse-error-could-not-find-or-load-main-class).
 
 <br>
 
-<img src="rememberBuildConfigs.PNG" alt="alt text" width="300"/>
+<img 
+src="Remember_To_Have_Same_Build_Configs.PNG" 
+alt="Remember to have same build configs"
+width="300"
+/>
 
 1. Following configs are on build paths. If any `main()` function doesn't work, then add the folder in the **Include** folder, this remove `pics` and `.md` from going into `bin` folder.
 
@@ -374,7 +383,7 @@ align="center">
 
 <p align="center">
     <img
-     src="Java_Design_Patterns_And_SOLID_Design_Principles_Caption.png"
+    src="Java_Design_Patterns_And_SOLID_Design_Principles_Caption.png"
     alt="Java design patterns and SOLID design principles caption!"
     style="width:1600px;height:110px;"
     />
@@ -613,46 +622,62 @@ align="center">
 
 - [ ] Do for now chapter `04 Event-Driven Architecture`.
 
-<p align="center">
+<p 
+align="center">
     <img
-     src="Fundamentals_Of_Backend_Engineering_Caption.png"
+    src="Fundamentals_Of_Backend_Engineering_Caption.png"
     alt="Fundamentals of backend engineering caption!"
-    style="width:1600px;height:110px;"/>
+    style="width:1600px;height:110px;"
+    />
 </p>
 
-<p align="center">
-    <img src="Fundamentals_Of_Backend_Engineering_Description.PNG"
+<p 
+align="center">
+    <img 
+    src="Fundamentals_Of_Backend_Engineering_Description.PNG"
     alt="Fundamentals of backend engineering description!"
-    style="width:690px" />
+    style="width:690px"
+    />
 </p>
 
 All course material from *Fundamentals of Backend Engineering* by **Hussein Nasser** ©.
 
-> As the day ended, I stood above the glowing flow of requests moving through the backend. 🐟
+> It all started with **KIS** and a simple question:
 >
-> I didn’t see chaos anymore. 🐟
->
-> I saw systems. 🐟
+> *What would be the best way to communicate?*
 > 
-> Protocols shaped communication. 🐟
-> Design patterns guided the flow. 🐟
-> Execution brought ideas to life. 🐟
-> Proxies kept everything stable under pressure. 🐟
->
-> What once looked like countless moving parts now felt connected. 🐟
+> At first, communication between systems seemed like a world of endless possibilities. There were countless ways for services to exchange information, coordinate responsibilities, and keep everything running.
 > 
-> Every request had a purpose. 🐟
-> Every service had a responsibility. 🐟
-> Every interaction followed a design. 🐟
+> There were several dimensions to explore:
 >
-> And for the first time, it all clicked.
+> 🔹 Communication Patterns
 >
-> No confusion. No noise. No mystery. 🐟
+> - Request-Response.
+> - Short Polling vs. Long Polling.
+> - Push-Based Communication.
+> - Server-Sent Events (SSE).
+> - Publish-Subscribe (Pub/Sub)
+> 
+> 🔹 Communication Protocols
+> 
+> - TCP vs. UDP.
+> - HTTP/1.1 vs. HTTP/2 vs. HTTP/3.
+> - WebSockets.
+> - gRPC.
+> - WebRTC.
 >
-> Just structure. 🐟
-> Just design. 🐟
-> Just engineering. 🐟 <br><br>
-> ~ *DevelopersCradle*
+> 🔹 Backend Architecture & Execution
+> - Synchronous vs. Asynchronous Processing.
+> - Stateful vs. Stateless Services.
+> - Multiplexing and Demultiplexing.
+> - Sidecar Pattern.
+> - Proxying and Load Balancing.
+>
+> And this is only one chapter of the journey.
+>
+> From understanding individual components to designing entire distributed systems.
+>
+> One concept at a time. One connection at a time. 🐟 <br><br> ~ DevelopersCradle
 
 Contains my own with my own visual notes ✍️ with some course material to enforce learning experience. This course is for **intermediation level**, one can be **expected to have built some projects**! This is for the backend engineers, also this can be for network engineers!
 
@@ -673,14 +698,14 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 id="Logo_Combination" 
 align="center">
     <img
-    src="#" 
-    alt="dummy!" 
+    src="Choose_Your_Architectural_Style.gif" 
+    alt="Choose your architectural style!" 
     style="width:650px;height:490px;"
     />
     <img 
-    src="Dummy_Cert.png" 
-    alt="dummy!" 
-    id="dumm?trk=public_profile_see-credential"
+    src="Fundamentals_Of_Backend_Engineering_Certificate.jpg" 
+    alt="Fundamentals of backend engineering certificate!" 
+    id="Fundamentals_Of_Backend_Engineering_Certificate?trk=public_profile_see-credential"
     style="width:590px;height:440px;"
     />
 </p>
@@ -690,13 +715,13 @@ align="center">
 #### Progress/Curriculum.
 
 - [x] [Section 01](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Fundamentals%20of%20Backend%20Engineering/Section%2001#section-01-introduction) - Introduction. ✅
-- [ ] [Section 02](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Fundamentals%20of%20Backend%20Engineering/Section%2002#section-02-backend-communication-design-patterns) - Backend Communication Design Patterns. ⚠️ In progress! ⚠️
-- [ ] [Section 03](https://github.com/developersCradle/designg-patterns-and-software-architecture/blob/main/Fundamentals%20of%20Backend%20Engineering/Section%2003/README.md#section-03-protocols) - Protocols. ⚠️ In progress! ⚠️
-- [ ] [Section 04](https://github.com/developersCradle/designg-patterns-and-software-architecture/blob/main/Fundamentals%20of%20Backend%20Engineering/Section%2004/README.md#section-04-many-ways-to-https) - Many ways to HTTPS. ⚠️ In progress! ⚠️
-- [ ] [Section 05](https://github.com/developersCradle/designg-patterns-and-software-architecture/blob/main/Fundamentals%20of%20Backend%20Engineering/Section%2005/README.md#section-05-backend-execution-patterns) - Backend Execution Patterns. ⚠️ In progress! ⚠️
-- [ ] [Section 06](https://github.com/developersCradle/designg-patterns-and-software-architecture/blob/main/Fundamentals%20of%20Backend%20Engineering/Section%2006/README.md#section-06-proxying-and-load-balancing) - Proxying and Load Balancing. ⚠️ In progress! ⚠️
-- [ ] [Section 07](https://github.com/developersCradle/designg-patterns-and-software-architecture/blob/main/Fundamentals%20of%20Backend%20Engineering/Section%2007/README.md#section-07-extras) - Extras. ⚠️ In progress! ⚠️
-- [ ] [Section 08](https://github.com/developersCradle/designg-patterns-and-software-architecture/blob/main/Fundamentals%20of%20Backend%20Engineering/Section%2008/README.md#section-08-bonus-content) - Bonus Content. ⚠️ In progress! ⚠️
+- [x] [Section 02](https://github.com/developersCradle/designg-patterns-and-software-architecture/tree/main/Fundamentals%20of%20Backend%20Engineering/Section%2002#section-02-backend-communication-design-patterns) - Backend Communication Design Patterns. ✅
+- [x] [Section 03](https://github.com/developersCradle/designg-patterns-and-software-architecture/blob/main/Fundamentals%20of%20Backend%20Engineering/Section%2003/README.md#section-03-protocols) - Protocols. ✅
+- [x] [Section 04](https://github.com/developersCradle/designg-patterns-and-software-architecture/blob/main/Fundamentals%20of%20Backend%20Engineering/Section%2004/README.md#section-04-many-ways-to-https) - Many ways to HTTPS. ✅
+- [x] [Section 05](https://github.com/developersCradle/designg-patterns-and-software-architecture/blob/main/Fundamentals%20of%20Backend%20Engineering/Section%2005/README.md#section-05-backend-execution-patterns) - Backend Execution Patterns. ✅
+- [x] [Section 06](https://github.com/developersCradle/designg-patterns-and-software-architecture/blob/main/Fundamentals%20of%20Backend%20Engineering/Section%2006/README.md#section-06-proxying-and-load-balancing) - Proxying and Load Balancing. ✅
+- [x] [Section 07](https://github.com/developersCradle/designg-patterns-and-software-architecture/blob/main/Fundamentals%20of%20Backend%20Engineering/Section%2007/README.md#section-07-extras) - Extras. ✅
+- [x] [Section 08](https://github.com/developersCradle/designg-patterns-and-software-architecture/blob/main/Fundamentals%20of%20Backend%20Engineering/Section%2008/README.md#section-08-bonus-content) - Bonus Content. ✅
 
 #### Additional stuff.
 
@@ -923,9 +948,10 @@ align="center">
 
 <p align="center">
     <img
-     src="The_Complete_Regular_Expressions_Regex_Course_For_Beginners_Caption.png"
+    src="The_Complete_Regular_Expressions_Regex_Course_For_Beginners_Caption.png"
     alt="The complete regular expressions regex course for beginners caption!"
-    style="width:1600px;height:110px;"/>
+    style="width:1600px;height:110px;"
+    />
 </p>
 
 <p align="center">
